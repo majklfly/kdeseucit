@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Bebas neue';
+    src: url('../../Fonts/BebasNeue/TTF/BebasNeue-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h1 {
     font-family: 'Bebas Neue', cursive;
     color: white;
