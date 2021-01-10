@@ -6,6 +6,19 @@
     margin-left: 10%;
 }
 
+.horizontalniNavigaceKontejner::-webkit-scrollbar {
+    background-color: transparent;
+    height: 5px;
+}
+
+.horizontalniNavigaceKontejner::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.horizontalniNavigaceKontejner::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+}
+
 .navButton {
     color: white;
     text-decoration: none;

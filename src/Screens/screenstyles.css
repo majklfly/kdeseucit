@@ -1,0 +1,6 @@
+.contentContainer {
+    width: 80%;
+    height: auto;
+    min-height: 150px;
+    background-color: red;
+}

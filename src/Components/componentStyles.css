@@ -1,0 +1,18 @@
+.BoxProKarty {
+    width: 80%;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+
+.obrazekKarty {
+    margin: 5px;
+    width: 20%;
+    max-width: 200px;
+    min-width: 100px;
+}
+
+.obrazekKarty:hover {
+    box-shadow: 0 0 10px darkgrey;
+}

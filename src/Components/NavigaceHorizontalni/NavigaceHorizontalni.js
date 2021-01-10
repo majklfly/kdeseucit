@@ -6,9 +6,15 @@ import "./NavigaceHorizontalni.css";
 export const NavigaceHorizontalni = () => {
   return (
     <div className="horizontalniNavigaceKontejner">
-      <Link className="navButton">PŘEDŠKOLÁCI</Link>
-      <Link className="navButton">1. TŘÍDA</Link>
-      <Link className="navButton">2. TŘÍDA</Link>
+      <Link className="navButton" to="/predskolaci">
+        PŘEDŠKOLÁCI
+      </Link>
+      <Link className="navButton" to="/prvnitrida">
+        1. TŘÍDA
+      </Link>
+      <Link className="navButton" to="/druhatrida">
+        2. TŘÍDA
+      </Link>
       <Link className="navButton">3. TŘÍDA</Link>
       <Link className="navButton">4. TŘÍDA</Link>
       <Link className="navButton">5. TŘÍDA</Link>

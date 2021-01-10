@@ -1,4 +1,4 @@
-import "./DomaciObrazovka.css";
+import "./Layout.css";
 
 import lupa from "../../Pics/lupa.jpg";
 import atom from "../../Pics/atom.jpg";
@@ -7,12 +7,10 @@ import hodiny from "../../Pics/hodiny.jpg";
 import pastelky from "../../Pics/pastelky.jpg";
 import kruzitko from "../../Pics/kruzitko.jpg";
 
-import hlavni from "../../Pics/hlavni.jpg";
-
 import { NavigaceHorizontalni } from "../../Components/NavigaceHorizontalni/NavigaceHorizontalni";
 import { NavigaceVertikalni } from "../../Components/NavigaceVertikalni/NavigaceVertikalni";
 
-export const DomaciObrazovka = () => {
+export const Layout = ({ contentComponent }) => {
   return (
     <>
       <header className="HlavickaKontejner">
@@ -29,8 +27,10 @@ export const DomaciObrazovka = () => {
         INSTITUCÍ Z ČR I ZAHRANIČÍ
       </h2>
       <NavigaceHorizontalni />
-      <NavigaceVertikalni />
-      <img className="hlavniPic" src={hlavni} alt="hlavni" />
+      <div className="content">
+        <NavigaceVertikalni />
+        {contentComponent}
+      </div>
     </>
   );
 };
