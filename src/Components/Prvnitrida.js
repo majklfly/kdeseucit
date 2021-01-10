@@ -154,7 +154,7 @@ export const Prvnitrida = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={malypan} alt="malypan" />
+        <img className="obrazekKarty" src={malypan} alt="malypani" />
       </a>
     </div>
   );
