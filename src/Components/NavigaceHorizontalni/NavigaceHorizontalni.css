@@ -1,0 +1,25 @@
+.horizontalniNavigaceKontejner {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    margin-left: 10%;
+}
+
+.navButton {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+    padding: 2px;
+    margin: 0 1%;
+    min-width: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navButton:hover {
+    box-shadow: 0 0 10px darkgrey;
+}

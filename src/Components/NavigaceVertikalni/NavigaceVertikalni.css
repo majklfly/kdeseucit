@@ -1,0 +1,25 @@
+.NavigaceVertikalniKontejner {
+    width: 10%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.verButton {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: clamp(20px, 2vw, 50px);
+    padding: 2px;
+    margin: 2% 0;
+    min-width: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verButton:hover {
+    box-shadow: 0 0 10px darkgrey;
+}
