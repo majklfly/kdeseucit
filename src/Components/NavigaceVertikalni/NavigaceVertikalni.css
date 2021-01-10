@@ -10,7 +10,7 @@
     text-decoration: none;
     background-color: black;
     font-family: 'Bebas Neue', cursive;
-    font-size: clamp(10px, 2vw, 50px);
+    font-size: clamp(10px, 2vw, 30px);
     padding: 2px;
     margin: 2% 0;
     text-align: center;
