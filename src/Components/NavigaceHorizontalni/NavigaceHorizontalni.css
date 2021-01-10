@@ -24,14 +24,14 @@
     text-decoration: none;
     background-color: black;
     font-family: 'Bebas Neue', cursive;
-    padding: 2px;
-    margin: 0 1%;
-    min-width: 80px;
-    min-height: 40px;
+    font-size: clamp(15px, 1.6vw, 30px);
+    margin: 0 3px;
+    padding: 3px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    white-space: nowrap;
 }
 
 .navButton:hover {

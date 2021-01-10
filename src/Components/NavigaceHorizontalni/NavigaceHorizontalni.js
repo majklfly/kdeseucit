@@ -10,31 +10,31 @@ export const NavigaceHorizontalni = () => {
         PŘEDŠKOLÁCI
       </Link>
       <Link className="navButton" to="/prvnitrida">
-        1. TŘÍDA
+        1.TŘÍDA
       </Link>
       <Link className="navButton" to="/druhatrida">
-        2. TŘÍDA
+        2.TŘÍDA
       </Link>
       <Link className="navButton" to="/tretitrida">
-        3. TŘÍDA
+        3.TŘÍDA
       </Link>
       <Link className="navButton" to="ctvrtatrida">
-        4. TŘÍDA
+        4.TŘÍDA
       </Link>
       <Link className="navButton" to="/patatrida">
-        5. TŘÍDA
+        5.TŘÍDA
       </Link>
       <Link className="navButton" to="/sestatrida">
-        6. TŘÍDA
+        6.TŘÍDA
       </Link>
       <Link className="navButton" to="/sedmatrida">
-        7. TŘÍDA
+        7.TŘÍDA
       </Link>
       <Link className="navButton" to="/osmatrida">
-        8. TŘÍDA
+        8.TŘÍDA
       </Link>
       <Link className="navButton" to="/devatatrida">
-        9. TŘÍDA
+        9.TŘÍDA
       </Link>
       <Link className="navButton" to="/stredniskola">
         STŘEDNÍ ŠKOLA

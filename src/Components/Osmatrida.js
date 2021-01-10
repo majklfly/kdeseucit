@@ -11,6 +11,7 @@ import umimecesky from "../Pics/umimecesky.jpg";
 import umimeanglicky from "../Pics/umimeanglicky.jpg";
 import umimenemecky from "../Pics/umimenemecky.jpg";
 import umimefakta from "../Pics/umimefakta.jpg";
+import umimeprogramovat from "../Pics/umimeprogramovat.jpg";
 import rozhlasctenar from "../Pics/rozhlasctenar.jpg";
 import odpoledka from "../Pics/odpoledka.jpg";
 import dna1 from "../Pics/dna1.jpg";
@@ -22,15 +23,14 @@ import skolaposkole from "../Pics/skolaposkole.jpg";
 import realisticky from "../Pics/realisticky.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import soboty from "../Pics/soboty.jpg";
-import vojenskelesy from "../Pics/vojenskelesy.jpg";
-import vedanadoma from "../Pics/vedanadoma.jpg";
 import tydenvedy from "../Pics/tydenvedy.jpg";
 import cez from "../Pics/cez.jpg";
 import doprava from "../Pics/doprava.jpg";
 import scio from "../Pics/scio.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
+import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 
-export const Sedmatrida = () => {
+export const Osmatrida = () => {
   return (
     <div className="BoxProKarty">
       <a
@@ -73,6 +73,17 @@ export const Sedmatrida = () => {
       </a>
       <a href="https://www.umimefakta.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={umimefakta} alt="umimefakta" />
+      </a>
+      <a
+        href="https://www.umimeprogramovat.cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={umimeprogramovat}
+          alt="umimeprogramovat"
+        />
       </a>
       <a
         href="https://temata.rozhlas.cz/ctenarskydenik"
@@ -143,16 +154,6 @@ export const Sedmatrida = () => {
       <a href="https://www.ctm-academy.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={soboty} alt="soboty" />
       </a>
-      <a href="https://deti.vls.cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={vojenskelesy} alt="vojenskelesy" />
-      </a>
-      <a
-        href="https://www.avcr.cz/cs/pro-verejnost/veda-na-doma/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={vedanadoma} alt="vedanadoma" />
-      </a>
       <a
         href="https://www.tydenvedy.cz/festival/best-of-tvt/"
         target="_blank"
@@ -175,6 +176,17 @@ export const Sedmatrida = () => {
       </a>
       <a href="https://www.ucenionline.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={veseledeti2} alt="veseledeti2" />
+      </a>
+      <a
+        href="https://www.mujrozhlas.cz/pro-deti"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={rozhlasprodeti}
+          alt="rozhlasprodeti"
+        />
       </a>
     </div>
   );

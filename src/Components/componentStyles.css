@@ -1,13 +1,13 @@
 .BoxProKarty {
     width: 80%;
     height: auto;
-    margin-left: 2%;
+    margin-left: 5%;
     margin-top: 2%;
     flex-wrap: wrap;
 }
 
 .obrazekKarty {
-    margin: 5px;
+    margin: 20px;
     width: 20%;
     max-width: 200px;
     min-width: 100px;

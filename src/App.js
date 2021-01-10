@@ -8,12 +8,20 @@ import { CtvrtatridaScreen } from "./Screens/CtvrtatridaScreen";
 import { PatatridaScreen } from "./Screens/PatatridaScreen";
 import { SestatridaScreen } from "./Screens/SestatridaScreen";
 import { SedmatridaScreen } from "./Screens/SedmatridaScreen";
+import { OsmatridaScreen } from "./Screens/OsmatridaScreen";
+import { DevatatridaScreen } from "./Screens/DevatatridaScreen";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
+          <Route path="/devatatrida">
+            <DevatatridaScreen />
+          </Route>
+          <Route path="/osmatrida">
+            <OsmatridaScreen />
+          </Route>
           <Route path="/sedmatrida">
             <SedmatridaScreen />
           </Route>
