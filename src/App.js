@@ -10,12 +10,24 @@ import { SestatridaScreen } from "./Screens/SestatridaScreen";
 import { SedmatridaScreen } from "./Screens/SedmatridaScreen";
 import { OsmatridaScreen } from "./Screens/OsmatridaScreen";
 import { DevatatridaScreen } from "./Screens/DevatatridaScreen";
+import { StredniScreen } from "./Screens/StredniScreen";
+import { VyssistupneScreen } from "./Screens/VyssistupneScreen";
+import { CelozivotnivzdelavaniScreen } from "./Screens/CelozivotnivzdelavaniScreen";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
+          <Route path="/celozivotnivzdelavani">
+            <CelozivotnivzdelavaniScreen />
+          </Route>
+          <Route path="/vyssistupne">
+            <VyssistupneScreen />
+          </Route>
+          <Route path="/stredni">
+            <StredniScreen />
+          </Route>
           <Route path="/devatatrida">
             <DevatatridaScreen />
           </Route>

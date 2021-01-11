@@ -36,7 +36,7 @@ export const NavigaceHorizontalni = () => {
       <Link className="navButton" to="/devatatrida">
         9.TŘÍDA
       </Link>
-      <Link className="navButton" to="/stredniskola">
+      <Link className="navButton" to="/stredni">
         STŘEDNÍ ŠKOLA
       </Link>
       <Link className="navButton" to="/vyssistupne">
