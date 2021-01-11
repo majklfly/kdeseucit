@@ -6,10 +6,11 @@ h1 {
 
 h2 {
     color: black;
-    font-size: clamp(15px, 2vw, 50px);
+    font-size: clamp(5px, 2vw, 50px);
     font-family: 'Bebas Neue', cursive;
     width: 100%;
     text-align: center;
+    white-space: nowrap;
 }
 
 .headPic {
