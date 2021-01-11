@@ -8,6 +8,7 @@ import code from "../Pics/code.jpg";
 import quizlet from "../Pics/quizlet.jpg";
 import skill from "../Pics/skill.jpg";
 import ai from "../Pics/ai.jpg";
+import grafeditor from "../Pics/grafeditor.jpg";
 
 export const Celozivotnivzdelavani = () => {
   return (
@@ -55,6 +56,13 @@ export const Celozivotnivzdelavani = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ai} alt="ai" />
+      </a>
+      <a
+        href="https://www.canva.com/cs_cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={grafeditor} alt="grafeditor" />
       </a>
     </div>
   );

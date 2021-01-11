@@ -7,6 +7,7 @@ h1 {
 h2 {
     color: black;
     font-size: clamp(5px, 2vw, 50px);
+    margin: 0.3% 0;
     font-family: 'Bebas Neue', cursive;
     width: 100%;
     text-align: center;
