@@ -46,7 +46,7 @@ export const NavigaceHorizontalni = () => {
         CELOŽIVOTNÍ VZDĚLÁVÁNÍ
       </Link>
       <Link className="navButton" to="/ucitele">
-        UČITELÉ
+        PRO UČITELE
       </Link>
     </div>
   );

@@ -23,9 +23,9 @@
     color: white;
     text-decoration: none;
     background-color: black;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 600;
-    font-size: clamp(15px, 1.6vw, 30px);
+    font-family: 'BN-normal', cursive;
+    font-weight: 500;
+    font-size: clamp(5px, 1.6vw, 30px);
     margin: 0 3px;
     padding: 3px 7px;
     text-align: center;
