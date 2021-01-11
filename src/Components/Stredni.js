@@ -38,6 +38,10 @@ import ujc from "../Pics/ujc.jpg";
 import d21 from "../Pics/d21.jpg";
 import svetmedii from "../Pics/svetmedii.jpg";
 import jedensvet from "../Pics/jedensvet.jpg";
+import quizlet from "../Pics/quizlet.jpg";
+import skill from "../Pics/skill.jpg";
+import ai from "../Pics/ai.jpg";
+import elektronika from "../Pics/elektronika.jpg";
 
 export const Stredni = () => {
   return (
@@ -243,6 +247,34 @@ export const Stredni = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={jedensvet} alt="jedensvet" />
+      </a>
+      <a
+        href="https://quizlet.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={quizlet} alt="quizlet" />
+      </a>
+      <a
+        href="https://www.skillsbuilder.org/homelearning"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={skill} alt="skill" />
+      </a>
+      <a
+        href="https://course.elementsofai.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ai} alt="ai" />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCjcbcxEgXfkll9tD_1bdeaQ/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={elektronika} alt="elektronika" />
       </a>
     </div>
   );
