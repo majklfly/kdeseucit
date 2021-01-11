@@ -3,6 +3,7 @@
     height: 200px;
     display: flex;
     flex-direction: column;
+    z-index: 2;
 }
 
 .verButton {
@@ -11,6 +12,7 @@
     background-color: black;
     font-family: 'Bebas Neue', cursive;
     font-size: clamp(10px, 2vw, 30px);
+    font-weight: 600;
     min-width: 60px;
     padding: 2px;
     margin: 2% 0;

@@ -6,6 +6,16 @@
     flex-wrap: wrap;
 }
 
+.BoxProOdkazy {
+    width: 80%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
 .obrazekKarty {
     margin: 20px;
     width: 20%;
@@ -25,7 +35,7 @@
     width: 300px;
     text-decoration: none;
     color: black;
-    border: 2px solid black;
+    border: 3px solid black;
     padding: 6px;
 }
 
@@ -36,5 +46,6 @@
 .sectionButtonLink {
     text-decoration: none;
     font-weight: 800;
-    font-family: 'BN-normal', cursive;;
+    margin: -15px 15px;
+    font-family: 'BN-normal', cursive;
 }

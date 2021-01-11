@@ -15,12 +15,29 @@ import { VyssistupneScreen } from "./Screens/VyssistupneScreen";
 import { CelozivotnivzdelavaniScreen } from "./Screens/CelozivotnivzdelavaniScreen";
 import { PrijimackyScreen } from "./Screens/PrijimackyScreen";
 import { MaturitaScreen } from "./Screens/MaturitaScreen";
+import { PredmetyScreen } from "./Screens/PredmetyScreen";
+import { JazykyScreen } from "./Screens/JazykyScreen";
+import { UmeleckeScreen } from "./Screens/UmeleckeScreen";
+import { PohybScreen } from "./Screens/PohybScreen";
+
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
+          <Route path="/pohyb">
+            <PohybScreen />
+          </Route>
+          <Route path="/umelecke">
+            <UmeleckeScreen />
+          </Route>
+          <Route path="/jazyky">
+            <JazykyScreen />
+          </Route>
+         <Route path="/predmety">
+            <PredmetyScreen />
+          </Route>
           <Route path="/maturita">
             <MaturitaScreen />
           </Route>
