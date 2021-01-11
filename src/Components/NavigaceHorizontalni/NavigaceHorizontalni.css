@@ -41,5 +41,6 @@
 
 .navButtonClassText {
     font-size: clamp(10px, 1.4vw, 25px);
-    align-self: flex-end;
+    align-self:flex-end;
+    margin-bottom: 1%;
 }
