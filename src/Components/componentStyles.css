@@ -16,3 +16,25 @@
 .obrazekKarty:hover {
     box-shadow: 0 0 10px darkgrey;
 }
+
+.sectionButton {
+    background-color: white;
+    font-weight: 800;
+    margin-left: 7%;
+    font-size: clamp(15px, 1.8vw, 30px);
+    width: 300px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 6px;
+}
+
+.sectionButton:hover {
+    box-shadow: 0 0 10px darkgrey;
+}
+
+.sectionButtonLink {
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'BN-normal', cursive;;
+}

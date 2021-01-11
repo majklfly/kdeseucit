@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import umimematiku from "../Pics/umimematiku.jpg";
 import umimecesky from "../Pics/umimecesky.jpg";
@@ -45,6 +46,8 @@ import elektronika from "../Pics/elektronika.jpg";
 
 export const Stredni = () => {
   return (
+    <div>
+       <Link className="sectionButtonLink" to="/maturita"><h3 className="sectionButton">MATURITNÍ PŘÍPRAVA</h3></Link>
     <div className="BoxProKarty">
       <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
@@ -276,6 +279,7 @@ export const Stredni = () => {
       >
         <img className="obrazekKarty" src={elektronika} alt="elektronika" />
       </a>
+    </div>
     </div>
   );
 };

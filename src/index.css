@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Bebas neue';
+  src: url('./Fonts/BebasNeue/TTF/BebasNeue-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BN-normal';
+  src: url('./Fonts/BebasNeue/TTF/BebasNeue-Regular.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

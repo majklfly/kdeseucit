@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import onlinecviceni from "../Pics/onlinecviceni.jpg";
 import matikain from "../Pics/matikain.jpg";
@@ -33,6 +34,8 @@ import d21 from "../Pics/d21.jpg";
 
 export const Devatatrida = () => {
   return (
+    <div>
+      <Link className="sectionButtonLink" to="/prijimacky"><h3 className="sectionButton">PŘIJÍMACÍ ZKOUŠKY NA SŠ</h3></Link>
     <div className="BoxProKarty">
       <a
         href="https://www.onlinecviceni.cz/exc/list_sel_topics.php"
@@ -196,6 +199,7 @@ export const Devatatrida = () => {
       >
         <img className="obrazekKarty" src={d21} alt="d21" />
       </a>
+    </div>
     </div>
   );
 };
