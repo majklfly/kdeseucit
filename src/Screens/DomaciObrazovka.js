@@ -4,7 +4,7 @@ import { Uvod } from '../Components/Uvod'
 
 export const DomaciObrazovka = () => {
   return (
-    <div className="BoxProKarty">
+    <div>
       <Layout contentComponent={<Uvod />} />;
     </div>
   );
