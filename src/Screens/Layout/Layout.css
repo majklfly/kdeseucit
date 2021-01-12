@@ -8,7 +8,7 @@ h2 {
     color: black;
     font-size: clamp(5px, 2vw, 50px);
     margin: 0.3% 0;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'BN-normal', cursive;
     width: 100%;
     text-align: center;
     white-space: nowrap;
@@ -32,17 +32,30 @@ h2 {
     top: 0;
 }
 
-.hlavniPic {
-    position: relative;
-    bottom: 30%;
-    left: 50%;
-    transform: translate(-25%, -25%);
-    width: 50vw;
-    min-width: 150px;
-    max-width: 700px;
-}
-
 .content {
     display: flex;
     flex-direction: row;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 120%;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+footer>h4 {
+    padding: 2%;
+    margin: 0;
 }

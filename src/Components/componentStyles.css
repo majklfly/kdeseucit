@@ -4,15 +4,17 @@
     margin-left: 5%;
     margin-top: 2%;
     flex-wrap: wrap;
+    min-height: 100vh;
 }
 
 .BoxProOdkazy {
     width: 80%;
+    min-height: 100vh;
     height: auto;
     margin-top: 2%;
     flex-wrap: wrap;
     display: flex;
-    flex-direction: row;
+    align-items: flex-start;
 }
 
 .obrazekKarty {
@@ -24,6 +26,16 @@
 
 .obrazekKarty:hover {
     box-shadow: 0 0 10px darkgrey;
+}
+
+.hlavniPic {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    width: 50vw;
+    min-width: 150px;
+    max-width: 700px;
 }
 
 .sectionButton {
@@ -45,6 +57,6 @@
 .sectionButtonLink {
     text-decoration: none;
     font-weight: 800;
-    margin: -15px 15px;
+    margin: -30px 15px;
     font-family: 'BN-normal', cursive;
 }

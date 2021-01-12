@@ -12,7 +12,7 @@ import { NavigaceVertikalni } from "../../Components/NavigaceVertikalni/Navigace
 
 export const Layout = ({ contentComponent }) => {
   return (
-    <>
+    <main>
       <header className="HlavickaKontejner">
         <img className="headPic" src={pastelky} alt="pastelky" />
         <img className="headPic" src={kruzitko} alt="kruzitko" />
@@ -31,6 +31,9 @@ export const Layout = ({ contentComponent }) => {
         <NavigaceVertikalni />
         {contentComponent}
       </div>
-    </>
+      <footer>
+        <h4>Pokud mate pripominky, napady nebo jste nasli nefunkcni odkaz, prosim napište na veronika.kovarova@pirati.cz</h4>
+      </footer>
+    </main>
   );
 };

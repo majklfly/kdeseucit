@@ -19,6 +19,10 @@ import { PredmetyScreen } from "./Screens/PredmetyScreen";
 import { JazykyScreen } from "./Screens/JazykyScreen";
 import { UmeleckeScreen } from "./Screens/UmeleckeScreen";
 import { PohybScreen } from "./Screens/PohybScreen";
+import { CestinaScreen } from "./Screens/CestinaScreen";
+import { LiteraturaScreen } from "./Screens/LiteraturaScreen";
+import { PsaniScreen } from "./Screens/PsaniScreen";
+import { MatematikaScreen } from "./Screens/MatematikaScreen";
 
 
 function App() {
@@ -26,6 +30,18 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+          <Route path="/matematika">
+            <MatematikaScreen />
+          </Route>
+          <Route path="/psani">
+            <PsaniScreen />
+          </Route>
+          <Route path="/literatura">
+            <LiteraturaScreen />
+          </Route>
+          <Route path="/cestina">
+            <CestinaScreen />
+          </Route>
           <Route path="/pohyb">
             <PohybScreen />
           </Route>
