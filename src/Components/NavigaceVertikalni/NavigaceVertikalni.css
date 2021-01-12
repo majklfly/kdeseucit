@@ -12,7 +12,7 @@
     background-color: black;
     font-family: 'BN-normal', cursive;
     font-weight: 500;
-    font-size: clamp(10px, 2vw, 30px);
+    font-size: clamp(10px, 2vw, 25px);
     min-width: 60px;
     padding: 2px;
     margin: 2% 0;
