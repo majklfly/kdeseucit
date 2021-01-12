@@ -27,6 +27,9 @@ import scio from "../Pics/scio.jpg";
 import testpark from "../Pics/testpark.jpg";
 import skolaposkole from "../Pics/skolaposkole.jpg";
 import chmelma from "../Pics/chmelma.jpg";
+import lizard from "../Pics/lizard.jpg";
+import fun4 from "../Pics/fun4.jpg";
+
 
 export const Matematika = () => {
     return (
@@ -111,6 +114,12 @@ export const Matematika = () => {
             </a>
             <a href="http://www.chmelkova.cz/web_skolicka/matematika.html" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={chmelma} alt="chmelma" />
+            </a>
+            <a href="https://lizardpoint.com/math/index.php" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={lizard} alt="lizard" />
+            </a>
+            <a href="https://www.fun4thebrain.com/g/multiplication" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={fun4} alt="fun4" />
             </a>
         </div>
     )
