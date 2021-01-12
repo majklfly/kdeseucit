@@ -142,9 +142,6 @@ export const Matematika = () => {
             <a href="http://matematickyklokan.net/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={klokan} alt="Matematický klokan" />
             </a>
-            <a href="http://matematickyklokan.net/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={klokan} alt="Matematický klokan" />
-            </a>
             <a href="https://www.ucenionline.com/matematika/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={veseledeti} alt="Veselé děti" />
             </a>
