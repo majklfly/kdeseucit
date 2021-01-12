@@ -30,6 +30,7 @@ import chmelma from "../Pics/chmelma.jpg";
 import lizard from "../Pics/lizard.jpg";
 import fun4 from "../Pics/fun4.jpg";
 import sbirka from "../Pics/sbirka.jpg";
+import klokan from "../Pics/klokan.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";
 
 export const Matematika = () => {
