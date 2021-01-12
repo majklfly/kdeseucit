@@ -20,6 +20,7 @@ import isibalo from "../Pics/isibalo.jpg";
 import ematematika from "../Pics/ematematika.jpg";
 import nabla from "../Pics/nabla.jpg";
 import realisticky from "../Pics/realisticky.jpg";
+import matematikacz from "../Pics/matematikacz.jpg";
 import opicimatika from "../Pics/opicimatika.jpg";
 import math4u from "../Pics/math4u.jpg";
 import mo from "../Pics/mo.jpg";
@@ -27,10 +28,14 @@ import scio from "../Pics/scio.jpg";
 import testpark from "../Pics/testpark.jpg";
 import skolaposkole from "../Pics/skolaposkole.jpg";
 import chmelma from "../Pics/chmelma.jpg";
+import ctedu from "../Pics/ctedu.jpg";
+import geogebra from "../Pics/geogebra.jpg";
 import lizard from "../Pics/lizard.jpg";
 import fun4 from "../Pics/fun4.jpg";
 import sbirka from "../Pics/sbirka.jpg";
+import klokan from "../Pics/klokan.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";
+import matikaprospoluzaky from "../Pics/matikaprospoluzaky.jpg";
 
 export const Matematika = () => {
     return (
@@ -95,6 +100,9 @@ export const Matematika = () => {
             <a href="http://www.realisticky.cz/kapitola.php?id=23" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={realisticky} alt="realisticky" />
             </a>
+            <a href="https://matematika.cz/matematika-polopate" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={matematikacz} alt="Matematika polopatě" />
+            </a>
             <a href="http://www.opicimatika.cz/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={opicimatika} alt="opicimatika" />
             </a>
@@ -116,6 +124,12 @@ export const Matematika = () => {
             <a href="http://www.chmelkova.cz/web_skolicka/matematika.html" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={chmelma} alt="chmelma" />
             </a>
+            <a href="https://edu.ceskatelevize.cz/predmet/matematika" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={ctedu} alt="ČT edu" />
+            </a>
+            <a href="https://www.geogebra.org/t/math" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={geogebra} alt="GeoGebra" />
+            </a>
             <a href="https://lizardpoint.com/math/index.php" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={lizard} alt="lizard" />
             </a>
@@ -128,8 +142,14 @@ export const Matematika = () => {
             <a href="http://matematickyklokan.net/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={klokan} alt="Matematický klokan" />
             </a>
+            <a href="http://matematickyklokan.net/" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={klokan} alt="Matematický klokan" />
+            </a>
             <a href="https://www.ucenionline.com/matematika/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={veseledeti} alt="Veselé děti" />
+            </a>
+            <a href="https://www.matikaprospoluzaky.cz/priklady/" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={matikaprospoluzaky} alt="Matika pro spolužáky" />
             </a>
         </div>
     )
