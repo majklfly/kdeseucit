@@ -7,11 +7,15 @@
     min-height: 100vh;
 }
 
+.OuterBoxOdkazy {
+    min-height: 100vh;
+    margin-top: 2%;
+    display: flex;
+}
+
 .BoxProOdkazy {
     width: 80%;
-    min-height: 100vh;
-    height: auto;
-    margin-top: 2%;
+    height: fit-content;
     flex-wrap: wrap;
     display: flex;
     align-items: flex-start;
@@ -41,10 +45,10 @@
 .sectionButton {
     background-color: white;
     font-weight: 800;
-    margin-left: 7%;
     font-size: clamp(15px, 1.8vw, 30px);
     width: 300px;
     text-decoration: none;
+    margin: 0px 15px;
     color: black;
     border: 3px solid black;
     padding: 6px;
@@ -57,6 +61,6 @@
 .sectionButtonLink {
     text-decoration: none;
     font-weight: 800;
-    margin: -30px 15px;
+    margin: 15px 15px;
     font-family: 'BN-normal', cursive;
 }

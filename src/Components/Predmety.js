@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 export const Predmety = () => {
     return (
-        <div className="BoxProOdkazy">
+        <div className="OuterBoxOdkazy">
+            <div className="BoxProOdkazy">
             <Link className="sectionButtonLink" to="/cestina"><h3 className="sectionButton">ČESKÝ JAZYK</h3></Link>
             <Link className="sectionButtonLink" to="/literatura"><h3 className="sectionButton">ČTENÍ * LITERATURA</h3></Link>
             <Link className="sectionButtonLink" to="/psani"><h3 className="sectionButton">PSANÍ</h3></Link>
@@ -24,6 +25,7 @@ export const Predmety = () => {
             <Link className="sectionButtonLink" to="/pozemky"><h3 className="sectionButton">PĚSTITELSKÉ PRÁCE</h3></Link>
             <Link className="sectionButtonLink" to="/zsv"><h3 className="sectionButton">ZÁKLADY SPOLEČENSKÝCH VĚD</h3></Link>
             <Link className="sectionButtonLink" to="/medialni"><h3 className="sectionButton">MEDIÁLNÍ GRAMOTNOST</h3></Link>
+            </div>
         </div>
     )
 }
