@@ -1,8 +1,8 @@
 import React from 'react';
 
 import step from "../Pics/step.jpg";
-import step from "../Pics/step.jpg";
-import step from "../Pics/step.jpg";
+import facebookenviro from "../Pics/facebookenviro.jpg";
+import ptaciporadna from "../Pics/ptaciporadna.jpg";
 import veronica from "../Pics/veronica.jpg";
 
 
