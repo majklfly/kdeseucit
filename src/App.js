@@ -39,6 +39,25 @@ import { PracovkaScreen } from "./Screens/PracovkaScreen";
 import { PozemkyScreen } from "./Screens/PozemkyScreen";
 import { ZSVScreen } from "./Screens/ZSVScreen";
 import { MedialniScreen } from "./Screens/MedialniScreen";
+import { AnglickyScreen } from "./Screens/AnglickyScreen";
+import { NemeckyScreen } from "./Screens/NemeckyScreen";
+import { FrancouzskyScreen } from "./Screens/FrancouzskyScreen";
+import { SpanelskyScreen } from "./Screens/SpanelskyScreen";
+import { RuskyScreen } from "./Screens/RuskyScreen";
+import { HudebniScreen } from "./Screens/HudebniScreen";
+import { VytvarneScreen } from "./Screens/VytvarneScreen";
+import { MultimedialniScreen } from "./Screens/MultimedialniScreen";
+import { ArchitekturaScreen } from "./Screens/ArchitekturaScreen";
+import { RemeslaScreen } from "./Screens/RemeslaScreen";
+import { SportScreen } from "./Screens/SportScreen";
+import { TanecScreen } from "./Screens/TanecScreen";
+import { DivadloScreen } from "./Screens/DivadloScreen";
+import { TaborniciScreen } from "./Screens/TaborniciScreen";
+import { TuristikaScreen } from "./Screens/TuristikaScreen";
+import { AlternativniScreen } from "./Screens/AlternativniScreen";
+import { RozsirujiciScreen } from "./Screens/RozsirujiciScreen";
+import { KnihovnyScreen } from "./Screens/KnihovnyScreen";
+import { KulturniScreen } from "./Screens/KulturniScreen";
 
 
 function App() {
@@ -46,6 +65,63 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+          <Route path="/kulturni">
+            <KulturniScreen />
+          </Route>
+          <Route path="/knihovny">
+            <KnihovnyScreen />
+          </Route>
+          <Route path="/rozsirujici">
+            <RozsirujiciScreen />
+          </Route>
+          <Route path="/alternativni">
+            <AlternativniScreen />
+          </Route>
+          <Route path="/turistika">
+            <TuristikaScreen />
+          </Route>
+          <Route path="/tabornici">
+            <TaborniciScreen />
+          </Route>
+          <Route path="/divadlo">
+            <DivadloScreen />
+          </Route>
+          <Route path="/tanec">
+            <TanecScreen />
+          </Route>
+          <Route path="/sport">
+            <SportScreen />
+          </Route>
+          <Route path="/remesla">
+            <RemeslaScreen />
+          </Route>
+          <Route path="/architektura">
+            <ArchitekturaScreen />
+          </Route>
+          <Route path="/multimedialni">
+            <MultimedialniScreen />
+          </Route>
+          <Route path="/vytvarne">
+            <VytvarneScreen />
+          </Route>
+          <Route path="/hudebni">
+            <HudebniScreen />
+          </Route>
+          <Route path="/rusky">
+            <RuskyScreen />
+          </Route>
+          <Route path="/spanelsky">
+            <SpanelskyScreen />
+          </Route>
+          <Route path="/francouzsky">
+            <FrancouzskyScreen />
+          </Route>
+          <Route path="/nemecky">
+            <NemeckyScreen />
+          </Route>
+          <Route path="/anglicky">
+            <AnglickyScreen />
+          </Route>
           <Route path="/medialni">
             <MedialniScreen />
           </Route>
