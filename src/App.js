@@ -58,6 +58,7 @@ import { AlternativniScreen } from "./Screens/AlternativniScreen";
 import { RozsirujiciScreen } from "./Screens/RozsirujiciScreen";
 import { KnihovnyScreen } from "./Screens/KnihovnyScreen";
 import { KulturniScreen } from "./Screens/KulturniScreen";
+import { UciteleScreen } from "./Screens/UciteleScreen";
 
 
 function App() {
@@ -65,6 +66,9 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+          <Route path="/ucitele">
+            <UciteleScreen />
+          </Route>
           <Route path="/kulturni">
             <KulturniScreen />
           </Route>
