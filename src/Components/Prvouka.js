@@ -32,7 +32,7 @@ export const Prvouka = () => {
                 <img className="obrazekKarty" src={oskar} alt="Objevujeme a poznáváme s Oskraem" />
             </a>
             <a href="https://www.skolasnadhledem.cz/profil/1-stupen/568-prvouka" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={ssnadhledem} alt="Škola s nadhledem" />
+                <img className="obrazekKarty" src={snadhledem} alt="Škola s nadhledem" />
             </a>
             <a href="https://cz.pinterest.com/Primauca/_saved/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={primauca} alt="Prima úča" />
