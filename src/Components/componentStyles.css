@@ -9,7 +9,7 @@
 
 .OuterBoxOdkazy {
     min-height: 100vh;
-    width: 80%;
+    width: 100%;
     margin-top: 2%;
     display: flex;
 }
@@ -47,9 +47,9 @@
     background-color: white;
     font-weight: 800;
     font-size: clamp(15px, 1.8vw, 30px);
-    width: 300px;
+    width: 260px;
     text-decoration: none;
-    margin: 0px 15px;
+    margin: 0;
     color: black;
     border: 3px solid black;
     padding: 6px;
@@ -64,4 +64,10 @@
     font-weight: 800;
     margin: 15px 15px;
     font-family: 'BN-normal', cursive;
+}
+
+@media screen and ( max-width: 400px) {
+    .BoxProKarty {
+        margin: 5%;
+    }
 }
