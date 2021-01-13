@@ -70,4 +70,10 @@
     .BoxProKarty {
         margin: 5%;
     }
+    .BoxProOdkazy {
+        margin-left: 10%;
+    }
+    .sectionButton {
+        width: 150px;
+    }
 }
