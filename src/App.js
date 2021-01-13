@@ -59,7 +59,7 @@ import { RozsirujiciScreen } from "./Screens/RozsirujiciScreen";
 import { KnihovnyScreen } from "./Screens/KnihovnyScreen";
 import { KulturniScreen } from "./Screens/KulturniScreen";
 import { UciteleScreen } from "./Screens/UciteleScreen";
-import { PocitadloScreen } from "./Screens/PocitadloScreen";
+
 
 
 function App() {
@@ -67,9 +67,6 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/pocitadlo">
-            <PocitadloScreen />
-          </Route>
           <Route path="/ucitele">
             <UciteleScreen />
           </Route>

@@ -34,6 +34,11 @@ export const Layout = ({ contentComponent }) => {
       <footer>
         <h4>Pokud mate pripominky, napady nebo jste nasli nefunkcni odkaz, prosim napište na veronika.kovarova@pirati.cz</h4>
       </footer>
+      <div className="pocitadlo">
+            <a href="http://pocitadlo.abz.cz/">
+                <img src="http://pocitadlo.abz.cz/aip.php?tp=di" alt="pocitadlo" border="0" />
+            </a>
+        </div>
     </main>
   );
 };

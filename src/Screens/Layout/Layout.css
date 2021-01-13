@@ -55,7 +55,12 @@ footer {
     flex-wrap: wrap;
     text-align: center;
 }
+
 footer>h4 {
     padding: 2%;
     margin: 0;
+}
+
+.pocitadlo {
+    margin-left: 90vw
 }
