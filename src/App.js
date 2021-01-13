@@ -54,6 +54,10 @@ import { TanecScreen } from "./Screens/TanecScreen";
 import { DivadloScreen } from "./Screens/DivadloScreen";
 import { TaborniciScreen } from "./Screens/TaborniciScreen";
 import { TuristikaScreen } from "./Screens/TuristikaScreen";
+import { AlternativniScreen } from "./Screens/AlternativniScreen";
+import { RozsirujiciScreen } from "./Screens/RozsirujiciScreen";
+import { KnihovnyScreen } from "./Screens/KnihovnyScreen";
+import { KulturniScreen } from "./Screens/KulturniScreen";
 
 
 function App() {
@@ -61,6 +65,18 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+          <Route path="/kulturni">
+            <KulturniScreen />
+          </Route>
+          <Route path="/knihovny">
+            <KnihovnyScreen />
+          </Route>
+          <Route path="/rozsirujici">
+            <RozsirujiciScreen />
+          </Route>
+          <Route path="/alternativni">
+            <AlternativniScreen />
+          </Route>
           <Route path="/turistika">
             <TuristikaScreen />
           </Route>
