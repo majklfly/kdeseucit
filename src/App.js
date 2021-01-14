@@ -68,7 +68,12 @@ import { UciteleScreen } from "./Screens/UciteleScreen";
 function App() {
 
   useEffect(() => {
-    ReactGA.initialize('UA-187295571-1');
+    ReactGA.initialize('UA-187295571-1', {
+      debug: true,
+      titleCase: false,
+      gaOptions: {
+        userId: 187295571
+      }});
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, [])
 
