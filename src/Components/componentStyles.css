@@ -1,18 +1,18 @@
 .BoxProKarty {
-    width: 80%;
+    width: 85%;
     height: auto;
     margin-left: 2%;
     margin-top: 2%;
     flex-wrap: wrap;
     min-height: 100vh;
-}
+  }
 
 .OuterBoxOdkazy {
     min-height: 100vh;
     width: 100%;
     margin-top: 1%;
     margin-left: 1%;
-    display: flex;
+    display: flex; 
 }
 
 .BoxProOdkazy {
@@ -28,6 +28,7 @@
     width: 20%;
     max-width: 160px;
     min-width: 100px;
+   
 }
 
 .obrazekKarty:hover {
@@ -50,11 +51,12 @@
     font-size: clamp(15px, 1.8vw, 30px);
     width: 300px;
     text-decoration: none;
-    margin: 0;
+    margin-left: 3%;
+    margin-top: 1%;
     color: black;
     border: 3px solid black;
     padding: 6px;
-}
+      }
 
 .sectionButtonCards {
     background-color: white;
@@ -78,6 +80,7 @@
     font-weight: 800;
     margin: 10px 10px;
     font-family: 'BN-normal', cursive;
+   
 }
 
 @media screen and ( max-width: 500px) {
