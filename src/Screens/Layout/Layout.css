@@ -1,6 +1,7 @@
 h1 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'BN-normal', cursive;
     color: white;
+    font-weight: 200;
     font-size: clamp(30px, 4vw, 50px)
 }
 
@@ -9,8 +10,9 @@ h2 {
     font-size: clamp(5px, 2vw, 50px);
     margin: 0.3% 0;
     font-family: 'BN-normal', cursive;
+    font-weight: 200;
     width: 100%;
-    text-align: center;
+    text-align: center   ;
     white-space: nowrap;
 }
 
@@ -54,13 +56,14 @@ footer {
     justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
-}
+    font-weight: 200;
+    }
 
 footer>h4 {
-    padding: 2%;
+    padding: 1.5%;
     margin: 0;
+       
 }
 
-.pocitadlo {
-    margin-left: 90vw
-}
+
+
