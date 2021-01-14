@@ -34,9 +34,8 @@ import d21 from "../Pics/d21.jpg";
 
 export const Devatatrida = () => {
   return (
-    <div>
-      <Link className="sectionButtonLink" to="/prijimacky"><h3 className="sectionButtonCards">PŘIJÍMACÍ ZKOUŠKY NA SŠ</h3></Link>
     <div className="BoxProKarty">
+      <Link className="sectionButtonLink" to="/prijimacky"><h3 className="sectionButtonCards">PŘIJÍMACÍ ZKOUŠKY NA SŠ</h3></Link>
       <a
         href="https://www.onlinecviceni.cz/exc/list_sel_topics.php"
         target="_blank"
@@ -199,7 +198,6 @@ export const Devatatrida = () => {
       >
         <img className="obrazekKarty" src={d21} alt="d21" />
       </a>
-    </div>
     </div>
   );
 };
