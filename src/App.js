@@ -1,4 +1,8 @@
+import React, { useEffect } from 'react'
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ReactGA from 'react-ga'
+
 import { DomaciObrazovka } from "./Screens/DomaciObrazovka";
 import { PredskolaciScreen } from "./Screens/PredskolaciScreen";
 import { PrvnitridaScreen } from "./Screens/PrvnitridaScreen";
@@ -63,6 +67,12 @@ import { UciteleScreen } from "./Screens/UciteleScreen";
 
 
 function App() {
+
+  useEffect(() => {
+    ReactGA.initialize('UA-187277774-2');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, [])
+
   return (
     <div className="App">
       <Router>
