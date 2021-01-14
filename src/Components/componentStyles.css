@@ -10,8 +10,10 @@
 .OuterBoxOdkazy {
     min-height: 100vh;
     width: 100%;
-    margin-top: 2%;
+    margin-top: 1%;
+    margin-left: 1%;
     display: flex;
+ 
 }
 
 .BoxProOdkazy {
@@ -20,6 +22,7 @@
     flex-wrap: wrap;
     display: flex;
     align-items: flex-start;
+  
 }
 
 .obrazekKarty {
@@ -47,7 +50,7 @@
     background-color: white;
     font-weight: 800;
     font-size: clamp(15px, 1.8vw, 30px);
-    width: 260px;
+    width: 300px;
     text-decoration: none;
     margin: 0;
     color: black;
@@ -62,7 +65,7 @@
 .sectionButtonLink {
     text-decoration: none;
     font-weight: 800;
-    margin: 15px 15px;
+    margin: 10px 10px;
     font-family: 'BN-normal', cursive;
 }
 
