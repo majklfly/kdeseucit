@@ -40,5 +40,5 @@ export const Layout = ({ contentComponent }) => {
             </a>
         </div>
     </main>
-  );
-};
+  )
+}
