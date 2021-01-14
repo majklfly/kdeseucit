@@ -32,7 +32,7 @@ export const Layout = ({ contentComponent }) => {
         {contentComponent}
       </div>
       <footer>
-        <h4>Pokud mate pripominky, napady nebo jste nasli nefunkcni odkaz, prosim napište na veronika.kovarova@pirati.cz</h4>
+        <h4>Pokud máte připomínky, nápady nebo jste našli nefunkční odkaz, prosím, napište na <a href="mailto:veronika.pucerova@gmail.com"> veronika.kovarova@pirati.cz</a></h4>
       </footer>
 
     </main>
