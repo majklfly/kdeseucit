@@ -76,6 +76,9 @@ export const Prirodopis = () => {
             </a>
             <a href="https://www.npsumava.cz/navstivte-sumavu/materialy-ke-stazeni/samoobsluzne-pracovni-listy/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={sumava} alt="Národní park Šumava" />
+                </a>
+            <a href="https://www.npcs.cz/evvopublikace" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={svycarsko} alt="Národní park České Švýcarsko" />
             </a>
             <a href="https://www.nppodyji.cz/sdetmidoma" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={podyji} alt="Národní park Podyjí" />
