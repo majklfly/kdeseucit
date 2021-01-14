@@ -46,9 +46,8 @@ import elektronika from "../Pics/elektronika.jpg";
 
 export const Stredni = () => {
   return (
-    <div>
-       <Link className="sectionButtonLink" to="/maturita"><h3 className="sectionButtonCards">MATURITNÍ PŘÍPRAVA</h3></Link>
     <div className="BoxProKarty">
+       <Link className="sectionButtonLink" to="/maturita"><h3 className="sectionButtonCards">MATURITNÍ PŘÍPRAVA</h3></Link>
       <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
       </a>
@@ -279,7 +278,6 @@ export const Stredni = () => {
       >
         <img className="obrazekKarty" src={elektronika} alt="elektronika" />
       </a>
-    </div>
     </div>
   );
 };

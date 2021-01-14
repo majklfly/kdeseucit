@@ -64,13 +64,10 @@
     font-size: clamp(15px, 1.8vw, 30px);
     width: 300px;
     text-decoration: none;
-    margin-left: 3.5%;
-    margin-top: 0%;
-    margin-bottom: -3%;
     color: black;
     border: 3px solid black;
     padding: 6px;
-    background-color: greenyellow;
+
 }
 
 .sectionButton:hover {
