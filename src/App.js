@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ReactGA from 'react-ga'
 
@@ -69,7 +68,7 @@ import { UciteleScreen } from "./Screens/UciteleScreen";
 function App() {
 
   useEffect(() => {
-    ReactGA.initialize('UA-187277774-2');
+    ReactGA.initialize('UA-187295571-1');
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, [])
 
