@@ -33,7 +33,7 @@ export const Pracovka = () => {
                 <img className="obrazekKarty" src={ctedu} alt="ČTedu" />
             </a>
             <a href="https://cz.pinterest.com/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={pinteres} alt="pinterest" />
+                <img className="obrazekKarty" src={pinterest} alt="pinterest" />
             </a>
             <a href="https://www.canva.com/cs_cz/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={canva} alt="Grafický editor Canva" />
