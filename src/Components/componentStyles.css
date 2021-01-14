@@ -21,7 +21,6 @@
     flex-wrap: wrap;
     display: flex;
     align-items: flex-start;
-  
 }
 
 .obrazekKarty {
@@ -58,6 +57,19 @@
     border: 3px solid black;
     padding: 6px;
       }
+
+.sectionButtonCards {
+    background-color: white;
+    font-weight: 800;
+    font-size: clamp(15px, 1.8vw, 30px);
+    width: 300px;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-bottom: -3%;
+    color: black;
+    border: 3px solid black;
+    padding: 6px;
+}
 
 .sectionButton:hover {
     box-shadow: 0 0 10px darkgrey;
