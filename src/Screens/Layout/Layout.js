@@ -23,7 +23,7 @@ export const Layout = ({ contentComponent }) => {
         <img className="headPic" src={hodiny} alt="hodiny" />
       </header>
       <h2>
-        ROZCESTNÍK VÝUKOVÝCH MATERIALŮ - VZDĚLÁVACICH INSTITUCÍ A PAMĚŤOVÝCH
+        ROZCESTNÍK VÝUKOVÝCH MATERIÁLŮ - VZDĚLÁVACÍCH INSTITUCÍ A PAMĚŤOVÝCH
         INSTITUCÍ Z ČR I ZAHRANIČÍ
       </h2>
       <NavigaceHorizontalni />
