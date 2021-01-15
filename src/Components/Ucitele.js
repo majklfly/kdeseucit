@@ -22,7 +22,7 @@ export const Ucitele = () => {
                 <img className="obrazekKarty" src={ucitelnice} alt="učitelnice" />
             </a>
             <a href="https://education.microsoft.com/cs-cz/resource/1a664892" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={umicrosoft} alt="microsoft" />
+                <img className="obrazekKarty" src={microsoft} alt="microsoft" />
             </a>
         </div>
     )
