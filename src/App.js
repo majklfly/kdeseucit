@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as HashRouter, Switch, Route } from "react-router-dom";
 import ReactGA from 'react-ga'
 
 import { DomaciObrazovka } from "./Screens/DomaciObrazovka";
@@ -62,6 +62,7 @@ import { RozsirujiciScreen } from "./Screens/RozsirujiciScreen";
 import { KnihovnyScreen } from "./Screens/KnihovnyScreen";
 import { KulturniScreen } from "./Screens/KulturniScreen";
 import { UciteleScreen } from "./Screens/UciteleScreen";
+import { DesignScreen } from "./Screens/DesignScreen";
 
 
 
@@ -79,8 +80,11 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <HashRouter basename="/">
         <Switch>
+          <Route path="/design">
+            <DesignScreen />
+          </Route>
           <Route path="/ucitele">
             <UciteleScreen />
           </Route>
@@ -262,7 +266,7 @@ function App() {
             <DomaciObrazovka />
           </Route>
         </Switch>
-      </Router>
+      </HashRouter>
     </div>
   );
 }

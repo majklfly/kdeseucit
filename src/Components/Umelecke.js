@@ -10,6 +10,7 @@ export const Umelecke = () => {
                 <Link className="sectionButtonLink" to="/multimedialni"><h3 className="sectionButton">MULTIMEDIALNÍ</h3></Link>
                 <Link className="sectionButtonLink" to="/architektura"><h3 className="sectionButton">ARCHITEKTURA</h3></Link>
                 <Link className="sectionButtonLink" to="/remesla"><h3 className="sectionButton">RUKODĚLNÉ TVOŘENÍ, ŘEMESLA</h3></Link>
+                <Link className="sectionButtonLink" to="/design"><h3 className="sectionButton">DESIGN</h3></Link>
             </div>
         </div>
     )
