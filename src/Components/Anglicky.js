@@ -60,6 +60,9 @@ export const Anglicky = () => {
             <a href="https://www.youtube.com/watch?v=3EllY8Yq-BI&list=PLIhCv3wSpU7PjN99pPkek4ZT1qrsPzVbb" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={pronejmensi} alt="Angličtina pro nejmenší" />
             </a>
+            <a href="https://www.youtube.com/playlist?list=PLAHm1JQMiqaSsrD17a2YQgNuArlXmxQGt" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={magic} alt="Magic English" />
+            </a>
             <a href="http://monkeyenglish.cz/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={monkeyenglish} alt="Monkey English" />
             </a>
@@ -83,9 +86,6 @@ export const Anglicky = () => {
             </a>
             <a href="https://www.kids-pages.com" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={kidspages} alt="Kid´s pages" />
-            </a>
-            <a href="https://www.youtube.com/playlist?list=PLAHm1JQMiqaSsrD17a2YQgNuArlXmxQGt" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={magic} alt="Magic English" />
             </a>
             <a href="https://www.youtube.com/c/EnglishSingsing" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={singing} alt="English singing" />
