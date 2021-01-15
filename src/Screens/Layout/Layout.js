@@ -32,7 +32,7 @@ export const Layout = ({ contentComponent }) => {
         {contentComponent}
       </div>
       <footer>
-        <h4>Napište na <a  href="mailto:veronika.kovarova@pirati.cz">veronika.kovarova@pirati.cz</a> pokud máte připomínky, nápady nebo jste našli nefunkční odkaz, děkuji. _ _ _ _ _  Stránky naprogramoval <a  href="https://www.michalmucha.info"> Michal Mucha</a>. </h4>
+        <h4>Napište na <a  href="mailto:veronika.kovarova@pirati.cz">veronika.kovarova@pirati.cz</a> pokud máte připomínky, nápady nebo jste našli nefunkční odkaz, děkuji. _ _ _ _ _  Stránky sestavil <a  href="https://www.michalmucha.info"> Michal Mucha</a>. </h4>
       </footer>
 
     </main>
