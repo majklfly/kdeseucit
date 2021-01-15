@@ -21,7 +21,7 @@ export const Architektura = () => {
             <a href="https://www.gjf.cz/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={gjf} alt="gjf" />
             </a>
-            <a href="https://www.gjf.cz/" target="_blank" rel="noreferrer">
+            <a href="http://www.veronikapucerova.cz/archanddesignguide.html" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={mujrozcestnik} alt="Rozcestník architektury a designu" />
             </a>
         </div>
