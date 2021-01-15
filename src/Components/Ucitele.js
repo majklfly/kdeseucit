@@ -4,6 +4,7 @@ import otevrene from "../Pics/otevrene.jpg";
 import zdroje from "../Pics/zdroje.jpg";
 import techambition from "../Pics/techambition.jpg";
 import ucitelnice from "../Pics/ucitelnice.jpg";
+import microsoft from "../Pics/microsoft.jpg";
 
 export const Ucitele = () => {
     return (
@@ -19,6 +20,9 @@ export const Ucitele = () => {
             </a>
             <a href="https://www.ucitelnice.cz/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={ucitelnice} alt="učitelnice" />
+            </a>
+            <a href="https://education.microsoft.com/cs-cz/resource/1a664892" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={umicrosoft} alt="microsoft" />
             </a>
         </div>
     )
