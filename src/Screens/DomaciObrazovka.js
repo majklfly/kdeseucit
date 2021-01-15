@@ -5,7 +5,7 @@ import { Uvod } from '../Components/Uvod'
 export const DomaciObrazovka = () => {
   return (
     <div>
-      <Layout contentComponent={<Uvod />} />;
+      <Layout contentComponent={<Uvod />} />
     </div>
-  );
-};
+  )
+}

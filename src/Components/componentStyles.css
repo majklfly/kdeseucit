@@ -1,3 +1,11 @@
+.BoxUvod {
+    width: 85%;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 2%;
+    min-height: 90vh;
+}
+
 .BoxProKarty {
     width: 85%;
     height: auto;
@@ -5,14 +13,14 @@
     margin-top: 2%;
     flex-wrap: wrap;
     min-height: 100vh;
-  }
+}
 
 .OuterBoxOdkazy {
     min-height: 100vh;
     width: 100%;
     margin-top: 1%;
     margin-left: 1%;
-    display: flex; 
+    display: flex;
 }
 
 .BoxProOdkazy {
@@ -21,14 +29,13 @@
     flex-wrap: wrap;
     display: flex;
     align-items: flex-start;
-    }
+}
 
 .obrazekKarty {
     margin: 20px;
     width: 20%;
     max-width: 160px;
     min-width: 100px;
-   
 }
 
 .obrazekKarty:hover {
@@ -37,9 +44,9 @@
 
 .hlavniPic {
     position: relative;
-    top: 50%;
+    top: 6%;
     left: 50%;
-    transform: translate(-50%, -70%);
+    transform: translate(-50%);
     width: 50vw;
     min-width: 150px;
     max-width: 700px;
@@ -57,7 +64,7 @@
     color: black;
     border: 3px solid black;
     padding: 6px;
-        }
+}
 
 .sectionButtonCards {
     background-color: white;
@@ -71,8 +78,6 @@
     color: black;
     border: 3px solid black;
     padding: 6px;
-   
-
 }
 
 .sectionButton:hover {
@@ -85,13 +90,11 @@
     margin: 0px 10px;
     margin-top: 0%;
     font-family: 'BN-normal', cursive;
-  
 }
 
 @media screen and ( max-width: 500px) {
     .BoxProKarty {
         margin: 5%;
-      
     }
     .BoxProOdkazy {
         margin-left: 10%;
