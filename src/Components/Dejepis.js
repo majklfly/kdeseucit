@@ -17,6 +17,7 @@ import testpark from "../Pics/testpark.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";
 import pitter from "../Pics/pitter.jpg";
 import pametromu from "../Pics/pametromu.jpg";
+import lezak from "../Pics/lezak.jpg";
 
 export const Dejepis = () => {
     return (
@@ -71,6 +72,9 @@ export const Dejepis = () => {
             </a>
             <a href="https://www.timixi.com/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={timixi} alt="timixi" />
+            </a>
+            <a href="http://zdeneklezak.cz/autorske-knihy/" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={lezak} alt="Zdeněk Ležák - Komiksy o české historii" />
             </a>
         </div>
     )
