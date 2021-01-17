@@ -9,6 +9,8 @@ import ctedu from "../Pics/ctedu.jpg";
 import odpoledka from "../Pics/odpoledka.jpg";
 import rozhlastemata from "../Pics/rozhlastemata.jpg";
 import d21 from "../Pics/d21.jpg";
+import abc from "../Pics/abc.jpg";
+import udatny from "../Pics/udatny.jpg";
 import timixi from "../Pics/timixi.jpg";
 import historylab from "../Pics/historylab.jpg";
 import testpark from "../Pics/testpark.jpg";
@@ -42,8 +44,14 @@ export const Dejepis = () => {
             <a href="https://temata.rozhlas.cz/historie" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={rozhlastemata} alt="Rozhlas témata" />
             </a>
-            <a href="http://www.dejepis21.cz/dejepis-v-21-stoleti" target="_blank" rel="noreferrer">
+            <a href="https://www.youtube.com/channel/UCCt8ZuhBWud7EPkFN8vcdaQ/videos" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={d21} alt="Dějepis v 21.století" />
+            </a>
+            <a href="https://www.abicko.cz/kategorie/6317/historie" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={abc} alt="Časopis ABC" />
+            </a>
+            <a href="http://www.dejepis21.cz/dejepis-v-21-stoleti" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={udatny} alt="Dějiny udatného českého národa" />
             </a>
             <a href="https://www.timixi.com/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={timixi} alt="timixi" />

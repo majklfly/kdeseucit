@@ -30,6 +30,7 @@ import vojenskelesy from "../Pics/vojenskelesy.jpg";
 import podyji from "../Pics/podyji.jpg";
 import krkonose from "../Pics/krkonose.jpg";
 import lesy from "../Pics/lesy.jpg";
+import abc from "../Pics/abc.jpg";
 import svycarsko from "../Pics/svycarsko.jpg";
 import veronica from "../Pics/veronica.jpg";
 import quizlet from "../Pics/quizlet.jpg";
@@ -84,8 +85,8 @@ export const Rozsirujici = () => {
             <a href="https://decko.ceskatelevize.cz/nenudim-se-doma/vzdelavani" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={nenudim} alt="nenudim" />
             </a>
-            <a href="https://www.svetenergie.cz/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={cez} alt="cez" />
+            <a href="https://www.abicko.cz/" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={abc} alt="Ábíčko" />
             </a>
             <a href="http://www.matematickaolympiada.cz/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={mo} alt="mo" />
@@ -113,6 +114,9 @@ export const Rozsirujici = () => {
             </a>
             <a href="http://www.sotkoviny.cz/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={sotkoviny} alt="sotkoviny" />
+            </a>
+            <a href="https://www.svetenergie.cz/" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={cez} alt="cez" />
             </a>
             <a href="https://www.renenekuda.cz/povidkar/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={povidkar} alt="povidkar" />
