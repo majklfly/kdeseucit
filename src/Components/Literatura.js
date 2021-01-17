@@ -22,6 +22,8 @@ import povidkar from "../Pics/povidkar.jpg";
 import ctenarskekluby from "../Pics/ctenarskekluby.jpg";
 import rostik from "../Pics/rostik.jpg";
 import pointa from "../Pics/pointa.jpg";
+import eucebnice from "../Pics/eucebnice.jpg";
+
 
 export const Literatura = () => {
   return (
@@ -151,7 +153,7 @@ export const Literatura = () => {
         <img className="obrazekKarty" src={ctenarskekluby} alt="ctenarskekluby" />
       </a>
       <a
-        href="https://www.rostik.cz/o-nas"
+        href="https://www.rostik.cz/o-nas" 
         target="_blank"
         rel="noreferrer"
       >
@@ -163,6 +165,13 @@ export const Literatura = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={pointa} alt="pointa" />
+      </a>
+      <a
+        href="http://www.eucebnice.cz/literatura/index.html"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={eucebnice} alt="Elektronická učebnice literatury" />
       </a>
     </div>
   );
