@@ -16,6 +16,7 @@ import historylab from "../Pics/historylab.jpg";
 import testpark from "../Pics/testpark.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";
 import pitter from "../Pics/pitter.jpg";
+import pametromu from "../Pics/pametromu.jpg";
 
 export const Dejepis = () => {
     return (
@@ -62,6 +63,9 @@ export const Dejepis = () => {
             <a href="https://www.ucenionline.com/dejepis/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={veseledeti} alt="veselé děti" />
             </a>
+            <a href="https://www.pametromu.cz/" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={pametromu} alt="Paměť Romů" />
+            </a>           
             <a href="https://www.npmk.cz/pro-skoly/premysl-pitter" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={pitter} alt="Přemysl Pitter" />
             </a>

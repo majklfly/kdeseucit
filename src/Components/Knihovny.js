@@ -10,6 +10,7 @@ import kav from "../Pics/kav.jpg";
 import portal from "../Pics/portal.jpg";
 import databazeknih from "../Pics/databazeknih.jpg";
 import bejvavalo from "../Pics/bejvavalo.jpg";
+import pametromu from "../Pics/pametromu.jpg";
 
 export const Knihovny = () => {
     return (
@@ -32,6 +33,9 @@ export const Knihovny = () => {
             <a href="https://temata.rozhlas.cz/ctenarskydenik" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={rozhlasctenar} alt="rozhlasctenar" />
             </a>
+            <a href="https://www.pametromu.cz/" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={pametromu} alt="Paměť Romů" />
+            </a>         
             <a href="http://www.avcr.cz/cs/pro-verejnost/casopisy/#alfaomega" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={vedanadoma} alt="vedanadoma" />
             </a>
