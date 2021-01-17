@@ -53,9 +53,6 @@ export const Dejepis = () => {
             <a href="http://www.dejepis21.cz/dejepis-v-21-stoleti" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={udatny} alt="Dějiny udatného českého národa" />
             </a>
-            <a href="https://www.timixi.com/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={timixi} alt="timixi" />
-            </a>
             <a href="https://historylab.cz/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={historylab} alt="History lab" />
             </a>
@@ -67,6 +64,9 @@ export const Dejepis = () => {
             </a>
             <a href="https://www.npmk.cz/pro-skoly/premysl-pitter" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={pitter} alt="Přemysl Pitter" />
+            </a>
+            <a href="https://www.timixi.com/" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={timixi} alt="timixi" />
             </a>
         </div>
     )

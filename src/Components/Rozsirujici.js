@@ -36,6 +36,7 @@ import veronica from "../Pics/veronica.jpg";
 import quizlet from "../Pics/quizlet.jpg";
 import doprava from "../Pics/doprava.jpg";
 import cesty from "../Pics/cesty.jpg";
+import kreslenaveda from "../Pics/kreslenaveda.jpg";
 
 export const Rozsirujici = () => {
     return (
@@ -55,6 +56,9 @@ export const Rozsirujici = () => {
             <a href="https://www.trainbra.in/cs/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={kriticke} alt="kriticke" />
             </a>
+            <a href="https://www.youtube.com/hashtag/nezkreslenaveda" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={kreslenaveda} alt="NEZkreslena věda" />
+            </a>            
             <a href="https://www.avcr.cz/cs/pro-verejnost/veda-na-doma/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={vedanadoma} alt="vedanadoma" />
             </a>
