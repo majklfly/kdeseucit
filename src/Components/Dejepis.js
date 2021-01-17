@@ -18,6 +18,7 @@ import veseledeti from "../Pics/veseledeti.jpg";
 import pitter from "../Pics/pitter.jpg";
 import pametromu from "../Pics/pametromu.jpg";
 import lezak from "../Pics/lezak.jpg";
+import legiokarty from "../Pics/legiokarty.jpg";
 
 export const Dejepis = () => {
     return (
@@ -52,8 +53,11 @@ export const Dejepis = () => {
             <a href="https://www.abicko.cz/kategorie/6317/historie" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={abc} alt="Časopis ABC" />
             </a>
-            <a href="http://www.dejepis21.cz/dejepis-v-21-stoleti" target="_blank" rel="noreferrer">
+            <a href="https://www.youtube.com/channel/UCCt8ZuhBWud7EPkFN8vcdaQ/videos" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={udatny} alt="Dějiny udatného českého národa" />
+            </a>
+            <a href=" https://whooshback.com/" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={legiokarty} alt="Historie v kartách" />
             </a>
             <a href="https://historylab.cz/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={historylab} alt="History lab" />
