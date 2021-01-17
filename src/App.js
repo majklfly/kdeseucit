@@ -80,7 +80,7 @@ function App() {
 
   return (
     <div className="App">
-      <HashRouter basename="/">
+      <HashRouter basename="/#">
         <Switch>
           <Route path="/design">
             <DesignScreen />

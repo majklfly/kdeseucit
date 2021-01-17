@@ -1,6 +1,7 @@
 h1 {
     font-family: 'BN-normal', cursive;
     color: white;
+    text-decoration: none;
     font-weight: 200;
     font-size: clamp(30px, 4vw, 50px)
 }
@@ -12,8 +13,12 @@ h2 {
     font-family: 'BN-normal', cursive;
     font-weight: 200;
     width: 100%;
-    text-align: center   ;
+    text-align: center;
     white-space: nowrap;
+}
+
+.homepageLink {
+    text-decoration: none;
 }
 
 .headPic {
@@ -57,14 +62,13 @@ footer {
     flex-wrap: wrap;
     text-align: center;
     font-weight: 200;
-    }
+}
 
 footer>h4 {
     padding: 1.5%;
     margin: 0;
-
-       
 }
-a {color: rgb(168, 168, 168)} 
 
-
+a {
+    color: rgb(168, 168, 168)
+}

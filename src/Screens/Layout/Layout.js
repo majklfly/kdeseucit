@@ -10,18 +10,22 @@ import kruzitko from "../../Pics/kruzitko.jpg";
 import { NavigaceHorizontalni } from "../../Components/NavigaceHorizontalni/NavigaceHorizontalni";
 import { NavigaceVertikalni } from "../../Components/NavigaceVertikalni/NavigaceVertikalni";
 
+import { Link } from 'react-router-dom'
+
 export const Layout = ({ contentComponent }) => {
   return (
     <main>
-      <header className="HlavickaKontejner">
-        <img className="headPic" src={pastelky} alt="pastelky" />
-        <img className="headPic" src={kruzitko} alt="kruzitko" />
-        <h1>Kde se učit?</h1>
-        <img className="headPic" src={lupa} alt="lupa" />
-        <img className="headPic" src={bublina} alt="bublina" />
-        <img className="headPic" src={atom} alt="atom" />
-        <img className="headPic" src={hodiny} alt="hodiny" />
-      </header>
+      <Link className="homepageLink" to="/">
+        <header className="HlavickaKontejner">
+          <img className="headPic" src={pastelky} alt="pastelky" />
+          <img className="headPic" src={kruzitko} alt="kruzitko" />
+          <h1>Kde se učit?</h1>
+          <img className="headPic" src={lupa} alt="lupa" />
+          <img className="headPic" src={bublina} alt="bublina" />
+          <img className="headPic" src={atom} alt="atom" />
+          <img className="headPic" src={hodiny} alt="hodiny" />
+        </header>
+      </Link>
       <h2>
         ROZCESTNÍK VÝUKOVÝCH MATERIÁLŮ - VZDĚLÁVACÍCH INSTITUCÍ A PAMĚŤOVÝCH
         INSTITUCÍ Z ČR I ZAHRANIČÍ
