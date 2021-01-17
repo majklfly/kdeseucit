@@ -29,6 +29,7 @@ import doprava from "../Pics/doprava.jpg";
 import scio from "../Pics/scio.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
+import kreslenaveda from "../Pics/kreslenaveda.jpg";
 
 export const Osmatrida = () => {
   return (
@@ -85,6 +86,9 @@ export const Osmatrida = () => {
           alt="umimeprogramovat"
         />
       </a>
+      <a href="https://www.youtube.com/hashtag/nezkreslenaveda" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={kreslenaveda} alt="NEZkreslena věda" />
+            </a>   
       <a
         href="https://temata.rozhlas.cz/ctenarskydenik"
         target="_blank"

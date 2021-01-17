@@ -31,6 +31,7 @@ import scio from "../Pics/scio.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import d21 from "../Pics/d21.jpg";
+import kreslenaveda from "../Pics/kreslenaveda.jpg";
 
 export const Devatatrida = () => {
   return (
@@ -88,6 +89,9 @@ export const Devatatrida = () => {
           alt="umimeprogramovat"
         />
       </a>
+      <a href="https://www.youtube.com/hashtag/nezkreslenaveda" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={kreslenaveda} alt="NEZkreslena věda" />
+            </a>   
       <a
         href="https://temata.rozhlas.cz/ctenarskydenik"
         target="_blank"
