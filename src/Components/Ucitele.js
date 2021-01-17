@@ -6,6 +6,7 @@ import techambition from "../Pics/techambition.jpg";
 import ucitelnice from "../Pics/ucitelnice.jpg";
 import microsoft from "../Pics/microsoft.jpg";
 import clovekvtisni from "../Pics/clovekvtisni.jpg";
+import legiokarty from "../Pics/legiokarty.jpg";
 
 export const Ucitele = () => {
     return (
@@ -27,6 +28,9 @@ export const Ucitele = () => {
             </a>
             <a href="https://www.clovekvtisni.cz/co-delame/vzdelavaci-program-varianty?fbclid=IwAR1npHlcg_tdpsKSOOGmCeCsqLkQgcWUaxp4it2s_HAIH9n46si5-6ZhsEQ" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={clovekvtisni} alt="Člověk v tísni" />
+            </a>
+            <a href=" https://whooshback.com/" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={legiokarty} alt="Historie v kartách" />
             </a>
         </div>
     )
