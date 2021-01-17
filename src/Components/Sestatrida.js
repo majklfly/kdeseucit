@@ -54,7 +54,7 @@ export const Sestatrida = () => {
         <img className="obrazekKarty" src={georgina} alt="georgina" />
       </a>
       <a
-        href="https://www.onlinecviceni.cz/exc/list_sel_topics.php"
+        href="https://www.skolasnadhledem.cz/profil/prehled"
         target="_blank"
         rel="noreferrer"
       >
