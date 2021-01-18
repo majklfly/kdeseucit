@@ -5,6 +5,7 @@ import marche from "../Pics/marche.jpg";
 import skolasnu from "../Pics/skolasnu.jpg";
 import hello from "../Pics/hello.jpg";
 import timixi from "../Pics/timixi.jpg";
+import ucimesevenku from "../Pics/ucimesevenku.jpg";
 
 export const Alternativni = () => {
     return (
@@ -20,6 +21,9 @@ export const Alternativni = () => {
             </a>
             <a href="https://www.hellowonderful.co/category/learn/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={hello} alt="Hello Wonderful" />
+            </a>
+            <a href="https://ucimesevenku.cz/stahuji/" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={ucimesevenku} alt="Učíme se venku" />
             </a>
             <a href="https://www.timixi.com/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={timixi} alt="timixi" />

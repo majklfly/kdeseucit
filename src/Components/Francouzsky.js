@@ -5,6 +5,7 @@ import ctedu from "../Pics/ctedu.jpg";
 import tvmonde from "../Pics/tvmonde.jpg";
 import clic from "../Pics/clic.jpg";
 import hugo from "../Pics/hugo.jpg";
+import facile from "../Pics/facile.jpg";
 
 export const Francouzsky = () => {
     return (
@@ -23,6 +24,9 @@ export const Francouzsky = () => {
             </a>
             <a href="https://www.hugolescargot.com/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={hugo} alt="hugo" />
+            </a>
+            <a href="https://www.francaisfacile.com/index.php" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={facile} alt="Francais Facile" />
             </a>
         </div>
     )
