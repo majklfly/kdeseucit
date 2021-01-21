@@ -18,6 +18,7 @@ import vedanadoma from "../Pics/vedanadoma.jpg";
 import chemix from "../Pics/chemix.jpg";
 import tydenvedy from "../Pics/tydenvedy.jpg";
 import bavse from "../Pics/bavse.jpg";
+import prvky from "../Pics/prvky.jpg";
 
 export const Chemie = () => {
   return (
@@ -45,6 +46,13 @@ export const Chemie = () => {
       </a>
       <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={khan} alt="Khanova škola" />
+      </a>
+      <a
+        href="http://www.prvky.com/periodicka-tabulka.html"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={prvky} alt="Prvky" />
       </a>
       <a
         href="http://www.nabla.cz/obsah/chemie/"
