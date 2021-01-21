@@ -7,6 +7,8 @@ import ucitelnice from "../Pics/ucitelnice.jpg";
 import microsoft from "../Pics/microsoft.jpg";
 import clovekvtisni from "../Pics/clovekvtisni.jpg";
 import legiokarty from "../Pics/legiokarty.jpg";
+import elixir from "../Pics/elixir.jpg";
+import zcucelozivot from "../Pics/zcucelozivot.jpg";
 
 export const Ucitele = () => {
     return (
@@ -29,9 +31,15 @@ export const Ucitele = () => {
             <a href="https://www.clovekvtisni.cz/co-delame/vzdelavaci-program-varianty?fbclid=IwAR1npHlcg_tdpsKSOOGmCeCsqLkQgcWUaxp4it2s_HAIH9n46si5-6ZhsEQ" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={clovekvtisni} alt="Člověk v tísni" />
             </a>
-            <a href=" https://whooshback.com/" target="_blank" rel="noreferrer">
+            <a href="https://whooshback.com/" target="_blank" rel="noreferrer">
                 <img className="obrazekKarty" src={legiokarty} alt="Historie v kartách" />
             </a>
+            <a href="https://www.elixirdoskol.cz/o-elixiru/#" target="_blank" rel="noreferrer">
+                <img className="obrazekKarty" src={elixir} alt="elixir do škol" />
+            </a>
+            <a        href="https://www.youtube.com/channel/UCQEeFXqM8ugs_7S-fNjxZfQ/videos"         target="_blank"         rel="noreferrer"      >
+        <img className="obrazekKarty" src={zcucelozivot} alt="Západočeská univerzita - celoživotní vzdělávání" />
+      </a>
         </div>
     )
 }

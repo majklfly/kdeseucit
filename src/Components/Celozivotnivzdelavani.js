@@ -6,6 +6,8 @@ import rozhlastemata from "../Pics/rozhlastemata.jpg";
 import ujc from "../Pics/ujc.jpg";
 import code from "../Pics/code.jpg";
 import quizlet from "../Pics/quizlet.jpg";
+import zcucelozivot from "../Pics/zcucelozivot.jpg";
+
 import skill from "../Pics/skill.jpg";
 import ai from "../Pics/ai.jpg";
 import grafeditor from "../Pics/grafeditor.jpg";
@@ -42,6 +44,10 @@ export const Celozivotnivzdelavani = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={quizlet} alt="quizlet" />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCQEeFXqM8ugs_7S-fNjxZfQ/videos"         target="_blank"         rel="noreferrer"      >
+        <img className="obrazekKarty" src={zcucelozivot} alt="Západočeská univerzita - celoživotní vzdělávání" />
       </a>
       <a
         href="https://www.skillsbuilder.org/homelearning"
