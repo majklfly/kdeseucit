@@ -7,7 +7,7 @@ export const NavigaceVertikalni = () => {
     <div className="NavigaceVertikalniKontejner">
       <Link className="verButton" to="/predmety">ŠKOLNÍ PŘEDMĚTY</Link>
       <Link className="verButton" to="/jazyky">CIZÍ JAZYKY</Link>
-      <Link className="verButton" to="/alternativni">ALTERNATIVNÍ ZPŮSOB VZDĚLÁVÁNÍ</Link>
+      <Link className="verButton" to="/alternativni">ALTERNATIVNÍ VZDĚLÁVÁNÍ</Link>
       <Link className="verButton" to="/rozsirujici">ROZŠIŘUJÍCÍ UČIVO</Link>
       <Link className="verButton" to="/umelecke">UMĚLECKÉ PŘEDMĚTY</Link>
       <Link className="verButton" to="/pohyb">POHYBOVÉ AKTIVITY</Link>
