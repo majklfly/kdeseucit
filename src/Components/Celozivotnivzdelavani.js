@@ -7,7 +7,7 @@ import ujc from "../Pics/ujc.jpg";
 import code from "../Pics/code.jpg";
 import quizlet from "../Pics/quizlet.jpg";
 import zcucelozivot from "../Pics/zcucelozivot.jpg";
-
+import eduskop from "../Pics/eduskop.jpg";
 import skill from "../Pics/skill.jpg";
 import ai from "../Pics/ai.jpg";
 import grafeditor from "../Pics/grafeditor.jpg";
@@ -15,7 +15,7 @@ import grafeditor from "../Pics/grafeditor.jpg";
 export const Celozivotnivzdelavani = () => {
   return (
     <div className="BoxProKarty">
-        <a
+      <a
         href="https://www.avcr.cz/cs/pro-verejnost/veda-na-doma/"
         target="_blank"
         rel="noreferrer"
@@ -35,19 +35,26 @@ export const Celozivotnivzdelavani = () => {
       <a href="https://prirucka.ujc.cas.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={ujc} alt="ujc" />
       </a>
-      <a href="https://studio.code.org/projects/public" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={code} alt="code" />
-      </a>
       <a
-        href="https://quizlet.com/"
+        href="https://studio.code.org/projects/public"
         target="_blank"
         rel="noreferrer"
       >
+        <img className="obrazekKarty" src={code} alt="code" />
+      </a>
+      <a href="https://quizlet.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={quizlet} alt="quizlet" />
       </a>
       <a
-        href="https://www.youtube.com/channel/UCQEeFXqM8ugs_7S-fNjxZfQ/videos"         target="_blank"         rel="noreferrer"      >
-        <img className="obrazekKarty" src={zcucelozivot} alt="Západočeská univerzita - celoživotní vzdělávání" />
+        href="https://www.youtube.com/channel/UCQEeFXqM8ugs_7S-fNjxZfQ/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={zcucelozivot}
+          alt="Západočeská univerzita - celoživotní vzdělávání"
+        />
       </a>
       <a
         href="https://www.skillsbuilder.org/homelearning"
@@ -63,11 +70,10 @@ export const Celozivotnivzdelavani = () => {
       >
         <img className="obrazekKarty" src={ai} alt="ai" />
       </a>
-      <a
-        href="https://www.canva.com/cs_cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://eduskop.cz/courses" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={eduskop} alt="Eduskop" />
+      </a>
+      <a href="https://www.canva.com/cs_cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={grafeditor} alt="grafeditor" />
       </a>
     </div>

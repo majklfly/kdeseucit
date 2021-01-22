@@ -43,11 +43,14 @@ import quizlet from "../Pics/quizlet.jpg";
 import skill from "../Pics/skill.jpg";
 import ai from "../Pics/ai.jpg";
 import elektronika from "../Pics/elektronika.jpg";
+import eduskop from "../Pics/eduskop.jpg";
 
 export const Stredni = () => {
   return (
     <div className="BoxProKarty">
-       <Link className="sectionButtonLink" to="/maturita"><h3 className="sectionButtonCards">MATURITNÍ PŘÍPRAVA</h3></Link>
+      <Link className="sectionButtonLink" to="/maturita">
+        <h3 className="sectionButtonCards">MATURITNÍ PŘÍPRAVA</h3>
+      </Link>
       <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
       </a>
@@ -250,11 +253,7 @@ export const Stredni = () => {
       >
         <img className="obrazekKarty" src={jedensvet} alt="jedensvet" />
       </a>
-      <a
-        href="https://quizlet.com/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://quizlet.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={quizlet} alt="quizlet" />
       </a>
       <a
@@ -277,6 +276,9 @@ export const Stredni = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={elektronika} alt="elektronika" />
+      </a>
+      <a href="https://eduskop.cz/courses" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={eduskop} alt="Eduskop" />
       </a>
     </div>
   );
