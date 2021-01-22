@@ -120,6 +120,16 @@ export const Fyzika = () => {
         <img className="obrazekKarty" src={badatelna} alt="Badatelna" />
       </a>
       <a
+        href="https://www.youtube.com/hashtag/nezkreslenaveda"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={kreslenaveda}
+          alt="NEZkreslena věda"
+        />
+      <a
         href="https://www.youtube.com/channel/UCiLdXDvBI6bcd6QCBM4s2Mw"
         target="_blank"
         rel="noreferrer"
