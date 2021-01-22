@@ -33,6 +33,7 @@ import astroolymp from "../Pics/astroolymp.jpg";
 import nasal from "../Pics/nasal.jpg";
 import nasag from "../Pics/nasag.jpg";
 import bavse from "../Pics/bavse.jpg";
+import kreslenaveda from "../Pics/kreslenaveda.jpg";
 
 export const Fyzika = () => {
   return (

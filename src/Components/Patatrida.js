@@ -25,6 +25,7 @@ import rozhlasctenar from "../Pics/rozhlasctenar.jpg";
 import scio from "../Pics/scio.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
 import vojenskelesy from "../Pics/vojenskelesy.jpg";
+import kreslenaveda from "../Pics/kreslenaveda.jpg";
 
 export const Patatrida = () => {
   return (
@@ -89,6 +90,17 @@ export const Patatrida = () => {
       </a>
       <a href="https://dn1.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={dna1} alt="dna1" />
+      </a>
+      <a
+        href="https://www.youtube.com/hashtag/nezkreslenaveda"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={kreslenaveda}
+          alt="NEZkreslena věda"
+        />
       </a>
       <a
         href="https://edu.ceskatelevize.cz/stupen-vzdelani/predskolni"

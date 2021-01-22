@@ -19,6 +19,7 @@ import chemix from "../Pics/chemix.jpg";
 import tydenvedy from "../Pics/tydenvedy.jpg";
 import bavse from "../Pics/bavse.jpg";
 import prvky from "../Pics/prvky.jpg";
+import kreslenaveda from "../Pics/kreslenaveda.jpg";
 
 export const Chemie = () => {
   return (
@@ -109,6 +110,17 @@ export const Chemie = () => {
           className="obrazekKarty"
           src={zadnaveda}
           alt="Věda není žádná věda"
+        />
+      </a>
+      <a
+        href="https://www.youtube.com/hashtag/nezkreslenaveda"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={kreslenaveda}
+          alt="NEZkreslena věda"
         />
       </a>
       <a

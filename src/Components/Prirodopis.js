@@ -23,6 +23,7 @@ import krkonose from "../Pics/krkonose.jpg";
 import vojenskelesy from "../Pics/vojenskelesy.jpg";
 import lesy from "../Pics/lesy.jpg";
 import bavse from "../Pics/bavse.jpg";
+import kreslenaveda from "../Pics/kreslenaveda.jpg";
 
 export const Prirodopis = () => {
   return (
@@ -78,6 +79,17 @@ export const Prirodopis = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ptaciporadna} alt="Ptačí poradna" />
+      </a>
+      <a
+        href="https://www.youtube.com/hashtag/nezkreslenaveda"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={kreslenaveda}
+          alt="NEZkreslena věda"
+        />
       </a>
       <a
         href="http://www.testpark.cz/testy/biologie"
