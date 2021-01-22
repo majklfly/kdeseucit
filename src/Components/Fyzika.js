@@ -129,6 +129,7 @@ export const Fyzika = () => {
           src={kreslenaveda}
           alt="NEZkreslena věda"
         />
+      </a>
       <a
         href="https://www.youtube.com/channel/UCiLdXDvBI6bcd6QCBM4s2Mw"
         target="_blank"
