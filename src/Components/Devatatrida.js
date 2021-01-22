@@ -32,11 +32,14 @@ import veseledeti2 from "../Pics/veseledeti2.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import d21 from "../Pics/d21.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
+import atlas from "../Pics/atlas.jpg";
 
 export const Devatatrida = () => {
   return (
     <div className="BoxProKarty">
-      <Link className="sectionButtonLink" to="/prijimacky"><h3 className="sectionButtonCards">PŘIJÍMACÍ ZKOUŠKY NA SŠ</h3></Link>
+      <Link className="sectionButtonLink" to="/prijimacky">
+        <h3 className="sectionButtonCards">PŘIJÍMACÍ ZKOUŠKY NA SŠ</h3>
+      </Link>
       <a
         href="https://www.onlinecviceni.cz/exc/list_sel_topics.php"
         target="_blank"
@@ -89,9 +92,20 @@ export const Devatatrida = () => {
           alt="umimeprogramovat"
         />
       </a>
-      <a href="https://www.youtube.com/hashtag/nezkreslenaveda" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={kreslenaveda} alt="NEZkreslena věda" />
-            </a>   
+      <a
+        href="https://www.youtube.com/hashtag/nezkreslenaveda"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={kreslenaveda}
+          alt="NEZkreslena věda"
+        />
+      </a>
+      <a href="https://atlas.mapy.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={atlas} alt="Atlas světa" />
+      </a>
       <a
         href="https://temata.rozhlas.cz/ctenarskydenik"
         target="_blank"

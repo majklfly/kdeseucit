@@ -26,6 +26,7 @@ import scio from "../Pics/scio.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
 import vojenskelesy from "../Pics/vojenskelesy.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
+import atlas from "../Pics/atlas.jpg";
 
 export const Patatrida = () => {
   return (
@@ -118,6 +119,9 @@ export const Patatrida = () => {
       </a>
       <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={khan} alt="khan" />
+      </a>
+      <a href="https://atlas.mapy.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={atlas} alt="Atlas světa" />
       </a>
       <a
         href="https://umimcestinu.wordpress.com/"

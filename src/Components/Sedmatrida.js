@@ -30,6 +30,7 @@ import doprava from "../Pics/doprava.jpg";
 import scio from "../Pics/scio.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
+import atlas from "../Pics/atlas.jpg";
 
 export const Sedmatrida = () => {
   return (
@@ -75,9 +76,20 @@ export const Sedmatrida = () => {
       <a href="https://www.umimefakta.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={umimefakta} alt="umimefakta" />
       </a>
-      <a href="https://www.youtube.com/hashtag/nezkreslenaveda" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={kreslenaveda} alt="NEZkreslena věda" />
-            </a>   
+      <a
+        href="https://www.youtube.com/hashtag/nezkreslenaveda"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={kreslenaveda}
+          alt="NEZkreslena věda"
+        />
+      </a>
+      <a href="https://atlas.mapy.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={atlas} alt="Atlas světa" />
+      </a>
       <a
         href="https://temata.rozhlas.cz/ctenarskydenik"
         target="_blank"
