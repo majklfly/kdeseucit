@@ -9,6 +9,7 @@ import clovekvtisni from "../Pics/clovekvtisni.jpg";
 import legiokarty from "../Pics/legiokarty.jpg";
 import elixir from "../Pics/elixir.jpg";
 import zcucelozivot from "../Pics/zcucelozivot.jpg";
+import ucitelin from "../Pics/ucitelin.jpg";
 
 export const Ucitele = () => {
   return (
@@ -53,6 +54,9 @@ export const Ucitele = () => {
           src={legiokarty}
           alt="Historie v kartách"
         />
+      </a>
+      <a href="https://www.ucitel-in.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={ucitelin} alt="Učitel IN" />
       </a>
       <a
         href="https://www.elixirdoskol.cz/o-elixiru/#"
