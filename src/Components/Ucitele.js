@@ -10,6 +10,7 @@ import legiokarty from "../Pics/legiokarty.jpg";
 import elixir from "../Pics/elixir.jpg";
 import zcucelozivot from "../Pics/zcucelozivot.jpg";
 import ucitelin from "../Pics/ucitelin.jpg";
+import bridge from "../Pics/bridge.jpg";
 
 export const Ucitele = () => {
   return (
@@ -75,6 +76,9 @@ export const Ucitele = () => {
           src={zcucelozivot}
           alt="Západočeská univerzita - celoživotní vzdělávání"
         />
+      </a>
+      <a href="https://www.bridge-online.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={bridge} alt="Anglické časopisy" />
       </a>
     </div>
   );
