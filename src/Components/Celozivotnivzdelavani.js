@@ -11,6 +11,7 @@ import eduskop from "../Pics/eduskop.jpg";
 import skill from "../Pics/skill.jpg";
 import ai from "../Pics/ai.jpg";
 import grafeditor from "../Pics/grafeditor.jpg";
+import redbutton from "../Pics/redbutton.jpg";
 
 export const Celozivotnivzdelavani = () => {
   return (
@@ -75,6 +76,13 @@ export const Celozivotnivzdelavani = () => {
       </a>
       <a href="https://www.canva.com/cs_cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={grafeditor} alt="grafeditor" />
+      </a>
+      <a
+        href="https://www.redbuttonedu.cz/porady/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={redbutton} alt="Red button" />
       </a>
     </div>
   );
