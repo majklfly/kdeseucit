@@ -81,8 +81,8 @@ header {
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: rgb(92, 92, 92);
-    font-weight: 300;
-    font-size: clamp(13px, 1.4vw, 25px);
+    font-weight: 500;
+    font-size: clamp(13px, 1.6vw, 25px);
 }
 
 .paragraph h5 {
