@@ -12,7 +12,12 @@ import { NavigaceVertikalni } from "../../Components/NavigaceVertikalni/Navigace
 
 import { Link } from "react-router-dom";
 
+import { SideSlider } from "../../Components/NavigaceVertikalni/sideSlider";
+import useWindowDimensions from "../../Hooks/useWindowDimensions";
+
 export const Layout = ({ contentComponent }) => {
+  const { width } = useWindowDimensions();
+
   return (
     <main>
       <Link className="homepageLink" to="/">
@@ -32,7 +37,7 @@ export const Layout = ({ contentComponent }) => {
       </h2>
       <NavigaceHorizontalni />
       <div className="content">
-        <NavigaceVertikalni />
+        {width > 600 ? <NavigaceVertikalni /> : <SideSlider />}
         {contentComponent}
       </div>
       <footer>
