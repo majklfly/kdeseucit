@@ -82,11 +82,11 @@ header {
     color: rgb(255, 255, 255);
     background-color: rgb(92, 92, 92);
     font-weight: 300;
-    font-size: clamp(13px, 2vw, 25px);
+    font-size: clamp(13px, 1.4vw, 25px);
 }
 
 .paragraph h5 {
-    font-family: "BN-normal", cursive;
+    font-family: "Bebas neue", cursive;
 }
 
 .paragraph:hover {
