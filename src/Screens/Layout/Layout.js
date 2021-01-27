@@ -37,7 +37,8 @@ export const Layout = ({ contentComponent }) => {
       </h2>
       <NavigaceHorizontalni />
       <div className="content">
-        {width > 600 ? <NavigaceVertikalni /> : <SideSlider />}
+        {/* {width > 600 ? <NavigaceVertikalni /> : <SideSlider />} */}
+        <NavigaceVertikalni />
         {contentComponent}
       </div>
       <footer>
