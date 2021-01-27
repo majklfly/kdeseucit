@@ -4,11 +4,11 @@ import pilir from "../Pics/pilir.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import a489 from "../Pics/a489.jpg";
 import gjf from "../Pics/gjf.jpg";
-// import bam from "../Pics/bam.jpg";
-// import lam from "../Pics/lam.jpg";
-// import kam from "../Pics/kam.jpg";
-// import zam from "../Pics/zam.jpg";
-// import pam from "../Pics/pam.jpg";
+import bam from "../Pics/bam.jpg";
+import lam from "../Pics/lam.jpg";
+import kam from "../Pics/kam.jpg";
+import zam from "../Pics/zam.jpg";
+import pam from "../Pics/pam.jpg";
 import mujrozcestnik from "../Pics/mujrozcestnik.jpg";
 
 export const Architektura = () => {
@@ -30,7 +30,7 @@ export const Architektura = () => {
       <a href="https://www.gjf.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={gjf} alt="gjf" />
       </a>
-      {/* <a href="https://www.bam.brno.cz/" target="_blank" rel="noreferrer">
+      <a href="https://www.bam.brno.cz/" target="_blank" rel="noreferrer">
         <img
           className="obrazekKarty"
           src={bam}
@@ -64,7 +64,7 @@ export const Architektura = () => {
           src={kam}
           alt="Královéhradecký architektonický manuál"
         />
-      </a> */}
+      </a>
       <a
         href="http://www.veronikapucerova.cz/archanddesignguide.html"
         target="_blank"
