@@ -13,6 +13,8 @@ import { NavigaceVertikalni } from "../../Components/NavigaceVertikalni/Navigace
 import { Link } from "react-router-dom";
 
 import { SideSlider } from "../../Components/NavigaceVertikalni/sideSlider";
+import { SideSliderHorizontalni } from "../../Components/NavigaceHorizontalni/sideSlide";
+
 import useWindowDimensions from "../../Hooks/useWindowDimensions";
 
 export const Layout = ({ contentComponent }) => {
@@ -35,10 +37,9 @@ export const Layout = ({ contentComponent }) => {
         ROZCESTNÍK VÝUKOVÝCH MATERIÁLŮ - VZDĚLÁVACÍCH INSTITUCÍ A PAMĚŤOVÝCH
         INSTITUCÍ Z ČR I ZAHRANIČÍ
       </h2>
-      <NavigaceHorizontalni />
+      {width > 600 ? <NavigaceHorizontalni /> : <SideSliderHorizontalni />}
       <div className="content">
-        {/* {width > 600 ? <NavigaceVertikalni /> : <SideSlider />} */}
-        <NavigaceVertikalni />
+        {width > 600 ? <NavigaceVertikalni /> : <SideSlider />}
         {contentComponent}
       </div>
       <footer>

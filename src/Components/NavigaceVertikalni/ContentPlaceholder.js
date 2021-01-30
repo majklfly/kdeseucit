@@ -7,6 +7,7 @@ const Paragraph = ({ link, title, i, setExpanded }) => (
   <motion.div
     onClick={() => {
       setExpanded(i);
+      window.location.reload();
       window.scrollTo(0, 0);
     }}
   >

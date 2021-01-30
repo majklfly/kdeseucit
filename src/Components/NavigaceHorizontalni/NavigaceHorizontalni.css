@@ -23,7 +23,7 @@
     color: white;
     text-decoration: none;
     background-color: black;
-    font-family: 'BN-normal', cursive;
+    font-family: "BN-normal", cursive;
     font-weight: 500;
     font-size: clamp(13px, 1.6vw, 25px);
     margin: 0 3px;
@@ -41,6 +41,26 @@
 
 .navButtonClassText {
     font-size: clamp(10px, 1.4vw, 21px);
-    align-self:flex-end;
+    align-self: flex-end;
     margin-bottom: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+    .horizontalniNavigaceKontejner {
+        flex-direction: column;
+        width: 200%;
+        overflow: visible;
+    }
+    .navButton {
+        margin-bottom: 5px;
+        height: 37px;
+        font-family: "Bebas neue", cursive;
+        font-weight: 800;
+        color: white;
+        font-size: clamp(20px, 1.7vw, 25px);
+    }
+    .navButtonClassText {
+        align-self: center;
+        font-size: clamp(20px, 1.7vw, 25px);
+    }
 }

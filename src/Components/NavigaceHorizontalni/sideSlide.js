@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { motion, useAnimation } from "framer-motion";
 
-import { NavigaceVertikalni } from "./NavigaceVertikalni";
+import { NavigaceHorizontalni } from "./NavigaceHorizontalni";
 
 const SidekickWrapper = styled.div`
   position: absolute;
   width: 45%;
   height: auto;
   top: 14%;
-  left: 5%;
+  right: 5%;
   pointer-events: none;
   z-index: 1;
 `;
@@ -33,6 +33,7 @@ const SidekickBody = styled(motion.div)`
   padding: 40px 60px 30px 30px;
   height: 100%;
   max-width: ${({ width }) => `${width}px`};
+  position: relative;
   box-sizing: border-box;
 `;
 
@@ -42,10 +43,6 @@ const Content = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Bebas neue", cursive;
-  color: white;
-  font-weight: 800;
-  font-size: clamp(20px, 1.7vw, 25px);
 `;
 
 const MenuHandler = styled(motion.button)`
@@ -54,26 +51,30 @@ const MenuHandler = styled(motion.button)`
   border-radius: 0;
   position: absolute;
   top: 10px;
-  right: 10px;
+  left: 0px;
   outline: none;
+  z-index: 5;
 `;
 
-export const SideSlider = ({ overlayColor = "transparent", width = 200 }) => {
+export const SideSliderHorizontalni = ({
+  overlayColor = "transparent",
+  width = 200,
+}) => {
   const [isActive, setIsActive] = useState(false);
   const constrols = useAnimation();
+
+  console.log(isActive);
 
   useEffect(() => {
     constrols.start(isActive ? "active" : "inactive");
   }, [isActive, constrols]);
-
-  console.log("IsActive", isActive);
 
   const sidekickBodyStyles = {
     active: {
       x: 0,
     },
     inactive: {
-      x: -width,
+      x: width + 120,
     },
   };
 
@@ -83,7 +84,7 @@ export const SideSlider = ({ overlayColor = "transparent", width = 200 }) => {
       color: "#000",
     },
     inactive: {
-      x: 120,
+      x: -220,
       color: "#000",
     },
   };
@@ -91,7 +92,6 @@ export const SideSlider = ({ overlayColor = "transparent", width = 200 }) => {
   return (
     <SidekickWrapper>
       <SidekickOverlay overlayColor={overlayColor} />
-
       <SidekickBody
         width={width}
         drag="x"
@@ -123,10 +123,10 @@ export const SideSlider = ({ overlayColor = "transparent", width = 200 }) => {
           variants={menuHandlerStyles}
           transition={{ type: "spring", damping: 60, stiffness: 180 }}
         >
-          {isActive ? "Zavřít" : "Předmety"}
+          {isActive ? "Zavřít" : "Třídy"}
         </MenuHandler>
         <Content>
-          <NavigaceVertikalni />
+          <NavigaceHorizontalni />
         </Content>
       </SidekickBody>
     </SidekickWrapper>
