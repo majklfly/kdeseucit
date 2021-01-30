@@ -53,8 +53,7 @@ header {
 }
 
 .paragraph {
-    margin-top: -20px;
-    margin-bottom: 2px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,12 +61,16 @@ header {
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: rgb(92, 92, 92);
-    font-weight: 800;
-    font-size: clamp(13px, 1.8vw, 25px);
+    font-weight: 500;
+    font-size: clamp(13px, 1.8vw, 23px);
+    white-space: wrap;
 }
 
 .paragraph h5 {
-    font-family: "Bebas neue", cursive;
+    text-align: center;
+    font-family: "BN-normal", cursive;
+    font-weight: 500;
+    font-size: clamp(13px, 1.6vw, 23px);
 }
 
 .paragraph:hover {
@@ -81,8 +84,14 @@ section {
 
 .buttonHeader {
     text-align: center;
-    padding: 2px;
+    font-family: "BN-normal", cursive;
+    font-weight: 500;
+    font-size: clamp(13px, 1.6vw, 23px);
+    margin: 3px 3px;
+    white-space: wrap;
+    padding: 3px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: fit-content;
 }
