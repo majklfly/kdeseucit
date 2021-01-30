@@ -31,7 +31,7 @@ export const Accordion = ({
       <motion.header
         initial={false}
         className="buttonHeader"
-        animate={{ backgroundColor: isOpen ? "#5C5C5C" : "#000000" }}
+        animate={{ backgroundColor: "#000000" }}
         onClick={() => {
           setExpanded(isOpen ? false : i);
           window.scrollTo(0, 0);

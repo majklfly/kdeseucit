@@ -89,10 +89,10 @@
     font-weight: 800;
     margin: 0px 10px;
     margin-top: 0%;
-    font-family: 'BN-normal', cursive;
+    font-family: "BN-normal", cursive;
 }
 
-@media screen and ( max-width: 500px) {
+@media screen and (max-width: 600px) {
     .BoxProKarty {
         margin: 5%;
     }
@@ -101,5 +101,11 @@
     }
     .sectionButton {
         width: 150px;
+    }
+    .hlavniPic {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
