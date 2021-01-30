@@ -27,6 +27,7 @@ import veseledeti2 from "../Pics/veseledeti2.jpg";
 import vojenskelesy from "../Pics/vojenskelesy.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import atlas from "../Pics/atlas.jpg";
+import eucitelka from "../Pics/eucitelka.jpg";
 
 export const Patatrida = () => {
   return (
@@ -156,6 +157,9 @@ export const Patatrida = () => {
       </a>
       <a href="https://www.ucenionline.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={veseledeti2} alt="veseledeti2" />
+      </a>
+      <a href="https://e-ucitelka.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={eucitelka} alt="eučitelka" />
       </a>
       <a href="https://deti.vls.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={vojenskelesy} alt="vojenskelesy" />
