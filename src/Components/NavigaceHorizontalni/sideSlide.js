@@ -13,7 +13,6 @@ const SidekickWrapper = styled.div`
   pointer-events: none;
   z-index: 1;
 `;
-
 const SidekickOverlay = styled.div`
   position: absolute;
   width: 100%;
