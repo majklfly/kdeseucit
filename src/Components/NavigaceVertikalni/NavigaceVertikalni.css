@@ -28,7 +28,9 @@
 }
 
 .content-placeholder {
-  padding: 2px;
+  padding-top: 2px;
+  width: 96%;
+  margin-left: 2%;
   transform-origin: top center;
 }
 
@@ -42,41 +44,33 @@ header {
 }
 
 .word {
-  height: 18px;
+  height: 40px;
   border-radius: 10px;
   display: inline-block;
   margin-bottom: 8px;
   margin-right: 8px;
   background: black;
   border-radius: 1px;
-  display: inline-block;
 }
 
 .paragraph {
-  margin-top: 1%;
   text-decoration: none;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-right: 3px;
-  padding-left: 3px;
+  padding: 2px;
   color: rgb(255, 255, 255);
   background-color: rgb(92, 92, 92);
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 50px;
+  height: 26px;
   font-weight: 500;
-  font-size: clamp(13px, 1.8vw, 23px);
+  font-size: clamp(13px, 1.8vw, 16px);
   white-space: wrap;
 }
 
 .paragraph h5 {
-  text-align: center;
   font-family: "BN-normal", cursive;
   font-weight: 500;
-  font-size: clamp(13px, 1.6vw, 23px);
-  line-height: flex;
-  text-align: left;
+  font-size: clamp(13px, 1.6vw, 21px);
 }
 
 .paragraph:hover {
@@ -93,9 +87,9 @@ section {
   font-weight: 500;
   font-size: clamp(13px, 1.6vw, 23px);
   font-display: flex;
-  margin: 3px 3px;
+  margin: 3px;
+  padding: 5px;
   white-space: wrap;
-  padding: 3px 5px;
   display: flex;
   text-align: center;
   justify-content: center;

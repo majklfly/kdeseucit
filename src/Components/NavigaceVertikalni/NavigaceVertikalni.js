@@ -24,7 +24,7 @@ const predmety = {
   rodinka: "RODINNÁ VÝCHOVA",
   pracovka: "PRACOVNÍ VÝCHOVA",
   pozemky: "PĚSTITELSKÉ PRÁCE",
-  zsv: "ZÁKLADY SPOLEČENSKÝCH VĚD",
+  zsv: "SPOLEČENSKÉ VĚDY",
   medialni: "MEDIÁLNÍ GRAMOTNOST",
 };
 
@@ -41,7 +41,7 @@ const umelecke = {
   vytvarne: "VÝTVARNÉ",
   multimedialni: "MULTIMEDIALNÍ",
   architektura: "ARCHITEKTURA",
-  remesla: "RUKODĚLNÉ TVOŘENÍ, ŘEMESLA",
+  remesla: "TVOŘENÍ A ŘEMESLA",
   design: "DESIGN",
 };
 
@@ -49,7 +49,7 @@ const pohyb = {
   sport: "SPORT",
   tanec: "TANEC",
   divadlo: "DIVADLO",
-  tabornici: "TÁBOROVÉ AKTIVITY A HRY",
+  tabornici: "TÁBOROVÉ HRY",
   turistika: "TURISTIKA",
 };
 

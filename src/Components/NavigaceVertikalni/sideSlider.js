@@ -53,8 +53,13 @@ const MenuHandler = styled(motion.button)`
   background: transparent;
   border-radius: 0;
   position: absolute;
+  font-family: "BN-normal", cursive;
+  font-weight: 500;
+  font-size: clamp(13px, 1.6vw, 23px);
+  border: 1px solid black;
+  width: 100px;
   top: 10px;
-  right: 10px;
+  right: 0px;
   outline: none;
 `;
 
@@ -80,11 +85,13 @@ export const SideSlider = ({ overlayColor = "transparent", width = 200 }) => {
   const menuHandlerStyles = {
     active: {
       x: 0,
+      backgroundColor: "white",
       color: "#000",
     },
     inactive: {
-      x: 120,
-      color: "#000",
+      x: 100,
+      backgroundColor: "black",
+      color: "white",
     },
   };
 
@@ -123,7 +130,7 @@ export const SideSlider = ({ overlayColor = "transparent", width = 200 }) => {
           variants={menuHandlerStyles}
           transition={{ type: "spring", damping: 60, stiffness: 180 }}
         >
-          {isActive ? "Zavřít" : "Předmety"}
+          {isActive ? "< Zavřít" : "Předmety >"}
         </MenuHandler>
         <Content>
           <NavigaceVertikalni />

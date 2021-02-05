@@ -47,8 +47,13 @@ const Content = styled.div`
 const MenuHandler = styled(motion.button)`
   border: none;
   background: transparent;
+  border: 1px solid black;
   border-radius: 0;
   position: absolute;
+  font-family: "BN-normal", cursive;
+  font-weight: 500;
+  font-size: clamp(13px, 1.6vw, 23px);
+  width: 100px;
   top: 10px;
   left: 0px;
   outline: none;
@@ -80,11 +85,13 @@ export const SideSliderHorizontalni = ({
   const menuHandlerStyles = {
     active: {
       x: 0,
+      backgroundColor: "white",
       color: "#000",
     },
     inactive: {
       x: -220,
-      color: "#000",
+      backgroundColor: "black",
+      color: "white",
     },
   };
 
@@ -122,7 +129,7 @@ export const SideSliderHorizontalni = ({
           variants={menuHandlerStyles}
           transition={{ type: "spring", damping: 60, stiffness: 180 }}
         >
-          {isActive ? "Zavřít" : "Třídy"}
+          {isActive ? "Zavřít >" : "< Třídy"}
         </MenuHandler>
         <Content>
           <NavigaceHorizontalni />
