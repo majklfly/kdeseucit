@@ -46,6 +46,14 @@ export const Alternativni = () => {
         <img className="obrazekKarty" src={atlas} alt="Atlas světa" />
       </a>
       <a href="https://www.timixi.com/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={timixi}
+          alt="timixi"
+          title="Učení se souvislostí pomocí časových os."
+        />
+      </a>
+      <a href="https://www.timixi.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={timixi} alt="timixi" />
       </a>
     </div>
