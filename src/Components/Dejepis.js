@@ -25,7 +25,7 @@ export const Dejepis = () => {
   return (
     <div className="BoxProKarty">
       <a
-        href="https://www.skolasnadhledem.cz/profil/2-stupen/881-Dejepis"
+        href="https://www.skolasnadhledem.cz/profil/2-stupen/2001-dejepis"
         target="_blank"
         rel="noreferrer"
       >
@@ -73,7 +73,7 @@ export const Dejepis = () => {
         />
       </a>
       <a
-        href="https://www.youtube.com/channel/UCCt8ZuhBWud7EPkFN8vcdaQ/videos"
+        href="http://www.dejepis21.cz/dejepis-v-21-stoleti"
         target="_blank"
         rel="noreferrer"
       >
@@ -136,6 +136,7 @@ export const Dejepis = () => {
           className="obrazekKarty"
           src={lezak}
           alt="Zdeněk Ležák - Komiksy o české historii"
+          title="Zdeněk Ležák - Komiksy o české historii"
         />
       </a>
       <a href=" https://whooshback.com/" target="_blank" rel="noreferrer">
@@ -143,6 +144,7 @@ export const Dejepis = () => {
           className="obrazekKarty"
           src={legiokarty}
           alt="Historie v kartách"
+          title="Legionářská historie v kartách"
         />
       </a>
       <a href="https://bavsevedou.zcu.cz/" target="_blank" rel="noreferrer">

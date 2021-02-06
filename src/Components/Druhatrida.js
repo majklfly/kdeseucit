@@ -36,11 +36,7 @@ export const Druhatrida = () => {
       <a href="https://skolakov.eu/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={skolakov} alt="skolakov" />
       </a>
-      <a
-        href="https://edu.ceskatelevize.cz/stupen-vzdelani/predskolni"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={lustenky} alt="lustenky" />
       </a>
       <a
@@ -88,7 +84,7 @@ export const Druhatrida = () => {
         <img className="obrazekKarty" src={oskar} alt="oskar" />
       </a>
       <a
-        href="https://www.onlinecviceni.cz/exc/list_sel_topics.php"
+        href="https://www.skolasnadhledem.cz/profil/prehled"
         target="_blank"
         rel="noreferrer"
       >
@@ -103,15 +99,11 @@ export const Druhatrida = () => {
       <a href="https://www.zlatka.in/cs/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={zlatka} alt="zlatka" />
       </a>
-      <a
-        href="https://pripravy.estranky.cz/clanky/prvni-trida"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://pripravy.estranky.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={veseledeti} alt="veseledeti" />
       </a>
       <a
-        href="https://www.skolazvesela.cz/category/1-a-2-trida/"
+        href="https://cz.pinterest.com/Primauca/_saved/"
         target="_blank"
         rel="noreferrer"
       >
@@ -133,7 +125,7 @@ export const Druhatrida = () => {
         <img className="obrazekKarty" src={khan} alt="khan" />
       </a>
       <a
-        href="https://edu.ceskatelevize.cz/stupen-vzdelani/predskolni"
+        href="https://edu.ceskatelevize.cz/stupen-vzdelani/1-stupen-zs"
         target="_blank"
         rel="noreferrer"
       >

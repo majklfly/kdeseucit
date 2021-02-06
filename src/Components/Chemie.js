@@ -88,6 +88,7 @@ export const Chemie = () => {
           className="obrazekKarty"
           src={maprokazdeho}
           alt="Matematika pro každého"
+          title="Cvičné testy z chemie"
         />
       </a>
       <a
@@ -99,6 +100,7 @@ export const Chemie = () => {
           className="obrazekKarty"
           src={animacechemie}
           alt="Animace chemických jevů"
+          title="Animace chemických jevů"
         />
       </a>
       <a

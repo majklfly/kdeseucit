@@ -24,7 +24,6 @@ import rostik from "../Pics/rostik.jpg";
 import pointa from "../Pics/pointa.jpg";
 import eucebnice from "../Pics/eucebnice.jpg";
 
-
 export const Literatura = () => {
   return (
     <div className="BoxProKarty">
@@ -35,30 +34,26 @@ export const Literatura = () => {
         <img className="obrazekKarty" src={lustenky} alt="lustenky" />
       </a>
       <a href="http://www.naucsecist.cz/" target="_blank" rel="noreferrer">
-            <img className="obrazekKarty" src={naucsecist} alt="naucsecist" />
-        </a>
-        <a
-        href="https://www.onlinecviceni.cz/exc/list_sel_topics.php"
+        <img className="obrazekKarty" src={naucsecist} alt="naucsecist" />
+      </a>
+      <a
+        href="https://www.skolasnadhledem.cz/profil/1-stupen/530-cesky-jazyk-analyticko-synteticka-metoda"
         target="_blank"
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={snadhledem} alt="snadhledem" />
       </a>
       <a
-        href="http://cviceni.testy.sweb.cz/index.htm"
+        href="http://cviceni.testy.sweb.cz/cteni.htm"
         target="_blank"
         rel="noreferrer"
       >
-            <img className="obrazekKarty" src={cvicenitesty} alt="cvicenitesty" />
-        </a>
-        <a href="https://www.umimecesky.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={cvicenitesty} alt="cvicenitesty" />
+      </a>
+      <a href="https://www.umimecesky.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={umimecesky} alt="umimecesky" />
       </a>
-      <a
-        href="https://www.ucimesedoma.cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://www.ucimesedoma.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={scio} alt="scio" />
       </a>
       <a
@@ -69,17 +64,13 @@ export const Literatura = () => {
         <img className="obrazekKarty" src={rozhlasctenar} alt="rozhlasctenar" />
       </a>
       <a
-        href="http://www.testpark.cz/testy/cesky-jazyk"
+        href="http://www.testpark.cz/testy/literatura"
         target="_blank"
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={testpark} alt="testpark" />
       </a>
-      <a
-        href="http://www.ctenar.net/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="http://www.ctenar.net/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={ctenar} alt="ctenar" />
       </a>
       <a
@@ -89,11 +80,7 @@ export const Literatura = () => {
       >
         <img className="obrazekKarty" src={underground} alt="underground" />
       </a>
-      <a
-        href="http://www.sotkoviny.cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="http://www.sotkoviny.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={sotkoviny} alt="sotkoviny" />
       </a>
       <a
@@ -111,7 +98,7 @@ export const Literatura = () => {
         <img className="obrazekKarty" src={veseledeti2} alt="veseledeti2" />
       </a>
       <a
-        href="https://edu.ceskatelevize.cz/"
+        href="https://edu.ceskatelevize.cz/predmet/cj-a-literatura"
         target="_blank"
         rel="noreferrer"
       >
@@ -129,7 +116,11 @@ export const Literatura = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={mestskaknihovna} alt="mestskaknihovna" />
+        <img
+          className="obrazekKarty"
+          src={mestskaknihovna}
+          alt="mestskaknihovna"
+        />
       </a>
       <a
         href="https://www.databazeknih.cz/eknihy-zdarma-ke-stazeni?dle=&gid=&id=2"
@@ -150,20 +141,16 @@ export const Literatura = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={ctenarskekluby} alt="ctenarskekluby" />
+        <img
+          className="obrazekKarty"
+          src={ctenarskekluby}
+          alt="ctenarskekluby"
+        />
       </a>
-      <a
-        href="https://www.rostik.cz/o-nas" 
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://www.rostik.cz/o-nas" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={rostik} alt="rostik" />
       </a>
-      <a
-        href="https://www.pointa.cz/landing"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://www.pointa.cz/landing" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={pointa} alt="pointa" />
       </a>
       <a
@@ -171,7 +158,11 @@ export const Literatura = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={eucebnice} alt="Elektronická učebnice literatury" />
+        <img
+          className="obrazekKarty"
+          src={eucebnice}
+          alt="Elektronická učebnice literatury"
+        />
       </a>
     </div>
   );

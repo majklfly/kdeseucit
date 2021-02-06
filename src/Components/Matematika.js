@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import skolakov from "../Pics/skolakov.jpg";
 import lustenky from "../Pics/lustenky.jpg";
@@ -38,116 +38,225 @@ import veseledeti from "../Pics/veseledeti.jpg";
 import matikaprospoluzaky from "../Pics/matikaprospoluzaky.jpg";
 
 export const Matematika = () => {
-    return (
-        <div className="BoxProKarty">
-            <a href="https://skolakov.eu/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={skolakov} alt="skolakov" />
-            </a>
-            <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={lustenky} alt="lustenky" />
-            </a>
-            <a href="https://www.onlinecviceni.cz/exc/list_sel_topics.php" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={onlinecviceni} alt="onlinecviceni" />
-            </a>
-            <a href="http://www.matyskova-matematika.cz/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={matysek} alt="matysek" />
-            </a>
-            <a href="http://cviceni.testy.sweb.cz/matematika.htm" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={cvicenitesty} alt="cvicenitesty" />
-            </a>
-            <a href="https://www.matika.in/cs/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={matikain} alt="matikain" />
-            </a>
-            <a href="https://www.sheppardsoftware.com/math.htm" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={sheppard} alt="sheppard" />
-            </a>
-            <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
-            </a>
-            <a href="http://www.naucsepocitat.cz/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={naucsepocitat} alt="naucsepocitat" />
-            </a>
-            <a href="https://www.youtube.com/playlist?list=PLD_48WTXRpqOpIAZ3zE0I9mOipH7FxhWq" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={prijmackybezobav} alt="prijmackybezobav" />
-            </a>
-            <a href="https://www.ceskatelevize.cz/porady/10000000405-skola-doma/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={ctprijmacky} alt="ctprijmacky" />
-            </a>
-            <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={khan} alt="khan" />
-            </a>
-            <a href="https://www.skolasnadhledem.cz/profil/prehled" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={snadhledem} alt="snadhledem" />
-            </a>
-            <a href="https://www.youtube.com/playlist?list=PLD_48WTXRpqOpIAZ3zE0I9mOipH7FxhWq" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={primauca} alt="primauca" />
-            </a>
-            <a href="https://www.youtube.com/playlist?list=PLD_48WTXRpqOpIAZ3zE0I9mOipH7FxhWq" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={animacematika} alt="animacematika" />
-            </a>
-            <a href="https://www.maths.cz/clanek/kategorie/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={maprokazdeho} alt="maprokazdeho" />
-            </a>
-            <a href="https://www.maths.cz/clanek/kategorie/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={isibalo} alt="isibalo" />
-            </a>
-            <a href="https://www.maths.cz/clanek/kategorie/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={ematematika} alt="ematematika" />
-            </a>
-            <a href="http://www.nabla.cz/obsah/matematika/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={nabla} alt="nabla" />
-            </a>
-            <a href="http://www.realisticky.cz/kapitola.php?id=23" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={realisticky} alt="realisticky" />
-            </a>
-            <a href="https://matematika.cz/matematika-polopate" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={matematikacz} alt="Matematika polopatě" />
-            </a>
-            <a href="http://www.opicimatika.cz/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={opicimatika} alt="opicimatika" />
-            </a>
-            <a href="http://math4u.vsb.cz/cs" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={math4u} alt="math4u" />
-            </a>
-            <a href="http://math4u.vsb.cz/cs" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={mo} alt="mo" />
-            </a>
-            <a href="https://www.ucimesedoma.cz/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={scio} alt="scio" />
-            </a>
-            <a href="http://www.testpark.cz/testy/literatura" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={testpark} alt="testpark" />
-            </a>
-            <a href="https://skolaposkole.cz/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={skolaposkole} alt="skolaposkole" />
-            </a>
-            <a href="http://www.chmelkova.cz/web_skolicka/matematika.html" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={chmelma} alt="chmelma" />
-            </a>
-            <a href="https://edu.ceskatelevize.cz/predmet/matematika" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={ctedu} alt="ČT edu" />
-            </a>
-            <a href="https://www.geogebra.org/t/math" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={geogebra} alt="GeoGebra" />
-            </a>
-            <a href="https://lizardpoint.com/math/index.php" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={lizard} alt="lizard" />
-            </a>
-            <a href="https://www.fun4thebrain.com/g/multiplication" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={fun4} alt="násobení" />
-            </a>
-            <a href="http://reseneulohy.cz/cs/matematika" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={sbirka} alt="Sbírka řešených úloh" />
-            </a>
-            <a href="http://matematickyklokan.net/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={klokan} alt="Matematický klokan" />
-            </a>
-            <a href="https://www.ucenionline.com/matematika/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={veseledeti} alt="Veselé děti" />
-            </a>
-            <a href="https://www.matikaprospoluzaky.cz/priklady/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={matikaprospoluzaky} alt="Matika pro spolužáky" />
-            </a>
-        </div>
-    )
-}
+  return (
+    <div className="BoxProKarty">
+      <a href="https://skolakov.eu/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={skolakov} alt="skolakov" />
+      </a>
+      <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={lustenky} alt="lustenky" />
+      </a>
+      <a
+        href="https://www.onlinecviceni.cz/exc/list_sel_topics.php"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={onlinecviceni} alt="onlinecviceni" />
+      </a>
+      <a
+        href="http://www.matyskova-matematika.cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={matysek} alt="matysek" />
+      </a>
+      <a
+        href="http://cviceni.testy.sweb.cz/matematika.htm"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={cvicenitesty} alt="cvicenitesty" />
+      </a>
+      <a href="https://www.matika.in/cs/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={matikain} alt="matikain" />
+      </a>
+      <a
+        href="https://www.sheppardsoftware.com/math.htm"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={sheppard} alt="sheppard" />
+      </a>
+      <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
+      </a>
+      <a href="http://www.naucsepocitat.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={naucsepocitat} alt="naucsepocitat" />
+      </a>
+      <a
+        href="https://www.youtube.com/playlist?list=PLD_48WTXRpqOpIAZ3zE0I9mOipH7FxhWq"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={prijmackybezobav}
+          alt="prijmackybezobav"
+        />
+      </a>
+      <a
+        href="https://www.ceskatelevize.cz/porady/10000000405-skola-doma/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ctprijmacky} alt="ctprijmacky" />
+      </a>
+      <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={khan} alt="khan" />
+      </a>
+      <a
+        href="https://www.skolasnadhledem.cz/profil/prehled"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={snadhledem} alt="snadhledem" />
+      </a>
+      <a
+        href="https://cz.pinterest.com/Primauca/_saved/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={primauca} alt="primauca" />
+      </a>
+
+      <a
+        href="https://www.youtube.com/playlist?list=PLD_48WTXRpqOpIAZ3zE0I9mOipH7FxhWq"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={animacematika} alt="animacematika" />
+      </a>
+      <a
+        href="https://www.maths.cz/clanek/kategorie/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={maprokazdeho} alt="maprokazdeho" />
+      </a>
+      <a
+        href="https://www.maths.cz/clanek/kategorie/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={isibalo} alt="isibalo" />
+      </a>
+      <a
+        href="https://www.maths.cz/clanek/kategorie/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ematematika} alt="ematematika" />
+      </a>
+      <a
+        href="http://www.nabla.cz/obsah/matematika/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={nabla} alt="nabla" />
+      </a>
+      <a
+        href="http://www.realisticky.cz/kapitola.php?id=23"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={realisticky} alt="realisticky" />
+      </a>
+      <a
+        href="https://matematika.cz/matematika-polopate"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={matematikacz}
+          alt="Matematika polopatě"
+        />
+      </a>
+      <a href="http://www.opicimatika.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={opicimatika} alt="opicimatika" />
+      </a>
+      <a href="http://math4u.vsb.cz/cs" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={math4u} alt="math4u" />
+      </a>
+      <a href="http://math4u.vsb.cz/cs" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={mo} alt="mo" />
+      </a>
+      <a href="https://www.ucimesedoma.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={scio} alt="scio" />
+      </a>
+      <a
+        href="http://www.testpark.cz/testy/literatura"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={testpark} alt="testpark" />
+      </a>
+      <a href="https://skolaposkole.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={skolaposkole} alt="skolaposkole" />
+      </a>
+      <a
+        href="http://www.chmelkova.cz/web_skolicka/matematika.html"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={chmelma} alt="chmelma" />
+      </a>
+      <a
+        href="https://edu.ceskatelevize.cz/predmet/matematika"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ctedu} alt="ČT edu" />
+      </a>
+      <a
+        href="https://www.geogebra.org/t/math"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={geogebra} alt="GeoGebra" />
+      </a>
+      <a
+        href="https://lizardpoint.com/math/index.php"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={lizard} alt="lizard" />
+      </a>
+      <a
+        href="https://www.fun4thebrain.com/g/multiplication"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={fun4} alt="násobení" />
+      </a>
+      <a
+        href="http://reseneulohy.cz/cs/matematika"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={sbirka} alt="Sbírka řešených úloh" />
+      </a>
+      <a href="http://matematickyklokan.net/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={klokan} alt="Matematický klokan" />
+      </a>
+      <a
+        href="https://www.ucenionline.com/matematika/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={veseledeti} alt="Veselé děti" />
+      </a>
+      <a
+        href="https://www.matikaprospoluzaky.cz/priklady/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={matikaprospoluzaky}
+          alt="Matika pro spolužáky"
+        />
+      </a>
+    </div>
+  );
+};

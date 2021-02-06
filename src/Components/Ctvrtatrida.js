@@ -32,11 +32,7 @@ export const Ctvrtatrida = () => {
       <a href="https://skolakov.eu/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={skolakov} alt="skolakov" />
       </a>
-      <a
-        href="https://edu.ceskatelevize.cz/stupen-vzdelani/predskolni"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={lustenky} alt="lustenky" />
       </a>
       <a
@@ -57,7 +53,7 @@ export const Ctvrtatrida = () => {
         <img className="obrazekKarty" src={naucsepsat} alt="naucsepsat" />
       </a>
       <a
-        href="https://www.onlinecviceni.cz/exc/list_sel_topics.php"
+        href="https://www.skolasnadhledem.cz/profil/prehled"
         target="_blank"
         rel="noreferrer"
       >
@@ -91,7 +87,7 @@ export const Ctvrtatrida = () => {
         <img className="obrazekKarty" src={dna1} alt="dna1" />
       </a>
       <a
-        href="https://edu.ceskatelevize.cz/stupen-vzdelani/predskolni"
+        href="https://edu.ceskatelevize.cz/stupen-vzdelani/1-stupen-zs"
         target="_blank"
         rel="noreferrer"
       >
@@ -107,15 +103,15 @@ export const Ctvrtatrida = () => {
       <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={khan} alt="khan" />
       </a>
-      <a href="https://deti.vls.cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={vojenskelesy} alt="vojenskelesy" />
-      </a>
       <a
         href="https://www.sheppardsoftware.com/math.htm"
         target="_blank"
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={sheppard} alt="sheppard" />
+      </a>
+      <a href="https://deti.vls.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={vojenskelesy} alt="vojenskelesy" />
       </a>
       <a
         href="https://www.dopravnivychova.cz/"
@@ -125,7 +121,7 @@ export const Ctvrtatrida = () => {
         <img className="obrazekKarty" src={doprava} alt="doprava" />
       </a>
       <a
-        href="https://www.skolazvesela.cz/category/1-a-2-trida/"
+        href="https://www.skolazvesela.cz/category/3-5-trida/"
         target="_blank"
         rel="noreferrer"
       >

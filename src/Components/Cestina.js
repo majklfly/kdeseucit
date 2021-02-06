@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import amos from "../Pics/amos.jpg";
 import skolakov from "../Pics/skolakov.jpg";
@@ -34,54 +34,42 @@ import pravidla from "../Pics/pravidla.jpg";
 import ujc from "../Pics/ujc.jpg";
 
 export const Cestina = () => {
-    return (
+  return (
     <div className="BoxProKarty">
-        <a
+      <a
         href="https://www.youtube.com/channel/UCu3JEcOEWv-eybsibgw2fwQ/playlists"
         target="_blank"
         rel="noreferrer"
       >
-            <img className="obrazekKarty" src={amos} alt="amos" />
-        </a>
-        <a
-        href="https://skolakov.eu/"
-        target="_blank"
-        rel="noreferrer"
-      >
-            <img className="obrazekKarty" src={skolakov} alt="skolakov" />
-        </a>
-        <a
-        href="https://rysava.websnadno.cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
-            <img className="obrazekKarty" src={lustenky} alt="lustenky" />
-        </a>
-        <a
-        href="https://nns.cz/agata/"
-        target="_blank"
-        rel="noreferrer"
-      >
-            <img className="obrazekKarty" src={agata} alt="agata" />
-        </a>
-        <a
+        <img className="obrazekKarty" src={amos} alt="amos" />
+      </a>
+      <a href="https://skolakov.eu/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={skolakov} alt="skolakov" />
+      </a>
+      <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={lustenky} alt="lustenky" />
+      </a>
+      <a href="https://nns.cz/agata/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={agata} alt="agata" />
+      </a>
+      <a
         href="http://cviceni.testy.sweb.cz/index.htm"
         target="_blank"
         rel="noreferrer"
       >
-            <img className="obrazekKarty" src={cvicenitesty} alt="cvicenitesty" />
-        </a>
-        <a href="http://www.naucsepsat.cz/" target="_blank" rel="noreferrer">
-            <img className="obrazekKarty" src={naucsepsat} alt="naucsepsat" />
-        </a>
-        <a href="http://www.naucsecist.cz/" target="_blank" rel="noreferrer">
-            <img className="obrazekKarty" src={naucsecist} alt="naucsecist" />
-        </a>
-        <a href="https://dn1.cz/" target="_blank" rel="noreferrer">
-            <img className="obrazekKarty" src={dna1} alt="dna1" />
-        </a>
-        <a
-        href="https://www.onlinecviceni.cz/exc/list_sel_topics.php"
+        <img className="obrazekKarty" src={cvicenitesty} alt="cvicenitesty" />
+      </a>
+      <a href="http://www.naucsepsat.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={naucsepsat} alt="naucsepsat" />
+      </a>
+      <a href="http://www.naucsecist.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={naucsecist} alt="naucsecist" />
+      </a>
+      <a href="https://dn1.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={dna1} alt="dna1" />
+      </a>
+      <a
+        href="https://www.skolasnadhledem.cz/profil/prehled"
         target="_blank"
         rel="noreferrer"
       >
@@ -101,7 +89,7 @@ export const Cestina = () => {
         <img className="obrazekKarty" src={onlinecviceni} alt="onlinecviceni" />
       </a>
       <a
-        href="https://www.skolazvesela.cz/category/1-a-2-trida/"
+        href="https://cz.pinterest.com/Primauca/_saved/"
         target="_blank"
         rel="noreferrer"
       >
@@ -115,17 +103,13 @@ export const Cestina = () => {
         <img className="obrazekKarty" src={veseledeti} alt="veseledeti" />
       </a>
       <a
-        href="http://www.nabla.cz/obsah/matematika/"
+        href="http://www.nabla.cz/obsah/cestina/"
         target="_blank"
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={nabla} alt="nabla" />
       </a>
-      <a
-        href="https://www.ocestine.cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://www.ocestine.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={ocestine} alt="ocestine" />
       </a>
       <a
@@ -135,18 +119,10 @@ export const Cestina = () => {
       >
         <img className="obrazekKarty" src={umimcestinu} alt="umimcestinu" />
       </a>
-      <a
-        href="https://www.mojecestina.cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://www.mojecestina.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={mojecestina} alt="mojecestina" />
       </a>
-      <a
-        href="https://cestina.diktaty.cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://cestina.diktaty.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={diktaty} alt="diktaty" />
       </a>
       <a
@@ -154,7 +130,11 @@ export const Cestina = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={skolaposkolecj} alt="skolaposkolecj" />
+        <img
+          className="obrazekKarty"
+          src={skolaposkolecj}
+          alt="skolaposkolecj"
+        />
       </a>
       <a
         href="http://www.testpark.cz/testy/cesky-jazyk"
@@ -164,7 +144,7 @@ export const Cestina = () => {
         <img className="obrazekKarty" src={testpark} alt="testpark" />
       </a>
       <a
-        href="https://edu.ceskatelevize.cz/stupen-vzdelani/predskolni"
+        href="https://edu.ceskatelevize.cz/predmet/cj-a-literatura"
         target="_blank"
         rel="noreferrer"
       >
@@ -177,39 +157,19 @@ export const Cestina = () => {
       >
         <img className="obrazekKarty" src={chmelcj} alt="chmelcj" />
       </a>
-      <a
-        href="https://www.pravopisne.cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://www.pravopisne.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={pravopisne} alt="pravopisne" />
       </a>
-      <a
-        href="https://www.slovnidruh.cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://www.slovnidruh.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={slovnidruhy} alt="slovnidruhy" />
       </a>
-      <a
-        href="https://www.vetnecleny.cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://www.vetnecleny.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={vetnecleny} alt="vetnecleny" />
       </a>
-      <a
-        href="https://www.velkapismena.cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://www.velkapismena.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={velkapismena} alt="velkapismena" />
       </a>
-      <a
-        href="https://www.ucimesedoma.cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://www.ucimesedoma.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={scio} alt="scio" />
       </a>
       <a
@@ -224,22 +184,18 @@ export const Cestina = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={prijmackybezobav} alt="prijmackybezobav" />
+        <img
+          className="obrazekKarty"
+          src={prijmackybezobav}
+          alt="prijmackybezobav"
+        />
       </a>
-      <a
-        href="https://www.pravidla.cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://www.pravidla.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={pravidla} alt="pravidla" />
       </a>
-      <a
-        href="https://prirucka.ujc.cas.cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://prirucka.ujc.cas.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={ujc} alt="ujc" />
       </a>
-      </div>
-    )
-}
+    </div>
+  );
+};

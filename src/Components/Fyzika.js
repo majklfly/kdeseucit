@@ -39,7 +39,7 @@ export const Fyzika = () => {
   return (
     <div className="BoxProKarty">
       <a
-        href="https://www.skolasnadhledem.cz/profil/2-stupen/813-fyzikas"
+        href="https://www.skolasnadhledem.cz/profil/2-stupen/813-fyzika"
         target="_blank"
         rel="noreferrer"
       >
@@ -131,11 +131,16 @@ export const Fyzika = () => {
         />
       </a>
       <a
-        href="https://www.youtube.com/channel/UCiLdXDvBI6bcd6QCBM4s2Mw"
+        href="https://www.youtube.com/user/OtevrenaVeda/videos"
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={vedaliska} alt="Nezkreslená věda" />
+        <img
+          className="obrazekKarty"
+          src={vedaliska}
+          alt="Otevřená věda"
+          title="Otevřená věda"
+        />
       </a>
       <a
         href="https://www.avcr.cz/cs/pro-verejnost/veda-na-doma/"
@@ -152,28 +157,48 @@ export const Fyzika = () => {
         <img className="obrazekKarty" src={tydenvedy} alt="Týden vědy" />
       </a>
       <a href="https://www.svetenergie.cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={cez} alt="ČEZ - svět energie" />
+        <img
+          className="obrazekKarty"
+          src={cez}
+          alt="ČEZ - svět energie"
+          title="ČEZ - svět energie"
+        />
       </a>
       <a
         href="https://iqlandia.cz/pro-navstevniky/zabavne-domaci-pokusy"
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={domacipokusy} alt="IQ-landia" />
+        <img
+          className="obrazekKarty"
+          src={domacipokusy}
+          alt="IQ-landia"
+          title="Domácí pokusy z IQ-landie"
+        />
       </a>
       <a
         href="https://iqlandia.cz/pro-navstevniky/pracovni-listy"
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={listy} alt="IQ-landia" />
+        <img
+          className="obrazekKarty"
+          src={listy}
+          alt="IQ-landia"
+          title="Pracovní listy z IQ-landie"
+        />
       </a>
       <a
         href="http://reseneulohy.cz/cs/fyzika"
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={sbirka} alt="Sbírka řešených úloh" />
+        <img
+          className="obrazekKarty"
+          src={sbirka}
+          alt="Sbírka řešených úloh"
+          title="Sbírka řešených úloh"
+        />
       </a>
       <a
         href="https://phet.colorado.edu/cs/simulations/filter?subjects=physics&type=html&sort=alpha&view=grid"
@@ -184,6 +209,7 @@ export const Fyzika = () => {
           className="obrazekKarty"
           src={animacefyziky}
           alt="Animace fyzikálních jevů"
+          title="Animace fyzikálních jevů"
         />
       </a>
       <a
@@ -219,7 +245,12 @@ export const Fyzika = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={ne} alt="Názorná elektotechnika" />
+        <img
+          className="obrazekKarty"
+          src={ne}
+          alt="Názorná elektotechnika"
+          title="Názorná elektotechnika"
+        />
       </a>
       <a
         href="https://fyzweb.cz/novinky/index.php"
