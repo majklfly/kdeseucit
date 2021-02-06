@@ -32,7 +32,7 @@ export const CustomAccordion = ({
   return (
     <Accordion expanded={isOpen}>
       <AccordionSummary
-        initial={false}
+        initial="false"
         className="buttonHeader"
         onClick={() => {
           setExpanded(isOpen ? false : i);
@@ -43,12 +43,13 @@ export const CustomAccordion = ({
       </AccordionSummary>
       {isOpen && (
         <AccordionDetails key="content" className="AccordionDetails">
-          {btnArray.map((btn) => {
+          {btnArray.map((btn, i) => {
             return (
               <ContentPlaceholder
                 link={btn[0]}
                 title={btn[1]}
                 i={i}
+                key={i}
                 setExpanded={setExpanded}
               />
             );

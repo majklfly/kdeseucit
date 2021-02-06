@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./NavigaceHorizontalni.css";
 
-export const NavigaceHorizontalni = () => {
+export const NavigaceHorizontalni = ({ sideSlideSetActive }) => {
   return (
     <div className="horizontalniNavigaceKontejner">
       <Link className="navButton" to="/predskolaci">

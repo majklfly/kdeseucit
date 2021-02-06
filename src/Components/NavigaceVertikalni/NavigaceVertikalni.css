@@ -91,6 +91,11 @@ section {
     justify-content: center;
     align-items: center;
     height: 10px !important;
+    transition: 1s;
+}
+
+.MuiAccordionSummary-root {
+    min-height: 40px !important;
 }
 
 .buttonHeader div {
