@@ -17,11 +17,7 @@ const Paragraph = ({ link, title, i, setExpanded }) => (
 );
 
 export const ContentPlaceholder = ({ link, title, i, setExpanded }) => (
-  <div
-    variants={{ collapsed: { scale: 0.8 }, open: { scale: 1 } }}
-    transition={{ duration: 0.8 }}
-    className="content-placeholder"
-  >
+  <div className="content-placeholder">
     <Paragraph link={link} title={title} i={i} setExpanded={setExpanded} />
   </div>
 );

@@ -43,13 +43,13 @@ export const CustomAccordion = ({
       </AccordionSummary>
       {isOpen && (
         <AccordionDetails key="content" className="AccordionDetails">
-          {btnArray.map((btn, i) => {
+          {btnArray.map((btn, index) => {
             return (
               <ContentPlaceholder
                 link={btn[0]}
                 title={btn[1]}
                 i={i}
-                key={i}
+                key={index}
                 setExpanded={setExpanded}
               />
             );
