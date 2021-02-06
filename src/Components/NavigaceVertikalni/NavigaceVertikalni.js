@@ -72,11 +72,7 @@ export const NavigaceVertikalni = () => {
         title="CIZÍ JAZYKY"
         buttons={jazyky}
       />
-      <Link
-        to="/alternativni"
-        onClick={() => window.location.reload()}
-        style={{ textDecoration: "none" }}
-      >
+      <Link to="/alternativni" style={{ textDecoration: "none" }}>
         <Accordion
           i={2}
           expanded={expanded}
@@ -85,11 +81,7 @@ export const NavigaceVertikalni = () => {
           closeTabs={true}
         />
       </Link>
-      <Link
-        to="/rozsirujici"
-        onClick={() => window.location.reload()}
-        style={{ textDecoration: "none" }}
-      >
+      <Link to="/rozsirujici" style={{ textDecoration: "none" }}>
         <Accordion
           i={3}
           expanded={expanded}
@@ -111,11 +103,7 @@ export const NavigaceVertikalni = () => {
         title="POHYBOVÉ AKTIVITY"
         buttons={pohyb}
       />
-      <Link
-        to="/knihovny"
-        onClick={() => window.location.reload()}
-        style={{ textDecoration: "none" }}
-      >
+      <Link to="/knihovny" style={{ textDecoration: "none" }}>
         <Accordion
           i={6}
           expanded={expanded}
@@ -123,11 +111,7 @@ export const NavigaceVertikalni = () => {
           title="KNIHOVNY ARCHÍVY"
         />
       </Link>
-      <Link
-        to="/kulturni"
-        onClick={() => window.location.reload()}
-        style={{ textDecoration: "none" }}
-      >
+      <Link to="/kulturni" style={{ textDecoration: "none" }}>
         <Accordion
           i={7}
           expanded={expanded}
