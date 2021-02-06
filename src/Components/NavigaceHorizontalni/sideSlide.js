@@ -1,73 +1,11 @@
 import React, { useState, useEffect } from "react";
-import styled from "styled-components";
 import { motion, useAnimation } from "framer-motion";
 
 import { NavigaceHorizontalni } from "./NavigaceHorizontalni";
 
-const SidekickWrapper = styled.div`
-  position: absolute;
-  width: 45%;
-  height: auto;
-  top: 14%;
-  right: 5%;
-  pointer-events: none;
-  z-index: 1;
-`;
-const SidekickOverlay = styled.div`
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: ${({ overlayColor }) => overlayColor};
-  pointer-events: all;
-  z-index: 0;
-`;
-
-const SidekickBody = styled(motion.div)`
-  position: relative;
-  z-index: 1;
-  pointer-events: all;
-  background-color: #fff;
-  padding: 40px 60px 30px 30px;
-  height: 100%;
-  max-width: ${({ width }) => `${width}px`};
-  position: relative;
-  box-sizing: border-box;
-`;
-
-const Content = styled.div`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const MenuHandler = styled(motion.button)`
-  border: none;
-  background: transparent;
-  border: 1px solid black;
-  border-radius: 0;
-  position: absolute;
-  font-family: "BN-normal", cursive;
-  font-weight: 500;
-  font-size: clamp(13px, 1.6vw, 23px);
-  width: 100px;
-  top: 10px;
-  left: 0px;
-  outline: none;
-  z-index: 5;
-`;
-
-export const SideSliderHorizontalni = ({
-  overlayColor = "transparent",
-  width = 200,
-}) => {
+export const SideSliderHorizontalni = ({ width = 200 }) => {
   const [isActive, setIsActive] = useState(false);
   const constrols = useAnimation();
-
-  console.log(isActive);
 
   useEffect(() => {
     constrols.start(isActive ? "active" : "inactive");
@@ -96,10 +34,11 @@ export const SideSliderHorizontalni = ({
   };
 
   return (
-    <SidekickWrapper>
-      <SidekickOverlay overlayColor={overlayColor} />
-      <SidekickBody
+    <div className="sideKickWrapperRight">
+      <div className="sideKickOverLayRight" />
+      <motion.div
         width={width}
+        className="sideKickBodyRight"
         drag="x"
         dragElastic={0.1}
         dragConstraints={{
@@ -124,17 +63,18 @@ export const SideSliderHorizontalni = ({
         variants={sidekickBodyStyles}
         transition={{ type: "spring", damping: 60, stiffness: 180 }}
       >
-        <MenuHandler
+        <motion.button
           onTap={() => setIsActive((s) => !s)}
           variants={menuHandlerStyles}
+          className="MenuHandlerRight"
           transition={{ type: "spring", damping: 60, stiffness: 180 }}
         >
           {isActive ? "Zavřít >" : "< Třídy"}
-        </MenuHandler>
-        <Content>
+        </motion.button>
+        <div className="sideKickContent">
           <NavigaceHorizontalni />
-        </Content>
-      </SidekickBody>
-    </SidekickWrapper>
+        </div>
+      </motion.div>
+    </div>
   );
 };

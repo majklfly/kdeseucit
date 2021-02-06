@@ -1,67 +1,117 @@
 .horizontalniNavigaceKontejner {
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  overflow: scroll;
-  margin-left: 10%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    margin-left: 10%;
 }
 
 .horizontalniNavigaceKontejner::-webkit-scrollbar {
-  background-color: transparent;
-  height: 5px;
+    background-color: transparent;
+    height: 5px;
 }
 
 .horizontalniNavigaceKontejner::-webkit-scrollbar-track {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 .horizontalniNavigaceKontejner::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
+    background-color: darkgrey;
 }
 
 .navButton {
-  color: white;
-  text-decoration: none;
-  background-color: black;
-  font-family: "BN-normal", cursive;
-  font-weight: 500;
-  font-size: clamp(13px, 1.6vw, 25px);
-  margin: 0 3px;
-  padding: 3px 7px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-family: "BN-normal", cursive;
+    font-weight: 500;
+    font-size: clamp(13px, 1.6vw, 25px);
+    margin: 0 3px;
+    padding: 3px 7px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
 }
 
 .navButton:hover {
-  box-shadow: 0 0 10px darkgrey;
+    box-shadow: 0 0 10px darkgrey;
 }
 
 .navButtonClassText {
-  font-size: clamp(10px, 1.4vw, 21px);
-  align-self: flex-end;
-  margin-bottom: 1%;
+    font-size: clamp(10px, 1.4vw, 21px);
+    align-self: flex-end;
+    margin-bottom: 1%;
 }
 
 @media only screen and (max-width: 600px) {
-  .horizontalniNavigaceKontejner {
-    flex-direction: column;
-    width: 200%;
-    overflow: visible;
-  }
-  .navButton {
-    margin-top: 3px;
-    width: 100%;
-    height: 23px;
-    font-family: "BN-normal", cursive;
-    color: white;
-    font-size: clamp(13px, 1.6vw, 23px);
-    white-space: nowrap;
-  }
-  .navButtonClassText {
-    align-self: center;
-    font-size: clamp(13px, 1.6vw, 23px);
-  }
+    .horizontalniNavigaceKontejner {
+        flex-direction: column;
+        width: 200%;
+        overflow: visible;
+    }
+    .navButton {
+        margin-top: 3px;
+        width: 100%;
+        height: 23px;
+        font-family: "BN-normal", cursive;
+        color: white;
+        font-size: clamp(13px, 1.6vw, 23px);
+        white-space: nowrap;
+    }
+    .navButtonClassText {
+        align-self: center;
+        font-size: clamp(13px, 1.6vw, 23px);
+    }
+    .sideKickWrapperRight {
+        position: absolute;
+        width: 45%;
+        height: auto;
+        top: 14%;
+        right: 5%;
+        pointer-events: none;
+        z-index: 1;
+    }
+    .sideKickOverLayRight {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: all;
+        z-index: 0;
+    }
+    .sideKickBodyRight {
+        position: relative;
+        z-index: 1;
+        pointer-events: all;
+        background-color: #fff;
+        padding: 40px 60px 30px 30px;
+        height: 100%;
+        position: relative;
+        box-sizing: border-box;
+    }
+    .sideKickContent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .MenuHandlerRight {
+        border: none;
+        background: transparent;
+        border: 1px solid black;
+        border-radius: 0;
+        position: absolute;
+        font-family: "BN-normal", cursive;
+        font-weight: 500;
+        font-size: clamp(13px, 1.6vw, 23px);
+        width: 100px;
+        top: 10px;
+        left: 0px;
+        outline: none;
+        z-index: 5;
+    }
 }

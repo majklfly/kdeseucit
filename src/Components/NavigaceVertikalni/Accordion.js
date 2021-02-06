@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
 
-import { motion, AnimatePresence } from "framer-motion";
+import Accordion from "@material-ui/core/Accordion";
+import AccordionSummary from "@material-ui/core/AccordionSummary";
+import AccordionDetails from "@material-ui/core/AccordionDetails";
+
 import { ContentPlaceholder } from "./ContentPlaceholder";
 
-export const Accordion = ({
+export const CustomAccordion = ({
   i,
   expanded,
   setExpanded,
@@ -27,44 +30,31 @@ export const Accordion = ({
   }
 
   return (
-    <>
-      <motion.header
+    <Accordion expanded={isOpen}>
+      <AccordionSummary
         initial={false}
         className="buttonHeader"
-        animate={{ backgroundColor: "#000000" }}
         onClick={() => {
           setExpanded(isOpen ? false : i);
           window.scrollTo(0, 0);
         }}
       >
-        {title}
-      </motion.header>
-      <AnimatePresence initial={false}>
-        {isOpen && (
-          <motion.section
-            key="content"
-            initial="collapsed"
-            animate="open"
-            exit="collapsed"
-            variants={{
-              open: { opacity: 1, height: "fit-content" },
-              collapsed: { opacity: 0, height: 0 },
-            }}
-            transition={{ duration: 0.4, linear: [0.04, 0.62, 0.23, 0.98] }}
-          >
-            {btnArray.map((btn) => {
-              return (
-                <ContentPlaceholder
-                  link={btn[0]}
-                  title={btn[1]}
-                  i={i}
-                  setExpanded={setExpanded}
-                />
-              );
-            })}
-          </motion.section>
-        )}
-      </AnimatePresence>
-    </>
+        <div>{title}</div>
+      </AccordionSummary>
+      {isOpen && (
+        <AccordionDetails key="content" className="AccordionDetails">
+          {btnArray.map((btn) => {
+            return (
+              <ContentPlaceholder
+                link={btn[0]}
+                title={btn[1]}
+                i={i}
+                setExpanded={setExpanded}
+              />
+            );
+          })}
+        </AccordionDetails>
+      )}
+    </Accordion>
   );
 };

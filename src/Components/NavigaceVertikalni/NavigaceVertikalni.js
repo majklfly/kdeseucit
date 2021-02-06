@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "./NavigaceVertikalni.css";
 
-import { Accordion } from "./Accordion";
+import { CustomAccordion as Accordion } from "./Accordion";
 import { Context } from "../../Screens/Layout/Context";
 
 const predmety = {
