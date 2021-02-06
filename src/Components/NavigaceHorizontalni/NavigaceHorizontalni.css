@@ -121,7 +121,7 @@
         font-weight: 500;
         font-size: clamp(13px, 1.6vw, 23px);
         width: 100px;
-        top: 10px;
+        top: 6.5vh;
         left: 27vw;
         outline: none;
         z-index: 5;
@@ -135,7 +135,7 @@
         font-weight: 500;
         font-size: clamp(13px, 1.6vw, 23px);
         width: 100px;
-        top: 10px;
+        top: 6.5vh;
         left: -50vw;
         outline: none;
         z-index: 5;
