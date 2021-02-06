@@ -1,6 +1,8 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as HashRouter, Switch, Route } from "react-router-dom";
-import ReactGA from 'react-ga'
+import ReactGA from "react-ga";
+
+import { Context } from "./Screens/Layout/Context";
 
 import { DomaciObrazovka } from "./Screens/DomaciObrazovka";
 import { PredskolaciScreen } from "./Screens/PredskolaciScreen";
@@ -64,208 +66,210 @@ import { KulturniScreen } from "./Screens/KulturniScreen";
 import { UciteleScreen } from "./Screens/UciteleScreen";
 import { DesignScreen } from "./Screens/DesignScreen";
 
-
-
 function App() {
+  const [expanded, setExpanded] = useState();
 
   useEffect(() => {
-    ReactGA.initialize('UA-187295571-1', {
+    ReactGA.initialize("UA-187295571-1", {
       debug: true,
       titleCase: false,
       gaOptions: {
-        userId: 187295571
-      }});
+        userId: 187295571,
+      },
+    });
     ReactGA.pageview(window.location.pathname + window.location.search);
-  }, [])
+  }, []);
 
   return (
     <div className="App">
       <HashRouter basename="/#">
-        <Switch>
-          <Route path="/design">
-            <DesignScreen />
-          </Route>
-          <Route path="/ucitele">
-            <UciteleScreen />
-          </Route>
-          <Route path="/kulturni">
-            <KulturniScreen />
-          </Route>
-          <Route path="/knihovny">
-            <KnihovnyScreen />
-          </Route>
-          <Route path="/rozsirujici">
-            <RozsirujiciScreen />
-          </Route>
-          <Route path="/alternativni">
-            <AlternativniScreen />
-          </Route>
-          <Route path="/turistika">
-            <TuristikaScreen />
-          </Route>
-          <Route path="/tabornici">
-            <TaborniciScreen />
-          </Route>
-          <Route path="/divadlo">
-            <DivadloScreen />
-          </Route>
-          <Route path="/tanec">
-            <TanecScreen />
-          </Route>
-          <Route path="/sport">
-            <SportScreen />
-          </Route>
-          <Route path="/remesla">
-            <RemeslaScreen />
-          </Route>
-          <Route path="/architektura">
-            <ArchitekturaScreen />
-          </Route>
-          <Route path="/multimedialni">
-            <MultimedialniScreen />
-          </Route>
-          <Route path="/vytvarne">
-            <VytvarneScreen />
-          </Route>
-          <Route path="/hudebni">
-            <HudebniScreen />
-          </Route>
-          <Route path="/rusky">
-            <RuskyScreen />
-          </Route>
-          <Route path="/spanelsky">
-            <SpanelskyScreen />
-          </Route>
-          <Route path="/francouzsky">
-            <FrancouzskyScreen />
-          </Route>
-          <Route path="/nemecky">
-            <NemeckyScreen />
-          </Route>
-          <Route path="/anglicky">
-            <AnglickyScreen />
-          </Route>
-          <Route path="/medialni">
-            <MedialniScreen />
-          </Route>
-          <Route path="/zsv">
-            <ZSVScreen />
-          </Route>
-          <Route path="/pozemky">
-            <PozemkyScreen />
-          </Route>
-          <Route path="/pracovka">
-            <PracovkaScreen />
-          </Route>
-          <Route path="/rodinka">
-            <RodinkaScreen />
-          </Route>
-          <Route path="/obcanka">
-            <ObcankaScreen />
-          </Route>
-          <Route path="/ekologie">
-            <EkologieScreen />
-          </Route>
-          <Route path="/fyzika">
-            <FyzikaScreen />
-          </Route>
-          <Route path="/chemie">
-            <ChemieScreen />
-          </Route>
-          <Route path="/dejepis">
-            <DejepisScreen />
-          </Route>
-          <Route path="/prirodopis">
-            <PrirodopisScreen />
-          </Route>
-          <Route path="/zemepis">
-            <ZemepisScreen />
-          </Route>
-          <Route path="/informatika">
-            <InformatikaScreen />
-          </Route>
-          <Route path="/prirodoveda">
-            <PrirodovedaScreen />
-          </Route>
-          <Route path="/vlastiveda">
-            <VlastivedaScreen />
-          </Route>
-          <Route path="/prvouka">
-            <PrvoukaScreen />
-          </Route>
-          <Route path="/matematika">
-            <MatematikaScreen />
-          </Route>
-          <Route path="/psani">
-            <PsaniScreen />
-          </Route>
-          <Route path="/literatura">
-            <LiteraturaScreen />
-          </Route>
-          <Route path="/cestina">
-            <CestinaScreen />
-          </Route>
-          <Route path="/pohyb">
-            <PohybScreen />
-          </Route>
-          <Route path="/umelecke">
-            <UmeleckeScreen />
-          </Route>
-          <Route path="/jazyky">
-            <JazykyScreen />
-          </Route>
-         <Route path="/predmety">
-            <PredmetyScreen />
-          </Route>
-          <Route path="/maturita">
-            <MaturitaScreen />
-          </Route>
-          <Route path="/prijimacky">
-            <PrijimackyScreen />
-          </Route>
-          <Route path="/celozivotnivzdelavani">
-            <CelozivotnivzdelavaniScreen />
-          </Route>
-          <Route path="/vyssistupne">
-            <VyssistupneScreen />
-          </Route>
-          <Route path="/stredni">
-            <StredniScreen />
-          </Route>
-          <Route path="/devatatrida">
-            <DevatatridaScreen />
-          </Route>
-          <Route path="/osmatrida">
-            <OsmatridaScreen />
-          </Route>
-          <Route path="/sedmatrida">
-            <SedmatridaScreen />
-          </Route>
-          <Route path="/sestatrida">
-            <SestatridaScreen />
-          </Route>
-          <Route path="/patatrida">
-            <PatatridaScreen />
-          </Route>
-          <Route path="/ctvrtatrida">
-            <CtvrtatridaScreen />
-          </Route>
-          <Route path="/tretitrida">
-            <TretitridaScreen />
-          </Route>
-          <Route path="/druhatrida">
-            <DruhatridaScreen />
-          </Route>
-          <Route path="/predskolaci">
-            <PredskolaciScreen />
-          </Route>
-          <Route path="/prvnitrida">
-            <PrvnitridaScreen />
-          </Route>
-          <Route path="/">
-            <DomaciObrazovka />
-          </Route>
-        </Switch>
+        <Context.Provider value={{ expanded, setExpanded }}>
+          <Switch>
+            <Route path="/design">
+              <DesignScreen />
+            </Route>
+            <Route path="/ucitele">
+              <UciteleScreen />
+            </Route>
+            <Route path="/kulturni">
+              <KulturniScreen />
+            </Route>
+            <Route path="/knihovny">
+              <KnihovnyScreen />
+            </Route>
+            <Route path="/rozsirujici">
+              <RozsirujiciScreen />
+            </Route>
+            <Route path="/alternativni">
+              <AlternativniScreen />
+            </Route>
+            <Route path="/turistika">
+              <TuristikaScreen />
+            </Route>
+            <Route path="/tabornici">
+              <TaborniciScreen />
+            </Route>
+            <Route path="/divadlo">
+              <DivadloScreen />
+            </Route>
+            <Route path="/tanec">
+              <TanecScreen />
+            </Route>
+            <Route path="/sport">
+              <SportScreen />
+            </Route>
+            <Route path="/remesla">
+              <RemeslaScreen />
+            </Route>
+            <Route path="/architektura">
+              <ArchitekturaScreen />
+            </Route>
+            <Route path="/multimedialni">
+              <MultimedialniScreen />
+            </Route>
+            <Route path="/vytvarne">
+              <VytvarneScreen />
+            </Route>
+            <Route path="/hudebni">
+              <HudebniScreen />
+            </Route>
+            <Route path="/rusky">
+              <RuskyScreen />
+            </Route>
+            <Route path="/spanelsky">
+              <SpanelskyScreen />
+            </Route>
+            <Route path="/francouzsky">
+              <FrancouzskyScreen />
+            </Route>
+            <Route path="/nemecky">
+              <NemeckyScreen />
+            </Route>
+            <Route path="/anglicky">
+              <AnglickyScreen />
+            </Route>
+            <Route path="/medialni">
+              <MedialniScreen />
+            </Route>
+            <Route path="/zsv">
+              <ZSVScreen />
+            </Route>
+            <Route path="/pozemky">
+              <PozemkyScreen />
+            </Route>
+            <Route path="/pracovka">
+              <PracovkaScreen />
+            </Route>
+            <Route path="/rodinka">
+              <RodinkaScreen />
+            </Route>
+            <Route path="/obcanka">
+              <ObcankaScreen />
+            </Route>
+            <Route path="/ekologie">
+              <EkologieScreen />
+            </Route>
+            <Route path="/fyzika">
+              <FyzikaScreen />
+            </Route>
+            <Route path="/chemie">
+              <ChemieScreen />
+            </Route>
+            <Route path="/dejepis">
+              <DejepisScreen />
+            </Route>
+            <Route path="/prirodopis">
+              <PrirodopisScreen />
+            </Route>
+            <Route path="/zemepis">
+              <ZemepisScreen />
+            </Route>
+            <Route path="/informatika">
+              <InformatikaScreen />
+            </Route>
+            <Route path="/prirodoveda">
+              <PrirodovedaScreen />
+            </Route>
+            <Route path="/vlastiveda">
+              <VlastivedaScreen />
+            </Route>
+            <Route path="/prvouka">
+              <PrvoukaScreen />
+            </Route>
+            <Route path="/matematika">
+              <MatematikaScreen />
+            </Route>
+            <Route path="/psani">
+              <PsaniScreen />
+            </Route>
+            <Route path="/literatura">
+              <LiteraturaScreen />
+            </Route>
+            <Route path="/cestina">
+              <CestinaScreen />
+            </Route>
+            <Route path="/pohyb">
+              <PohybScreen />
+            </Route>
+            <Route path="/umelecke">
+              <UmeleckeScreen />
+            </Route>
+            <Route path="/jazyky">
+              <JazykyScreen />
+            </Route>
+            <Route path="/predmety">
+              <PredmetyScreen />
+            </Route>
+            <Route path="/maturita">
+              <MaturitaScreen />
+            </Route>
+            <Route path="/prijimacky">
+              <PrijimackyScreen />
+            </Route>
+            <Route path="/celozivotnivzdelavani">
+              <CelozivotnivzdelavaniScreen />
+            </Route>
+            <Route path="/vyssistupne">
+              <VyssistupneScreen />
+            </Route>
+            <Route path="/stredni">
+              <StredniScreen />
+            </Route>
+            <Route path="/devatatrida">
+              <DevatatridaScreen />
+            </Route>
+            <Route path="/osmatrida">
+              <OsmatridaScreen />
+            </Route>
+            <Route path="/sedmatrida">
+              <SedmatridaScreen />
+            </Route>
+            <Route path="/sestatrida">
+              <SestatridaScreen />
+            </Route>
+            <Route path="/patatrida">
+              <PatatridaScreen />
+            </Route>
+            <Route path="/ctvrtatrida">
+              <CtvrtatridaScreen />
+            </Route>
+            <Route path="/tretitrida">
+              <TretitridaScreen />
+            </Route>
+            <Route path="/druhatrida">
+              <DruhatridaScreen />
+            </Route>
+            <Route path="/predskolaci">
+              <PredskolaciScreen />
+            </Route>
+            <Route path="/prvnitrida">
+              <PrvnitridaScreen />
+            </Route>
+            <Route path="/">
+              <DomaciObrazovka />
+            </Route>
+          </Switch>
+        </Context.Provider>
       </HashRouter>
     </div>
   );

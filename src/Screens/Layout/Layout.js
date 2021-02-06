@@ -10,9 +10,16 @@ import kruzitko from "../../Pics/kruzitko.jpg";
 import { NavigaceHorizontalni } from "../../Components/NavigaceHorizontalni/NavigaceHorizontalni";
 import { NavigaceVertikalni } from "../../Components/NavigaceVertikalni/NavigaceVertikalni";
 
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
+
+import { SideSlider } from "../../Components/NavigaceVertikalni/sideSlider";
+import { SideSliderHorizontalni } from "../../Components/NavigaceHorizontalni/sideSlide";
+
+import useWindowDimensions from "../../Hooks/useWindowDimensions";
 
 export const Layout = ({ contentComponent }) => {
+  const { width } = useWindowDimensions();
+
   return (
     <main>
       <Link className="homepageLink" to="/">
@@ -30,14 +37,22 @@ export const Layout = ({ contentComponent }) => {
         ROZCESTNÍK VÝUKOVÝCH MATERIÁLŮ - VZDĚLÁVACÍCH INSTITUCÍ A PAMĚŤOVÝCH
         INSTITUCÍ Z ČR I ZAHRANIČÍ
       </h2>
-      <NavigaceHorizontalni />
+      {width > 600 ? <NavigaceHorizontalni /> : <SideSliderHorizontalni />}
       <div className="content">
-        <NavigaceVertikalni />
+        {width > 600 ? <NavigaceVertikalni /> : <SideSlider />}
         {contentComponent}
       </div>
       <footer>
-        <h4>Napište na <a  href="mailto:veronika.pucerova@gmail.com">veronika.pucerova@gmail.com</a> pokud máte připomínky, nápady nebo jste našli nefunkční odkaz, děkuji. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Stránky sestavil <a  href="https://www.michalmucha.info"> Michal Mucha</a>. </h4>
+        <h4>
+          Napište na{" "}
+          <a href="mailto:veronika.pucerova@gmail.com">
+            veronika.pucerova@gmail.com
+          </a>{" "}
+          pokud máte připomínky, nápady nebo jste našli nefunkční odkaz, děkuji.
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Stránky sestavil{" "}
+          <a href="https://www.michalmucha.info"> Michal Mucha</a>.{" "}
+        </h4>
       </footer>
     </main>
-  )
-}
+  );
+};

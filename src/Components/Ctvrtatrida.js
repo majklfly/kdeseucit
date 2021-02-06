@@ -25,6 +25,7 @@ import zvesela from "../Pics/zvesela.jpg";
 import rozhlasctenar from "../Pics/rozhlasctenar.jpg";
 import scio from "../Pics/scio.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
+import eucitelka from "../Pics/eucitelka.jpg";
 
 export const Ctvrtatrida = () => {
   return (
@@ -139,6 +140,9 @@ export const Ctvrtatrida = () => {
       </a>
       <a href="https://www.ucenionline.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={veseledeti2} alt="veseledeti2" />
+      </a>
+      <a href="https://e-ucitelka.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={eucitelka} alt="eučitelka" />
       </a>
     </div>
   );

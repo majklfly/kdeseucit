@@ -24,6 +24,7 @@ import vojenskelesy from "../Pics/vojenskelesy.jpg";
 import lesy from "../Pics/lesy.jpg";
 import bavse from "../Pics/bavse.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
+import bezobratli from "../Pics/bezobratli.jpg";
 
 export const Prirodopis = () => {
   return (
@@ -33,7 +34,12 @@ export const Prirodopis = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={snadhledem} alt="snadhledem" />
+        <img
+          className="obrazekKarty"
+          src={snadhledem}
+          alt="snadhledem"
+          title="Zábavné online procvičování od základky po střední."
+        />
       </a>
       <a
         href="https://www.umimefakta.cz/biologie"
@@ -89,6 +95,7 @@ export const Prirodopis = () => {
           className="obrazekKarty"
           src={kreslenaveda}
           alt="NEZkreslena věda"
+          title="NEZkreslena věda - Akademie věd, Pavel Liška, Bára Hrzánová a Radek Holub"
         />
       </a>
       <a
@@ -144,9 +151,6 @@ export const Prirodopis = () => {
       >
         <img className="obrazekKarty" src={veseledeti} alt="veselé děti" />
       </a>
-      <a href="http://www.casopisveronica.cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={veronica} alt="veronica" />
-      </a>
       <a
         href="https://www.npsumava.cz/navstivte-sumavu/materialy-ke-stazeni/samoobsluzne-pracovni-listy/"
         target="_blank"
@@ -191,6 +195,21 @@ export const Prirodopis = () => {
       </a>
       <a href="https://bavsevedou.zcu.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={bavse} alt="Bav se vědou" />
+      </a>
+      <a
+        href="https://www.facebook.com/groups/bezobratli/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={bezobratli} alt="bezobratli" />
+      </a>
+      <a href="http://www.casopisveronica.cz/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={veronica}
+          alt="veronica"
+          title="Zpravodaj ekologického institutu Veronica"
+        />
       </a>
     </div>
   );
