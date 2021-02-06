@@ -28,7 +28,11 @@ import malypan from "../Pics/malypan.jpg";
 export const Prvnitrida = () => {
   return (
     <div className="BoxProKarty">
-      <a href="https://www.predskolaci.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.youtube.com/channel/UCu3JEcOEWv-eybsibgw2fwQ/playlists"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={amos} alt="amos" />
       </a>
       <a href="https://skolakov.eu/" target="_blank" rel="noreferrer">
@@ -41,11 +45,7 @@ export const Prvnitrida = () => {
       >
         <img className="obrazekKarty" src={cvicenitesty} alt="cvicenitesty" />
       </a>
-      <a
-        href="https://edu.ceskatelevize.cz/stupen-vzdelani/predskolni"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={lustenky} alt="lustenky" />
       </a>
       <a href="https://nns.cz/agata/" target="_blank" rel="noreferrer">
@@ -73,7 +73,7 @@ export const Prvnitrida = () => {
         <img className="obrazekKarty" src={onlinecviceni} alt="onlinecviceni" />
       </a>
       <a
-        href="https://www.onlinecviceni.cz/exc/list_sel_topics.php"
+        href="https://www.skolasnadhledem.cz/profil/prehled"
         target="_blank"
         rel="noreferrer"
       >
@@ -96,7 +96,7 @@ export const Prvnitrida = () => {
         <img className="obrazekKarty" src={zlatka} alt="zlatka" />
       </a>
       <a
-        href="https://edu.ceskatelevize.cz/stupen-vzdelani/predskolni"
+        href="https://edu.ceskatelevize.cz/stupen-vzdelani/1-stupen-zs"
         target="_blank"
         rel="noreferrer"
       >
@@ -123,7 +123,7 @@ export const Prvnitrida = () => {
         <img className="obrazekKarty" src={zvesela} alt="zvesela" />
       </a>
       <a
-        href="https://www.skolazvesela.cz/category/1-a-2-trida/"
+        href="https://cz.pinterest.com/Primauca/_saved/"
         target="_blank"
         rel="noreferrer"
       >

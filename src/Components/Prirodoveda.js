@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import lustenky from "../Pics/lustenky.jpg";
 import snadhledem from "../Pics/snadhledem.jpg";
@@ -16,56 +16,122 @@ import ctedu from "../Pics/ctedu.jpg";
 import lesy from "../Pics/lesy.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";
 
-
 export const Prirodoveda = () => {
-    return (
-        <div className="BoxProKarty">
-            <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={lustenky} alt="lustenky" />
-            </a>
-            <a href="https://www.skolasnadhledem.cz/profil/1-stupen/1600-priroda-clovek-a-jeho-svet" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={snadhledem} alt="Škola s nadhledem" />
-            </a>
-            <a href="https://www.ucenionline.com/priroda/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={veseledeti} alt="Veselé děti" />
-            </a>
-            <a href="https://www.youtube.com/playlist?list=PL_c00IPCdRoGD0k6aG7725OaqHQQffcVf" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={zivot} alt="Byl jednou jeden život" />
-            </a>
-            <a href="https://www.abicko.cz/kategorie/559/priroda" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={abc} alt="Ábíčko" />
-            </a>
-            <a href="https://www.facebook.com/groups/594820014006582/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={ptaciporadna} alt="Ptačí poradna" />
-            </a>
-            <a href="https://mitkamjit.cz/?zamereni=3&vek=" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={ddm} alt="Dům dětí a mládeže" />
-            </a>
-            <a href="http://www.vedaneniveda.cz/vyukove-materialy-pro/1-stupen-zakladnich-skol/prirodoveda" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={zadnaveda} alt="Věda není žádná věda" />
-            </a>
-            <a href="https://edu.ceskatelevize.cz/predmet/prirodoveda-vlastiveda" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={ctedu} alt="ČTedu" />
-            </a>
-            <a href="https://lesycr.cz/navstevnici-lesa/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={lesy} alt="Lesy České republiky" />
-            </a>
-            <a href="https://deti.vls.cz/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={vojenskelesy} alt="Vojenské lesy" />
-            </a>
-            <a href="https://www.npsumava.cz/navstivte-sumavu/materialy-ke-stazeni/samoobsluzne-pracovni-listy/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={sumava} alt="Národní park Šumava" />
-            </a>
-            <a href="https://www.npcs.cz/evvopublikace" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={svycarsko} alt="Národní park Švýcarsko" />
-            </a>
-            <a href="https://www.nppodyji.cz/sdetmidoma" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={podyji} alt="Národní park Podyjí" />
-            </a>
-            <a href="https://www.krnap.cz/brozury/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={krkonose} alt="Krkonošský národní park" />
-            </a>
-
-        </div>
-    )
-}
+  return (
+    <div className="BoxProKarty">
+      <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={lustenky} alt="lustenky" />
+      </a>
+      <a
+        href="https://www.skolasnadhledem.cz/profil/1-stupen/1600-priroda-clovek-a-jeho-svet"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={snadhledem}
+          alt="Škola s nadhledem"
+        />
+      </a>
+      <a
+        href="https://www.ucenionline.com/priroda/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={veseledeti} alt="Veselé děti" />
+      </a>
+      <a
+        href="https://www.youtube.com/playlist?list=PL_c00IPCdRoGD0k6aG7725OaqHQQffcVf"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={zivot}
+          alt="Byl jednou jeden život"
+        />
+      </a>
+      <a
+        href="https://www.abicko.cz/kategorie/559/priroda"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={abc} alt="Ábíčko" />
+      </a>
+      <a
+        href="https://www.facebook.com/groups/594820014006582/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ptaciporadna} alt="Ptačí poradna" />
+      </a>
+      <a
+        href="https://mitkamjit.cz/?zamereni=3&vek="
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ddm} alt="Dům dětí a mládeže" />
+      </a>
+      <a
+        href="http://www.vedaneniveda.cz/vyukove-materialy-pro/1-stupen-zakladnich-skol/prirodoveda"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={zadnaveda}
+          alt="Věda není žádná věda"
+        />
+      </a>
+      <a
+        href="https://edu.ceskatelevize.cz/predmet/prirodoveda-vlastiveda"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ctedu} alt="ČTedu" />
+      </a>
+      <a
+        href="https://lesycr.cz/navstevnici-lesa/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={lesy} alt="Lesy České republiky" />
+      </a>
+      <a href="https://deti.vls.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={vojenskelesy} alt="Vojenské lesy" />
+      </a>
+      <a
+        href="https://www.npsumava.cz/navstivte-sumavu/materialy-ke-stazeni/samoobsluzne-pracovni-listy/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={sumava} alt="Národní park Šumava" />
+      </a>
+      <a
+        href="https://www.npcs.cz/evvopublikace"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={svycarsko}
+          alt="Národní park Švýcarsko"
+        />
+      </a>
+      <a
+        href="https://www.nppodyji.cz/sdetmidoma"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={podyji} alt="Národní park Podyjí" />
+      </a>
+      <a href="https://www.krnap.cz/brozury/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={krkonose}
+          alt="Krkonošský národní park"
+        />
+      </a>
+    </div>
+  );
+};

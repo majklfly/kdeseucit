@@ -52,7 +52,7 @@ export const Osmatrida = () => {
         <img className="obrazekKarty" src={georgina} alt="georgina" />
       </a>
       <a
-        href="https://www.onlinecviceni.cz/exc/list_sel_topics.php"
+        href="https://www.skolasnadhledem.cz/profil/prehled"
         target="_blank"
         rel="noreferrer"
       >
@@ -147,7 +147,7 @@ export const Osmatrida = () => {
         <img className="obrazekKarty" src={nabla} alt="nabla" />
       </a>
       <a
-        href="https://skolaposkole.cz/matematika-zs/6-rocnik"
+        href="https://skolaposkole.cz/matematika-zs/8-rocnik"
         target="_blank"
         rel="noreferrer"
       >
@@ -161,7 +161,7 @@ export const Osmatrida = () => {
         <img className="obrazekKarty" src={realisticky} alt="realisticky" />
       </a>
       <a
-        href="https://edu.ceskatelevize.cz/stupen-vzdelani/predskolni"
+        href="https://edu.ceskatelevize.cz/stupen-vzdelani/2-stupen-zs"
         target="_blank"
         rel="noreferrer"
       >
@@ -169,6 +169,13 @@ export const Osmatrida = () => {
       </a>
       <a href="https://www.ctm-academy.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={soboty} alt="soboty" />
+      </a>
+      <a
+        href="https://www.avcr.cz/cs/pro-verejnost/veda-na-doma/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={vedanadoma} alt="vedanadoma" />
       </a>
       <a
         href="https://www.tydenvedy.cz/festival/best-of-tvt/"

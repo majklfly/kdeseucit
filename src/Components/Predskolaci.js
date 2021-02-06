@@ -12,6 +12,7 @@ import napady from "../Pics/napady.jpg";
 import hello from "../Pics/hello.jpg";
 import juchu from "../Pics/juch.jpg";
 import pinterest from "../Pics/pinterest.jpg";
+import zvesela from "../Pics/zvesela.jpg";
 
 export const Predskolaci = () => {
   return (
@@ -59,6 +60,13 @@ export const Predskolaci = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={napady} alt="napady" />
+      </a>
+      <a
+        href="https://www.skolazvesela.cz/category/predskolak/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={zvesela} alt="zvesela" />
       </a>
       <a
         href="https://www.hellowonderful.co/category/play/"

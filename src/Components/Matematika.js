@@ -120,11 +120,16 @@ export const Matematika = () => {
       </a>
 
       <a
-        href="https://www.youtube.com/playlist?list=PLD_48WTXRpqOpIAZ3zE0I9mOipH7FxhWq"
+        href="https://phet.colorado.edu/cs/simulations/filter?subjects=math&type=html&sort=alpha&view=grid"
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={animacematika} alt="animacematika" />
+        <img
+          className="obrazekKarty"
+          src={animacematika}
+          alt="animacematika"
+          title="Animace matematických jevů"
+        />
       </a>
       <a
         href="https://www.maths.cz/clanek/kategorie/"
@@ -133,18 +138,10 @@ export const Matematika = () => {
       >
         <img className="obrazekKarty" src={maprokazdeho} alt="maprokazdeho" />
       </a>
-      <a
-        href="https://www.maths.cz/clanek/kategorie/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://isibalo.com/matematika" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={isibalo} alt="isibalo" />
       </a>
-      <a
-        href="https://www.maths.cz/clanek/kategorie/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://www.e-matematika.cz" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={ematematika} alt="ematematika" />
       </a>
       <a
@@ -178,14 +175,18 @@ export const Matematika = () => {
       <a href="http://math4u.vsb.cz/cs" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={math4u} alt="math4u" />
       </a>
-      <a href="http://math4u.vsb.cz/cs" target="_blank" rel="noreferrer">
+      <a
+        href="http://www.matematickaolympiada.cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={mo} alt="mo" />
       </a>
       <a href="https://www.ucimesedoma.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={scio} alt="scio" />
       </a>
       <a
-        href="http://www.testpark.cz/testy/literatura"
+        href="http://www.testpark.cz/testy/matematika"
         target="_blank"
         rel="noreferrer"
       >
