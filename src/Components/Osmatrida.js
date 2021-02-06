@@ -30,6 +30,7 @@ import scio from "../Pics/scio.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
+import vedanadoma from "../Pics/vedanadoma.jpg";
 import atlas from "../Pics/atlas.jpg";
 
 export const Osmatrida = () => {
