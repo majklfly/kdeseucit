@@ -81,7 +81,7 @@ export const NavigaceVertikalni = () => {
           i={2}
           expanded={expanded}
           setExpanded={setExpanded}
-          title="ALTERNATIVNÍ VZDĚLÁVÁNÍ"
+          title="ALTERNATIVNÍ"
           closeTabs={true}
         />
       </Link>
