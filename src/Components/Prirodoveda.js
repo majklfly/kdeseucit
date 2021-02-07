@@ -11,7 +11,6 @@ import zivot from "../Pics/zivot.jpg";
 import abc from "../Pics/abc.jpg";
 import ptaciporadna from "../Pics/ptaciporadna.jpg";
 import ddm from "../Pics/ddm.jpg";
-import zadnaveda from "../Pics/zadnaveda.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import lesy from "../Pics/lesy.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";

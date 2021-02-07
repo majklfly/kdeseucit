@@ -49,6 +49,7 @@ import animacematika from "../Pics/animacematika.jpg";
 import animacechemie from "../Pics/animacechemie.jpg";
 import animacefyziky from "../Pics/animacefyziky.jpg";
 import animacebigola from "../Pics/animacebigola.jpg";
+import autoskola from "../Pics/autoskola.jpg";
 
 export const Stredni = () => {
   return (
@@ -345,6 +346,13 @@ export const Stredni = () => {
       </a>
       <a href="https://eduskop.cz/courses" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={eduskop} alt="Eduskop" />
+      </a>
+      <a
+        href="https://www.bezpecnecesty.cz/cz/autoskola"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={autoskola} alt="Autoškola" />
       </a>
     </div>
   );

@@ -11,7 +11,6 @@ import ptaciporadna from "../Pics/ptaciporadna.jpg";
 import testpark from "../Pics/testpark.jpg";
 import rozhlastemata from "../Pics/rozhlastemata.jpg";
 import vedanadoma from "../Pics/vedanadoma.jpg";
-import zadnaveda from "../Pics/zadnaveda.jpg";
 import kladivo from "../Pics/kladivo.jpg";
 import ddm from "../Pics/ddm.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";

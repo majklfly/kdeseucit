@@ -3,6 +3,7 @@ import React from "react";
 import hello from "../Pics/hello.jpg";
 import pinterest from "../Pics/pinterest.jpg";
 import bankovkovi from "../Pics/bankovkovi.jpg";
+import cesty from "../Pics/cesty.jpg";
 
 export const Rodinka = () => {
   return (
@@ -23,6 +24,13 @@ export const Rodinka = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={bankovkovi} alt="bankovkovi" />
+      </a>
+      <a
+        href="https://www.bezpecnecesty.cz/cz/dopravni-vychova"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={cesty} alt="Bezpečné cesty" />
       </a>
     </div>
   );
