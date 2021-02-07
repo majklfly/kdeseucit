@@ -46,7 +46,11 @@ export const Alternativni = () => {
       <a href="https://atlas.mapy.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={atlas} alt="Atlas světa" />
       </a>
-      <a href="https://www.timixi.com/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.timixi.com/select?order=2&order_type=desc"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img
           className="obrazekKarty"
           src={timixi}

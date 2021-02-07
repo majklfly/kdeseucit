@@ -34,6 +34,7 @@ import vedanadoma from "../Pics/vedanadoma.jpg";
 import atlas from "../Pics/atlas.jpg";
 import badatelna from "../Pics/badatelna.jpg";
 import bavse from "../Pics/bavse.jpg";
+import timixi from "../Pics/timixi.jpg";
 
 export const Osmatrida = () => {
   return (
@@ -222,6 +223,18 @@ export const Osmatrida = () => {
           className="obrazekKarty"
           src={rozhlasprodeti}
           alt="rozhlasprodeti"
+        />
+      </a>
+      <a
+        href="https://www.timixi.com/select?order=2&order_type=desc"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={timixi}
+          alt="timixi"
+          title="Učení se souvislostí pomocí časových os."
         />
       </a>
     </div>

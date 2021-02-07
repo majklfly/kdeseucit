@@ -32,6 +32,7 @@ import scio from "../Pics/scio.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import atlas from "../Pics/atlas.jpg";
+import timixi from "../Pics/timixi.jpg";
 
 export const Sestatrida = () => {
   return (
@@ -189,6 +190,18 @@ export const Sestatrida = () => {
       </a>
       <a href="https://www.ucimesedoma.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={scio} alt="scio" />
+      </a>
+      <a
+        href="https://www.timixi.com/select?order=2&order_type=desc"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={timixi}
+          alt="timixi"
+          title="Učení se souvislostí pomocí časových os."
+        />
       </a>
       <a href="https://www.ucenionline.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={veseledeti2} alt="veseledeti2" />

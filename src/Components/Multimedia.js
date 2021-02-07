@@ -13,6 +13,7 @@ import ajtak from "../Pics/ajtak.jpg";
 import code from "../Pics/code.jpg";
 import scratch from "../Pics/scratch.jpg";
 import wix from "../Pics/wix.jpg";
+import testpark from "../Pics/testpark.jpg";
 
 export const Multimedia = () => {
   return (
@@ -102,6 +103,13 @@ export const Multimedia = () => {
           alt="wix"
           title="Vytvoř si vlastní webové stránky"
         />
+      </a>
+      <a
+        href="http://www.testpark.cz/testy/film"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={testpark} alt="Test park" />
       </a>
     </div>
   );

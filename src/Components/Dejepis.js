@@ -124,8 +124,17 @@ export const Dejepis = () => {
       >
         <img className="obrazekKarty" src={pitter} alt="Přemysl Pitter" />
       </a>
-      <a href="https://www.timixi.com/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={timixi} alt="timixi" />
+      <a
+        href="https://www.timixi.com/select?order=2&order_type=desc"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={timixi}
+          alt="timixi"
+          title="Učení se souvislostí pomocí časových os."
+        />
       </a>
       <a
         href="http://zdeneklezak.cz/autorske-knihy/"

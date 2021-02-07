@@ -39,6 +39,7 @@ import cesty from "../Pics/cesty.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import atlas from "../Pics/atlas.jpg";
 import bavse from "../Pics/bavse.jpg";
+import testpark from "../Pics/testpark.jpg";
 
 export const Rozsirujici = () => {
   return (
@@ -247,6 +248,13 @@ export const Rozsirujici = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={cesty} alt="cesty" />
+      </a>
+      <a
+        href="http://www.testpark.cz/testy/vseobecne"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={testpark} alt="Test park" />
       </a>
     </div>
   );

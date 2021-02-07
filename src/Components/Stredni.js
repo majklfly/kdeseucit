@@ -50,6 +50,7 @@ import animacechemie from "../Pics/animacechemie.jpg";
 import animacefyziky from "../Pics/animacefyziky.jpg";
 import animacebigola from "../Pics/animacebigola.jpg";
 import autoskola from "../Pics/autoskola.jpg";
+import timixi from "../Pics/timixi.jpg";
 
 export const Stredni = () => {
   return (
@@ -353,6 +354,18 @@ export const Stredni = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={autoskola} alt="Autoškola" />
+      </a>
+      <a
+        href="https://www.timixi.com/select?order=2&order_type=desc"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={timixi}
+          alt="timixi"
+          title="Učení se souvislostí pomocí časových os."
+        />
       </a>
     </div>
   );

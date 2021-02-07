@@ -33,7 +33,7 @@ export const Zemepis = () => {
         <img className="obrazekKarty" src={umimefakta} alt="Umíme fakta" />
       </a>
       <a
-        href="http://www.testpark.cz/testy/dejepis"
+        href="http://www.testpark.cz/testy/zemepis"
         target="_blank"
         rel="noreferrer"
       >
