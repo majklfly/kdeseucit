@@ -1,6 +1,6 @@
 import React from "react";
 
-import skolakov from "../Pics/skolakov.jpg";
+import amos from "../Pics/amos.jpg";
 import lustenky from "../Pics/lustenky.jpg";
 import agata from "../Pics/agata.jpg";
 
