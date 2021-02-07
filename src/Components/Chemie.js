@@ -146,6 +146,9 @@ export const Chemie = () => {
       >
         <img className="obrazekKarty" src={badatelna} alt="Badatelna" />
       </a>
+      <a href="https://bavsevedou.zcu.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={bavse} alt="Bav se vědou" />
+      </a>
       <a
         href="https://www.avcr.cz/cs/pro-verejnost/veda-na-doma/"
         target="_blank"
@@ -162,9 +165,6 @@ export const Chemie = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={tydenvedy} alt="Týden vědy" />
-      </a>
-      <a href="https://bavsevedou.zcu.cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={bavse} alt="Bav se vědou" />
       </a>
     </div>
   );

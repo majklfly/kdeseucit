@@ -67,7 +67,7 @@ header {
   font-family: "BN-normal", cursive;
   font-weight: 500;
   margin: 5px;
-  font-size: clamp(10px, 1.6vw, 21px);
+  font-size: clamp(12px, 1.6vw, 21px);
 }
 
 .paragraph:hover {

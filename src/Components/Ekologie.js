@@ -7,6 +7,7 @@ import veronica from "../Pics/veronica.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import ekoskola from "../Pics/ekoskola.jpg";
 import potravinovezahrady from "../Pics/potravinovezahrady.jpg";
+import bezobratli from "../Pics/bezobratli.jpg";
 
 export const Ekologie = () => {
   return (
@@ -81,6 +82,13 @@ export const Ekologie = () => {
           alt="Zpravodaj ekologického institutu Veronica"
           title="Zpravodaj ekologického institutu Veronica"
         />
+      </a>
+      <a
+        href="https://www.facebook.com/groups/bezobratli/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={bezobratli} alt="bezobratli" />
       </a>
     </div>
   );

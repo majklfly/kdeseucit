@@ -36,7 +36,6 @@ import sbirka from "../Pics/sbirka.jpg";
 import klokan from "../Pics/klokan.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";
 import matikaprospoluzaky from "../Pics/matikaprospoluzaky.jpg";
-import animacematika from "../Pics/animacematika.jpg";
 
 export const Matematika = () => {
   return (

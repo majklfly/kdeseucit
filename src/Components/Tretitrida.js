@@ -28,6 +28,7 @@ import vojenskelesy from "../Pics/vojenskelesy.jpg";
 import scio from "../Pics/scio.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
 import doprava from "../Pics/doprava.jpg";
+import bankovkovi from "../Pics/bankovkovi.jpg";
 
 export const Tretitrida = () => {
   return (
@@ -160,6 +161,13 @@ export const Tretitrida = () => {
       </a>
       <a href="https://www.ucenionline.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={veseledeti2} alt="veseledeti2" />
+      </a>
+      <a
+        href="https://decko.ceskatelevize.cz/bankovkovi"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={bankovkovi} alt="bankovkovi" />
       </a>
       <a
         href="https://www.dopravnivychova.cz/"

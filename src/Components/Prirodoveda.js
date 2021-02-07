@@ -15,6 +15,7 @@ import zadnaveda from "../Pics/zadnaveda.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import lesy from "../Pics/lesy.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";
+import bezobratli from "../Pics/bezobratli.jpg";
 
 export const Prirodoveda = () => {
   return (
@@ -73,15 +74,11 @@ export const Prirodoveda = () => {
         <img className="obrazekKarty" src={ddm} alt="Dům dětí a mládeže" />
       </a>
       <a
-        href="http://www.vedaneniveda.cz/vyukove-materialy-pro/1-stupen-zakladnich-skol/prirodoveda"
+        href="https://www.facebook.com/groups/bezobratli/"
         target="_blank"
         rel="noreferrer"
       >
-        <img
-          className="obrazekKarty"
-          src={zadnaveda}
-          alt="Věda není žádná věda"
-        />
+        <img className="obrazekKarty" src={bezobratli} alt="bezobratli" />
       </a>
       <a
         href="https://edu.ceskatelevize.cz/predmet/prirodoveda-vlastiveda"

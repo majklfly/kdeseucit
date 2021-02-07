@@ -30,6 +30,7 @@ import doprava from "../Pics/doprava.jpg";
 import vojenskelesy from "../Pics/vojenskelesy.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
 import pronejmensi from "../Pics/pronejmensi.jpg";
+import bankovkovi from "../Pics/bankovkovi.jpg";
 
 export const Druhatrida = () => {
   return (
@@ -163,6 +164,13 @@ export const Druhatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={nenudim} alt="nenudim" />
+      </a>
+      <a
+        href="https://decko.ceskatelevize.cz/bankovkovi"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={bankovkovi} alt="bankovkovi" />
       </a>
       <a
         href="https://www.dopravnivychova.cz/"

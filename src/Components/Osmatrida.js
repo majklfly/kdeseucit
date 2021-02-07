@@ -33,6 +33,7 @@ import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import vedanadoma from "../Pics/vedanadoma.jpg";
 import atlas from "../Pics/atlas.jpg";
 import badatelna from "../Pics/badatelna.jpg";
+import bavse from "../Pics/bavse.jpg";
 
 export const Osmatrida = () => {
   return (
@@ -175,6 +176,9 @@ export const Osmatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={badatelna} alt="badatelna" />
+      </a>
+      <a href="https://bavsevedou.zcu.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={bavse} alt="Bav se vědou" />
       </a>
       <a href="https://www.ctm-academy.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={soboty} alt="soboty" />

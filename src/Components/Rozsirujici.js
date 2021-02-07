@@ -38,6 +38,7 @@ import doprava from "../Pics/doprava.jpg";
 import cesty from "../Pics/cesty.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import atlas from "../Pics/atlas.jpg";
+import bavse from "../Pics/bavse.jpg";
 
 export const Rozsirujici = () => {
   return (
@@ -135,6 +136,9 @@ export const Rozsirujici = () => {
       </a>
       <a href="https://www.abicko.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={abc} alt="Ábíčko" />
+      </a>
+      <a href="https://bavsevedou.zcu.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={bavse} alt="Bav se vědou" />
       </a>
       <a
         href="http://www.matematickaolympiada.cz/"

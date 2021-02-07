@@ -26,6 +26,7 @@ import rozhlasctenar from "../Pics/rozhlasctenar.jpg";
 import scio from "../Pics/scio.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
 import eucitelka from "../Pics/eucitelka.jpg";
+import bankovkovi from "../Pics/bankovkovi.jpg";
 
 export const Ctvrtatrida = () => {
   return (
@@ -113,6 +114,13 @@ export const Ctvrtatrida = () => {
       </a>
       <a href="https://deti.vls.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={vojenskelesy} alt="vojenskelesy" />
+      </a>
+      <a
+        href="https://decko.ceskatelevize.cz/bankovkovi"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={bankovkovi} alt="bankovkovi" />
       </a>
       <a
         href="https://www.dopravnivychova.cz/"

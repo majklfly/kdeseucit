@@ -133,17 +133,6 @@ export const Prirodopis = () => {
         <img className="obrazekKarty" src={vedanadoma} alt="Věda na doma" />
       </a>
       <a
-        href="http://www.vedaneniveda.cz/vyukove-materialy-pro/2-stupen-zakladnich-skol/prirodopis"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          className="obrazekKarty"
-          src={zadnaveda}
-          alt="Věda není žádná věda"
-        />
-      </a>
-      <a
         href="https://www.youtube.com/user/VedeckeKladivo/videos"
         target="_blank"
         rel="noreferrer"
@@ -163,6 +152,13 @@ export const Prirodopis = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={veseledeti} alt="veselé děti" />
+      </a>
+      <a
+        href="https://www.facebook.com/groups/bezobratli/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={bezobratli} alt="bezobratli" />
       </a>
       <a
         href="https://www.npsumava.cz/navstivte-sumavu/materialy-ke-stazeni/samoobsluzne-pracovni-listy/"
@@ -208,13 +204,6 @@ export const Prirodopis = () => {
       </a>
       <a href="https://bavsevedou.zcu.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={bavse} alt="Bav se vědou" />
-      </a>
-      <a
-        href="https://www.facebook.com/groups/bezobratli/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={bezobratli} alt="bezobratli" />
       </a>
       <a href="http://www.casopisveronica.cz/" target="_blank" rel="noreferrer">
         <img
