@@ -18,7 +18,7 @@ import matematikacz from "../Pics/matematikacz.jpg";
 import maprokazdeho from "../Pics/maprokazdeho.jpg";
 import ematematika from "../Pics/ematematika.jpg";
 import nabla from "../Pics/nabla.jpg";
-import skolaposkole from "../Pics/skolaposkole.jpg";
+import skolaposkole7 from "../Pics/skolaposkole7.jpg";
 import realisticky from "../Pics/realisticky.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import soboty from "../Pics/soboty.jpg";
@@ -52,7 +52,7 @@ export const Sedmatrida = () => {
         <img className="obrazekKarty" src={georgina} alt="georgina" />
       </a>
       <a
-        href="https://www.onlinecviceni.cz/exc/list_sel_topics.php"
+        href="https://www.skolasnadhledem.cz/profil/prehled"
         target="_blank"
         rel="noreferrer"
       >
@@ -128,19 +128,15 @@ export const Sedmatrida = () => {
       >
         <img className="obrazekKarty" src={ematematika} alt="ematematika" />
       </a>
-      <a
-        href="http://www.nabla.cz/obsah/matematika/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="http://www.nabla.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={nabla} alt="nabla" />
       </a>
       <a
-        href="https://skolaposkole.cz/matematika-zs/6-rocnik"
+        href="https://skolaposkole.cz/matematika-zs/7-rocnik"
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={skolaposkole} alt="skolaposkole" />
+        <img className="obrazekKarty" src={skolaposkole7} alt="skolaposkole7" />
       </a>
       <a
         href="http://www.realisticky.cz/kapitola.php?id=23"
@@ -150,7 +146,7 @@ export const Sedmatrida = () => {
         <img className="obrazekKarty" src={realisticky} alt="realisticky" />
       </a>
       <a
-        href="https://edu.ceskatelevize.cz/stupen-vzdelani/predskolni"
+        href="https://edu.ceskatelevize.cz/stupen-vzdelani/2-stupen-zs"
         target="_blank"
         rel="noreferrer"
       >
