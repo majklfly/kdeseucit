@@ -1,5 +1,6 @@
 import React from "react";
 
+import potravinovezahrady from "../Pics/potravinovezahrady.jpg";
 import svycarsko from "../Pics/svycarsko.jpg";
 import ucimesevenku from "../Pics/ucimesevenku.jpg";
 

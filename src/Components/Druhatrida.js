@@ -29,6 +29,7 @@ import nenudim from "../Pics/nenudim.jpg";
 import doprava from "../Pics/doprava.jpg";
 import vojenskelesy from "../Pics/vojenskelesy.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
+import pronejmensi from "../Pics/pronejmensi.jpg";
 
 export const Druhatrida = () => {
   return (

@@ -43,6 +43,7 @@ import skill from "../Pics/skill.jpg";
 import ai from "../Pics/ai.jpg";
 import elektronika from "../Pics/elektronika.jpg";
 import eduskop from "../Pics/eduskop.jpg";
+import prvky from "../Pics/prvky.jpg";
 
 export const Stredni = () => {
   return (

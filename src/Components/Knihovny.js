@@ -11,6 +11,7 @@ import portal from "../Pics/portal.jpg";
 import databazeknih from "../Pics/databazeknih.jpg";
 import bejvavalo from "../Pics/bejvavalo.jpg";
 import pametromu from "../Pics/pametromu.jpg";
+import pitter from "../Pics/pitter.jpg";
 
 export const Knihovny = () => {
   return (

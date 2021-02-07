@@ -10,7 +10,6 @@ import dezinformace from "../Pics/dezinformace.jpg";
 import svetmedii from "../Pics/svetmedii.jpg";
 import skolamedii from "../Pics/skolamedii.jpg";
 import odyssea from "../Pics/odyssea.jpg";
-import kriticke from "../Pics/kriticke.jpg";
 
 export const ZSV = () => {
   return (
