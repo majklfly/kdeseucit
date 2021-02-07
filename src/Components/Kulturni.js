@@ -15,6 +15,8 @@ import met from "../Pics/met.jpg";
 import women from "../Pics/women.jpg";
 import vatican from "../Pics/vatican.jpg";
 import dali from "../Pics/dali.jpg";
+import idivadlo from "../Pics/idivadlo.jpg";
+import ctdivadlo from "../Pics/ctdivadlo.jpg";
 
 export const Kulturni = () => {
   return (
@@ -119,6 +121,20 @@ export const Kulturni = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={dali} alt="dali" />
+      </a>
+      <a
+        href="https://www.i-divadlo.cz/stream?fbclid=IwAR3M3-JYITrH05pCp7gOevSKVsTOzvHFpuwihKuooDYWyt3rsMtF5SRru4c"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={idivadlo} alt="idivadlo" />
+      </a>
+      <a
+        href="https://art.ceskatelevize.cz/tema/divadlo"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ctdivadlo} alt="ctdivadlo" />
       </a>
     </div>
   );

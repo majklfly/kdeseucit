@@ -25,6 +25,7 @@ import lesy from "../Pics/lesy.jpg";
 import bavse from "../Pics/bavse.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import bezobratli from "../Pics/bezobratli.jpg";
+import animacebigola from "../Pics/animacebigola.jpg";
 
 export const Prirodopis = () => {
   return (
@@ -110,6 +111,18 @@ export const Prirodopis = () => {
           className="obrazekKarty"
           src={rozhlastemata}
           alt="Rozhlas témata"
+        />
+      </a>
+      <a
+        href="https://phet.colorado.edu/cs/simulations/filter?subjects=biology,earth-science&type=html&sort=alpha&view=grid"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={animacebigola}
+          alt="Animace biologických jevů"
+          title="Animace biologických jevů"
         />
       </a>
       <a

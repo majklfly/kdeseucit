@@ -44,6 +44,11 @@ import ai from "../Pics/ai.jpg";
 import elektronika from "../Pics/elektronika.jpg";
 import eduskop from "../Pics/eduskop.jpg";
 import prvky from "../Pics/prvky.jpg";
+import badatelna from "../Pics/badatelna.jpg";
+import animacematika from "../Pics/animacematika.jpg";
+import animacechemie from "../Pics/animacechemie.jpg";
+import animacefyziky from "../Pics/animacefyziky.jpg";
+import animacebigola from "../Pics/animacebigola.jpg";
 
 export const Stredni = () => {
   return (
@@ -158,6 +163,13 @@ export const Stredni = () => {
         <img className="obrazekKarty" src={math4u} alt="math4u" />
       </a>
       <a
+        href="https://www.youtube.com/user/ScienceMuni/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={badatelna} alt="badatelna" />
+      </a>
+      <a
         href="https://temata.rozhlas.cz/ctenarskydenik"
         target="_blank"
         rel="noreferrer"
@@ -260,6 +272,54 @@ export const Stredni = () => {
           src={quizlet}
           alt="quizlet"
           title="Vytvoř si kvíz!"
+        />
+      </a>
+      <a
+        href="https://phet.colorado.edu/cs/simulations/filter?subjects=physics&type=html&sort=alpha&view=grid"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={animacefyziky}
+          alt="Animace fyzikálních jevů"
+          title="Animace fyzikálních jevů"
+        />
+      </a>
+      <a
+        href="https://phet.colorado.edu/cs/simulations/filter?subjects=biology,earth-science&type=html&sort=alpha&view=grid"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={animacebigola}
+          alt="Animace biologických jevů"
+          title="Animace biologických jevů"
+        />
+      </a>
+      <a
+        href="https://phet.colorado.edu/cs/simulations/filter?subjects=chemistry&type=html&sort=alpha&view=grid"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={animacechemie}
+          alt="Animace chemických jevů"
+          title="Animace chemických jevů"
+        />
+      </a>
+      <a
+        href="https://phet.colorado.edu/cs/simulations/filter?subjects=math&type=html&sort=alpha&view=grid"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={animacematika}
+          alt="Animace matematických jevů"
+          title="Animace matematických jevů"
         />
       </a>
       <a

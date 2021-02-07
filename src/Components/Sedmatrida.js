@@ -31,6 +31,7 @@ import scio from "../Pics/scio.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import atlas from "../Pics/atlas.jpg";
+import badatelna from "../Pics/badatelna.jpg";
 
 export const Sedmatrida = () => {
   return (
@@ -153,6 +154,13 @@ export const Sedmatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ctedu} alt="ctedu" />
+      </a>
+      <a
+        href="https://www.youtube.com/user/ScienceMuni/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={badatelna} alt="badatelna" />
       </a>
       <a href="https://www.ctm-academy.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={soboty} alt="soboty" />

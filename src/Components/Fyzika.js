@@ -23,7 +23,6 @@ import domacipokusy from "../Pics/domacipokusy.jpg";
 import listy from "../Pics/listy.jpg";
 import sbirka from "../Pics/sbirka.jpg";
 import animacefyziky from "../Pics/animacefyziky.jpg";
-import zadnaveda from "../Pics/zadnaveda.jpg";
 import kladivo from "../Pics/kladivo.jpg";
 import rozhlastemata from "../Pics/rozhlastemata.jpg";
 import muni from "../Pics/muni.jpg";
@@ -212,17 +211,7 @@ export const Fyzika = () => {
           title="Animace fyzikálních jevů"
         />
       </a>
-      <a
-        href="http://www.vedaneniveda.cz/vyukove-materialy-pro/2-stupen-zakladnich-skol/fyzika"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          className="obrazekKarty"
-          src={zadnaveda}
-          alt="Věda není žádná věda"
-        />
-      </a>
+
       <a
         href="https://www.youtube.com/user/VedeckeKladivo/videos"
         target="_blank"

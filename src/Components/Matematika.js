@@ -36,6 +36,7 @@ import sbirka from "../Pics/sbirka.jpg";
 import klokan from "../Pics/klokan.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";
 import matikaprospoluzaky from "../Pics/matikaprospoluzaky.jpg";
+import animacematika from "../Pics/animacematika.jpg";
 
 export const Matematika = () => {
   return (
@@ -118,7 +119,6 @@ export const Matematika = () => {
       >
         <img className="obrazekKarty" src={primauca} alt="primauca" />
       </a>
-
       <a
         href="https://phet.colorado.edu/cs/simulations/filter?subjects=math&type=html&sort=alpha&view=grid"
         target="_blank"
@@ -127,7 +127,7 @@ export const Matematika = () => {
         <img
           className="obrazekKarty"
           src={animacematika}
-          alt="animacematika"
+          alt="Animace matematických jevů"
           title="Animace matematických jevů"
         />
       </a>

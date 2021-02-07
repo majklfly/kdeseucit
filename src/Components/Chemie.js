@@ -9,7 +9,6 @@ import isibalo from "../Pics/isibalo.jpg";
 import testpark from "../Pics/testpark.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import maprokazdeho from "../Pics/maprokazdeho.jpg";
-import animacechemie from "../Pics/animacechemie.jpg";
 import zadnaveda from "../Pics/zadnaveda.jpg";
 import kladivo from "../Pics/kladivo.jpg";
 import rozhlastemata from "../Pics/rozhlastemata.jpg";
@@ -20,6 +19,7 @@ import tydenvedy from "../Pics/tydenvedy.jpg";
 import bavse from "../Pics/bavse.jpg";
 import prvky from "../Pics/prvky.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
+import animacechemie from "../Pics/animacechemie.jpg";
 
 export const Chemie = () => {
   return (
@@ -80,18 +80,6 @@ export const Chemie = () => {
         <img className="obrazekKarty" src={ctedu} alt="ČT edu" />
       </a>
       <a
-        href="https://www.maths.cz/clanek/kategorie/29"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          className="obrazekKarty"
-          src={maprokazdeho}
-          alt="Matematika pro každého"
-          title="Cvičné testy z chemie"
-        />
-      </a>
-      <a
         href="https://phet.colorado.edu/cs/simulations/filter?subjects=chemistry&type=html&sort=alpha&view=grid"
         target="_blank"
         rel="noreferrer"
@@ -101,6 +89,18 @@ export const Chemie = () => {
           src={animacechemie}
           alt="Animace chemických jevů"
           title="Animace chemických jevů"
+        />
+      </a>
+      <a
+        href="https://www.maths.cz/clanek/kategorie/29"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={maprokazdeho}
+          alt="Matematika pro každého"
+          title="Cvičné testy z chemie"
         />
       </a>
       <a
