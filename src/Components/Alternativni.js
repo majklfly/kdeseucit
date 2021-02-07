@@ -58,7 +58,7 @@ export const Alternativni = () => {
           className="obrazekKarty"
           src={projektovevyucovani}
           alt="projektovevyucovani"         />
-   </a>
+      </a>
     </div>
   );
 };
