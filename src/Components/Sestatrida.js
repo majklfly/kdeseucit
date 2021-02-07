@@ -43,6 +43,21 @@ export const Sestatrida = () => {
       >
         <img className="obrazekKarty" src={onlinecviceni} alt="onlinecviceni" />
       </a>
+      <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
+      </a>
+      <a href="https://www.umimecesky.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={umimecesky} alt="umimecesky" />
+      </a>
+      <a href="https://www.umimeanglicky.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={umimeanglicky} alt="umimeanglicky" />
+      </a>
+      <a href="https://www.umimenemecky.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={umimenemecky} alt="umimenemecky" />
+      </a>
+      <a href="https://www.umimefakta.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={umimefakta} alt="umimefakta" />
+      </a>
       <a href="https://www.matika.in/cs/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={matikain} alt="matikain" />
       </a>
@@ -65,21 +80,7 @@ export const Sestatrida = () => {
       <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={khan} alt="khan" />
       </a>
-      <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
-      </a>
-      <a href="https://www.umimecesky.cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={umimecesky} alt="umimecesky" />
-      </a>
-      <a href="https://www.umimeanglicky.cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={umimeanglicky} alt="umimeanglicky" />
-      </a>
-      <a href="https://www.umimenemecky.cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={umimenemecky} alt="umimenemecky" />
-      </a>
-      <a href="https://www.umimefakta.cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={umimefakta} alt="umimefakta" />
-      </a>
+
       <a
         href="https://www.youtube.com/hashtag/nezkreslenaveda"
         target="_blank"
@@ -132,11 +133,7 @@ export const Sestatrida = () => {
       >
         <img className="obrazekKarty" src={ematematika} alt="ematematika" />
       </a>
-      <a
-        href="http://www.nabla.cz/obsah/matematika/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="http://www.nabla.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={nabla} alt="nabla" />
       </a>
       <a
@@ -154,7 +151,7 @@ export const Sestatrida = () => {
         <img className="obrazekKarty" src={realisticky} alt="realisticky" />
       </a>
       <a
-        href="https://edu.ceskatelevize.cz/stupen-vzdelani/predskolni"
+        href="https://edu.ceskatelevize.cz/stupen-vzdelani/2-stupen-zs"
         target="_blank"
         rel="noreferrer"
       >

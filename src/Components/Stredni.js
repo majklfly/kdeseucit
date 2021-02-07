@@ -28,7 +28,6 @@ import zadnaveda from "../Pics/zadnaveda.jpg";
 import seminarky from "../Pics/seminarky.jpg";
 import fykos from "../Pics/fykos.jpg";
 import geogebra from "../Pics/geogebra.jpg";
-import veronica from "../Pics/veronica.jpg";
 import rozhlastemata from "../Pics/rozhlastemata.jpg";
 import vedanadoma from "../Pics/vedanadoma.jpg";
 import vedaliska from "../Pics/vedaliska.jpg";
@@ -87,7 +86,7 @@ export const Stredni = () => {
         <img className="obrazekKarty" src={georgina} alt="georgina" />
       </a>
       <a
-        href="https://www.onlinecviceni.cz/exc/list_sel_topics.php"
+        href="https://www.skolasnadhledem.cz/profil/prehled"
         target="_blank"
         rel="noreferrer"
       >
@@ -117,35 +116,31 @@ export const Stredni = () => {
         <img className="obrazekKarty" src={efyzika} alt="efyzika" />
       </a>
       <a
-        href="https://www.maths.cz/clanek/kategorie/22"
+        href="https://www.maths.cz/clanek/kategorie/1"
         target="_blank"
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={maprokazdeho} alt="maprokazdeho" />
       </a>
       <a
-        href="https://www.e-matematika.cz/zakladni-skoly/"
+        href="https://www.e-matematika.cz/stredni-skoly/"
         target="_blank"
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ematematika} alt="ematematika" />
       </a>
-      <a
-        href="http://www.nabla.cz/obsah/matematika/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="http://www.nabla.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={nabla} alt="nabla" />
       </a>
       <a
-        href="http://www.realisticky.cz/kapitola.php?id=23"
+        href="http://www.realisticky.cz/ucebnice.php?id=4"
         target="_blank"
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={realisticky} alt="realisticky" />
       </a>
       <a
-        href="https://edu.ceskatelevize.cz/stupen-vzdelani/predskolni"
+        href="https://edu.ceskatelevize.cz/stupen-vzdelani/stredni-skola"
         target="_blank"
         rel="noreferrer"
       >
@@ -196,9 +191,7 @@ export const Stredni = () => {
       >
         <img className="obrazekKarty" src={geogebra} alt="geogebra" />
       </a>
-      <a href="http://www.casopisveronica.cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={veronica} alt="veronica" />
-      </a>
+
       <a href="https://temata.rozhlas.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={rozhlastemata} alt="rozhlastemata" />
       </a>
@@ -254,7 +247,12 @@ export const Stredni = () => {
         <img className="obrazekKarty" src={jedensvet} alt="jedensvet" />
       </a>
       <a href="https://quizlet.com/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={quizlet} alt="quizlet" />
+        <img
+          className="obrazekKarty"
+          src={quizlet}
+          alt="quizlet"
+          title="Vytvoř si kvíz!"
+        />
       </a>
       <a
         href="https://www.skillsbuilder.org/homelearning"

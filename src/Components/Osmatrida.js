@@ -155,7 +155,7 @@ export const Osmatrida = () => {
         <img className="obrazekKarty" src={skolaposkole} alt="skolaposkole" />
       </a>
       <a
-        href="http://www.realisticky.cz/kapitola.php?id=23"
+        href="http://www.realisticky.cz/dil.php?id=8"
         target="_blank"
         rel="noreferrer"
       >

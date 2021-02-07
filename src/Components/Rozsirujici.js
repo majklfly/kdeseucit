@@ -46,7 +46,7 @@ export const Rozsirujici = () => {
         <img className="obrazekKarty" src={lustenky} alt="lustenky" />
       </a>
       <a
-        href="https://mitkamjit.cz/?zamereni=14&vek="
+        href="https://mitkamjit.cz/?zamereni=4&vek=9"
         target="_blank"
         rel="noreferrer"
       >

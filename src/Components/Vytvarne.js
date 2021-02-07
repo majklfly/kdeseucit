@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import ddm from "../Pics/ddm.jpg";
 import ctedu from "../Pics/ctedu.jpg";
@@ -12,38 +12,66 @@ import grafeditor from "../Pics/grafeditor.jpg";
 import village from "../Pics/village.jpg";
 
 export const Vytvarne = () => {
-    return (
-        <div className="BoxProKarty">
-            <a href="https://mitkamjit.cz/?zamereni=1&vek=" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={ddm} alt="ddm" />
-            </a>
-            <a href="https://edu.ceskatelevize.cz/predmet/vytvarne-aktivity" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={ctedu} alt="ctedu" />
-            </a>
-            <a href="http://krokotak.com/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={krokotak} alt="krokotak" />
-            </a>
-            <a href="http://www.juchuuu.cz/stahovani/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={juch} alt="juch" />
-            </a>
-            <a href="https://www.napadyproanicku.cz/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={napady} alt="napady" />
-            </a>
-            <a href="https://www.hellowonderful.co/category/create/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={hello} alt="hello" />
-            </a>
-            <a href="https://lizardpoint.com/art/index.php" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={lizard} alt="lizard" />
-            </a>
-            <a href="https://cz.pinterest.com/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={pinterest} alt="pinterest" />
-            </a>
-            <a href="https://www.canva.com/cs_cz/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={grafeditor} alt="grafeditor" />
-            </a>
-            <a href="https://www.activityvillage.co.uk/" target="_blank" rel="noreferrer">
-                <img className="obrazekKarty" src={village} alt="village" />
-            </a>
-        </div>
-    )
-}
+  return (
+    <div className="BoxProKarty">
+      <a
+        href="https://mitkamjit.cz/?zamereni=8&vek="
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ddm} alt="ddm" />
+      </a>
+      <a
+        href="https://edu.ceskatelevize.cz/predmet/vytvarne-aktivity"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ctedu} alt="ctedu" />
+      </a>
+      <a href="http://krokotak.com/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={krokotak} alt="krokotak" />
+      </a>
+      <a
+        href="http://www.juchuuu.cz/stahovani/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={juch} alt="juch" />
+      </a>
+      <a
+        href="https://www.napadyproanicku.cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={napady} alt="napady" />
+      </a>
+      <a
+        href="https://www.hellowonderful.co/category/create/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={hello} alt="hello" />
+      </a>
+      <a
+        href="https://lizardpoint.com/art/index.php"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={lizard} alt="lizard" />
+      </a>
+      <a href="https://cz.pinterest.com/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={pinterest} alt="pinterest" />
+      </a>
+      <a href="https://www.canva.com/cs_cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={grafeditor} alt="grafeditor" />
+      </a>
+      <a
+        href="https://www.activityvillage.co.uk/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={village} alt="village" />
+      </a>
+    </div>
+  );
+};

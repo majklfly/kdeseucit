@@ -42,15 +42,7 @@ export const Sedmatrida = () => {
       >
         <img className="obrazekKarty" src={onlinecviceni} alt="onlinecviceni" />
       </a>
-      <a href="https://www.matika.in/cs/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={matikain} alt="matikain" />
-      </a>
-      <a href="https://www.zlatka.in/cs/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={zlatka} alt="zlatka" />
-      </a>
-      <a href="https://www.geograf.in/cs/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={georgina} alt="georgina" />
-      </a>
+
       <a
         href="https://www.skolasnadhledem.cz/profil/prehled"
         target="_blank"
@@ -76,6 +68,15 @@ export const Sedmatrida = () => {
       <a href="https://www.umimefakta.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={umimefakta} alt="umimefakta" />
       </a>
+      <a href="https://www.matika.in/cs/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={matikain} alt="matikain" />
+      </a>
+      <a href="https://www.zlatka.in/cs/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={zlatka} alt="zlatka" />
+      </a>
+      <a href="https://www.geograf.in/cs/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={georgina} alt="georgina" />
+      </a>
       <a
         href="https://www.youtube.com/hashtag/nezkreslenaveda"
         target="_blank"
@@ -89,20 +90,6 @@ export const Sedmatrida = () => {
       </a>
       <a href="https://atlas.mapy.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={atlas} alt="Atlas světa" />
-      </a>
-      <a
-        href="https://temata.rozhlas.cz/ctenarskydenik"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={rozhlasctenar} alt="rozhlasctenar" />
-      </a>
-      <a
-        href="https://www.ceskatelevize.cz/tv-program/hledani/?filtr%5bnadtitul%5d=Odpoledka"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={odpoledka} alt="odpoledka" />
       </a>
       <a href="https://dn1.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={dna1} alt="dna1" />
@@ -139,7 +126,22 @@ export const Sedmatrida = () => {
         <img className="obrazekKarty" src={skolaposkole7} alt="skolaposkole7" />
       </a>
       <a
-        href="http://www.realisticky.cz/kapitola.php?id=23"
+        href="https://temata.rozhlas.cz/ctenarskydenik"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={rozhlasctenar} alt="rozhlasctenar" />
+      </a>
+      <a
+        href="https://www.ceskatelevize.cz/tv-program/hledani/?filtr%5bnadtitul%5d=Odpoledka"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={odpoledka} alt="odpoledka" />
+      </a>
+
+      <a
+        href="http://www.realisticky.cz/dil.php?id=7"
         target="_blank"
         rel="noreferrer"
       >

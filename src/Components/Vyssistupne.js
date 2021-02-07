@@ -25,31 +25,27 @@ export const Vyssistupne = () => {
         <img className="obrazekKarty" src={matematikacz} alt="matematikacz" />
       </a>
       <a
-        href="https://www.maths.cz/clanek/kategorie/22"
+        href="https://www.maths.cz/clanek/kategorie/17"
         target="_blank"
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={maprokazdeho} alt="maprokazdeho" />
       </a>
-      <a
-        href="http://fyzika.jreichl.com/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={encyklopediefyziky} alt="encyklopediefyziky" />
+      <a href="http://fyzika.jreichl.com/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={encyklopediefyziky}
+          alt="encyklopediefyziky"
+        />
       </a>
       <a
-        href="https://www.e-matematika.cz/zakladni-skoly/"
+        href="https://www.e-matematika.cz/vysoke-skoly/"
         target="_blank"
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ematematika} alt="ematematika" />
       </a>
-      <a
-        href="http://www.seminarky.cz/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="http://www.seminarky.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={seminarky} alt="seminarky" />
       </a>
       <a
@@ -79,7 +75,11 @@ export const Vyssistupne = () => {
       <a href="https://prirucka.ujc.cas.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={ujc} alt="ujc" />
       </a>
-      <a href="https://www.skolamedii.cz/metodicky-material/publikace-k-medialni-vychove/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.skolamedii.cz/metodicky-material/publikace-k-medialni-vychove/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={skolamedii} alt="skolamedii" />
       </a>
       <a

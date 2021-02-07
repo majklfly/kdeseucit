@@ -12,7 +12,7 @@ export const Turistika = () => {
   return (
     <div className="BoxProKarty">
       <a
-        href="https://edu.ceskatelevize.cz/predmet/hudebni-a-pohybove-aktivity"
+        href="https://edu.ceskatelevize.cz/tema/turistika-a-sporty-v-prirode?predmet=vychova-ke-zdravi"
         target="_blank"
         rel="noreferrer"
       >

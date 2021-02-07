@@ -69,7 +69,7 @@ export const Tretitrida = () => {
         <img className="obrazekKarty" src={dna1} alt="dna1" />
       </a>
       <a
-        href="https://edu.ceskatelevize.cz/stupen-vzdelani/predskolni"
+        href="https://edu.ceskatelevize.cz/stupen-vzdelani/1-stupen-zs"
         target="_blank"
         rel="noreferrer"
       >

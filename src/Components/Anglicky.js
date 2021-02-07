@@ -195,6 +195,13 @@ export const Anglicky = () => {
         <img className="obrazekKarty" src={testpark} alt="Test park" />
       </a>
       <a
+        href="https://mitkamjit.cz/?zamereni=30"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ddm} alt="ddm" />
+      </a>
+      <a
         href="https://www.seduo.cz/naucte-se-konecne-opravdu-anglicky"
         target="_blank"
         rel="noreferrer"

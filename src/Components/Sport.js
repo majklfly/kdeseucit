@@ -13,7 +13,7 @@ export const Sport = () => {
   return (
     <div className="BoxProKarty">
       <a
-        href="https://mitkamjit.cz/?zamereni=8&vek="
+        href="https://mitkamjit.cz/?zamereni=5&vek="
         target="_blank"
         rel="noreferrer"
       >
