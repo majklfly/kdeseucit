@@ -7,6 +7,7 @@ import hello from "../Pics/hello.jpg";
 import timixi from "../Pics/timixi.jpg";
 import ucimesevenku from "../Pics/ucimesevenku.jpg";
 import atlas from "../Pics/atlas.jpg";
+import projektovevyucovani from "../Pics/projektovevyucovani.jpg";
 
 export const Alternativni = () => {
   return (
@@ -56,9 +57,8 @@ export const Alternativni = () => {
         <img
           className="obrazekKarty"
           src={projektovevyucovani}
-          alt="projektovevyucovani"
-        />
-      </a>
+          alt="projektovevyucovani"         />
+   </a>
     </div>
   );
 };
