@@ -212,7 +212,7 @@ export const Rozsirujici = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={lesy} alt="klesy" />
+        <img className="obrazekKarty" src={lesy} alt="lesy" />
       </a>
       <a href="https://www.krnap.cz/brozury/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={krkonose} alt="krkonose" />

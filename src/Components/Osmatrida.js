@@ -120,7 +120,7 @@ export const Osmatrida = () => {
         <img className="obrazekKarty" src={dna1} alt="dna1" />
       </a>
       <a
-        href="https://matematika.cz/matematika-polopate"
+        href="https://matematika.cz/matematika-pro-zakladni-skoly"
         target="_blank"
         rel="noreferrer"
       >

@@ -103,7 +103,7 @@ export const Stredni = () => {
         />
       </a>
       <a
-        href="https://matematika.cz/matematika-polopate"
+        href="https://matematika.cz/matematika-polopatehttps://matematika.cz/matematika-pro-stredni-skoly"
         target="_blank"
         rel="noreferrer"
       >
@@ -145,6 +145,13 @@ export const Stredni = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ctedu} alt="ctedu" />
+      </a>
+      <a
+        href="http://www.prvky.com/periodicka-tabulka.html"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={prvky} alt="Prvky" />
       </a>
       <a href="http://math4u.vsb.cz/cs" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={math4u} alt="math4u" />

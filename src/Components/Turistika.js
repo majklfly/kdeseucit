@@ -7,6 +7,7 @@ import svycarsko from "../Pics/svycarsko.jpg";
 import podyji from "../Pics/podyji.jpg";
 import krkonose from "../Pics/krkonose.jpg";
 import poodri from "../Pics/poodri.jpg";
+import lesy from "../Pics/lesy.jpg";
 
 export const Turistika = () => {
   return (
@@ -51,6 +52,13 @@ export const Turistika = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={poodri} alt="Pohádkové poodří" />
+      </a>
+      <a
+        href="https://lesycr.cz/navstevnici-lesa/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={lesy} alt="lesy" />
       </a>
     </div>
   );

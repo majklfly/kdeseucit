@@ -31,6 +31,7 @@ import brona from "../Pics/brona.jpg";
 import webster from "../Pics/webster.jpg";
 import skill from "../Pics/skill.jpg";
 import ddm from "../Pics/ddm.jpg";
+import bridge from "../Pics/bridge.jpg";
 
 export const Anglicky = () => {
   return (
@@ -236,6 +237,9 @@ export const Anglicky = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={webster} alt="Webster" />
+      </a>
+      <a href="https://www.bridge-online.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={bridge} alt="Anglické časopisy" />
       </a>
       <a
         href="https://www.skillsbuilder.org/homelearning"

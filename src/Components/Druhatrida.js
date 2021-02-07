@@ -176,6 +176,17 @@ export const Druhatrida = () => {
       <a href="https://www.ucenionline.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={veseledeti2} alt="veseledeti2" />
       </a>
+      <a
+        href="https://www.youtube.com/watch?v=3EllY8Yq-BI&list=PLIhCv3wSpU7PjN99pPkek4ZT1qrsPzVbb"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={pronejmensi}
+          alt="Angličtina pro nejmenší"
+        />
+      </a>
     </div>
   );
 };

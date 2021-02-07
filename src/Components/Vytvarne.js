@@ -10,6 +10,7 @@ import lizard from "../Pics/lizard.jpg";
 import pinterest from "../Pics/pinterest.jpg";
 import grafeditor from "../Pics/grafeditor.jpg";
 import village from "../Pics/village.jpg";
+import khan from "../Pics/khan.jpg";
 
 export const Vytvarne = () => {
   return (
@@ -71,6 +72,9 @@ export const Vytvarne = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={village} alt="village" />
+      </a>
+      <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={khan} alt="Khanova škola" />
       </a>
     </div>
   );

@@ -52,9 +52,12 @@ export const Alternativni = () => {
           alt="timixi"
           title="Učení se souvislostí pomocí časových os."
         />
-      </a>
-      <a href="https://www.timixi.com/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={timixi} alt="timixi" />
+      <a href="http://www.projektovavyuka.cz/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={projektovevyucovani}
+          alt="projektovevyucovani"
+        />
       </a>
     </div>
   );

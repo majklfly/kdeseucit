@@ -18,7 +18,7 @@ export const Vyssistupne = () => {
   return (
     <div className="BoxProKarty">
       <a
-        href="https://matematika.cz/matematika-polopate"
+        href="https://matematika.cz/matematika-pro-vysoke-skoly"
         target="_blank"
         rel="noreferrer"
       >

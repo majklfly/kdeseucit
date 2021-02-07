@@ -124,7 +124,7 @@ export const Devatatrida = () => {
         <img className="obrazekKarty" src={dna1} alt="dna1" />
       </a>
       <a
-        href="https://matematika.cz/matematika-polopate"
+        href="https://matematika.cz/matematika-pro-zakladni-skoly"
         target="_blank"
         rel="noreferrer"
       >
@@ -155,7 +155,7 @@ export const Devatatrida = () => {
         <img className="obrazekKarty" src={skolaposkole9} alt="skolaposkole9" />
       </a>
       <a
-        href="http://www.realisticky.cz/kapitola.php?id=23"
+        href="http://www.realisticky.cz/dil.php?id=6"
         target="_blank"
         rel="noreferrer"
       >

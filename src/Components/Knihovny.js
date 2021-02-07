@@ -99,6 +99,13 @@ export const Knihovny = () => {
       <a href="https://www.bejvavalo.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={bejvavalo} alt="bejvavalo" />
       </a>
+      <a
+        href="https://www.npmk.cz/pro-skoly/premysl-pitter"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={pitter} alt="Přemysl Pitter" />
+      </a>
     </div>
   );
 };
