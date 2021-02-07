@@ -227,7 +227,12 @@ export const Fyzika = () => {
         />
       </a>
       <a href="https://www.em.muni.cz/veda" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={muni} alt="Milujeme vědu" />
+        <img
+          className="obrazekKarty"
+          src={muni}
+          alt="Milujeme vědu"
+          title="Milujeme vědu - magazín z Masarykovi univerzity"
+        />
       </a>
       <a
         href="https://www.youtube.com/channel/UCjcbcxEgXfkll9tD_1bdeaQ/videos"
@@ -267,6 +272,18 @@ export const Fyzika = () => {
       </a>
       <a href="https://bavsevedou.zcu.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={bavse} alt="Bav se vědou" />
+      </a>
+      <a
+        href="https://www.mozaweb.com/cs/lexikon.php?cmd=getlist&let=VIDEO&sid=FIZ"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={mozaik}
+          alt="mozaik"
+          title="3D modely a prezentace"
+        />
       </a>
     </div>
   );

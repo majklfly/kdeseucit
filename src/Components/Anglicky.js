@@ -32,6 +32,7 @@ import webster from "../Pics/webster.jpg";
 import skill from "../Pics/skill.jpg";
 import ddm from "../Pics/ddm.jpg";
 import bridge from "../Pics/bridge.jpg";
+import mozaik from "../Pics/mozaik.jpg";
 
 export const Anglicky = () => {
   return (
@@ -230,6 +231,18 @@ export const Anglicky = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={brona} alt="Broňa Sobotka" />
+      </a>
+      <a
+        href="https://www.mozaweb.com/cs/tools.php?cmd=list&category=TOOL&subject_azon=ANY"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={mozaik}
+          alt="mozaik"
+          title="Hry na trénování angličtiny"
+        />
       </a>
       <a
         href="https://learnersdictionary.com/"

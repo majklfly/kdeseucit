@@ -20,6 +20,9 @@ import pametromu from "../Pics/pametromu.jpg";
 import lezak from "../Pics/lezak.jpg";
 import legiokarty from "../Pics/legiokarty.jpg";
 import bavse from "../Pics/bavse.jpg";
+import oldmaps from "../Pics/oldmaps.jpg";
+import muni from "../Pics/muni.jpg";
+import mozaik from "../Pics/mozaik.jpg";
 
 export const Dejepis = () => {
   return (
@@ -158,6 +161,29 @@ export const Dejepis = () => {
       </a>
       <a href="https://bavsevedou.zcu.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={bavse} alt="Bav se vědou" />
+      </a>
+      <a href="https://www.oldmapsonline.org/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={oldmaps} alt="Old maps" />
+      </a>
+      <a href="https://www.em.muni.cz/veda" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={muni}
+          alt="Milujeme vědu"
+          title="Milujeme vědu - magazín z Masarykovi univerzity"
+        />
+      </a>
+      <a
+        href="https://www.mozaweb.com/cs/lexikon.php?cmd=getlist&let=VIDEO&sid=TOR"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={mozaik}
+          alt="mozaik"
+          title="3D modely a prezentace"
+        />
       </a>
     </div>
   );

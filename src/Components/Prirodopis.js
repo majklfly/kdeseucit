@@ -25,6 +25,8 @@ import bavse from "../Pics/bavse.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import bezobratli from "../Pics/bezobratli.jpg";
 import animacebigola from "../Pics/animacebigola.jpg";
+import muni from "../Pics/muni.jpg";
+import mozaik from "../Pics/mozaik.jpg";
 
 export const Prirodopis = () => {
   return (
@@ -210,6 +212,26 @@ export const Prirodopis = () => {
           src={veronica}
           alt="veronica"
           title="Zpravodaj ekologického institutu Veronica"
+        />
+      </a>
+      <a href="https://www.em.muni.cz/veda" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={muni}
+          alt="Milujeme vědu"
+          title="Milujeme vědu - magazín z Masarykovi univerzity"
+        />
+      </a>
+      <a
+        href="https://www.mozaweb.com/cs/lexikon.php?cmd=getlist&let=VIDEO&sid=BIO"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={mozaik}
+          alt="mozaik"
+          title="3D modely a prezentace"
         />
       </a>
     </div>

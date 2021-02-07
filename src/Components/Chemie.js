@@ -20,6 +20,8 @@ import bavse from "../Pics/bavse.jpg";
 import prvky from "../Pics/prvky.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import animacechemie from "../Pics/animacechemie.jpg";
+import muni from "../Pics/muni.jpg";
+import mozaik from "../Pics/mozaik.jpg";
 
 export const Chemie = () => {
   return (
@@ -165,6 +167,26 @@ export const Chemie = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={tydenvedy} alt="Týden vědy" />
+      </a>
+      <a href="https://www.em.muni.cz/veda" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={muni}
+          alt="Milujeme vědu"
+          title="Milujeme vědu - magazín z Masarykovi univerzity"
+        />
+      </a>
+      <a
+        href="https://www.mozaweb.com/cs/lexikon.php?cmd=getlist&let=VIDEO&sid=KEM"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={mozaik}
+          alt="mozaik"
+          title="3D modely a prezentace"
+        />
       </a>
     </div>
   );

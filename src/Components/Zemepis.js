@@ -11,6 +11,7 @@ import veseledeti from "../Pics/veseledeti.jpg";
 import lizard from "../Pics/lizard.jpg";
 import oldmaps from "../Pics/oldmaps.jpg";
 import atlas from "../Pics/atlas.jpg";
+import mozaik from "../Pics/mozaik.jpg";
 
 export const Zemepis = () => {
   return (
@@ -79,6 +80,18 @@ export const Zemepis = () => {
       </a>
       <a href="https://www.oldmapsonline.org/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={oldmaps} alt="Old maps" />
+      </a>
+      <a
+        href="https://www.mozaweb.com/cs/lexikon.php?cmd=getlist&let=VIDEO&sid=FOL"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={mozaik}
+          alt="mozaik"
+          title="3D modely a prezentace"
+        />
       </a>
     </div>
   );

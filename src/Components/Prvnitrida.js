@@ -6,6 +6,7 @@ import cvicenitesty from "../Pics/cvicenitesty.jpg";
 import lustenky from "../Pics/lustenky.jpg";
 import agata from "../Pics/agata.jpg";
 import matysek from "../Pics/matysek.jpg";
+import naucsecist from "../Pics/naucsecist.jpg";
 import sheppard from "../Pics/sheppard.jpg";
 import onlinecviceni from "../Pics/onlinecviceni.jpg";
 import snadhledem from "../Pics/snadhledem.jpg";
@@ -50,6 +51,9 @@ export const Prvnitrida = () => {
       </a>
       <a href="https://nns.cz/agata/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={agata} alt="agata" />
+      </a>
+      <a href="http://www.naucsecist.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={naucsecist} alt="naucsecist" />
       </a>
       <a
         href="http://www.matyskova-matematika.cz/"

@@ -23,6 +23,7 @@ import ctenarskekluby from "../Pics/ctenarskekluby.jpg";
 import rostik from "../Pics/rostik.jpg";
 import pointa from "../Pics/pointa.jpg";
 import eucebnice from "../Pics/eucebnice.jpg";
+import odyssea from "../Pics/odyssea.jpg";
 
 export const Literatura = () => {
   return (
@@ -163,6 +164,9 @@ export const Literatura = () => {
           src={eucebnice}
           alt="Elektronická učebnice literatury"
         />
+      </a>
+      <a href="https://www.ptac.cz/materialy" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={odyssea} alt="odyssea" />
       </a>
     </div>
   );

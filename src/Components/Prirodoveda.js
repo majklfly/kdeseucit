@@ -15,6 +15,7 @@ import ctedu from "../Pics/ctedu.jpg";
 import lesy from "../Pics/lesy.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";
 import bezobratli from "../Pics/bezobratli.jpg";
+import odpoledka from "../Pics/odpoledka.jpg";
 
 export const Prirodoveda = () => {
   return (
@@ -85,6 +86,13 @@ export const Prirodoveda = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ctedu} alt="ČTedu" />
+      </a>
+      <a
+        href="https://www.ceskatelevize.cz/tv-program/hledani/?filtr%5bnadtitul%5d=Odpoledka"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={odpoledka} alt="Odpoledka" />
       </a>
       <a
         href="https://lesycr.cz/navstevnici-lesa/"

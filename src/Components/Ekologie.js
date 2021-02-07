@@ -8,6 +8,7 @@ import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import ekoskola from "../Pics/ekoskola.jpg";
 import potravinovezahrady from "../Pics/potravinovezahrady.jpg";
 import bezobratli from "../Pics/bezobratli.jpg";
+import odyssea from "../Pics/odyssea.jpg";
 
 export const Ekologie = () => {
   return (
@@ -89,6 +90,9 @@ export const Ekologie = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={bezobratli} alt="bezobratli" />
+      </a>
+      <a href="https://www.ptac.cz/materialy" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={odyssea} alt="odyssea" />
       </a>
     </div>
   );

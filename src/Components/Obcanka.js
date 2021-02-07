@@ -7,6 +7,7 @@ import dezinformace from "../Pics/dezinformace.jpg";
 import svetmedii from "../Pics/svetmedii.jpg";
 import migrace from "../Pics/migrace.jpg";
 import bankovkovi from "../Pics/bankovkovi.jpg";
+import odyssea from "../Pics/odyssea.jpg";
 
 export const Obcanka = () => {
   return (
@@ -55,6 +56,9 @@ export const Obcanka = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={bankovkovi} alt="bankovkovi" />
+      </a>
+      <a href="https://www.ptac.cz/materialy" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={odyssea} alt="odyssea" />
       </a>
     </div>
   );

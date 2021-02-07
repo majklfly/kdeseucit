@@ -8,6 +8,7 @@ import timixi from "../Pics/timixi.jpg";
 import ucimesevenku from "../Pics/ucimesevenku.jpg";
 import atlas from "../Pics/atlas.jpg";
 import projektovevyucovani from "../Pics/projektovevyucovani.jpg";
+import mozaik from "../Pics/mozaik.jpg";
 
 export const Alternativni = () => {
   return (
@@ -63,6 +64,18 @@ export const Alternativni = () => {
           className="obrazekKarty"
           src={projektovevyucovani}
           alt="projektovevyucovani"
+        />
+      </a>
+      <a
+        href="https://www.mozaweb.com/cs/lexikon.php?cmd=getlist&let=VIDEO&active_menu=video"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={mozaik}
+          alt="mozaik"
+          title="3D modely a prezentace"
         />
       </a>
     </div>

@@ -11,6 +11,7 @@ import pinterest from "../Pics/pinterest.jpg";
 import grafeditor from "../Pics/grafeditor.jpg";
 import village from "../Pics/village.jpg";
 import khan from "../Pics/khan.jpg";
+import mozaik from "../Pics/mozaik.jpg";
 
 export const Vytvarne = () => {
   return (
@@ -75,6 +76,18 @@ export const Vytvarne = () => {
       </a>
       <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={khan} alt="Khanova škola" />
+      </a>
+      <a
+        href="https://www.mozaweb.com/cs/lexikon.php?cmd=getlist&let=3D&sid=VIZ"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={mozaik}
+          alt="mozaik"
+          title="3D modely a prezentace"
+        />
       </a>
     </div>
   );

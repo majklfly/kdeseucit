@@ -10,6 +10,7 @@ import lam from "../Pics/lam.jpg";
 import kam from "../Pics/kam.jpg";
 import pam from "../Pics/pam.jpg";
 import mujrozcestnik from "../Pics/mujrozcestnik.jpg";
+import mozaik from "../Pics/mozaik.jpg";
 
 export const Architektura = () => {
   return (
@@ -100,6 +101,18 @@ export const Architektura = () => {
           src={mujrozcestnik}
           alt="Rozcestník architektury a designu"
           title="Rozcestník architektury a designu"
+        />
+      </a>
+      <a
+        href="https://www.mozaweb.com/cs/lexikon.php?cmd=getlist&let=3D&sid=VIZ"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={mozaik}
+          alt="mozaik"
+          title="3D modely a prezentace"
         />
       </a>
     </div>

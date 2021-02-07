@@ -51,6 +51,7 @@ import animacefyziky from "../Pics/animacefyziky.jpg";
 import animacebigola from "../Pics/animacebigola.jpg";
 import autoskola from "../Pics/autoskola.jpg";
 import timixi from "../Pics/timixi.jpg";
+import mozaik from "../Pics/mozaik.jpg";
 
 export const Stredni = () => {
   return (
@@ -365,6 +366,18 @@ export const Stredni = () => {
           src={timixi}
           alt="timixi"
           title="Učení se souvislostí pomocí časových os."
+        />
+      </a>
+      <a
+        href="https://www.mozaweb.com/cs/lexikon.php?cmd=getlist&let=VIDEO&active_menu=video"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={mozaik}
+          alt="mozaik"
+          title="3D modely a prezentace"
         />
       </a>
     </div>

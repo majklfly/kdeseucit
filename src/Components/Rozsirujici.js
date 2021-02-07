@@ -40,6 +40,7 @@ import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import atlas from "../Pics/atlas.jpg";
 import bavse from "../Pics/bavse.jpg";
 import testpark from "../Pics/testpark.jpg";
+import mozaik from "../Pics/mozaik.jpg";
 
 export const Rozsirujici = () => {
   return (
@@ -255,6 +256,18 @@ export const Rozsirujici = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={testpark} alt="Test park" />
+      </a>
+      <a
+        href="https://www.mozaweb.com/cs/lexikon.php?cmd=getlist&let=VIDEO&active_menu=video"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={mozaik}
+          alt="mozaik"
+          title="3D modely a prezentace"
+        />
       </a>
     </div>
   );
