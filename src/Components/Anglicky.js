@@ -30,6 +30,7 @@ import council from "../Pics/council.jpg";
 import brona from "../Pics/brona.jpg";
 import webster from "../Pics/webster.jpg";
 import skill from "../Pics/skill.jpg";
+import ddm from "../Pics/ddm.jpg";
 
 export const Anglicky = () => {
   return (
