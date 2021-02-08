@@ -4,6 +4,7 @@ import ddm from "../Pics/ddm.jpg";
 import kytara from "../Pics/kytara.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import testpark from "../Pics/testpark.jpg";
+import patrik from "../Pics/patrik.jpg";
 
 export const Hudebni = () => {
   return (
