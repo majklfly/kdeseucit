@@ -36,6 +36,7 @@ import sbirka from "../Pics/sbirka.jpg";
 import klokan from "../Pics/klokan.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";
 import matikaprospoluzaky from "../Pics/matikaprospoluzaky.jpg";
+import ict from "../Pics/ict.jpg";
 
 export const Matematika = () => {
   return (
@@ -228,6 +229,13 @@ export const Matematika = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={fun4} alt="násobení" />
+      </a>
+      <a
+        href="https://www.ictgames.com/mobilePage/index.html"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ict} alt="Ict games" />
       </a>
       <a
         href="http://reseneulohy.cz/cs/matematika"

@@ -9,6 +9,7 @@ import ekoskola from "../Pics/ekoskola.jpg";
 import potravinovezahrady from "../Pics/potravinovezahrady.jpg";
 import bezobratli from "../Pics/bezobratli.jpg";
 import odyssea from "../Pics/odyssea.jpg";
+import ctedu from "../Pics/ctedu.jpg";
 
 export const Ekologie = () => {
   return (
@@ -63,6 +64,13 @@ export const Ekologie = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ekoskola} alt="ekoskola" />
+      </a>
+      <a
+        href="https://edu.ceskatelevize.cz/predmet/ekologie"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ctedu} alt="ctedu" />
       </a>
       <a
         href="https://www.potravinovezahrady.cz/rubriky/clanky/"

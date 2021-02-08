@@ -17,6 +17,7 @@ import podyji from "../Pics/podyji.jpg";
 import krkonose from "../Pics/krkonose.jpg";
 import lesy from "../Pics/lesy.jpg";
 import malypan from "../Pics/malypan.jpg";
+import zivot from "../Pics/zivot.jpg";
 
 export const Prvouka = () => {
   return (
@@ -137,6 +138,18 @@ export const Prvouka = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={lesy} alt="Lesy ČR" />
+      </a>
+      <a
+        href="https://www.youtube.com/playlist?list=PL_c00IPCdRoGD0k6aG7725OaqHQQffcVf"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={zivot}
+          alt="Byl jednou jeden život"
+          title="Byl jednou jeden život"
+        />
       </a>
       <a
         href="https://www.youtube.com/playlist?list=PLMrIwta5vAVkZSpa6pmhU5qYEUKPyODt0"

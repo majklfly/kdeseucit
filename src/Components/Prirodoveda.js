@@ -50,6 +50,7 @@ export const Prirodoveda = () => {
           className="obrazekKarty"
           src={zivot}
           alt="Byl jednou jeden život"
+          title="Byl jednou jeden život"
         />
       </a>
       <a
