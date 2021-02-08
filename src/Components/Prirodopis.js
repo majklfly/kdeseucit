@@ -55,7 +55,12 @@ export const Prirodopis = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={curko} alt="Petr Curko" />
+        <img
+          className="obrazekKarty"
+          src={curko}
+          alt="Petr Curko"
+          title="Přednášky z chemie a přírodopisu"
+        />
       </a>
       <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={khan} alt="Khanova škola" />

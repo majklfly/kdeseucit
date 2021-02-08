@@ -35,6 +35,7 @@ import atlas from "../Pics/atlas.jpg";
 import badatelna from "../Pics/badatelna.jpg";
 import bavse from "../Pics/bavse.jpg";
 import timixi from "../Pics/timixi.jpg";
+import curko from "../Pics/curko.jpg";
 
 export const Osmatrida = () => {
   return (
@@ -62,6 +63,7 @@ export const Osmatrida = () => {
       >
         <img className="obrazekKarty" src={snadhledem} alt="snadhledem" />
       </a>
+
       <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={khan} alt="khan" />
       </a>
@@ -89,6 +91,18 @@ export const Osmatrida = () => {
           className="obrazekKarty"
           src={umimeprogramovat}
           alt="umimeprogramovat"
+        />
+      </a>
+      <a
+        href="https://www.youtube.com/user/anubiskt/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={curko}
+          alt="Petr Curko"
+          title="Přednášky z chemie a přírodopisu"
         />
       </a>
       <a

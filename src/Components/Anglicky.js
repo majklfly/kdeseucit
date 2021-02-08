@@ -153,9 +153,6 @@ export const Anglicky = () => {
       <a href="https://global.cbeebies.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={cbeebies} alt="Cbeebies" />
       </a>
-      <a href="https://www.duolingo.com/learn" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={duolingo} alt="Duolingo" />
-      </a>
       <a href="https://www.kids-pages.com" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={kidspages} alt="Kid´s pages" />
       </a>
@@ -260,6 +257,9 @@ export const Anglicky = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={skill} alt="Skills builder" />
+      </a>
+      <a href="https://www.duolingo.com/learn" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={duolingo} alt="Duolingo" />
       </a>
     </div>
   );

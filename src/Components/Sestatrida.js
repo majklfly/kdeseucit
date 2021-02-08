@@ -33,6 +33,7 @@ import veseledeti2 from "../Pics/veseledeti2.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import atlas from "../Pics/atlas.jpg";
 import timixi from "../Pics/timixi.jpg";
+import curko from "../Pics/curko.jpg";
 
 export const Sestatrida = () => {
   return (
@@ -81,7 +82,18 @@ export const Sestatrida = () => {
       <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={khan} alt="khan" />
       </a>
-
+      <a
+        href="https://www.youtube.com/user/anubiskt/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={curko}
+          alt="Petr Curko"
+          title="Přednášky z chemie a přírodopisu"
+        />
+      </a>
       <a
         href="https://www.youtube.com/hashtag/nezkreslenaveda"
         target="_blank"

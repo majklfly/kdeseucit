@@ -34,6 +34,7 @@ import atlas from "../Pics/atlas.jpg";
 import badatelna from "../Pics/badatelna.jpg";
 import bavse from "../Pics/bavse.jpg";
 import timixi from "../Pics/timixi.jpg";
+import curko from "../Pics/curko.jpg";
 
 export const Sedmatrida = () => {
   return (
@@ -79,6 +80,18 @@ export const Sedmatrida = () => {
       </a>
       <a href="https://www.geograf.in/cs/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={georgina} alt="georgina" />
+      </a>
+      <a
+        href="https://www.youtube.com/user/anubiskt/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={curko}
+          alt="Petr Curko"
+          title="Přednášky z chemie a přírodopisu"
+        />
       </a>
       <a
         href="https://www.youtube.com/hashtag/nezkreslenaveda"

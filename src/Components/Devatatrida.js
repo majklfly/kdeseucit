@@ -36,6 +36,7 @@ import atlas from "../Pics/atlas.jpg";
 import badatelna from "../Pics/badatelna.jpg";
 import bavse from "../Pics/bavse.jpg";
 import timixi from "../Pics/timixi.jpg";
+import curko from "../Pics/curko.jpg";
 
 export const Devatatrida = () => {
   return (
@@ -93,6 +94,18 @@ export const Devatatrida = () => {
           className="obrazekKarty"
           src={umimeprogramovat}
           alt="umimeprogramovat"
+        />
+      </a>
+      <a
+        href="https://www.youtube.com/user/anubiskt/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={curko}
+          alt="Petr Curko"
+          title="Přednášky z chemie a přírodopisu"
         />
       </a>
       <a

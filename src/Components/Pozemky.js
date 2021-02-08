@@ -3,6 +3,7 @@ import React from "react";
 import potravinovezahrady from "../Pics/potravinovezahrady.jpg";
 import svycarsko from "../Pics/svycarsko.jpg";
 import ucimesevenku from "../Pics/ucimesevenku.jpg";
+import facebookenviro from "../Pics/facebookenviro.jpg";
 
 export const Pozemky = () => {
   return (
@@ -31,6 +32,18 @@ export const Pozemky = () => {
           src={potravinovezahrady}
           alt="potravinovezahrady"
           title="Blog věnovaný permakultuře, zahradničení a semenaření."
+        />
+      </a>
+      <a
+        href="https://www.facebook.com/groups/906961889479119/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={facebookenviro}
+          alt="Enviromentální výchova a vzdělávání"
+          title="Enviromentální výchova a vzdělávání"
         />
       </a>
     </div>

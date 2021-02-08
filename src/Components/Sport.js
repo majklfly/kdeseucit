@@ -9,6 +9,7 @@ import sokol from "../Pics/sokol.jpg";
 import army from "../Pics/army.jpg";
 import fyzio from "../Pics/fyzio.jpg";
 import testpark from "../Pics/testpark.jpg";
+import telocvikari from "../Pics/telocvikari.jpg";
 
 export const Sport = () => {
   return (
@@ -68,6 +69,18 @@ export const Sport = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={fyzio} alt="fyzio" />
+      </a>
+      <a
+        href="https://www.youtube.com/c/telocvikari/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={telocvikari}
+          alt="tělocvikáři.sk"
+          title="tělocvikáři.sk"
+        />
       </a>
       <a
         href="http://www.testpark.cz/testy/sport"
