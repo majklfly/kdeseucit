@@ -9,7 +9,6 @@ import isibalo from "../Pics/isibalo.jpg";
 import testpark from "../Pics/testpark.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import maprokazdeho from "../Pics/maprokazdeho.jpg";
-import zadnaveda from "../Pics/zadnaveda.jpg";
 import kladivo from "../Pics/kladivo.jpg";
 import rozhlastemata from "../Pics/rozhlastemata.jpg";
 import badatelna from "../Pics/badatelna.jpg";
@@ -103,17 +102,6 @@ export const Chemie = () => {
           src={maprokazdeho}
           alt="Matematika pro každého"
           title="Cvičné testy z chemie"
-        />
-      </a>
-      <a
-        href="http://www.vedaneniveda.cz/vyukove-materialy-pro/2-stupen-zakladnich-skol/chemie"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          className="obrazekKarty"
-          src={zadnaveda}
-          alt="Věda není žádná věda"
         />
       </a>
       <a

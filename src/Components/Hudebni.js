@@ -5,6 +5,7 @@ import kytara from "../Pics/kytara.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import testpark from "../Pics/testpark.jpg";
 import patrik from "../Pics/patrik.jpg";
+import rous from "../Pics/rous.jpg";
 
 export const Hudebni = () => {
   return (
@@ -32,6 +33,13 @@ export const Hudebni = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={patrik} alt="patrik" />
+      </a>
+      <a
+        href="https://www.youtube.com/c/Rousseau/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={rous} alt="rous" />
       </a>
       <a
         href="http://www.testpark.cz/testy/hudba"
