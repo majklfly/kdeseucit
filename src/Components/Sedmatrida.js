@@ -204,7 +204,7 @@ export const Sedmatrida = () => {
         <img className="obrazekKarty" src={cez} alt="cez" />
       </a>
       <a
-        href="https://www.dopravnivychova.cz/"
+        href="https://www.dopravnivychova.cz/stranky/98/pracovni-listy.html"
         target="_blank"
         rel="noreferrer"
       >

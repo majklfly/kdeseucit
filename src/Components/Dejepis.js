@@ -23,6 +23,7 @@ import bavse from "../Pics/bavse.jpg";
 import oldmaps from "../Pics/oldmaps.jpg";
 import muni from "../Pics/muni.jpg";
 import mozaik from "../Pics/mozaik.jpg";
+import dejepic from "../Pics/dejepic.jpg";
 
 export const Dejepis = () => {
   return (
@@ -102,6 +103,13 @@ export const Dejepis = () => {
       </a>
       <a href="https://historylab.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={historylab} alt="History lab" />
+      </a>
+      <a
+        href="https://decko.ceskatelevize.cz/dejepic"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={dejepic} alt="dejepic" />
       </a>
       <a
         href="http://www.testpark.cz/testy/dejepis"

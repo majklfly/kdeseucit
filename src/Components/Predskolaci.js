@@ -48,7 +48,7 @@ export const Predskolaci = () => {
         <img className="obrazekKarty" src={krokotak} alt="krokotak" />
       </a>
       <a
-        href="https://www.dopravnivychova.cz/stranky/98/pracovni-listy.html#sheet201"
+        href="https://www.dopravnivychova.cz/stranky/98/pracovni-listy.html"
         target="_blank"
         rel="noreferrer"
       >

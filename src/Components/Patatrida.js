@@ -28,6 +28,7 @@ import vojenskelesy from "../Pics/vojenskelesy.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import atlas from "../Pics/atlas.jpg";
 import eucitelka from "../Pics/eucitelka.jpg";
+import dejepic from "../Pics/dejepic.jpg";
 
 export const Patatrida = () => {
   return (
@@ -128,7 +129,7 @@ export const Patatrida = () => {
         <img className="obrazekKarty" src={umimcestinu} alt="umimcestinu" />
       </a>
       <a
-        href="https://www.dopravnivychova.cz/"
+        href="https://www.dopravnivychova.cz/stranky/98/pracovni-listy.html"
         target="_blank"
         rel="noreferrer"
       >
@@ -147,6 +148,13 @@ export const Patatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={rozhlasctenar} alt="rozhlasctenar" />
+      </a>
+      <a
+        href="https://decko.ceskatelevize.cz/dejepic"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={dejepic} alt="dejepic" />
       </a>
       <a href="https://www.ucimesedoma.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={scio} alt="scio" />

@@ -173,7 +173,7 @@ export const Druhatrida = () => {
         <img className="obrazekKarty" src={bankovkovi} alt="bankovkovi" />
       </a>
       <a
-        href="https://www.dopravnivychova.cz/"
+        href="https://www.dopravnivychova.cz/stranky/98/pracovni-listy.html"
         target="_blank"
         rel="noreferrer"
       >
