@@ -26,6 +26,13 @@ export const Hudebni = () => {
         <img className="obrazekKarty" src={ctedu} alt="ctedu" />
       </a>
       <a
+        href="https://www.youtube.com/c/PatrikPietschmann/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={patrik} alt="patrik" />
+      </a>
+      <a
         href="http://www.testpark.cz/testy/hudba"
         target="_blank"
         rel="noreferrer"
