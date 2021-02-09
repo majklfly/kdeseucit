@@ -36,6 +36,8 @@ import badatelna from "../Pics/badatelna.jpg";
 import bavse from "../Pics/bavse.jpg";
 import timixi from "../Pics/timixi.jpg";
 import curko from "../Pics/curko.jpg";
+import mozaik from "../Pics/mozaik.jpg";
+import bezpravi from "../Pics/bezpravi.jpg";
 
 export const Osmatrida = () => {
   return (
@@ -192,6 +194,18 @@ export const Osmatrida = () => {
       >
         <img className="obrazekKarty" src={badatelna} alt="badatelna" />
       </a>
+      <a
+        href="https://www.jsns.cz/projekty/pribehy-bezpravi"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={bezpravi}
+          alt="Příběhy bezpráví"
+          title="Příběhy bezpráví"
+        />
+      </a>
       <a href="https://bavsevedou.zcu.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={bavse} alt="Bav se vědou" />
       </a>
@@ -249,6 +263,18 @@ export const Osmatrida = () => {
           src={timixi}
           alt="timixi"
           title="Učení se souvislostí pomocí časových os."
+        />
+      </a>
+      <a
+        href="https://www.mozaweb.com/cs/lexikon.php?cmd=getlist&let=VIDEO&active_menu=video"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={mozaik}
+          alt="mozaik"
+          title="3D modely a prezentace"
         />
       </a>
     </div>

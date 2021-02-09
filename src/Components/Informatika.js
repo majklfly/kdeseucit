@@ -20,6 +20,7 @@ import code from "../Pics/code.jpg";
 import ai from "../Pics/ai.jpg";
 import wix from "../Pics/wix.jpg";
 import scratch from "../Pics/scratch.jpg";
+import digitalni from "../Pics/digitalni.jpg";
 
 export const Informatika = () => {
   return (
@@ -76,6 +77,13 @@ export const Informatika = () => {
         <img className="obrazekKarty" src={matematikacz} alt="Matematika.cz" />
       </a>
       <a
+        href="https://matematika.cz/kategorie-informatika"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={matematikacz} alt="Matematika.cz" />
+      </a>
+      <a
         href="http://www.chmelkova.cz/web_skolicka/informatika_4.html"
         target="_blank"
         rel="noreferrer"
@@ -113,6 +121,13 @@ export const Informatika = () => {
           src={rozhlastemata}
           alt="Rozhlas témata"
         />
+      </a>
+      <a
+        href="https://www.jsns.cz/lekce/416814-medialni-vzdelavani-pro-1-stupen-zs"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={digitalni} alt="digitalni" />
       </a>
       <a
         href="https://www.avcr.cz/cs/pro-verejnost/veda-na-doma/"

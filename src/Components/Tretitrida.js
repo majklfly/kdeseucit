@@ -30,6 +30,7 @@ import veseledeti2 from "../Pics/veseledeti2.jpg";
 import doprava from "../Pics/doprava.jpg";
 import bankovkovi from "../Pics/bankovkovi.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
+import digitalni from "../Pics/digitalni.jpg";
 
 export const Tretitrida = () => {
   return (
@@ -92,6 +93,13 @@ export const Tretitrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={primauca} alt="primauca" />
+      </a>
+      <a
+        href="https://www.jsns.cz/lekce/416814-medialni-vzdelavani-pro-1-stupen-zs"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={digitalni} alt="digitalni" />
       </a>
       <a
         href="http://cviceni.testy.sweb.cz/index.htm"

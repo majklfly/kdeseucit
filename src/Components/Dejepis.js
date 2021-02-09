@@ -25,6 +25,7 @@ import muni from "../Pics/muni.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import dejepic from "../Pics/dejepic.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
+import bezpravi from "../Pics/bezpravi.jpg";
 
 export const Dejepis = () => {
   return (
@@ -83,6 +84,18 @@ export const Dejepis = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={d21} alt="Dějepis v 21.století" />
+      </a>
+      <a
+        href="https://www.jsns.cz/projekty/pribehy-bezpravi"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={bezpravi}
+          alt="Příběhy bezpráví"
+          title="Příběhy bezpráví"
+        />
       </a>
       <a
         href="https://www.ucseonline.cz/dejepis/"

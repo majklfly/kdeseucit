@@ -34,6 +34,7 @@ import ddm from "../Pics/ddm.jpg";
 import bridge from "../Pics/bridge.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
+import jsnsen from "../Pics/jsnsen.jpg";
 
 export const Anglicky = () => {
   return (
@@ -236,6 +237,18 @@ export const Anglicky = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
+      </a>
+      <a
+        href="https://www.jsns.cz/lekce/15254-anglictina-english"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={jsnsen}
+          alt="jsnsen"
+          title="Jeden svět na školách - cizojazyčné lekce"
+        />
       </a>
       <a
         href="https://www.mozaweb.com/cs/tools.php?cmd=list&category=TOOL&subject_azon=ANY"

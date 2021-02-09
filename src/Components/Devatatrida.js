@@ -37,6 +37,8 @@ import badatelna from "../Pics/badatelna.jpg";
 import bavse from "../Pics/bavse.jpg";
 import timixi from "../Pics/timixi.jpg";
 import curko from "../Pics/curko.jpg";
+import mozaik from "../Pics/mozaik.jpg";
+import bezpravi from "../Pics/bezpravi.jpg";
 
 export const Devatatrida = () => {
   return (
@@ -185,6 +187,18 @@ export const Devatatrida = () => {
         <img className="obrazekKarty" src={ctedu} alt="ctedu" />
       </a>
       <a
+        href="https://www.jsns.cz/projekty/pribehy-bezpravi"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={bezpravi}
+          alt="Příběhy bezpráví"
+          title="Příběhy bezpráví"
+        />
+      </a>
+      <a
         href="https://www.youtube.com/user/ScienceMuni/videos"
         target="_blank"
         rel="noreferrer"
@@ -245,6 +259,18 @@ export const Devatatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={vedanadoma} alt="vedanadoma" />
+      </a>
+      <a
+        href="https://www.mozaweb.com/cs/lexikon.php?cmd=getlist&let=VIDEO&active_menu=video"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={mozaik}
+          alt="mozaik"
+          title="3D modely a prezentace"
+        />
       </a>
     </div>
   );

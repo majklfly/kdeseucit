@@ -36,6 +36,7 @@ import bavse from "../Pics/bavse.jpg";
 import timixi from "../Pics/timixi.jpg";
 import curko from "../Pics/curko.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
+import mozaik from "../Pics/mozaik.jpg";
 
 export const Sedmatrida = () => {
   return (
@@ -238,6 +239,18 @@ export const Sedmatrida = () => {
           className="obrazekKarty"
           src={rozhlasprodeti}
           alt="rozhlasprodeti"
+        />
+      </a>
+      <a
+        href="https://www.mozaweb.com/cs/lexikon.php?cmd=getlist&let=VIDEO&active_menu=video"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={mozaik}
+          alt="mozaik"
+          title="3D modely a prezentace"
         />
       </a>
     </div>
