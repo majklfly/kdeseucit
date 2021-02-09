@@ -28,6 +28,7 @@ import animacebigola from "../Pics/animacebigola.jpg";
 import muni from "../Pics/muni.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import vedaliska from "../Pics/vedaliska.jpg";
+import ucseonline from "../Pics/ucseonline.jpg";
 
 export const Prirodopis = () => {
   return (
@@ -159,6 +160,13 @@ export const Prirodopis = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={veseledeti} alt="veselé děti" />
+      </a>
+      <a
+        href="https://www.ucseonline.cz/biologie/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
       </a>
       <a
         href="https://www.facebook.com/groups/bezobratli/"

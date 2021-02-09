@@ -11,6 +11,7 @@ import svetmedii from "../Pics/svetmedii.jpg";
 import skolamedii from "../Pics/skolamedii.jpg";
 import odyssea from "../Pics/odyssea.jpg";
 import muni from "../Pics/muni.jpg";
+import ucseonline from "../Pics/ucseonline.jpg";
 
 export const ZSV = () => {
   return (
@@ -75,6 +76,9 @@ export const ZSV = () => {
       </a>
       <a href="https://www.trainbra.in/cs/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={kriticke} alt="kriticke" />
+      </a>
+      <a href="https://www.ucseonline.cz/zsv/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
       </a>
       <a href="https://www.em.muni.cz/veda" target="_blank" rel="noreferrer">
         <img

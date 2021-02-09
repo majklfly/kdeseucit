@@ -6,6 +6,7 @@ import skolaposkolema from "../Pics/skolaposkolema.jpg";
 import cermat from "../Pics/cermat.jpg";
 import learntube from "../Pics/learntube.jpg";
 import bridge from "../Pics/bridge.jpg";
+import ucseonline from "../Pics/ucseonline.jpg";
 
 export const Maturita = () => {
   return (
@@ -47,6 +48,13 @@ export const Maturita = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={bridge} alt="Anglické časopisy" />
+      </a>
+      <a
+        href="https://www.ucseonline.cz/maturitni-otazky/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
       </a>
     </div>
   );

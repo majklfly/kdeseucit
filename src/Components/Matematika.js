@@ -37,7 +37,8 @@ import klokan from "../Pics/klokan.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";
 import matikaprospoluzaky from "../Pics/matikaprospoluzaky.jpg";
 import ict from "../Pics/ict.jpg";
-import matematikaucitelnet from "../Pics/matematikaucitelnet.jpg";
+import matikaucitelnet from "../Pics/matikaucitelnet.jpg";
+import ucseonline from "../Pics/ucseonline.jpg";
 
 export const Matematika = () => {
   return (
@@ -95,6 +96,13 @@ export const Matematika = () => {
           src={prijmackybezobav}
           alt="prijmackybezobav"
         />
+      </a>
+      <a
+        href="https://www.ucseonline.cz/matematika/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
       </a>
       <a
         href="https://www.ceskatelevize.cz/porady/10000000405-skola-doma/"
@@ -273,8 +281,8 @@ export const Matematika = () => {
       >
         <img
           className="obrazekKarty"
-          src={matematikaucitelnet}
-          alt="matematikaucitelnet"
+          src={matikaucitelnet}
+          alt="matikaucitelnet"
         />
       </a>
     </div>

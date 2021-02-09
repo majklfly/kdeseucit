@@ -33,6 +33,7 @@ import skill from "../Pics/skill.jpg";
 import ddm from "../Pics/ddm.jpg";
 import bridge from "../Pics/bridge.jpg";
 import mozaik from "../Pics/mozaik.jpg";
+import ucseonline from "../Pics/ucseonline.jpg";
 
 export const Anglicky = () => {
   return (
@@ -228,6 +229,13 @@ export const Anglicky = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={brona} alt="Broňa Sobotka" />
+      </a>
+      <a
+        href="https://www.ucseonline.cz/anglicky-jazyk/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
       </a>
       <a
         href="https://www.mozaweb.com/cs/tools.php?cmd=list&category=TOOL&subject_azon=ANY"

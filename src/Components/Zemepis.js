@@ -12,6 +12,7 @@ import lizard from "../Pics/lizard.jpg";
 import oldmaps from "../Pics/oldmaps.jpg";
 import atlas from "../Pics/atlas.jpg";
 import mozaik from "../Pics/mozaik.jpg";
+import ucseonline from "../Pics/ucseonline.jpg";
 
 export const Zemepis = () => {
   return (
@@ -70,6 +71,13 @@ export const Zemepis = () => {
       </a>
       <a href="https://atlas.mapy.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={atlas} alt="Atlas světa" />
+      </a>
+      <a
+        href="https://www.ucseonline.cz/zemepis/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
       </a>
       <a
         href="https://lizardpoint.com/geography/index.php"

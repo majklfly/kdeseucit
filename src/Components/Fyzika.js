@@ -35,6 +35,7 @@ import bavse from "../Pics/bavse.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import fyzikaucitelnet from "../Pics/fyzikaucitelnet.jpg";
+import ucseonline from "../Pics/ucseonline.jpg";
 
 export const Fyzika = () => {
   return (
@@ -85,6 +86,13 @@ export const Fyzika = () => {
       </a>
       <a href="https://isibalo.com/fyzika" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={isibalo} alt="isibalo" />
+      </a>
+      <a
+        href="https://www.ucseonline.cz/fyzika/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
       </a>
       <a
         href="http://www.realisticky.cz/ucebnice.php?id=1"

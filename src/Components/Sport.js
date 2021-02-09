@@ -10,6 +10,7 @@ import army from "../Pics/army.jpg";
 import fyzio from "../Pics/fyzio.jpg";
 import testpark from "../Pics/testpark.jpg";
 import telocvikari from "../Pics/telocvikari.jpg";
+import fitdoma from "../Pics/fitdoma.jpg";
 
 export const Sport = () => {
   return (
@@ -80,6 +81,18 @@ export const Sport = () => {
           src={telocvikari}
           alt="tělocvikáři.sk"
           title="tělocvikáři.sk"
+        />
+      </a>
+      <a
+        href="https://www.ucseonline.cz/cviceni-doma/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={fitdoma}
+          alt="fitdoma"
+          title="fitness na doma"
         />
       </a>
       <a

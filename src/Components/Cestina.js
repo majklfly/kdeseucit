@@ -32,6 +32,7 @@ import ctprijmacky from "../Pics/ctprijmacky.jpg";
 import prijmackybezobav from "../Pics/prijmackybezobav.jpg";
 import pravidla from "../Pics/pravidla.jpg";
 import ujc from "../Pics/ujc.jpg";
+import ucseonline from "../Pics/ucseonline.jpg";
 
 export const Cestina = () => {
   return (
@@ -101,6 +102,13 @@ export const Cestina = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={veseledeti} alt="veseledeti" />
+      </a>
+      <a
+        href="https://www.ucseonline.cz/cesky-jazyk/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
       </a>
       <a
         href="http://www.nabla.cz/obsah/cestina/"

@@ -22,6 +22,7 @@ import animacechemie from "../Pics/animacechemie.jpg";
 import muni from "../Pics/muni.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import vedaliska from "../Pics/vedaliska.jpg";
+import ucseonline from "../Pics/ucseonline.jpg";
 
 export const Chemie = () => {
   return (
@@ -73,6 +74,13 @@ export const Chemie = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={testpark} alt="Test park" />
+      </a>
+      <a
+        href="https://www.ucseonline.cz/chemie/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
       </a>
       <a
         href="https://edu.ceskatelevize.cz/predmet/chemie"

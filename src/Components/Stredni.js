@@ -270,6 +270,13 @@ export const Stredni = () => {
         />
       </a>
       <a
+        href="https://www.ucseonline.cz/zapisky-z-hodin/ucetnictvi/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
+      </a>
+      <a
         href="https://phet.colorado.edu/cs/simulations/filter?subjects=physics&type=html&sort=alpha&view=grid"
         target="_blank"
         rel="noreferrer"

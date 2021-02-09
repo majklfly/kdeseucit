@@ -24,6 +24,7 @@ import oldmaps from "../Pics/oldmaps.jpg";
 import muni from "../Pics/muni.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import dejepic from "../Pics/dejepic.jpg";
+import ucseonline from "../Pics/ucseonline.jpg";
 
 export const Dejepis = () => {
   return (
@@ -82,6 +83,13 @@ export const Dejepis = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={d21} alt="Dějepis v 21.století" />
+      </a>
+      <a
+        href="https://www.ucseonline.cz/dejepis/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
       </a>
       <a
         href="https://www.abicko.cz/kategorie/6317/historie"

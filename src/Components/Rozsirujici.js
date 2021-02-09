@@ -43,6 +43,7 @@ import testpark from "../Pics/testpark.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import vedaliska from "../Pics/vedaliska.jpg";
 import sumava from "../Pics/sumava.jpg";
+import jedensvet from "../Pics/jedensvet.jpg";
 
 export const Rozsirujici = () => {
   return (
