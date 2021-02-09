@@ -24,7 +24,6 @@ import ctedu from "../Pics/ctedu.jpg";
 import math4u from "../Pics/math4u.jpg";
 import rozhlasctenar from "../Pics/rozhlasctenar.jpg";
 import skolaposkoless from "../Pics/skolaposkoless.jpg";
-import zadnaveda from "../Pics/zadnaveda.jpg";
 import seminarky from "../Pics/seminarky.jpg";
 import fykos from "../Pics/fykos.jpg";
 import geogebra from "../Pics/geogebra.jpg";
@@ -189,13 +188,6 @@ export const Stredni = () => {
           src={skolaposkoless}
           alt="skolaposkoless"
         />
-      </a>
-      <a
-        href="http://www.vedaneniveda.cz/vyukove-materialy-pro/stredni-skoly/fyzika"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={zadnaveda} alt="zadnaveda" />
       </a>
       <a href="http://www.seminarky.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={seminarky} alt="seminarky" />

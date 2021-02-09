@@ -25,6 +25,7 @@ import realisticky from "../Pics/realisticky.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import soboty from "../Pics/soboty.jpg";
 import tydenvedy from "../Pics/tydenvedy.jpg";
+import vedanadoma from "../Pics/vedanadoma.jpg";
 import cez from "../Pics/cez.jpg";
 import doprava from "../Pics/doprava.jpg";
 import scio from "../Pics/scio.jpg";
@@ -208,7 +209,7 @@ export const Devatatrida = () => {
         <img className="obrazekKarty" src={cez} alt="cez" />
       </a>
       <a
-        href="https://www.dopravnivychova.cz/"
+        href="https://www.dopravnivychova.cz/stranky/98/pracovni-listy.html"
         target="_blank"
         rel="noreferrer"
       >
@@ -249,6 +250,13 @@ export const Devatatrida = () => {
           alt="timixi"
           title="Učení se souvislostí pomocí časových os."
         />
+      </a>
+      <a
+        href="https://www.avcr.cz/cs/pro-verejnost/veda-na-doma/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={vedanadoma} alt="vedanadoma" />
       </a>
     </div>
   );

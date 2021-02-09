@@ -18,7 +18,6 @@ import dna1 from "../Pics/dna1.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import nenudim from "../Pics/nenudim.jpg";
 import khan from "../Pics/khan.jpg";
-import umimcestinu from "../Pics/umimcestinu.jpg";
 import doprava from "../Pics/doprava.jpg";
 import zvesela from "../Pics/zvesela.jpg";
 import rozhlasctenar from "../Pics/rozhlasctenar.jpg";
@@ -120,13 +119,6 @@ export const Patatrida = () => {
       </a>
       <a href="https://atlas.mapy.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={atlas} alt="Atlas světa" />
-      </a>
-      <a
-        href="https://umimcestinu.wordpress.com/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={umimcestinu} alt="umimcestinu" />
       </a>
       <a
         href="https://www.dopravnivychova.cz/stranky/98/pracovni-listy.html"
