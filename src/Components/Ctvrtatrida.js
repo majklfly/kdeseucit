@@ -27,6 +27,7 @@ import scio from "../Pics/scio.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
 import eucitelka from "../Pics/eucitelka.jpg";
 import bankovkovi from "../Pics/bankovkovi.jpg";
+import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 
 export const Ctvrtatrida = () => {
   return (
@@ -151,6 +152,17 @@ export const Ctvrtatrida = () => {
       </a>
       <a href="https://e-ucitelka.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={eucitelka} alt="eučitelka" />
+      </a>
+      <a
+        href="https://www.mujrozhlas.cz/pro-deti"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={rozhlasprodeti}
+          alt="rozhlasprodeti"
+        />
       </a>
     </div>
   );

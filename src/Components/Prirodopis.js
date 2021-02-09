@@ -27,6 +27,7 @@ import bezobratli from "../Pics/bezobratli.jpg";
 import animacebigola from "../Pics/animacebigola.jpg";
 import muni from "../Pics/muni.jpg";
 import mozaik from "../Pics/mozaik.jpg";
+import vedaliska from "../Pics/vedaliska.jpg";
 
 export const Prirodopis = () => {
   return (
@@ -237,6 +238,18 @@ export const Prirodopis = () => {
           src={mozaik}
           alt="mozaik"
           title="3D modely a prezentace"
+        />
+      </a>
+      <a
+        href="https://www.youtube.com/user/OtevrenaVeda/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={vedaliska}
+          alt="Otevřená věda"
+          title="Otevřená věda"
         />
       </a>
     </div>

@@ -28,6 +28,7 @@ import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import atlas from "../Pics/atlas.jpg";
 import eucitelka from "../Pics/eucitelka.jpg";
 import dejepic from "../Pics/dejepic.jpg";
+import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 
 export const Patatrida = () => {
   return (
@@ -159,6 +160,17 @@ export const Patatrida = () => {
       </a>
       <a href="https://deti.vls.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={vojenskelesy} alt="vojenskelesy" />
+      </a>
+      <a
+        href="https://www.mujrozhlas.cz/pro-deti"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={rozhlasprodeti}
+          alt="rozhlasprodeti"
+        />
       </a>
     </div>
   );

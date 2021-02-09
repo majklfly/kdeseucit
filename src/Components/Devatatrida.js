@@ -30,7 +30,6 @@ import cez from "../Pics/cez.jpg";
 import doprava from "../Pics/doprava.jpg";
 import scio from "../Pics/scio.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
-import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import d21 from "../Pics/d21.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import atlas from "../Pics/atlas.jpg";
@@ -220,17 +219,6 @@ export const Devatatrida = () => {
       </a>
       <a href="https://www.ucenionline.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={veseledeti2} alt="veseledeti2" />
-      </a>
-      <a
-        href="https://www.mujrozhlas.cz/pro-deti"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          className="obrazekKarty"
-          src={rozhlasprodeti}
-          alt="rozhlasprodeti"
-        />
       </a>
       <a
         href="http://www.dejepis21.cz/dejepis-v-21-stoleti"

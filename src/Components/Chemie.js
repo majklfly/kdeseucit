@@ -21,6 +21,7 @@ import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import animacechemie from "../Pics/animacechemie.jpg";
 import muni from "../Pics/muni.jpg";
 import mozaik from "../Pics/mozaik.jpg";
+import vedaliska from "../Pics/vedaliska.jpg";
 
 export const Chemie = () => {
   return (
@@ -148,6 +149,18 @@ export const Chemie = () => {
       </a>
       <a href="https://chemix.org" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={chemix} alt="chemix" />
+      </a>
+      <a
+        href="https://www.youtube.com/user/OtevrenaVeda/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={vedaliska}
+          alt="Otevřená věda"
+          title="Otevřená věda"
+        />
       </a>
       <a
         href="https://www.tydenvedy.cz/festival/best-of-tvt/"

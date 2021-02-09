@@ -35,6 +35,7 @@ import badatelna from "../Pics/badatelna.jpg";
 import bavse from "../Pics/bavse.jpg";
 import timixi from "../Pics/timixi.jpg";
 import curko from "../Pics/curko.jpg";
+import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 
 export const Sedmatrida = () => {
   return (
@@ -227,6 +228,17 @@ export const Sedmatrida = () => {
       </a>
       <a href="https://www.ucenionline.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={veseledeti2} alt="veseledeti2" />
+      </a>
+      <a
+        href="https://www.mujrozhlas.cz/pro-deti"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={rozhlasprodeti}
+          alt="rozhlasprodeti"
+        />
       </a>
     </div>
   );

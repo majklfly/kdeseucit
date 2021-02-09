@@ -41,6 +41,7 @@ import atlas from "../Pics/atlas.jpg";
 import bavse from "../Pics/bavse.jpg";
 import testpark from "../Pics/testpark.jpg";
 import mozaik from "../Pics/mozaik.jpg";
+import vedaliska from "../Pics/vedaliska.jpg";
 
 export const Rozsirujici = () => {
   return (
@@ -198,6 +199,18 @@ export const Rozsirujici = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={povidkar} alt="povidkar" />
+      </a>
+      <a
+        href="https://www.youtube.com/user/OtevrenaVeda/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={vedaliska}
+          alt="Otevřená věda"
+          title="Otevřená věda"
+        />
       </a>
       <a
         href="https://www.npsumava.cz/navstivte-sumavu/materialy-ke-stazeni/samoobsluzne-pracovni-listy/"
