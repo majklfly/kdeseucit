@@ -73,7 +73,7 @@ export const Anglicky = () => {
         />
       </a>
       <a
-        href="https://www.skolasnadhledem.cz/profil/prehled"
+        href="https://www.skolasnadhledem.cz/profil/cizi-jazyky/804-anglicky-jazyk"
         target="_blank"
         rel="noreferrer"
       >

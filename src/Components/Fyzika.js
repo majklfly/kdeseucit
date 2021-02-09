@@ -34,6 +34,7 @@ import nasag from "../Pics/nasag.jpg";
 import bavse from "../Pics/bavse.jpg";
 import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import mozaik from "../Pics/mozaik.jpg";
+import fyzikaucitelnet from "../Pics/fyzikaucitelnet.jpg";
 
 export const Fyzika = () => {
   return (
@@ -284,6 +285,13 @@ export const Fyzika = () => {
           src={mozaik}
           alt="mozaik"
           title="3D modely a prezentace"
+        />
+      </a>
+      <a href="http://www.ucitel.net/fyzika" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={fyzikaucitelnet}
+          alt="fyzikaucitelnet"
         />
       </a>
     </div>

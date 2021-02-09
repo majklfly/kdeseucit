@@ -42,6 +42,7 @@ import bavse from "../Pics/bavse.jpg";
 import testpark from "../Pics/testpark.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import vedaliska from "../Pics/vedaliska.jpg";
+import sumava from "../Pics/sumava.jpg";
 
 export const Rozsirujici = () => {
   return (
@@ -220,6 +221,13 @@ export const Rozsirujici = () => {
         <img className="obrazekKarty" src={vojenskelesy} alt="vojenskelesy" />
       </a>
       <a
+        href="https://www.npsumava.cz/navstivte-sumavu/materialy-ke-stazeni/samoobsluzne-pracovni-listy/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={sumava} alt="Národní park Šumava" />
+      </a>
+      <a
         href="https://www.nppodyji.cz/sdetmidoma"
         target="_blank"
         rel="noreferrer"
@@ -248,6 +256,17 @@ export const Rozsirujici = () => {
       </a>
       <a href="https://quizlet.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={quizlet} alt="quizlet" />
+      </a>
+      <a
+        href="https://www.jsns.cz/distancni-vyuka"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={jedensvet}
+          alt="Jeden svět na školách"
+        />
       </a>
       <a
         href="https://www.dopravnivychova.cz/"

@@ -37,6 +37,7 @@ import klokan from "../Pics/klokan.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";
 import matikaprospoluzaky from "../Pics/matikaprospoluzaky.jpg";
 import ict from "../Pics/ict.jpg";
+import matematikaucitelnet from "../Pics/matematikaucitelnet.jpg";
 
 export const Matematika = () => {
   return (
@@ -263,6 +264,17 @@ export const Matematika = () => {
           className="obrazekKarty"
           src={matikaprospoluzaky}
           alt="Matika pro spolužáky"
+        />
+      </a>
+      <a
+        href="http://www.ucitel.net/matematika"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={matematikaucitelnet}
+          alt="matematikaucitelnet"
         />
       </a>
     </div>

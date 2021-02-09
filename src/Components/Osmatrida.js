@@ -19,7 +19,7 @@ import matematikacz from "../Pics/matematikacz.jpg";
 import maprokazdeho from "../Pics/maprokazdeho.jpg";
 import ematematika from "../Pics/ematematika.jpg";
 import nabla from "../Pics/nabla.jpg";
-import skolaposkole from "../Pics/skolaposkole.jpg";
+import skolaposkole8 from "../Pics/skolaposkole8.jpg";
 import realisticky from "../Pics/realisticky.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import soboty from "../Pics/soboty.jpg";
@@ -169,7 +169,7 @@ export const Osmatrida = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={skolaposkole} alt="skolaposkole" />
+        <img className="obrazekKarty" src={skolaposkole8} alt="skolaposkole8" />
       </a>
       <a
         href="http://www.realisticky.cz/dil.php?id=8"
