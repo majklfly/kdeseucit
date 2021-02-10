@@ -52,6 +52,7 @@ import autoskola from "../Pics/autoskola.jpg";
 import timixi from "../Pics/timixi.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
+import filda from "../Pics/filda.jpg";
 
 export const Stredni = () => {
   return (
