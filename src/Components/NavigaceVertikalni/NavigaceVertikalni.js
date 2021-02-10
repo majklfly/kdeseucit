@@ -19,6 +19,7 @@ const predmety = {
   dejepis: "DĚJEPIS",
   chemie: "CHEMIE",
   fyzika: "FYZIKA",
+  sloh: "SLOHOVÉ CVIČENÍ",
   ekologie: "EKOLOGICKÁ VÝCHOVA",
   obcanka: "OBČANSKÁ VÝCHOVA",
   rodinka: "RODINNÁ VÝCHOVA",

@@ -65,6 +65,7 @@ import { KnihovnyScreen } from "./Screens/KnihovnyScreen";
 import { KulturniScreen } from "./Screens/KulturniScreen";
 import { UciteleScreen } from "./Screens/UciteleScreen";
 import { DesignScreen } from "./Screens/DesignScreen";
+import { SlohScreen } from "./Screens/SlohScreen";
 
 function App() {
   const [expanded, setExpanded] = useState();
@@ -85,6 +86,9 @@ function App() {
       <HashRouter basename="/#">
         <Context.Provider value={{ expanded, setExpanded }}>
           <Switch>
+            <Route path="/sloh">
+              <SlohScreen />
+            </Route>
             <Route path="/design">
               <DesignScreen />
             </Route>
