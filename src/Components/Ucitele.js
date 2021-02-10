@@ -11,6 +11,7 @@ import elixir from "../Pics/elixir.jpg";
 import zcucelozivot from "../Pics/zcucelozivot.jpg";
 import ucitelin from "../Pics/ucitelin.jpg";
 import bridge from "../Pics/bridge.jpg";
+import codeweek from "../Pics/codeweek.jpg";
 
 export const Ucitele = () => {
   return (
@@ -79,6 +80,9 @@ export const Ucitele = () => {
       </a>
       <a href="https://www.bridge-online.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={bridge} alt="Anglické časopisy" />
+      </a>
+      <a href="https://codeweek.eu/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={codeweek} alt="codeweek" />
       </a>
     </div>
   );

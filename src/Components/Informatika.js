@@ -21,6 +21,9 @@ import ai from "../Pics/ai.jpg";
 import wix from "../Pics/wix.jpg";
 import scratch from "../Pics/scratch.jpg";
 import digitalni from "../Pics/digitalni.jpg";
+import ozobot from "../Pics/ozobot.jpg";
+import hodinykodu from "../Pics/hodinykodu.jpg";
+import galaxy from "../Pics/galaxy.jpg";
 
 export const Informatika = () => {
   return (
@@ -102,6 +105,13 @@ export const Informatika = () => {
         <img className="obrazekKarty" src={nabla} alt="nabla" />
       </a>
       <a
+        href="https://www.akademieprogramovani.cz/kodovani-na-doma/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ozobot} alt="ozobot" />
+      </a>
+      <a
         href="https://www.maths.cz/clanek/kategorie/30"
         target="_blank"
         rel="noreferrer"
@@ -167,6 +177,18 @@ export const Informatika = () => {
         />
       </a>
       <a
+        href="https://hourofcode.com/us/cs/learn"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={hodinykodu}
+          alt="hodinykodu"
+          title="Hodiny kódu"
+        />
+      </a>
+      <a
         href="https://studio.code.org/projects/public"
         target="_blank"
         rel="noreferrer"
@@ -205,6 +227,9 @@ export const Informatika = () => {
           alt="Jednoduché programování animací a her"
           title="Jednoduché programování animací a her"
         />
+      </a>
+      <a href="https://www.galaxycodr.com/sk" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={galaxy} alt="galaxy" />
       </a>
     </div>
   );
