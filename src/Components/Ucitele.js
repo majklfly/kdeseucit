@@ -12,6 +12,7 @@ import zcucelozivot from "../Pics/zcucelozivot.jpg";
 import ucitelin from "../Pics/ucitelin.jpg";
 import bridge from "../Pics/bridge.jpg";
 import codeweek from "../Pics/codeweek.jpg";
+import kritickelisty from "../Pics/kritickelisty.jpg";
 
 export const Ucitele = () => {
   return (
@@ -83,6 +84,13 @@ export const Ucitele = () => {
       </a>
       <a href="https://codeweek.eu/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={codeweek} alt="codeweek" />
+      </a>
+      <a
+        href="https://kritickemysleni.cz/inspirace-pro-ucitele/kriticke-listy/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={kritickelisty} alt="kritickelisty" />
       </a>
     </div>
   );

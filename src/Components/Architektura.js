@@ -11,6 +11,7 @@ import kam from "../Pics/kam.jpg";
 import pam from "../Pics/pam.jpg";
 import mujrozcestnik from "../Pics/mujrozcestnik.jpg";
 import mozaik from "../Pics/mozaik.jpg";
+import desetstoleti from "../Pics/desetstoleti.jpg";
 
 export const Architektura = () => {
   return (
@@ -114,6 +115,13 @@ export const Architektura = () => {
           alt="mozaik"
           title="3D modely a prezentace"
         />
+      </a>
+      <a
+        href="https://www.youtube.com/results?search_query=deset+stoleti+architektury"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={desetstoleti} alt="desetstoleti" />
       </a>
     </div>
   );

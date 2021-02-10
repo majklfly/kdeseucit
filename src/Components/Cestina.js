@@ -33,6 +33,7 @@ import prijmackybezobav from "../Pics/prijmackybezobav.jpg";
 import pravidla from "../Pics/pravidla.jpg";
 import ujc from "../Pics/ujc.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
+import nechybujte from "../Pics/nechybujte.jpg";
 
 export const Cestina = () => {
   return (
@@ -150,6 +151,9 @@ export const Cestina = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={testpark} alt="testpark" />
+      </a>
+      <a href="https://www.nechybujte.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={nechybujte} alt="nechybujte" />
       </a>
       <a
         href="https://edu.ceskatelevize.cz/predmet/cj-a-literatura"

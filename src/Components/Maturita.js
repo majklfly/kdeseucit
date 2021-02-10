@@ -7,6 +7,7 @@ import cermat from "../Pics/cermat.jpg";
 import learntube from "../Pics/learntube.jpg";
 import bridge from "../Pics/bridge.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
+import hlavy from "../Pics/hlavy.jpg";
 
 export const Maturita = () => {
   return (
@@ -55,6 +56,18 @@ export const Maturita = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
+      </a>
+      <a
+        href="https://www.youtube.com/playlist?list=PL4hnbqNUUmgQTf4yN12PINP0q0QJFInxa"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={hlavy}
+          alt="hlavy"
+          title="Rozbory literárních děl k maturitě"
+        />
       </a>
     </div>
   );

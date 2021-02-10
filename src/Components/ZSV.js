@@ -12,6 +12,7 @@ import skolamedii from "../Pics/skolamedii.jpg";
 import odyssea from "../Pics/odyssea.jpg";
 import muni from "../Pics/muni.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
+import filda from "../Pics/filda.jpg";
 
 export const ZSV = () => {
   return (
@@ -86,6 +87,18 @@ export const ZSV = () => {
           src={muni}
           alt="Milujeme vědu"
           title="Milujeme vědu - magazín z Masarykovi univerzity"
+        />
+      </a>
+      <a
+        href="https://www.youtube.com/c/Filozofick%C3%A1fakultaUniverzityKarlovy/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={filda}
+          alt="filda"
+          title="Oficiální youtube kanál Filozofické fakulty UK"
         />
       </a>
     </div>

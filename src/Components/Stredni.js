@@ -380,6 +380,18 @@ export const Stredni = () => {
           title="3D modely a prezentace"
         />
       </a>
+      <a
+        href="https://www.youtube.com/c/Filozofick%C3%A1fakultaUniverzityKarlovy/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={filda}
+          alt="filda"
+          title="Oficiální youtube kanál Filozofické fakulty UK"
+        />
+      </a>
     </div>
   );
 };
