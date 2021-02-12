@@ -12,6 +12,8 @@ import databazeknih from "../Pics/databazeknih.jpg";
 import bejvavalo from "../Pics/bejvavalo.jpg";
 import pametromu from "../Pics/pametromu.jpg";
 import pitter from "../Pics/pitter.jpg";
+import abc from "../Pics/abc.jpg";
+import vesmir from "../Pics/vesmir.jpg";
 
 export const Knihovny = () => {
   return (
@@ -106,6 +108,24 @@ export const Knihovny = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={pitter} alt="Přemysl Pitter" />
+      </a>
+      <a href="https://vesmir.cz/cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={vesmír} alt="vesmír" />
+      </a>
+      <a
+        href="https://www.abicko.cz/kategorie/559/priroda"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={abc} alt="Ábíčko" />
+      </a>
+      <a href="http://www.casopisveronica.cz/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={veronica}
+          alt="veronica"
+          title="Zpravodaj ekologického institutu Veronica"
+        />
       </a>
     </div>
   );

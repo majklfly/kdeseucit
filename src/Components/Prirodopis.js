@@ -29,6 +29,8 @@ import muni from "../Pics/muni.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import vedaliska from "../Pics/vedaliska.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
+import abc from "../Pics/abc.jpg";
+import vesmir from "../Pics/vesmir.jpg";
 
 export const Prirodopis = () => {
   return (
@@ -176,6 +178,13 @@ export const Prirodopis = () => {
         <img className="obrazekKarty" src={bezobratli} alt="bezobratli" />
       </a>
       <a
+        href="https://www.abicko.cz/kategorie/559/priroda"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={abc} alt="Ábíčko" />
+      </a>
+      <a
         href="https://www.npsumava.cz/navstivte-sumavu/materialy-ke-stazeni/samoobsluzne-pracovni-listy/"
         target="_blank"
         rel="noreferrer"
@@ -219,6 +228,9 @@ export const Prirodopis = () => {
       </a>
       <a href="https://bavsevedou.zcu.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={bavse} alt="Bav se vědou" />
+      </a>
+      <a href="https://vesmir.cz/cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={vesmír} alt="vesmír" />
       </a>
       <a href="http://www.casopisveronica.cz/" target="_blank" rel="noreferrer">
         <img
