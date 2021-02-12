@@ -7,6 +7,7 @@ import testpark from "../Pics/testpark.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
 import freunde from "../Pics/freunde.jpg";
 import nemslov from "../Pics/nemslov.jpg";
+import vcelka from "../Pics/vcelka.jpg";
 
 export const Nemecky = () => {
   return (
@@ -59,6 +60,14 @@ export const Nemecky = () => {
           src={nemslov}
           alt="nemslov"
           title="Nahrávky německých slovíček"
+        />
+      </a>
+      <a href="https://www.vcelka.cz" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={vcelka}
+          alt="vcelka"
+          title="Včelka je vytvářena odborníky z oblasti vzdělávání, poruch učení a nápravy čtení."
         />
       </a>
     </div>

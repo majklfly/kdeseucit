@@ -35,6 +35,7 @@ import bridge from "../Pics/bridge.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import jsnsen from "../Pics/jsnsen.jpg";
+import vcelka from "../Pics/vcelka.jpg";
 
 export const Anglicky = () => {
   return (
@@ -202,6 +203,14 @@ export const Anglicky = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ddm} alt="ddm" />
+      </a>
+      <a href="https://www.vcelka.cz" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={vcelka}
+          alt="vcelka"
+          title="Včelka je vytvářena odborníky z oblasti vzdělávání, poruch učení a nápravy čtení."
+        />
       </a>
       <a
         href="https://www.seduo.cz/naucte-se-konecne-opravdu-anglicky"

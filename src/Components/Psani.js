@@ -3,6 +3,7 @@ import React from "react";
 import amos from "../Pics/amos.jpg";
 import lustenky from "../Pics/lustenky.jpg";
 import agata from "../Pics/agata.jpg";
+import vcelka from "../Pics/vcelka.jpg";
 
 export const Psani = () => {
   return (
@@ -19,6 +20,14 @@ export const Psani = () => {
       </a>
       <a href="https://nns.cz/agata/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={agata} alt="agata" />
+      </a>
+      <a href="https://www.vcelka.cz" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={vcelka}
+          alt="vcelka"
+          title="Včelka je vytvářena odborníky z oblasti vzdělávání, poruch učení a nápravy čtení."
+        />
       </a>
     </div>
   );

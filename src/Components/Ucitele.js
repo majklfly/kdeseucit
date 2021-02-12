@@ -13,7 +13,8 @@ import ucitelin from "../Pics/ucitelin.jpg";
 import bridge from "../Pics/bridge.jpg";
 import codeweek from "../Pics/codeweek.jpg";
 import kritickelisty from "../Pics/kritickelisty.jpg";
-import redmonster from "../Pics/redmonsterjpg";
+import redmonster from "../Pics/redmonster.jpg";
+import talen from "../Pics/talen.jpg";
 
 export const Ucitele = () => {
   return (
@@ -100,6 +101,14 @@ export const Ucitele = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={kritickelisty} alt="kritickelisty" />
+      </a>
+      <a href="https://www.talentest.cz/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={talen}
+          alt="talen"
+          title="Poznej své talenty, vyber školu a povolání"
+        />
       </a>
     </div>
   );

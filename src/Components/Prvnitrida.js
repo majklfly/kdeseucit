@@ -25,6 +25,7 @@ import doprava from "../Pics/doprava.jpg";
 import naucsepocitat from "../Pics/naucsepocitat.jpg";
 import nenudim from "../Pics/nenudim.jpg";
 import malypan from "../Pics/malypan.jpg";
+import vcelka from "../Pics/vcelka.jpg";
 
 export const Prvnitrida = () => {
   return (
@@ -152,6 +153,14 @@ export const Prvnitrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={nenudim} alt="nenudim" />
+      </a>
+      <a href="https://www.vcelka.cz" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={vcelka}
+          alt="vcelka"
+          title="Včelka je vytvářena odborníky z oblasti vzdělávání, poruch učení a nápravy čtení."
+        />
       </a>
       <a
         href="https://www.youtube.com/playlist?list=PLMrIwta5vAVkZSpa6pmhU5qYEUKPyODt0"

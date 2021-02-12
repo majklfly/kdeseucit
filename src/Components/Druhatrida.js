@@ -31,6 +31,7 @@ import vojenskelesy from "../Pics/vojenskelesy.jpg";
 import veseledeti2 from "../Pics/veseledeti2.jpg";
 import pronejmensi from "../Pics/pronejmensi.jpg";
 import bankovkovi from "../Pics/bankovkovi.jpg";
+import vcelka from "../Pics/vcelka.jpg";
 
 export const Druhatrida = () => {
   return (
@@ -194,6 +195,14 @@ export const Druhatrida = () => {
           className="obrazekKarty"
           src={pronejmensi}
           alt="Angličtina pro nejmenší"
+        />
+      </a>
+      <a href="https://www.vcelka.cz" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={vcelka}
+          alt="vcelka"
+          title="Včelka je vytvářena odborníky z oblasti vzdělávání, poruch učení a nápravy čtení."
         />
       </a>
     </div>

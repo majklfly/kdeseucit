@@ -24,6 +24,7 @@ import pointa from "../Pics/pointa.jpg";
 import eucebnice from "../Pics/eucebnice.jpg";
 import odyssea from "../Pics/odyssea.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
+import vcelka from "../Pics/vcelka.jpg";
 
 export const Literatura = () => {
   return (
@@ -43,6 +44,14 @@ export const Literatura = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={snadhledem} alt="snadhledem" />
+      </a>
+      <a href="https://www.vcelka.cz" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={vcelka}
+          alt="vcelka"
+          title="Včelka je vytvářena odborníky z oblasti vzdělávání, poruch učení a nápravy čtení."
+        />
       </a>
       <a
         href="http://cviceni.testy.sweb.cz/cteni.htm"

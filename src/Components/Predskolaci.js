@@ -13,6 +13,7 @@ import hello from "../Pics/hello.jpg";
 import juchu from "../Pics/juch.jpg";
 import pinterest from "../Pics/pinterest.jpg";
 import zvesela from "../Pics/zvesela.jpg";
+import vcelka from "../Pics/vcelka.jpg";
 
 export const Predskolaci = () => {
   return (
@@ -53,6 +54,14 @@ export const Predskolaci = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={doprava} alt="doprava" />
+      </a>
+      <a href="https://www.vcelka.cz" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={vcelka}
+          alt="vcelka"
+          title="Včelka je vytvářena odborníky z oblasti vzdělávání, poruch učení a nápravy čtení."
+        />
       </a>
       <a
         href="https://www.napadyproanicku.cz/"
