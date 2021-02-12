@@ -9,6 +9,7 @@ import bridge from "../Pics/bridge.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import hlavy from "../Pics/hlavy.jpg";
 import vhlavniroli from "../Pics/vhlavniroli.jpg";
+import milujeme from "../Pics/milujeme.jpg";
 
 export const Maturita = () => {
   return (
@@ -57,6 +58,13 @@ export const Maturita = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
+      </a>
+      <a
+        href="https://www.milujemecestinu.cz/maturita-z-cestiny_cs.htm"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={milujeme} alt="Milujeme češtinu" />
       </a>
       <a
         href="https://www.youtube.com/playlist?list=PL4hnbqNUUmgQTf4yN12PINP0q0QJFInxa"
