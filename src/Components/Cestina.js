@@ -34,6 +34,8 @@ import pravidla from "../Pics/pravidla.jpg";
 import ujc from "../Pics/ujc.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import nechybujte from "../Pics/nechybujte.jpg";
+import napohodu from "../Pics/napohodu.jpg";
+import speky from "../Pics/speky.jpg";
 
 export const Cestina = () => {
   return (
@@ -207,6 +209,20 @@ export const Cestina = () => {
       </a>
       <a href="https://prirucka.ujc.cas.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={ujc} alt="ujc" />
+      </a>
+      <a
+        href="https://www.instagram.com/cestina_na_pohodu/?hl=cs"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={napohodu} alt="napohodu" />
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/cestinarskespeky/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={speky} alt="speky" />
       </a>
     </div>
   );

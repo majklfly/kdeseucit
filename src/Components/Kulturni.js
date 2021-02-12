@@ -16,6 +16,7 @@ import women from "../Pics/women.jpg";
 import vatican from "../Pics/vatican.jpg";
 import dali from "../Pics/dali.jpg";
 import ctdivadlo from "../Pics/ctdivadlo.jpg";
+import rokoko from "../Pics/rokoko.jpg";
 
 export const Kulturni = () => {
   return (
@@ -126,7 +127,14 @@ export const Kulturni = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={dali} alt="dali" />{" "}
+        <img className="obrazekKarty" src={dali} alt="dali" />
+      </a>
+      <a
+        href="https://www.youtube.com/c/MestskadivadlaprazskaCz/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={rokoko} alt="rokoko" />
       </a>
     </div>
   );

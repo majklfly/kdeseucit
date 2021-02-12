@@ -1,16 +1,24 @@
 import React from "react";
 
-import amos from "../Pics/amos.jpg";
+import povidkar from "../Pics/povidkar.jpg";
+import pointa from "../Pics/pointa.jpg";
+import sotkoviny from "../Pics/sotkoviny.jpg";
 
 export const Sloh = () => {
   return (
     <div className="BoxProKarty">
       <a
-        href="https://www.youtube.com/channel/UCu3JEcOEWv-eybsibgw2fwQ/playlists"
+        href="https://www.renenekuda.cz/povidkar/"
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={amos} alt="samos" />
+        <img className="obrazekKarty" src={povidkar} alt="povidkar" />
+      </a>
+      <a href="https://www.pointa.cz/landing" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={pointa} alt="pointa" />
+      </a>
+      <a href="http://www.sotkoviny.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={sotkoviny} alt="sotkoviny" />
       </a>
     </div>
   );

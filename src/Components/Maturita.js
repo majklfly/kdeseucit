@@ -8,6 +8,7 @@ import learntube from "../Pics/learntube.jpg";
 import bridge from "../Pics/bridge.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import hlavy from "../Pics/hlavy.jpg";
+import vhlavniroli from "../Pics/vhlavniroli.jpg";
 
 export const Maturita = () => {
   return (
@@ -67,6 +68,18 @@ export const Maturita = () => {
           src={hlavy}
           alt="hlavy"
           title="Rozbory literárních děl k maturitě"
+        />
+      </a>
+      <a
+        href="https://www.mestskadivadlaprazska.cz/vzdelavani/maturita/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={vhlavniroli}
+          alt="vhlavniroli"
+          title="V hlavní roli maturita - Městská divadla pražská"
         />
       </a>
     </div>

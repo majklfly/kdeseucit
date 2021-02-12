@@ -18,7 +18,6 @@ import ctedu from "../Pics/ctedu.jpg";
 import knihovny from "../Pics/knihovny.jpg";
 import mestskaknihovna from "../Pics/mestskaknihovna.jpg";
 import databazeknih from "../Pics/databazeknih.jpg";
-import povidkar from "../Pics/povidkar.jpg";
 import ctenarskekluby from "../Pics/ctenarskekluby.jpg";
 import rostik from "../Pics/rostik.jpg";
 import pointa from "../Pics/pointa.jpg";
@@ -138,13 +137,7 @@ export const Literatura = () => {
       >
         <img className="obrazekKarty" src={databazeknih} alt="databazeknih" />
       </a>
-      <a
-        href="https://www.renenekuda.cz/povidkar/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={povidkar} alt="povidkar" />
-      </a>
+
       <a
         href="https://new.ctenarskekluby.cz/co-nabizime/lekce"
         target="_blank"

@@ -13,6 +13,7 @@ import ucitelin from "../Pics/ucitelin.jpg";
 import bridge from "../Pics/bridge.jpg";
 import codeweek from "../Pics/codeweek.jpg";
 import kritickelisty from "../Pics/kritickelisty.jpg";
+import redmonster from "../Pics/redmonsterjpg";
 
 export const Ucitele = () => {
   return (
@@ -36,6 +37,14 @@ export const Ucitele = () => {
       </a>
       <a href="https://www.ucitelnice.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={ucitelnice} alt="učitelnice" />
+      </a>
+      <a href="https://www.redmonster.cz/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={redmonster}
+          alt="redmonster"
+          title="Online výukové kurzy nejen pro základní a střední školy."
+        />
       </a>
       <a
         href="https://education.microsoft.com/cs-cz/resource/1a664892"
