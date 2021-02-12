@@ -230,7 +230,7 @@ export const Prirodopis = () => {
         <img className="obrazekKarty" src={bavse} alt="Bav se vědou" />
       </a>
       <a href="https://vesmir.cz/cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={vesmír} alt="vesmír" />
+        <img className="obrazekKarty" src={vesmir} alt="vesmir" />
       </a>
       <a href="http://www.casopisveronica.cz/" target="_blank" rel="noreferrer">
         <img

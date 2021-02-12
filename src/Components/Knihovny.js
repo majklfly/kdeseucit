@@ -15,6 +15,8 @@ import pitter from "../Pics/pitter.jpg";
 import abc from "../Pics/abc.jpg";
 import vesmir from "../Pics/vesmir.jpg";
 
+import veronica from "../Pics/veronica.jpg";
+
 export const Knihovny = () => {
   return (
     <div className="BoxProKarty">
@@ -110,7 +112,7 @@ export const Knihovny = () => {
         <img className="obrazekKarty" src={pitter} alt="Přemysl Pitter" />
       </a>
       <a href="https://vesmir.cz/cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={vesmír} alt="vesmír" />
+        <img className="obrazekKarty" src={vesmir} alt="vesmir" />
       </a>
       <a
         href="https://www.abicko.cz/kategorie/559/priroda"
