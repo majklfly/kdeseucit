@@ -8,6 +8,7 @@ import veseledeti2 from "../Pics/veseledeti2.jpg";
 import freunde from "../Pics/freunde.jpg";
 import nemslov from "../Pics/nemslov.jpg";
 import vcelka from "../Pics/vcelka.jpg";
+import klett from "../Pics/klett.jpg";
 
 export const Nemecky = () => {
   return (
@@ -69,6 +70,13 @@ export const Nemecky = () => {
           alt="vcelka"
           title="Včelka je vytvářena odborníky z oblasti vzdělávání, poruch učení a nápravy čtení."
         />
+      </a>
+      <a
+        href="https://onlinecviceni.klett.cz/#languageId=8&bookId=24&capitolId=81"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={klett} alt="klett" />
       </a>
     </div>
   );

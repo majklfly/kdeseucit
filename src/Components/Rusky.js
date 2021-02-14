@@ -1,6 +1,7 @@
 import React from "react";
 
 import snadhledem from "../Pics/snadhledem.jpg";
+import klett from "../Pics/klett.jpg";
 
 export const Rusky = () => {
   return (
@@ -11,6 +12,13 @@ export const Rusky = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={snadhledem} alt="snadhledem" />
+      </a>
+      <a
+        href="https://onlinecviceni.klett.cz/#languageId=10&bookId=26&capitolId=90"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={klett} alt="klett" />
       </a>
     </div>
   );
