@@ -32,6 +32,7 @@ import veseledeti2 from "../Pics/veseledeti2.jpg";
 import pronejmensi from "../Pics/pronejmensi.jpg";
 import bankovkovi from "../Pics/bankovkovi.jpg";
 import vcelka from "../Pics/vcelka.jpg";
+import digitalni from "../Pics/digitalni.jpg";
 
 export const Druhatrida = () => {
   return (
@@ -71,6 +72,13 @@ export const Druhatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={matysek} alt="matysek" />
+      </a>
+      <a
+        href="https://www.jsns.cz/lekce/416814-medialni-vzdelavani-pro-1-stupen-zs"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={digitalni} alt="digitalni" />
       </a>
       <a
         href="https://www.sheppardsoftware.com/math.htm"

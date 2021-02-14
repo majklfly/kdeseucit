@@ -29,7 +29,6 @@ import atlas from "../Pics/atlas.jpg";
 import eucitelka from "../Pics/eucitelka.jpg";
 import dejepic from "../Pics/dejepic.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
-import digitalni from "../Pics/digitalni.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
 
 export const Patatrida = () => {
@@ -134,13 +133,6 @@ export const Patatrida = () => {
       </a>
       <a href="https://atlas.mapy.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={atlas} alt="Atlas světa" />
-      </a>
-      <a
-        href="https://www.jsns.cz/lekce/416814-medialni-vzdelavani-pro-1-stupen-zs"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={digitalni} alt="digitalni" />
       </a>
       <a
         href="https://www.dopravnivychova.cz/stranky/98/pracovni-listy.html"

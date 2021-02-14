@@ -26,6 +26,7 @@ import naucsepocitat from "../Pics/naucsepocitat.jpg";
 import nenudim from "../Pics/nenudim.jpg";
 import malypan from "../Pics/malypan.jpg";
 import vcelka from "../Pics/vcelka.jpg";
+import digitalni from "../Pics/digitalni.jpg";
 
 export const Prvnitrida = () => {
   return (
@@ -133,6 +134,13 @@ export const Prvnitrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={primauca} alt="primauca" />
+      </a>
+      <a
+        href="https://www.jsns.cz/lekce/416814-medialni-vzdelavani-pro-1-stupen-zs"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={digitalni} alt="digitalni" />
       </a>
       <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={khan} alt="khan" />

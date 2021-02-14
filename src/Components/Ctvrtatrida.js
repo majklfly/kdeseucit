@@ -28,7 +28,6 @@ import veseledeti2 from "../Pics/veseledeti2.jpg";
 import eucitelka from "../Pics/eucitelka.jpg";
 import bankovkovi from "../Pics/bankovkovi.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
-import digitalni from "../Pics/digitalni.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
 
 export const Ctvrtatrida = () => {
@@ -126,13 +125,6 @@ export const Ctvrtatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={sheppard} alt="sheppard" />
-      </a>
-      <a
-        href="https://www.jsns.cz/lekce/416814-medialni-vzdelavani-pro-1-stupen-zs"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={digitalni} alt="digitalni" />
       </a>
       <a href="https://deti.vls.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={vojenskelesy} alt="vojenskelesy" />
