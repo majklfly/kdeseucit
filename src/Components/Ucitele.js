@@ -15,6 +15,7 @@ import codeweek from "../Pics/codeweek.jpg";
 import kritickelisty from "../Pics/kritickelisty.jpg";
 import redmonster from "../Pics/redmonster.jpg";
 import talen from "../Pics/talen.jpg";
+import ucimeonline from "../Pics/ucimeonline.jpg";
 
 export const Ucitele = () => {
   return (
@@ -109,6 +110,13 @@ export const Ucitele = () => {
           alt="talen"
           title="Poznej své talenty, vyber školu a povolání"
         />
+      </a>
+      <a
+        href="https://www.ucimeonline.cz/aktivity/technologie-do-skoly/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucimeonline} alt="ucimeonline" />
       </a>
     </div>
   );

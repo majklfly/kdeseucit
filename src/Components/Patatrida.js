@@ -30,6 +30,7 @@ import eucitelka from "../Pics/eucitelka.jpg";
 import dejepic from "../Pics/dejepic.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import digitalni from "../Pics/digitalni.jpg";
+import pametnaroda from "../Pics/pametnaroda.jpg";
 
 export const Patatrida = () => {
   return (
@@ -100,6 +101,18 @@ export const Patatrida = () => {
           className="obrazekKarty"
           src={kreslenaveda}
           alt="NEZkreslena věda"
+        />
+      </a>
+      <a
+        href="https://vypravej.pametnaroda.cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={pametnaroda}
+          alt="Paměť národa"
+          title="Paměť národa"
         />
       </a>
       <a

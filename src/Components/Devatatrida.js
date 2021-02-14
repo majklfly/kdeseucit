@@ -39,6 +39,7 @@ import timixi from "../Pics/timixi.jpg";
 import curko from "../Pics/curko.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import bezpravi from "../Pics/bezpravi.jpg";
+import pametnaroda from "../Pics/pametnaroda.jpg";
 
 export const Devatatrida = () => {
   return (
@@ -119,6 +120,18 @@ export const Devatatrida = () => {
           className="obrazekKarty"
           src={kreslenaveda}
           alt="NEZkreslena věda"
+        />
+      </a>
+      <a
+        href="https://vypravej.pametnaroda.cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={pametnaroda}
+          alt="Paměť národa"
+          title="Paměť národa"
         />
       </a>
       <a href="https://atlas.mapy.cz/" target="_blank" rel="noreferrer">

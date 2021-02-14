@@ -53,6 +53,8 @@ import timixi from "../Pics/timixi.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import filda from "../Pics/filda.jpg";
+import pametnaroda from "../Pics/pametnaroda.jpg";
+import zav from "../Pics/zav.jpg";
 
 export const Stredni = () => {
   return (
@@ -124,6 +126,18 @@ export const Stredni = () => {
       </a>
       <a href="https://www.e-fyzika.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={efyzika} alt="efyzika" />
+      </a>
+      <a
+        href="https://vypravej.pametnaroda.cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={pametnaroda}
+          alt="Paměť národa"
+          title="Paměť národa"
+        />
       </a>
       <a
         href="https://www.maths.cz/clanek/kategorie/1"
@@ -325,6 +339,13 @@ export const Stredni = () => {
           alt="Animace matematických jevů"
           title="Animace matematických jevů"
         />
+      </a>
+      <a
+        href="http://www.zav.cz/download-vyuka-psani-na-klavesnici"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={zav} alt="zav" />
       </a>
       <a
         href="https://www.skillsbuilder.org/homelearning"

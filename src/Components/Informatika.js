@@ -24,6 +24,7 @@ import digitalni from "../Pics/digitalni.jpg";
 import ozobot from "../Pics/ozobot.jpg";
 import hodinykodu from "../Pics/hodinykodu.jpg";
 import galaxy from "../Pics/galaxy.jpg";
+import zav from "../Pics/zav.jpg";
 
 export const Informatika = () => {
   return (
@@ -199,6 +200,13 @@ export const Informatika = () => {
           alt="Code"
           title="Kurzy programování pro různé věkové skupiny"
         />
+      </a>
+      <a
+        href="http://www.zav.cz/download-vyuka-psani-na-klavesnici"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={zav} alt="zav" />
       </a>
       <a
         href="https://course.elementsofai.com/"

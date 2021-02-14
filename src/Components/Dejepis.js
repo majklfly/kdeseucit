@@ -26,6 +26,7 @@ import mozaik from "../Pics/mozaik.jpg";
 import dejepic from "../Pics/dejepic.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import bezpravi from "../Pics/bezpravi.jpg";
+import pametnaroda from "../Pics/pametnaroda.jpg";
 
 export const Dejepis = () => {
   return (
@@ -95,6 +96,18 @@ export const Dejepis = () => {
           src={bezpravi}
           alt="Příběhy bezpráví"
           title="Příběhy bezpráví"
+        />
+      </a>
+      <a
+        href="https://vypravej.pametnaroda.cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={pametnaroda}
+          alt="Paměť národa"
+          title="Paměť národa"
         />
       </a>
       <a

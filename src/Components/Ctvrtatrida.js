@@ -29,6 +29,7 @@ import eucitelka from "../Pics/eucitelka.jpg";
 import bankovkovi from "../Pics/bankovkovi.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import digitalni from "../Pics/digitalni.jpg";
+import pametnaroda from "../Pics/pametnaroda.jpg";
 
 export const Ctvrtatrida = () => {
   return (
@@ -89,6 +90,18 @@ export const Ctvrtatrida = () => {
       </a>
       <a href="https://dn1.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={dna1} alt="dna1" />
+      </a>
+      <a
+        href="https://vypravej.pametnaroda.cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={pametnaroda}
+          alt="Paměť národa"
+          title="Paměť národa"
+        />
       </a>
       <a
         href="https://edu.ceskatelevize.cz/stupen-vzdelani/1-stupen-zs"

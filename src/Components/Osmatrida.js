@@ -38,6 +38,7 @@ import timixi from "../Pics/timixi.jpg";
 import curko from "../Pics/curko.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import bezpravi from "../Pics/bezpravi.jpg";
+import pametnaroda from "../Pics/pametnaroda.jpg";
 
 export const Osmatrida = () => {
   return (
@@ -144,6 +145,18 @@ export const Osmatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={matematikacz} alt="matematikacz" />
+      </a>
+      <a
+        href="https://vypravej.pametnaroda.cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={pametnaroda}
+          alt="Paměť národa"
+          title="Paměť národa"
+        />
       </a>
       <a
         href="https://www.maths.cz/clanek/kategorie/22"
