@@ -7,6 +7,8 @@ import clic from "../Pics/clic.jpg";
 import hugo from "../Pics/hugo.jpg";
 import facile from "../Pics/facile.jpg";
 import phonetique from "../Pics/phonetique.jpg";
+import topito from "../Pics/topito.jpg";
+import fraudio from "../Pics/fraudio.jpg";
 
 export const Francouzsky = () => {
   return (
@@ -75,6 +77,30 @@ export const Francouzsky = () => {
           src={phonetique}
           alt="phonetique"
           title="výslovnost - prezentace fonémů, aktivity na jejich rozlišení, jazykolamy (všechny úrovně)"
+        />
+      </a>
+      <a
+        href="https://www.topito.com/tag/meme"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={topito}
+          alt="topito"
+          title="Meme ve francouzštině - středoškoláci a výše"
+        />
+      </a>
+      <a
+        href="http://www.litteratureaudio.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={fraudio}
+          alt="fraudio"
+          title="literatura k poslechu a čtení (SŠ a výše)"
         />
       </a>
     </div>
