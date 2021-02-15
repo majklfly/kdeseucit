@@ -39,6 +39,7 @@ import matikaprospoluzaky from "../Pics/matikaprospoluzaky.jpg";
 import ict from "../Pics/ict.jpg";
 import matikaucitelnet from "../Pics/matikaucitelnet.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
+import katerina from "../Pics/katerina.jpg";
 
 export const Matematika = () => {
   return (
@@ -146,6 +147,13 @@ export const Matematika = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={maprokazdeho} alt="maprokazdeho" />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UC8dPt2LIApro2w0q7io8fIA/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={katerina} alt="katerina" />
       </a>
       <a href="https://isibalo.com/matematika" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={isibalo} alt="isibalo" />

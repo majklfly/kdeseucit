@@ -17,6 +17,7 @@ import vatican from "../Pics/vatican.jpg";
 import dali from "../Pics/dali.jpg";
 import ctdivadlo from "../Pics/ctdivadlo.jpg";
 import rokoko from "../Pics/rokoko.jpg";
+import vmuzeudoma from "../Pics/vmuzeudoma.jpg";
 
 export const Kulturni = () => {
   return (
@@ -135,6 +136,17 @@ export const Kulturni = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={rokoko} alt="rokoko" />
+      </a>
+      <a
+        href="https://www.nzm.cz/aktuality/v-muzeu-jako-doma?fbclid=IwAR0wPdIS-WbJGeR2u0orR7ZgtNlFgNYJL_xx95zk6YrQZ3MtdB0jVryJRyg"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={vmuzeudoma}
+          alt="V muzeu jako doma"
+        />
       </a>
     </div>
   );

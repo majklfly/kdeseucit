@@ -36,6 +36,7 @@ import ucseonline from "../Pics/ucseonline.jpg";
 import nechybujte from "../Pics/nechybujte.jpg";
 import napohodu from "../Pics/napohodu.jpg";
 import speky from "../Pics/speky.jpg";
+import muni from "../Pics/muni.jpg";
 
 export const Cestina = () => {
   return (
@@ -223,6 +224,9 @@ export const Cestina = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={speky} alt="speky" />
+      </a>
+      <a href="https://openedx.phil.muni.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={muni} alt="Milujeme vědu" />
       </a>
     </div>
   );

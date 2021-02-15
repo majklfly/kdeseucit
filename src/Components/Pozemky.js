@@ -4,6 +4,7 @@ import potravinovezahrady from "../Pics/potravinovezahrady.jpg";
 import svycarsko from "../Pics/svycarsko.jpg";
 import ucimesevenku from "../Pics/ucimesevenku.jpg";
 import facebookenviro from "../Pics/facebookenviro.jpg";
+import vmuzeudoma from "../Pics/vmuzeudoma.jpg";
 
 export const Pozemky = () => {
   return (
@@ -21,6 +22,17 @@ export const Pozemky = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ucimesevenku} alt="Učíme se venku" />
+      </a>
+      <a
+        href="https://www.nzm.cz/aktuality/v-muzeu-jako-doma?fbclid=IwAR0wPdIS-WbJGeR2u0orR7ZgtNlFgNYJL_xx95zk6YrQZ3MtdB0jVryJRyg"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={vmuzeudoma}
+          alt="V muzeu jako doma"
+        />
       </a>
       <a
         href="https://www.potravinovezahrady.cz/rubriky/clanky/"

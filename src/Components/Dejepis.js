@@ -224,7 +224,7 @@ export const Dejepis = () => {
       <a href="https://www.oldmapsonline.org/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={oldmaps} alt="Old maps" />
       </a>
-      <a href="https://www.em.muni.cz/veda" target="_blank" rel="noreferrer">
+      <a href="https://openedx.phil.muni.cz/" target="_blank" rel="noreferrer">
         <img
           className="obrazekKarty"
           src={muni}
