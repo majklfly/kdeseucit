@@ -27,6 +27,8 @@ import dejepic from "../Pics/dejepic.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import bezpravi from "../Pics/bezpravi.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
+import slavnedny from "../Pics/slavnedny.jpg";
+import krvavaleta from "../Pics/krvavaleta.jpg";
 
 export const Dejepis = () => {
   return (
@@ -116,6 +118,21 @@ export const Dejepis = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
+      </a>
+      <a href="https://www.slavne-dny.cz/list" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={slavnedny} alt="Slavné dny" />
+      </a>
+      <a
+        href="https://www.televizeseznam.cz/porad/krvava-leta"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={krvavaleta}
+          alt="krvavaleta"
+          title="Nacistická okupace, vyhnání Němců, nástup komunistů."
+        />
       </a>
       <a
         href="https://www.abicko.cz/kategorie/6317/historie"

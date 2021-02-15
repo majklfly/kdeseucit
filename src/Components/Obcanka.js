@@ -9,6 +9,7 @@ import migrace from "../Pics/migrace.jpg";
 import bankovkovi from "../Pics/bankovkovi.jpg";
 import odyssea from "../Pics/odyssea.jpg";
 import bezpravi from "../Pics/bezpravi.jpg";
+import slavnedny from "../Pics/slavnedny.jpg";
 
 export const Obcanka = () => {
   return (
@@ -72,6 +73,9 @@ export const Obcanka = () => {
       </a>
       <a href="https://www.ptac.cz/materialy" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={odyssea} alt="odyssea" />
+      </a>
+      <a href="https://www.slavne-dny.cz/list" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={slavnedny} alt="Slavné dny" />
       </a>
     </div>
   );

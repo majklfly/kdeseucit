@@ -6,6 +6,7 @@ import ctedu from "../Pics/ctedu.jpg";
 import testpark from "../Pics/testpark.jpg";
 import patrik from "../Pics/patrik.jpg";
 import rous from "../Pics/rous.jpg";
+import hodinazpevu from "../Pics/hodinazpevu.jpg";
 
 export const Hudebni = () => {
   return (
@@ -26,6 +27,13 @@ export const Hudebni = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ctedu} alt="ctedu" />
+      </a>
+      <a
+        href="https://www.youtube.com/playlist?list=PLAHm1JQMiqaTpUuTd5N_rIUWbzPZZjx49"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={hodinazpevu} alt="hodinazpevu" />
       </a>
       <a
         href="https://www.youtube.com/c/PatrikPietschmann/videos"
