@@ -36,6 +36,7 @@ import kreslenaveda from "../Pics/kreslenaveda.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import fyzikaucitelnet from "../Pics/fyzikaucitelnet.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const Fyzika = () => {
   return (
@@ -301,6 +302,13 @@ export const Fyzika = () => {
           src={fyzikaucitelnet}
           alt="fyzikaucitelnet"
         />
+      </a>
+      <a
+        href="https://studijni-svet.cz/fyzika-maturitni-otazky/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );
