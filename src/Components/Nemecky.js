@@ -9,6 +9,7 @@ import freunde from "../Pics/freunde.jpg";
 import nemslov from "../Pics/nemslov.jpg";
 import vcelka from "../Pics/vcelka.jpg";
 import klett from "../Pics/klett.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const Nemecky = () => {
   return (
@@ -77,6 +78,13 @@ export const Nemecky = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={klett} alt="klett" />
+      </a>
+      <a
+        href="https://studijni-svet.cz/nemcina/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );

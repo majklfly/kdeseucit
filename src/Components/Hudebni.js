@@ -7,6 +7,7 @@ import testpark from "../Pics/testpark.jpg";
 import patrik from "../Pics/patrik.jpg";
 import rous from "../Pics/rous.jpg";
 import hodinazpevu from "../Pics/hodinazpevu.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const Hudebni = () => {
   return (
@@ -55,6 +56,13 @@ export const Hudebni = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={testpark} alt="Test park" />
+      </a>
+      <a
+        href="https://dejiny-online.cz/maturitni-otazky-z-dejin-hudby/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );

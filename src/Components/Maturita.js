@@ -10,6 +10,7 @@ import ucseonline from "../Pics/ucseonline.jpg";
 import hlavy from "../Pics/hlavy.jpg";
 import vhlavniroli from "../Pics/vhlavniroli.jpg";
 import milujeme from "../Pics/milujeme.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const Maturita = () => {
   return (
@@ -65,6 +66,13 @@ export const Maturita = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={milujeme} alt="Milujeme češtinu" />
+      </a>
+      <a
+        href="https://studijni-svet.cz/predmety/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
       <a
         href="https://www.youtube.com/playlist?list=PL4hnbqNUUmgQTf4yN12PINP0q0QJFInxa"

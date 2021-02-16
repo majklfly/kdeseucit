@@ -25,6 +25,7 @@ import eucebnice from "../Pics/eucebnice.jpg";
 import odyssea from "../Pics/odyssea.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import vcelka from "../Pics/vcelka.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const Literatura = () => {
   return (
@@ -177,6 +178,13 @@ export const Literatura = () => {
       </a>
       <a href="https://www.ptac.cz/materialy" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={odyssea} alt="odyssea" />
+      </a>
+      <a
+        href="https://rozbor-dila.cz/literarni-obdobi-a-umelecke-smery/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );

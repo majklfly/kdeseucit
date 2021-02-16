@@ -23,6 +23,7 @@ import muni from "../Pics/muni.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import vedaliska from "../Pics/vedaliska.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const Chemie = () => {
   return (
@@ -196,6 +197,13 @@ export const Chemie = () => {
           alt="mozaik"
           title="3D modely a prezentace"
         />
+      </a>
+      <a
+        href="https://biologie-chemie.cz/seznam-maturitnich-otazek-z-chemie/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );

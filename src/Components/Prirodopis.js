@@ -31,6 +31,7 @@ import vedaliska from "../Pics/vedaliska.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import abc from "../Pics/abc.jpg";
 import vesmir from "../Pics/vesmir.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const Prirodopis = () => {
   return (
@@ -271,6 +272,13 @@ export const Prirodopis = () => {
           alt="Otevřená věda"
           title="Otevřená věda"
         />
+      </a>
+      <a
+        href="https://biologie-chemie.cz/seznam-maturitnich-otazek-z-biologie/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );

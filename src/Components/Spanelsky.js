@@ -3,6 +3,7 @@ import React from "react";
 import snadhledem from "../Pics/snadhledem.jpg";
 import vcelka from "../Pics/vcelka.jpg";
 import klett from "../Pics/klett.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const Spanelsky = () => {
   return (
@@ -28,6 +29,13 @@ export const Spanelsky = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={klett} alt="klett" />
+      </a>
+      <a
+        href="https://studijni-svet.cz/spanelstina-seznam-otazek/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );

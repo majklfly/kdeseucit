@@ -2,6 +2,7 @@ import React from "react";
 
 import snadhledem from "../Pics/snadhledem.jpg";
 import klett from "../Pics/klett.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const Rusky = () => {
   return (
@@ -19,6 +20,13 @@ export const Rusky = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={klett} alt="klett" />
+      </a>
+      <a
+        href="https://studijni-svet.cz/rusky-jazyk-maturitni-otazky/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );

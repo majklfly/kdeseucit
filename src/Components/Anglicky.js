@@ -36,6 +36,7 @@ import mozaik from "../Pics/mozaik.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import jsnsen from "../Pics/jsnsen.jpg";
 import vcelka from "../Pics/vcelka.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const Anglicky = () => {
   return (
@@ -290,6 +291,13 @@ export const Anglicky = () => {
       </a>
       <a href="https://www.duolingo.com/learn" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={duolingo} alt="Duolingo" />
+      </a>
+      <a
+        href="https://anglictina-maturita.cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );

@@ -13,6 +13,7 @@ import oldmaps from "../Pics/oldmaps.jpg";
 import atlas from "../Pics/atlas.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const Zemepis = () => {
   return (
@@ -100,6 +101,13 @@ export const Zemepis = () => {
           alt="mozaik"
           title="3D modely a prezentace"
         />
+      </a>
+      <a
+        href="https://studijni-svet.cz/zemepis/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );

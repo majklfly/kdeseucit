@@ -13,6 +13,7 @@ import odyssea from "../Pics/odyssea.jpg";
 import muni from "../Pics/muni.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import filda from "../Pics/filda.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const ZSV = () => {
   return (
@@ -100,6 +101,13 @@ export const ZSV = () => {
           alt="filda"
           title="Oficiální youtube kanál Filozofické fakulty UK"
         />
+      </a>
+      <a
+        href="https://zsv-maturita.cz/seznam-otazek-ze-spolecenskych-ved/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );

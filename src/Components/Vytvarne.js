@@ -12,6 +12,7 @@ import grafeditor from "../Pics/grafeditor.jpg";
 import village from "../Pics/village.jpg";
 import khan from "../Pics/khan.jpg";
 import mozaik from "../Pics/mozaik.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const Vytvarne = () => {
   return (
@@ -88,6 +89,13 @@ export const Vytvarne = () => {
           alt="mozaik"
           title="3D modely a prezentace"
         />
+      </a>
+      <a
+        href="https://dejiny-online.cz/maturitni-otazky-z-dejin-umeni-a-vytvarne-vychovy/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );

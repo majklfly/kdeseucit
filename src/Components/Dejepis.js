@@ -29,6 +29,7 @@ import bezpravi from "../Pics/bezpravi.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
 import slavnedny from "../Pics/slavnedny.jpg";
 import krvavaleta from "../Pics/krvavaleta.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const Dejepis = () => {
   return (
@@ -243,6 +244,13 @@ export const Dejepis = () => {
           alt="mozaik"
           title="3D modely a prezentace"
         />
+      </a>
+      <a
+        href="https://dejiny-online.cz/maturitni-otazky-z-dejepisu/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );

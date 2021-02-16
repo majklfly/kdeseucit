@@ -9,6 +9,7 @@ import facile from "../Pics/facile.jpg";
 import phonetique from "../Pics/phonetique.jpg";
 import topito from "../Pics/topito.jpg";
 import fraudio from "../Pics/fraudio.jpg";
+import studijnisvet from "../Pics/studijnisvet.jpg";
 
 export const Francouzsky = () => {
   return (
@@ -102,6 +103,13 @@ export const Francouzsky = () => {
           alt="fraudio"
           title="literatura k poslechu a čtení (SŠ a výše)"
         />
+      </a>
+      <a
+        href="https://studijni-svet.cz/francouzstina-seznam/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );
