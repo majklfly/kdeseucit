@@ -5,6 +5,7 @@ import ddm from "../Pics/ddm.jpg";
 import idivadlo from "../Pics/idivadlo.jpg";
 import ctdivadlo from "../Pics/ctdivadlo.jpg";
 import rokoko from "../Pics/rokoko.jpg";
+import junior from "../Pics/junior.jpg";
 
 export const Divadlo = () => {
   return (
@@ -43,6 +44,9 @@ export const Divadlo = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={rokoko} alt="rokoko" />{" "}
+      </a>
+      <a href="https://junior.rozhlas.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={junior} alt="junior" />
       </a>
     </div>
   );

@@ -5,6 +5,7 @@ import pinterest from "../Pics/pinterest.jpg";
 import bankovkovi from "../Pics/bankovkovi.jpg";
 import cesty from "../Pics/cesty.jpg";
 import vmuzeudoma from "../Pics/vmuzeudoma.jpg";
+import junior from "../Pics/junior.jpg";
 
 export const Rodinka = () => {
   return (
@@ -43,6 +44,9 @@ export const Rodinka = () => {
           src={vmuzeudoma}
           alt="V muzeu jako doma"
         />
+      </a>
+      <a href="https://junior.rozhlas.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={junior} alt="junior" />
       </a>
     </div>
   );

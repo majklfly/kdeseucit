@@ -26,6 +26,8 @@ import odyssea from "../Pics/odyssea.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import vcelka from "../Pics/vcelka.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
+import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
+import junior from "../Pics/junior.jpg";
 
 export const Literatura = () => {
   return (
@@ -185,6 +187,20 @@ export const Literatura = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
+      </a>
+      <a
+        href="https://www.mujrozhlas.cz/pro-deti"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={rozhlasprodeti}
+          alt="rozhlasprodeti"
+        />
+      </a>
+      <a href="https://junior.rozhlas.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={junior} alt="junior" />
       </a>
     </div>
   );
