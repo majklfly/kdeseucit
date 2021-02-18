@@ -13,6 +13,8 @@ import village from "../Pics/village.jpg";
 import khan from "../Pics/khan.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
+import galerie from "../Pics/galerie.jpg";
+import zcgalerie from "../Pics/zcgalerie.jpg";
 
 export const Vytvarne = () => {
   return (
@@ -96,6 +98,20 @@ export const Vytvarne = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
+      </a>
+      <a
+        href="https://www.ceskegalerie.cz/cs/zpravy/vytvarne-umeni-online-ix-komentovane-prohlidky"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={galerie} alt="galerie" />
+      </a>
+      <a
+        href="http://www.zpc-galerie.cz/online"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={zcgalerie} alt="zcgalerie" />
       </a>
     </div>
   );

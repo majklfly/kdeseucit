@@ -17,6 +17,7 @@ import vatican from "../Pics/vatican.jpg";
 import dali from "../Pics/dali.jpg";
 import ctdivadlo from "../Pics/ctdivadlo.jpg";
 import rokoko from "../Pics/rokoko.jpg";
+import galerie from "../Pics/galerie.jpg";
 import vmuzeudoma from "../Pics/vmuzeudoma.jpg";
 
 export const Kulturni = () => {
@@ -49,6 +50,13 @@ export const Kulturni = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ng} alt="ng" />
+      </a>
+      <a
+        href="https://www.ceskegalerie.cz/cs/zpravy/vytvarne-umeni-online-ix-komentovane-prohlidky"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={galerie} alt="galerie" />
       </a>
       <a
         href="http://www.zpc-galerie.cz/online"

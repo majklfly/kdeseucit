@@ -25,6 +25,7 @@ import ozobot from "../Pics/ozobot.jpg";
 import hodinykodu from "../Pics/hodinykodu.jpg";
 import galaxy from "../Pics/galaxy.jpg";
 import zav from "../Pics/zav.jpg";
+import itonline from "../Pics/itonline.jpg";
 
 export const Informatika = () => {
   return (
@@ -238,6 +239,13 @@ export const Informatika = () => {
       </a>
       <a href="https://www.galaxycodr.com/sk" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={galaxy} alt="galaxy" />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCRr6LVbepklM5Rolhx15QvQ/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={itonline} alt="itonline" />
       </a>
     </div>
   );
