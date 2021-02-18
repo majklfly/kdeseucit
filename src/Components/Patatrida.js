@@ -30,6 +30,7 @@ import eucitelka from "../Pics/eucitelka.jpg";
 import dejepic from "../Pics/dejepic.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
+import kvalitneinf from "../Pics/kvalitneinf.jpg";
 
 export const Patatrida = () => {
   return (
@@ -184,6 +185,13 @@ export const Patatrida = () => {
           src={rozhlasprodeti}
           alt="rozhlasprodeti"
         />
+      </a>
+      <a
+        href="https://studium.kvalitne.cz/it.php"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={kvalitneinf} alt="kvalitneinf" />
       </a>
     </div>
   );

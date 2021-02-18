@@ -303,6 +303,9 @@ export const Rozsirujici = () => {
           title="3D modely a prezentace"
         />
       </a>
+      <a href="https://junior.rozhlas.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={junior} alt="junior" />
+      </a>
     </div>
   );
 };

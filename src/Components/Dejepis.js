@@ -30,6 +30,7 @@ import pametnaroda from "../Pics/pametnaroda.jpg";
 import slavnedny from "../Pics/slavnedny.jpg";
 import krvavaleta from "../Pics/krvavaleta.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
+import kvalitnedejiny from "../Pics/kvalitnedejiny.jpg";
 
 export const Dejepis = () => {
   return (
@@ -243,6 +244,17 @@ export const Dejepis = () => {
           src={mozaik}
           alt="mozaik"
           title="3D modely a prezentace"
+        />
+      </a>
+      <a
+        href="https://studium.kvalitne.cz/dejiny.php"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={kvalitnedejiny}
+          alt="Studium kvalitně - dějiny"
         />
       </a>
       <a

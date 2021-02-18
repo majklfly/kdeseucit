@@ -28,6 +28,7 @@ import vcelka from "../Pics/vcelka.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import junior from "../Pics/junior.jpg";
+import slovnik from "../Pics/slovnik.jpg";
 
 export const Literatura = () => {
   return (
@@ -187,6 +188,13 @@ export const Literatura = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
+      </a>
+      <a
+        href="http://www.slovnikceskeliteratury.cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={slovnik} alt="slovnik" />
       </a>
       <a
         href="https://www.mujrozhlas.cz/pro-deti"

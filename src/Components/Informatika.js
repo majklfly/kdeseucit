@@ -26,6 +26,7 @@ import hodinykodu from "../Pics/hodinykodu.jpg";
 import galaxy from "../Pics/galaxy.jpg";
 import zav from "../Pics/zav.jpg";
 import itonline from "../Pics/itonline.jpg";
+import kvalitneinf from "../Pics/kvalitneinf.jpg";
 
 export const Informatika = () => {
   return (
@@ -246,6 +247,13 @@ export const Informatika = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={itonline} alt="itonline" />
+      </a>
+      <a
+        href="https://studium.kvalitne.cz/it.php"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={kvalitneinf} alt="kvalitneinf" />
       </a>
     </div>
   );

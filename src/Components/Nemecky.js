@@ -10,6 +10,10 @@ import nemslov from "../Pics/nemslov.jpg";
 import vcelka from "../Pics/vcelka.jpg";
 import klett from "../Pics/klett.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
+import nemcinazdarma from "../Pics/nemcinazdarma.jpg";
+import goethe from "../Pics/goethe.jpg";
+import bnemcina from "../Pics/bnemcina.jpg";
+import nelly from "../Pics/nelly.jpg";
 
 export const Nemecky = () => {
   return (
@@ -85,6 +89,34 @@ export const Nemecky = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
+      </a>
+      <a href="https://nemcina-zdarma.cz/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={nemcinazdarma}
+          alt="Němčina zdarma"
+        />
+      </a>
+      <a
+        href="http://bfu.goethe.de/a1_sd1/hoeren.php"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={goethe} alt="goethe institut" />
+      </a>
+      <a
+        href="https://www.youtube.com/c/Businessn%C4%9Bm%C4%8Dina/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={bnemcina} alt="bnemcina" />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCXSsbWRIlbfXSeb4BKTRVyw/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={nelly} alt="nelly" />
       </a>
     </div>
   );
