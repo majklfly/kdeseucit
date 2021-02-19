@@ -19,6 +19,7 @@ import ctdivadlo from "../Pics/ctdivadlo.jpg";
 import rokoko from "../Pics/rokoko.jpg";
 import galerie from "../Pics/galerie.jpg";
 import vmuzeudoma from "../Pics/vmuzeudoma.jpg";
+import laterano from "../Pics/laterano.jpg";
 
 export const Kulturni = () => {
   return (
@@ -154,6 +155,17 @@ export const Kulturni = () => {
           className="obrazekKarty"
           src={vmuzeudoma}
           alt="V muzeu jako doma"
+        />
+      </a>
+      <a
+        href="http://www.vatican.va/various/basiliche/san_giovanni/vr_tour/index-en.html"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={laterano}
+          alt="Basilica in Laterano"
         />
       </a>
     </div>

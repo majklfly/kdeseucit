@@ -14,6 +14,7 @@ import atlas from "../Pics/atlas.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
+import pudding from "../Pics/pudding.jpg";
 
 export const Zemepis = () => {
   return (
@@ -108,6 +109,13 @@ export const Zemepis = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
+      </a>
+      <a
+        href="https://pudding.cool/2018/10/city_3d/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={pudding} alt="pudding" />
       </a>
     </div>
   );

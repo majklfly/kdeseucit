@@ -10,6 +10,7 @@ import bankovkovi from "../Pics/bankovkovi.jpg";
 import odyssea from "../Pics/odyssea.jpg";
 import bezpravi from "../Pics/bezpravi.jpg";
 import slavnedny from "../Pics/slavnedny.jpg";
+import pudding from "../Pics/pudding.jpg";
 
 export const Obcanka = () => {
   return (
@@ -76,6 +77,13 @@ export const Obcanka = () => {
       </a>
       <a href="https://www.slavne-dny.cz/list" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={slavnedny} alt="Slavné dny" />
+      </a>
+      <a
+        href="https://pudding.cool/2018/10/city_3d/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={pudding} alt="pudding" />
       </a>
     </div>
   );
