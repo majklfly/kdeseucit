@@ -45,6 +45,7 @@ import vedaliska from "../Pics/vedaliska.jpg";
 import sumava from "../Pics/sumava.jpg";
 import jedensvet from "../Pics/jedensvet.jpg";
 import junior from "../Pics/junior.jpg";
+import ledovec from "../Pics/ledovec.jpg";
 
 export const Rozsirujici = () => {
   return (
@@ -269,6 +270,13 @@ export const Rozsirujici = () => {
           src={jedensvet}
           alt="Jeden svět na školách"
         />
+      </a>
+      <a
+        href="https://joshdata.me/iceberger.html?fbclid=IwAR0Qnj5m7Yyi9PdnrjuCETj7Bxvhd5GzqtWgZPJKgoVb8bbIHmhpXNz4N7Y"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ledovec} alt="ledovec" />
       </a>
       <a
         href="https://www.dopravnivychova.cz/"

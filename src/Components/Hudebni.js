@@ -8,6 +8,7 @@ import patrik from "../Pics/patrik.jpg";
 import rous from "../Pics/rous.jpg";
 import hodinazpevu from "../Pics/hodinazpevu.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
+import piano333 from "../Pics/piano333.jpg";
 
 export const Hudebni = () => {
   return (
@@ -35,6 +36,13 @@ export const Hudebni = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={hodinazpevu} alt="hodinazpevu" />
+      </a>
+      <a
+        href="https://www.youtube.com/c/pianoman333/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={piano333} alt="piano333" />
       </a>
       <a
         href="https://www.youtube.com/c/PatrikPietschmann/videos"

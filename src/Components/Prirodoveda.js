@@ -16,6 +16,7 @@ import lesy from "../Pics/lesy.jpg";
 import veseledeti from "../Pics/veseledeti.jpg";
 import bezobratli from "../Pics/bezobratli.jpg";
 import odpoledka from "../Pics/odpoledka.jpg";
+import ledovec from "../Pics/ledovec.jpg";
 
 export const Prirodoveda = () => {
   return (
@@ -136,6 +137,13 @@ export const Prirodoveda = () => {
           src={krkonose}
           alt="Krkonošský národní park"
         />
+      </a>
+      <a
+        href="https://joshdata.me/iceberger.html?fbclid=IwAR0Qnj5m7Yyi9PdnrjuCETj7Bxvhd5GzqtWgZPJKgoVb8bbIHmhpXNz4N7Y"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ledovec} alt="ledovec" />
       </a>
     </div>
   );

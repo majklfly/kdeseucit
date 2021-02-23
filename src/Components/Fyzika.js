@@ -37,6 +37,7 @@ import mozaik from "../Pics/mozaik.jpg";
 import fyzikaucitelnet from "../Pics/fyzikaucitelnet.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
+import ledovec from "../Pics/ledovec.jpg";
 
 export const Fyzika = () => {
   return (
@@ -128,6 +129,13 @@ export const Fyzika = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={badatelna} alt="Badatelna" />
+      </a>
+      <a
+        href="https://joshdata.me/iceberger.html?fbclid=IwAR0Qnj5m7Yyi9PdnrjuCETj7Bxvhd5GzqtWgZPJKgoVb8bbIHmhpXNz4N7Y"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ledovec} alt="ledovec" />
       </a>
       <a
         href="https://www.youtube.com/hashtag/nezkreslenaveda"

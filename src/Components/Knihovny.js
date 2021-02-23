@@ -14,6 +14,7 @@ import pametromu from "../Pics/pametromu.jpg";
 import pitter from "../Pics/pitter.jpg";
 import abc from "../Pics/abc.jpg";
 import vesmir from "../Pics/vesmir.jpg";
+import hifoto from "../Pics/hifoto.jpg";
 
 import veronica from "../Pics/veronica.jpg";
 
@@ -128,6 +129,13 @@ export const Knihovny = () => {
           alt="veronica"
           title="Zpravodaj ekologického institutu Veronica"
         />
+      </a>
+      <a
+        href="https://www.historicphotographeroftheyear.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={hifoto} alt="hifoto" />
       </a>
     </div>
   );

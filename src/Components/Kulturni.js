@@ -67,6 +67,17 @@ export const Kulturni = () => {
         <img className="obrazekKarty" src={zcgalerie} alt="zcgalerie" />
       </a>
       <a
+        href="https://www.nzm.cz/aktuality/v-muzeu-jako-doma?fbclid=IwAR0wPdIS-WbJGeR2u0orR7ZgtNlFgNYJL_xx95zk6YrQZ3MtdB0jVryJRyg"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={vmuzeudoma}
+          alt="V muzeu jako doma"
+        />
+      </a>
+      <a
         href="https://www.i-divadlo.cz/stream?fbclid=IwAR3M3-JYITrH05pCp7gOevSKVsTOzvHFpuwihKuooDYWyt3rsMtF5SRru4c"
         target="_blank"
         rel="noreferrer"
@@ -145,17 +156,6 @@ export const Kulturni = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={rokoko} alt="rokoko" />
-      </a>
-      <a
-        href="https://www.nzm.cz/aktuality/v-muzeu-jako-doma?fbclid=IwAR0wPdIS-WbJGeR2u0orR7ZgtNlFgNYJL_xx95zk6YrQZ3MtdB0jVryJRyg"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          className="obrazekKarty"
-          src={vmuzeudoma}
-          alt="V muzeu jako doma"
-        />
       </a>
       <a
         href="http://www.vatican.va/various/basiliche/san_giovanni/vr_tour/index-en.html"
