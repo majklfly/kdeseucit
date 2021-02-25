@@ -31,6 +31,7 @@ import slavnedny from "../Pics/slavnedny.jpg";
 import krvavaleta from "../Pics/krvavaleta.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
 import kvalitnedejiny from "../Pics/kvalitnedejiny.jpg";
+import esbirky from "../Pics/esbirky.jpg";
 
 export const Dejepis = () => {
   return (
@@ -263,6 +264,9 @@ export const Dejepis = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
+      </a>
+      <a href="https://www.esbirky.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={esbirky} alt="esbirky" />
       </a>
     </div>
   );

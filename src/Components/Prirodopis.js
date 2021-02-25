@@ -32,6 +32,7 @@ import ucseonline from "../Pics/ucseonline.jpg";
 import abc from "../Pics/abc.jpg";
 import vesmir from "../Pics/vesmir.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
+import naturfoto from "../Pics/naturfoto.jpg";
 
 export const Prirodopis = () => {
   return (
@@ -279,6 +280,14 @@ export const Prirodopis = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
+      </a>
+      <a href="https://www.naturfoto.cz/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={naturfoto}
+          alt="naturfoto"
+          title="Popsané a seřazené fotografie z přírody."
+        />
       </a>
     </div>
   );

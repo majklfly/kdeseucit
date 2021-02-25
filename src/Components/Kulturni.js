@@ -20,6 +20,8 @@ import rokoko from "../Pics/rokoko.jpg";
 import galerie from "../Pics/galerie.jpg";
 import vmuzeudoma from "../Pics/vmuzeudoma.jpg";
 import laterano from "../Pics/laterano.jpg";
+import saly from "../Pics/saly.jpg";
+import esbirky from "../Pics/esbirky.jpg";
 
 export const Kulturni = () => {
   return (
@@ -121,6 +123,16 @@ export const Kulturni = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={usanatural} alt="usanatural" />
+      </a>
+      <a
+        href="https://magazin.aktualne.cz/pannellum-liberecke-muzeum/r~fb6da772647b11eb9d74ac1f6b220ee8/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={saly} alt="saly" />
+      </a>
+      <a href="https://www.esbirky.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={esbirky} alt="esbirky" />
       </a>
       <a
         href="https://www.metmuseum.org/art/online-features"

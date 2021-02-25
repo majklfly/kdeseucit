@@ -17,6 +17,7 @@ import veseledeti from "../Pics/veseledeti.jpg";
 import bezobratli from "../Pics/bezobratli.jpg";
 import odpoledka from "../Pics/odpoledka.jpg";
 import ledovec from "../Pics/ledovec.jpg";
+import naturfoto from "../Pics/naturfoto.jpg";
 
 export const Prirodoveda = () => {
   return (
@@ -144,6 +145,14 @@ export const Prirodoveda = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ledovec} alt="ledovec" />
+      </a>
+      <a href="https://www.naturfoto.cz/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={naturfoto}
+          alt="naturfoto"
+          title="Popsané a seřazené fotografie z přírody."
+        />
       </a>
     </div>
   );
