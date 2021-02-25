@@ -18,6 +18,7 @@ import bezobratli from "../Pics/bezobratli.jpg";
 import odpoledka from "../Pics/odpoledka.jpg";
 import ledovec from "../Pics/ledovec.jpg";
 import naturfoto from "../Pics/naturfoto.jpg";
+import heritage from "../Pics/heritage.jpg";
 
 export const Prirodoveda = () => {
   return (
@@ -152,6 +153,18 @@ export const Prirodoveda = () => {
           src={naturfoto}
           alt="naturfoto"
           title="Popsané a seřazené fotografie z přírody."
+        />
+      </a>
+      <a
+        href="https://wave.rozhlas.cz/online-knihovna-nabizi-zdarma-55-milionu-stranek-skic-a-informaci-o-zviratech-i-8143660"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={heritage}
+          alt="heritage"
+          title="Skici a informace o zvířatech - britská knihovna Biodiversity Heritage"
         />
       </a>
     </div>
