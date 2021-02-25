@@ -34,6 +34,7 @@ import vesmir from "../Pics/vesmir.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
 import naturfoto from "../Pics/naturfoto.jpg";
 import heritage from "../Pics/heritage.jpg";
+import botany from "../Pics/botany.jpg";
 
 export const Prirodopis = () => {
   return (
@@ -300,6 +301,14 @@ export const Prirodopis = () => {
           src={heritage}
           alt="heritage"
           title="Skici a informace o zvířatech - britská knihovna Biodiversity Heritage"
+        />
+      </a>
+      <a href="https://botany.cz/cs/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={botany}
+          alt="botany"
+          title="Herbář"
         />
       </a>
     </div>
