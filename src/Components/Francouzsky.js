@@ -10,6 +10,8 @@ import phonetique from "../Pics/phonetique.jpg";
 import topito from "../Pics/topito.jpg";
 import fraudio from "../Pics/fraudio.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
+import diskfr from "../Pics/diskfr.jpg";
+import slovickafr from "../Pics/slovickafr.jpg";
 
 export const Francouzsky = () => {
   return (
@@ -20,6 +22,20 @@ export const Francouzsky = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={snadhledem} alt="snadhledem" />
+      </a>
+      <a
+        href="https://drive.google.com/drive/folders/10XjwakHQ-no9pDqX3WZk8bH6uRQv-VPI?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={diskfr} alt="diskfr" />
+      </a>
+      <a
+        href="https://drive.google.com/drive/folders/1ePYK7x4TkhmYUH5Lf5T5DGoxEddVnfIY?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={slovickafr} alt="slovickafr" />
       </a>
       <a
         href="https://edu.ceskatelevize.cz/predmet/francouzsky-jazyk"
