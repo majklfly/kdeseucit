@@ -16,6 +16,7 @@ import kritickelisty from "../Pics/kritickelisty.jpg";
 import redmonster from "../Pics/redmonster.jpg";
 import talen from "../Pics/talen.jpg";
 import ucimeonline from "../Pics/ucimeonline.jpg";
+import nazivo from "../Pics/nazivo.jpg";
 
 export const Ucitele = () => {
   return (
@@ -117,6 +118,9 @@ export const Ucitele = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ucimeonline} alt="ucimeonline" />
+      </a>
+      <a href="https://www.ucitelnazivo.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={nazivo} alt="nazivo" />
       </a>
     </div>
   );
