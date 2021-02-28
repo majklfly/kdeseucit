@@ -9,6 +9,7 @@ import dna1 from "../Pics/dna1.jpg";
 import cermat from "../Pics/cermat.jpg";
 import learntube from "../Pics/learntube.jpg";
 import diktaty from "../Pics/diktaty.jpg";
+import pripravujseonline from "../Pics/pripravujseonline.jpg";
 
 export const Prijimacky = () => {
   return (
@@ -63,6 +64,17 @@ export const Prijimacky = () => {
       </a>
       <a href="https://cestina.diktaty.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={diktaty} alt="diktaty" />
+      </a>
+      <a
+        href="https://www.pripravujseonline.cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={pripravujseonline}
+          alt="pripravujseonline"
+        />
       </a>
     </div>
   );
