@@ -31,6 +31,7 @@ import rozhlastemata from "../Pics/rozhlastemata.jpg";
 import vedanadoma from "../Pics/vedanadoma.jpg";
 import vedaliska from "../Pics/vedaliska.jpg";
 import chemix from "../Pics/chemix.jpg";
+import kombinatorika from "../Pics/kombinatorika.jpg";
 import tydenvedy from "../Pics/tydenvedy.jpg";
 import kladivo from "../Pics/kladivo.jpg";
 import ujc from "../Pics/ujc.jpg";
@@ -55,6 +56,7 @@ import ucseonline from "../Pics/ucseonline.jpg";
 import filda from "../Pics/filda.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
 import zav from "../Pics/zav.jpg";
+import geometrie from "../Pics/geometrie.jpg";
 
 export const Stredni = () => {
   return (
@@ -164,6 +166,13 @@ export const Stredni = () => {
         <img className="obrazekKarty" src={realisticky} alt="realisticky" />
       </a>
       <a
+        href="http://michalheczko.cz/geometrie/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={geometrie} alt="geometrie" />
+      </a>
+      <a
         href="https://edu.ceskatelevize.cz/stupen-vzdelani/stredni-skola"
         target="_blank"
         rel="noreferrer"
@@ -242,6 +251,13 @@ export const Stredni = () => {
       </a>
       <a href="https://chemix.org/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={chemix} alt="chemix" />
+      </a>
+      <a
+        href="http://michalheczko.cz/kombinatorika/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={kombinatorika} alt="kombinatorika" />
       </a>
       <a
         href="https://www.tydenvedy.cz/festival/best-of-tvt/"

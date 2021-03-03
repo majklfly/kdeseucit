@@ -39,6 +39,7 @@ import curko from "../Pics/curko.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import bezpravi from "../Pics/bezpravi.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
+import geometrie from "../Pics/geometrie.jpg";
 
 export const Osmatrida = () => {
   return (
@@ -192,6 +193,13 @@ export const Osmatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={realisticky} alt="realisticky" />
+      </a>
+      <a
+        href="http://michalheczko.cz/geometrie/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={geometrie} alt="geometrie" />
       </a>
       <a
         href="https://edu.ceskatelevize.cz/stupen-vzdelani/2-stupen-zs"

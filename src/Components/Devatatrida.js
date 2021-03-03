@@ -40,6 +40,7 @@ import curko from "../Pics/curko.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import bezpravi from "../Pics/bezpravi.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
+import geometrie from "../Pics/geometrie.jpg";
 
 export const Devatatrida = () => {
   return (
@@ -110,6 +111,13 @@ export const Devatatrida = () => {
           alt="Petr Curko"
           title="Přednášky z chemie a přírodopisu"
         />
+      </a>
+      <a
+        href="http://michalheczko.cz/geometrie/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={geometrie} alt="geometrie" />
       </a>
       <a
         href="https://www.youtube.com/hashtag/nezkreslenaveda"

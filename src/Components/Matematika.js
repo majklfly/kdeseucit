@@ -28,6 +28,7 @@ import scio from "../Pics/scio.jpg";
 import testpark from "../Pics/testpark.jpg";
 import skolaposkole from "../Pics/skolaposkole.jpg";
 import chmelma from "../Pics/chmelma.jpg";
+import kombinatorika from "../Pics/kombinatorika.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import geogebra from "../Pics/geogebra.jpg";
 import lizard from "../Pics/lizard.jpg";
@@ -40,6 +41,7 @@ import ict from "../Pics/ict.jpg";
 import matikaucitelnet from "../Pics/matikaucitelnet.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import katerina from "../Pics/katerina.jpg";
+import geometrie from "../Pics/geometrie.jpg";
 
 export const Matematika = () => {
   return (
@@ -104,6 +106,13 @@ export const Matematika = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
+      </a>
+      <a
+        href="http://michalheczko.cz/geometrie/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={geometrie} alt="geometrie" />
       </a>
       <a
         href="https://www.ceskatelevize.cz/porady/10000000405-skola-doma/"
@@ -218,6 +227,13 @@ export const Matematika = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={chmelma} alt="chmelma" />
+      </a>
+      <a
+        href="http://michalheczko.cz/kombinatorika/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={kombinatorika} alt="kombinatorika" />
       </a>
       <a
         href="https://edu.ceskatelevize.cz/predmet/matematika"
