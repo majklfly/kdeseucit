@@ -14,6 +14,7 @@ import nemcinazdarma from "../Pics/nemcinazdarma.jpg";
 import goethe from "../Pics/goethe.jpg";
 import bnemcina from "../Pics/bnemcina.jpg";
 import nelly from "../Pics/nelly.jpg";
+import welle from "../Pics/welle.jpg";
 
 export const Nemecky = () => {
   return (
@@ -48,6 +49,13 @@ export const Nemecky = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={veseledeti2} alt="veseledeti2" />
+      </a>
+      <a
+        href="https://learngerman.dw.com/en/overview"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={welle} alt="welle" />
       </a>
       <a
         href="https://www.hueber.de/cz/beste-freunde/online/uebungen"
