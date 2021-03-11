@@ -4,6 +4,7 @@ import ctedu from "../Pics/ctedu.jpg";
 import ddm from "../Pics/ddm.jpg";
 import lesy from "../Pics/lesy.jpg";
 import ucimesevenku from "../Pics/ucimesevenku.jpg";
+import testovanotabor from "../Pics/testovanotabor.jpg";
 
 export const Tabornici = () => {
   return (
@@ -35,6 +36,13 @@ export const Tabornici = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ucimesevenku} alt="Učíme se venku" />
+      </a>
+      <a
+        href="https://www.testovanonadetech.com/podkategorie/24-Venkovn%C3%AD%20hry"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={testovanoiq} alt="testovanoiq" />
       </a>
     </div>
   );

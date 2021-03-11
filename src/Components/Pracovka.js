@@ -10,6 +10,7 @@ import pinterest from "../Pics/pinterest.jpg";
 import canva from "../Pics/canva.jpg";
 import village from "../Pics/village.jpg";
 import vmuzeudoma from "../Pics/vmuzeudoma.jpg";
+import testovano from "../Pics/testovano.jpg";
 
 export const Pracovka = () => {
   return (
@@ -41,6 +42,13 @@ export const Pracovka = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={juch} alt="juchuuu" />
+      </a>
+      <a
+        href="https://www.testovanonadetech.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={testovano} alt="testovano" />
       </a>
       <a
         href="https://www.napadyproanicku.cz/"

@@ -9,6 +9,7 @@ import ucimesevenku from "../Pics/ucimesevenku.jpg";
 import atlas from "../Pics/atlas.jpg";
 import projektovevyucovani from "../Pics/projektovevyucovani.jpg";
 import mozaik from "../Pics/mozaik.jpg";
+import testovanoiq from "../Pics/testovanoiq.jpg";
 
 export const Alternativni = () => {
   return (
@@ -77,6 +78,13 @@ export const Alternativni = () => {
           alt="mozaik"
           title="3D modely a prezentace"
         />
+      </a>
+      <a
+        href="https://www.testovanonadetech.com/kategorie/iq-hry"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={testovanoiq} alt="testovanoiq" />
       </a>
     </div>
   );

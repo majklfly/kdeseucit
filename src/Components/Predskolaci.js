@@ -14,6 +14,7 @@ import juchu from "../Pics/juch.jpg";
 import pinterest from "../Pics/pinterest.jpg";
 import zvesela from "../Pics/zvesela.jpg";
 import vcelka from "../Pics/vcelka.jpg";
+import testovano from "../Pics/testovano.jpg";
 
 export const Predskolaci = () => {
   return (
@@ -69,6 +70,13 @@ export const Predskolaci = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={napady} alt="napady" />
+      </a>
+      <a
+        href="https://www.testovanonadetech.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={testovano} alt="testovano" />
       </a>
       <a
         href="https://www.skolazvesela.cz/category/predskolak/"

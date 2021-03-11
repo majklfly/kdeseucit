@@ -15,6 +15,7 @@ import mozaik from "../Pics/mozaik.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
 import galerie from "../Pics/galerie.jpg";
 import zcgalerie from "../Pics/zcgalerie.jpg";
+import testovano from "../Pics/testovano.jpg";
 
 export const Vytvarne = () => {
   return (
@@ -91,6 +92,13 @@ export const Vytvarne = () => {
           alt="mozaik"
           title="3D modely a prezentace"
         />
+      </a>
+      <a
+        href="https://www.testovanonadetech.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={testovano} alt="testovano" />
       </a>
       <a
         href="https://dejiny-online.cz/maturitni-otazky-z-dejin-umeni-a-vytvarne-vychovy/"

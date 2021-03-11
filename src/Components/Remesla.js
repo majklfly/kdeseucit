@@ -8,6 +8,7 @@ import hello from "../Pics/hello.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import pinterest from "../Pics/pinterest.jpg";
 import cvrcek from "../Pics/cvrcek.jpg";
+import testovano from "../Pics/testovano.jpg";
 
 export const Remesla = () => {
   return (
@@ -55,6 +56,13 @@ export const Remesla = () => {
       </a>
       <a href="http://www.sikovny-cvrcek.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={cvrcek} alt="cvrcek" />
+      </a>
+      <a
+        href="https://www.testovanonadetech.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={testovano} alt="testovano" />
       </a>
     </div>
   );
