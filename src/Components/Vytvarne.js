@@ -10,7 +10,7 @@ import lizard from "../Pics/lizard.jpg";
 import pinterest from "../Pics/pinterest.jpg";
 import grafeditor from "../Pics/grafeditor.jpg";
 import village from "../Pics/village.jpg";
-import khan from "../Pics/khan.jpg";
+import khannew from "../Pics/khannew.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
 import galerie from "../Pics/galerie.jpg";
@@ -79,7 +79,7 @@ export const Vytvarne = () => {
         <img className="obrazekKarty" src={village} alt="village" />
       </a>
       <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={khan} alt="Khanova škola" />
+        <img className="obrazekKarty" src={khannew} alt="Khanova škola" />
       </a>
       <a
         href="https://www.mozaweb.com/cs/lexikon.php?cmd=getlist&let=3D&sid=VIZ"

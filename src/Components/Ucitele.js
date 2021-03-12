@@ -18,6 +18,8 @@ import talen from "../Pics/talen.jpg";
 import ucimeonline from "../Pics/ucimeonline.jpg";
 import nazivo from "../Pics/nazivo.jpg";
 import khannew from "../Pics/khannew.jpg";
+import kahoot from "../Pics/kahoot.jpg";
+import rvp from "../Pics/rvp.jpg";
 
 export const Ucitele = () => {
   return (
@@ -129,6 +131,12 @@ export const Ucitele = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={khannew} alt="Khanova škola" />
+      </a>
+      <a href="https://kahoot.com/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={kahoot} alt="Kahoot" />
+      </a>
+      <a href="https://dum.rvp.cz/index.html" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={rvp} alt="rvp" />
       </a>
     </div>
   );
