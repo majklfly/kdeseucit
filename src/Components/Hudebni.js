@@ -9,10 +9,18 @@ import rous from "../Pics/rous.jpg";
 import hodinazpevu from "../Pics/hodinazpevu.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
 import piano333 from "../Pics/piano333.jpg";
+import khannew from "../Pics/khannew.jpg";
 
 export const Hudebni = () => {
   return (
     <div className="BoxProKarty">
+      <a
+        href="https://cs.khanacademy.org/humanities/music"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={khannew} alt="Khanova škola" />
+      </a>
       <a
         href="https://mitkamjit.cz/?zamereni=1&vek="
         target="_blank"

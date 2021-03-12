@@ -116,7 +116,11 @@ export const Ctvrtatrida = () => {
       >
         <img className="obrazekKarty" src={nenudim} alt="nenudim" />
       </a>
-      <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://cs.khanacademy.org/math/4-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={khan} alt="khan" />
       </a>
       <a

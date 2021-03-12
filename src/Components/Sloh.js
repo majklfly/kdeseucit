@@ -4,6 +4,7 @@ import povidkar from "../Pics/povidkar.jpg";
 import pointa from "../Pics/pointa.jpg";
 import sotkoviny from "../Pics/sotkoviny.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
+import khannew from "../Pics/khannew.jpg";
 
 export const Sloh = () => {
   return (
@@ -27,6 +28,13 @@ export const Sloh = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
+      </a>
+      <a
+        href="https://cs.khanacademy.org/humanities/hass-storytelling"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={khannew} alt="Khanova škola" />
       </a>
     </div>
   );

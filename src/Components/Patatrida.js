@@ -129,7 +129,11 @@ export const Patatrida = () => {
       >
         <img className="obrazekKarty" src={nenudim} alt="nenudim" />
       </a>
-      <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://cs.khanacademy.org/math/5-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={khan} alt="khan" />
       </a>
       <a href="https://atlas.mapy.cz/" target="_blank" rel="noreferrer">

@@ -13,6 +13,7 @@ import ujc from "../Pics/ujc.jpg";
 import skolamedii from "../Pics/skolamedii.jpg";
 import skill from "../Pics/skill.jpg";
 import ai from "../Pics/ai.jpg";
+import khannew from "../Pics/khannew.jpg";
 
 export const Vyssistupne = () => {
   return (
@@ -95,6 +96,13 @@ export const Vyssistupne = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ai} alt="ai" />
+      </a>
+      <a
+        href="https://cs.khanacademy.org/economics-finance-domain/core-finance"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={khannew} alt="Khanova škola" />
       </a>
     </div>
   );

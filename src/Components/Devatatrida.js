@@ -71,7 +71,11 @@ export const Devatatrida = () => {
       >
         <img className="obrazekKarty" src={snadhledem} alt="snadhledem" />
       </a>
-      <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://cs.khanacademy.org/math/9-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={khan} alt="khan" />
       </a>
       <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">

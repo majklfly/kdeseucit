@@ -17,6 +17,7 @@ import redmonster from "../Pics/redmonster.jpg";
 import talen from "../Pics/talen.jpg";
 import ucimeonline from "../Pics/ucimeonline.jpg";
 import nazivo from "../Pics/nazivo.jpg";
+import khannew from "../Pics/khannew.jpg";
 
 export const Ucitele = () => {
   return (
@@ -121,6 +122,13 @@ export const Ucitele = () => {
       </a>
       <a href="https://www.ucitelnazivo.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={nazivo} alt="nazivo" />
+      </a>
+      <a
+        href="https://cs.khanacademy.org/college-careers-more/learnstorm-growth-mindset-activities-world"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={khannew} alt="Khanova škola" />
       </a>
     </div>
   );

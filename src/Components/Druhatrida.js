@@ -132,7 +132,11 @@ export const Druhatrida = () => {
       <a href="https://www.umimenemecky.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={umimenemecky} alt="umimenemecky" />
       </a>
-      <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://cs.khanacademy.org/math/2-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={khan} alt="khan" />
       </a>
       <a

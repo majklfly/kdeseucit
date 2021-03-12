@@ -121,7 +121,11 @@ export const Matematika = () => {
       >
         <img className="obrazekKarty" src={ctprijmacky} alt="ctprijmacky" />
       </a>
-      <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://cs.khanacademy.org/math"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={khan} alt="khan" />
       </a>
       <a

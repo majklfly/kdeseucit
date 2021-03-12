@@ -81,7 +81,11 @@ export const Sestatrida = () => {
       >
         <img className="obrazekKarty" src={snadhledem} alt="snadhledem" />
       </a>
-      <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://cs.khanacademy.org/math/6-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={khan} alt="khan" />
       </a>
       <a

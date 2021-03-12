@@ -70,7 +70,11 @@ export const Prirodopis = () => {
           title="Přednášky z chemie a přírodopisu"
         />
       </a>
-      <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://cs.khanacademy.org/science"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={khan} alt="Khanova škola" />
       </a>
       <a

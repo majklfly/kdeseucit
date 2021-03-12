@@ -42,7 +42,11 @@ export const Tabornici = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={testovanoiq} alt="testovanoiq" />
+        <img
+          className="obrazekKarty"
+          src={testovanotabor}
+          alt="testovanotabor"
+        />
       </a>
     </div>
   );

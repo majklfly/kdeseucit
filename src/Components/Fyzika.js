@@ -56,7 +56,11 @@ export const Fyzika = () => {
       >
         <img className="obrazekKarty" src={umimefakta} alt="Umíme fakta" />
       </a>
-      <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://cs.khanacademy.org/science"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={khan} alt="Khanova škola" />
       </a>
       <a href="http://fyzika.jreichl.com/" target="_blank" rel="noreferrer">

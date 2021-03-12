@@ -2,7 +2,7 @@ import React from "react";
 
 import veseledeti from "../Pics/veseledeti.jpg";
 import umimeprogramovat from "../Pics/umimeprogramovat.jpg";
-import khan from "../Pics/khan.jpg";
+import khannew from "../Pics/khannew.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import ddm from "../Pics/ddm.jpg";
 import matematikacz from "../Pics/matematikacz.jpg";
@@ -54,7 +54,7 @@ export const Informatika = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={khan} alt="Khanova škola" />
+        <img className="obrazekKarty" src={khannew} alt="Khanova škola" />
       </a>
       <a
         href="https://edu.ceskatelevize.cz/predmet/ict"
