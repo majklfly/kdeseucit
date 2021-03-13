@@ -20,6 +20,7 @@ import nazivo from "../Pics/nazivo.jpg";
 import khannew from "../Pics/khannew.jpg";
 import kahoot from "../Pics/kahoot.jpg";
 import rvp from "../Pics/rvp.jpg";
+import damborice from "../Pics/damborice.jpg";
 
 export const Ucitele = () => {
   return (
@@ -75,6 +76,13 @@ export const Ucitele = () => {
       </a>
       <a href="https://www.ucitel-in.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={ucitelin} alt="Učitel IN" />
+      </a>
+      <a
+        href="https://www.zemmat.cz/pro-kolegy"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={damborice} alt="Dambořice" />
       </a>
       <a
         href="https://www.elixirdoskol.cz/o-elixiru/#"

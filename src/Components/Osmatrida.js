@@ -40,6 +40,7 @@ import mozaik from "../Pics/mozaik.jpg";
 import bezpravi from "../Pics/bezpravi.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
 import geometrie from "../Pics/geometrie.jpg";
+import damborice from "../Pics/damborice.jpg";
 
 export const Osmatrida = () => {
   return (
@@ -126,6 +127,9 @@ export const Osmatrida = () => {
       </a>
       <a href="https://atlas.mapy.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={atlas} alt="Atlas světa" />
+      </a>
+      <a href="https://www.zemmat.cz/home" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={damborice} alt="Dambořice" />
       </a>
       <a
         href="https://temata.rozhlas.cz/ctenarskydenik"

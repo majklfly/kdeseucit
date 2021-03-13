@@ -36,6 +36,7 @@ import timixi from "../Pics/timixi.jpg";
 import curko from "../Pics/curko.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import mozaik from "../Pics/mozaik.jpg";
+import damborice from "../Pics/damborice.jpg";
 
 export const Sestatrida = () => {
   return (
@@ -113,6 +114,9 @@ export const Sestatrida = () => {
       </a>
       <a href="https://atlas.mapy.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={atlas} alt="Atlas světa" />
+      </a>
+      <a href="https://www.zemmat.cz/home" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={damborice} alt="Dambořice" />
       </a>
       <a
         href="https://temata.rozhlas.cz/ctenarskydenik"

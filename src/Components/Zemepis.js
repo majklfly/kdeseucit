@@ -15,6 +15,7 @@ import mozaik from "../Pics/mozaik.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
 import pudding from "../Pics/pudding.jpg";
+import damborice from "../Pics/damborice.jpg";
 
 export const Zemepis = () => {
   return (
@@ -80,6 +81,9 @@ export const Zemepis = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
+      </a>
+      <a href="https://www.zemmat.cz/home" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={damborice} alt="Dambořice" />
       </a>
       <a
         href="https://lizardpoint.com/geography/index.php"
