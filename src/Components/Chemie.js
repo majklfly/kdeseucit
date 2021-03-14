@@ -24,6 +24,7 @@ import mozaik from "../Pics/mozaik.jpg";
 import vedaliska from "../Pics/vedaliska.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
+import lumik from "../Pics/lumik.jpg";
 
 export const Chemie = () => {
   return (
@@ -162,6 +163,14 @@ export const Chemie = () => {
       </a>
       <a href="https://chemix.org" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={chemix} alt="chemix" />
+      </a>
+      <a href="http://chemweb.lumika.cz/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={lumik}
+          alt="lumik"
+          title="Zápisky gymnaziální chemie"
+        />
       </a>
       <a
         href="https://www.youtube.com/user/OtevrenaVeda/videos"

@@ -57,6 +57,7 @@ import filda from "../Pics/filda.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
 import zav from "../Pics/zav.jpg";
 import geometrie from "../Pics/geometrie.jpg";
+import lumik from "../Pics/lumik.jpg";
 
 export const Stredni = () => {
   return (
@@ -128,6 +129,14 @@ export const Stredni = () => {
       </a>
       <a href="https://www.e-fyzika.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={efyzika} alt="efyzika" />
+      </a>
+      <a href="http://chemweb.lumika.cz/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={lumik}
+          alt="lumik"
+          title="Zápisky gymnaziální chemie"
+        />
       </a>
       <a
         href="https://vypravej.pametnaroda.cz/"
