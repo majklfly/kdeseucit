@@ -38,6 +38,7 @@ import fyzikaucitelnet from "../Pics/fyzikaucitelnet.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
 import ledovec from "../Pics/ledovec.jpg";
+import dodomu from "../Pics/dodomu.jpg";
 
 export const Fyzika = () => {
   return (
@@ -99,6 +100,18 @@ export const Fyzika = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ucseonline} alt="Uč se online" />
+      </a>
+      <a
+        href="https://www.youtube.com/playlist?list=PLCPJTN2URtyWcDTFlYynbtPGgsC_GgovL"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={dodomu}
+          alt="dodomu"
+          title="Doučko z fyziky pro 7. třídu"
+        />
       </a>
       <a
         href="http://www.realisticky.cz/ucebnice.php?id=1"

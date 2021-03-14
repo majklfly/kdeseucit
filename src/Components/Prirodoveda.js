@@ -19,6 +19,7 @@ import odpoledka from "../Pics/odpoledka.jpg";
 import ledovec from "../Pics/ledovec.jpg";
 import naturfoto from "../Pics/naturfoto.jpg";
 import botany from "../Pics/botany.jpg";
+import dodomu from "../Pics/dodomu.jpg";
 
 export const Prirodoveda = () => {
   return (
@@ -43,6 +44,18 @@ export const Prirodoveda = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={veseledeti} alt="Veselé děti" />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCTyOpEi6eLjPPr3fo2FbBbw/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={dodomu}
+          alt="dodomu"
+          title="Videa o přírodovědě"
+        />
       </a>
       <a
         href="https://www.youtube.com/playlist?list=PL_c00IPCdRoGD0k6aG7725OaqHQQffcVf"

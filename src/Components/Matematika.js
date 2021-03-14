@@ -42,6 +42,7 @@ import matikaucitelnet from "../Pics/matikaucitelnet.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import katerina from "../Pics/katerina.jpg";
 import geometrie from "../Pics/geometrie.jpg";
+import dodomu from "../Pics/dodomu.jpg";
 
 export const Matematika = () => {
   return (
@@ -141,6 +142,18 @@ export const Matematika = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={primauca} alt="primauca" />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCTyOpEi6eLjPPr3fo2FbBbw/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={dodomu}
+          alt="dodomu"
+          title="Videa na trénování matematiky"
+        />
       </a>
       <a
         href="https://phet.colorado.edu/cs/simulations/filter?subjects=math&type=html&sort=alpha&view=grid"

@@ -31,6 +31,7 @@ import doprava from "../Pics/doprava.jpg";
 import bankovkovi from "../Pics/bankovkovi.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import digitalni from "../Pics/digitalni.jpg";
+import dodomu from "../Pics/dodomu.jpg";
 
 export const Tretitrida = () => {
   return (
@@ -78,11 +79,23 @@ export const Tretitrida = () => {
       >
         <img className="obrazekKarty" src={ctedu} alt="ctedu" />
       </a>
-      <a href="https://www.matika.in/cs/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={matikain} alt="matikain" />
+      <a
+        href="https://www.youtube.com/playlist?list=PLCPJTN2URtyXAOyh0ZxJp1-jh3t5_6mkS"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={dodomu}
+          alt="dodomu"
+          title="Písemné sčítání a odčítání"
+        />
       </a>
       <a href="https://www.gramar.in/cs/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={gretka} alt="gretka" />
+      </a>
+      <a href="https://www.matika.in/cs/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={matikain} alt="matikain" />
       </a>
       <a href="https://www.zlatka.in/cs/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={zlatka} alt="zlatka" />

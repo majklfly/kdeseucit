@@ -10,6 +10,7 @@ import cermat from "../Pics/cermat.jpg";
 import learntube from "../Pics/learntube.jpg";
 import diktaty from "../Pics/diktaty.jpg";
 import pripravujseonline from "../Pics/pripravujseonline.jpg";
+import dodomu from "../Pics/dodomu.jpg";
 
 export const Prijimacky = () => {
   return (
@@ -54,6 +55,18 @@ export const Prijimacky = () => {
       </a>
       <a href="https://prijimacky.cermat.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={cermat} alt="cermat" />
+      </a>
+      <a
+        href="https://www.youtube.com/playlist?list=PLCPJTN2URtyXJFsq9ufwMc_gEDgKvFDPZ"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={dodomu}
+          alt="dodomu"
+          title="Trénování CERMAT testů"
+        />
       </a>
       <a
         href="https://www.youtube.com/channel/UCOCsqf9KoHNAuCj_5iVR6sA/"

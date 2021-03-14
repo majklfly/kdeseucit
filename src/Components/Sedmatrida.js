@@ -38,6 +38,7 @@ import curko from "../Pics/curko.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import damborice from "../Pics/damborice.jpg";
+import dodomu from "../Pics/dodomu.jpg";
 
 export const Sedmatrida = () => {
   return (
@@ -119,6 +120,18 @@ export const Sedmatrida = () => {
       </a>
       <a href="https://dn1.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={dna1} alt="dna1" />
+      </a>
+      <a
+        href="https://www.youtube.com/playlist?list=PLCPJTN2URtyWcDTFlYynbtPGgsC_GgovL"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={dodomu}
+          alt="dodomu"
+          title="Doučko z fyziky pro 7. třídu"
+        />
       </a>
       <a
         href="https://matematika.cz/matematika-pro-zakladni-skoly"

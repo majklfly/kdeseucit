@@ -6,6 +6,7 @@ import georgina from "../Pics/georgina.jpg";
 import snadhledem from "../Pics/snadhledem.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import pudding from "../Pics/pudding.jpg";
+import dodomu from "../Pics/dodomu.jpg";
 
 export const Vlastiveda = () => {
   return (
@@ -28,6 +29,18 @@ export const Vlastiveda = () => {
           className="obrazekKarty"
           src={snadhledem}
           alt="Škola s nadhledem"
+        />
+      </a>
+      <a
+        href="https://vlastiveda-dejiny.blogspot.com/p/zaciname.html"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={dodomu}
+          alt="dodomu"
+          title="Vlastivěda - dějiny"
         />
       </a>
       <a

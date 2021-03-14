@@ -29,6 +29,7 @@ import eucitelka from "../Pics/eucitelka.jpg";
 import bankovkovi from "../Pics/bankovkovi.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
+import dodomu from "../Pics/dodomu.jpg";
 
 export const Ctvrtatrida = () => {
   return (
@@ -89,6 +90,18 @@ export const Ctvrtatrida = () => {
       </a>
       <a href="https://dn1.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={dna1} alt="dna1" />
+      </a>
+      <a
+        href="https://www.youtube.com/playlist?list=PLCPJTN2URtyUYvFu6unPgF-3tUXuJFQ7p"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={dodomu}
+          alt="dodomu"
+          title="Slovní úlohy pro 4.třídu"
+        />
       </a>
       <a
         href="https://vypravej.pametnaroda.cz/"

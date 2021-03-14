@@ -31,6 +31,7 @@ import dejepic from "../Pics/dejepic.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
 import kvalitneinf from "../Pics/kvalitneinf.jpg";
+import dodomu from "../Pics/dodomu.jpg";
 
 export const Patatrida = () => {
   return (
@@ -101,6 +102,18 @@ export const Patatrida = () => {
           className="obrazekKarty"
           src={kreslenaveda}
           alt="NEZkreslena věda"
+        />
+      </a>
+      <a
+        href="https://www.youtube.com/playlist?list=PLCPJTN2URtyUjvoNLUBcX60kmuFn06ZRw"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={dodomu}
+          alt="dodomu"
+          title="Počtář pro 5. třídu"
         />
       </a>
       <a
