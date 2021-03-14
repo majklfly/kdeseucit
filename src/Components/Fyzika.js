@@ -39,6 +39,7 @@ import ucseonline from "../Pics/ucseonline.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
 import ledovec from "../Pics/ledovec.jpg";
 import dodomu from "../Pics/dodomu.jpg";
+import cern from "../Pics/cern.jpg";
 
 export const Fyzika = () => {
   return (
@@ -334,6 +335,13 @@ export const Fyzika = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCrHXK2A9JtiexqwHuWGeSMg/featured"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={cern} alt="cern" />
       </a>
     </div>
   );

@@ -14,6 +14,7 @@ import skolamedii from "../Pics/skolamedii.jpg";
 import skill from "../Pics/skill.jpg";
 import ai from "../Pics/ai.jpg";
 import khannew from "../Pics/khannew.jpg";
+import cern from "../Pics/cern.jpg";
 
 export const Vyssistupne = () => {
   return (
@@ -96,6 +97,13 @@ export const Vyssistupne = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ai} alt="ai" />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCrHXK2A9JtiexqwHuWGeSMg/featured"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={cern} alt="cern" />
       </a>
       <a
         href="https://cs.khanacademy.org/economics-finance-domain/core-finance"
