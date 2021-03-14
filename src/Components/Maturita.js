@@ -11,6 +11,7 @@ import hlavy from "../Pics/hlavy.jpg";
 import vhlavniroli from "../Pics/vhlavniroli.jpg";
 import milujeme from "../Pics/milujeme.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
+import napotitku from "../Pics/napotitku.jpg";
 
 export const Maturita = () => {
   return (
@@ -85,6 +86,13 @@ export const Maturita = () => {
           alt="hlavy"
           title="Rozbory literárních děl k maturitě"
         />
+      </a>
+      <a
+        href="https://www.youtube.com/c/Napot%C3%ADtku/videos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={napotitku} alt="napotitku" />
       </a>
       <a
         href="https://www.mestskadivadlaprazska.cz/vzdelavani/maturita/"
