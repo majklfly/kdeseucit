@@ -15,6 +15,7 @@ import pinterest from "../Pics/pinterest.jpg";
 import zvesela from "../Pics/zvesela.jpg";
 import vcelka from "../Pics/vcelka.jpg";
 import testovano from "../Pics/testovano.jpg";
+import boby from "../Pics/boby.jpg";
 
 export const Predskolaci = () => {
   return (
@@ -70,6 +71,9 @@ export const Predskolaci = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={napady} alt="napady" />
+      </a>
+      <a href="https://bobyho-skola.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={boby} alt="boby" />
       </a>
       <a
         href="https://www.testovanonadetech.com/"

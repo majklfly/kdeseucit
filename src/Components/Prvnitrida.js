@@ -27,6 +27,7 @@ import nenudim from "../Pics/nenudim.jpg";
 import malypan from "../Pics/malypan.jpg";
 import vcelka from "../Pics/vcelka.jpg";
 import digitalni from "../Pics/digitalni.jpg";
+import boby from "../Pics/boby.jpg";
 
 export const Prvnitrida = () => {
   return (
@@ -37,6 +38,9 @@ export const Prvnitrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={amos} alt="amos" />
+      </a>
+      <a href="https://bobyho-skola.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={boby} alt="boby" />
       </a>
       <a href="https://skolakov.eu/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={skolakov} alt="skolakov" />
