@@ -29,6 +29,7 @@ import studijnisvet from "../Pics/studijnisvet.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import junior from "../Pics/junior.jpg";
 import slovnik from "../Pics/slovnik.jpg";
+import iliteratura from "../Pics/iliteratura.jpg";
 
 export const Literatura = () => {
   return (
@@ -209,6 +210,9 @@ export const Literatura = () => {
       </a>
       <a href="https://junior.rozhlas.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={junior} alt="junior" />
+      </a>
+      <a href="http://www.iliteratura.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={iliteratura} alt="iliteratura" />
       </a>
     </div>
   );

@@ -34,7 +34,12 @@ export const Sloh = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={khannew} alt="Khanova škola" />
+        <img
+          className="obrazekKarty"
+          src={khannew}
+          alt="Khanova škola"
+          title="Umění vyprávět: V zákulisí studia Pixar"
+        />
       </a>
     </div>
   );
