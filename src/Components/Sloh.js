@@ -5,6 +5,7 @@ import pointa from "../Pics/pointa.jpg";
 import sotkoviny from "../Pics/sotkoviny.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
 import khannew from "../Pics/khannew.jpg";
+import komiks from "../Pics/komiks.jpg";
 
 export const Sloh = () => {
   return (
@@ -40,6 +41,13 @@ export const Sloh = () => {
           alt="Khanova škola"
           title="Umění vyprávět: V zákulisí studia Pixar"
         />
+      </a>
+      <a
+        href="https://www.abicko.cz/clanek/precti-si-zabava/23772/komiks-s-rozumem-1-jak-se-kresli-komiks.html"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={komiks} alt="komiks" />
       </a>
     </div>
   );

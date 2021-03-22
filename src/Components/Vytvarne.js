@@ -16,6 +16,7 @@ import studijnisvet from "../Pics/studijnisvet.jpg";
 import galerie from "../Pics/galerie.jpg";
 import zcgalerie from "../Pics/zcgalerie.jpg";
 import testovano from "../Pics/testovano.jpg";
+import komiks from "../Pics/komiks.jpg";
 
 export const Vytvarne = () => {
   return (
@@ -92,6 +93,13 @@ export const Vytvarne = () => {
           alt="mozaik"
           title="3D modely a prezentace"
         />
+      </a>
+      <a
+        href="https://www.abicko.cz/clanek/precti-si-zabava/23772/komiks-s-rozumem-1-jak-se-kresli-komiks.html"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={komiks} alt="komiks" />
       </a>
       <a
         href="https://www.testovanonadetech.com/"
