@@ -24,25 +24,14 @@ export const Remesla = () => {
         <img className="obrazekKarty" src={krokotak} alt="krokotak" />
       </a>
       <a
-        href="http://www.juchuuu.cz/stahovani/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={juch} alt="juch" />
-      </a>
-      <a
         href="https://www.napadyproanicku.cz/"
         target="_blank"
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={napady} alt="napady" />
       </a>
-      <a
-        href="https://www.hellowonderful.co/category/create/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={hello} alt="hello" />
+      <a href="https://cz.pinterest.com/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={pinterest} alt="pinterest" />
       </a>
       <a
         href="https://edu.ceskatelevize.cz/predmet/vytvarne-aktivity"
@@ -50,9 +39,6 @@ export const Remesla = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ctedu} alt="ctedu" />
-      </a>
-      <a href="https://cz.pinterest.com/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={pinterest} alt="pinterest" />
       </a>
       <a href="http://www.sikovny-cvrcek.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={cvrcek} alt="cvrcek" />
@@ -63,6 +49,20 @@ export const Remesla = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={testovano} alt="testovano" />
+      </a>
+      <a
+        href="http://www.juchuuu.cz/stahovani/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={juch} alt="juch" />
+      </a>
+      <a
+        href="https://www.hellowonderful.co/category/create/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={hello} alt="hello" />
       </a>
     </div>
   );

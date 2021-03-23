@@ -49,6 +49,13 @@ export const Alternativni = () => {
         <img className="obrazekKarty" src={atlas} alt="Atlas světa" />
       </a>
       <a
+        href="https://www.testovanonadetech.com/kategorie/iq-hry"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={testovanoiq} alt="testovanoiq" />
+      </a>
+      <a
         href="https://www.timixi.com/select?order=2&order_type=desc"
         target="_blank"
         rel="noreferrer"
@@ -58,13 +65,6 @@ export const Alternativni = () => {
           src={timixi}
           alt="timixi"
           title="Učení se souvislostí pomocí časových os."
-        />
-      </a>
-      <a href="http://www.projektovavyuka.cz/" target="_blank" rel="noreferrer">
-        <img
-          className="obrazekKarty"
-          src={projektovevyucovani}
-          alt="projektovevyucovani"
         />
       </a>
       <a
@@ -78,13 +78,6 @@ export const Alternativni = () => {
           alt="mozaik"
           title="3D modely a prezentace"
         />
-      </a>
-      <a
-        href="https://www.testovanonadetech.com/kategorie/iq-hry"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={testovanoiq} alt="testovanoiq" />
       </a>
     </div>
   );

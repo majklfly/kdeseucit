@@ -6,6 +6,7 @@ import sotkoviny from "../Pics/sotkoviny.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
 import khannew from "../Pics/khannew.jpg";
 import komiks from "../Pics/komiks.jpg";
+import ctedu from "../Pics/ctedu.jpg";
 
 export const Sloh = () => {
   return (
@@ -22,13 +23,6 @@ export const Sloh = () => {
       </a>
       <a href="http://www.sotkoviny.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={sotkoviny} alt="sotkoviny" />
-      </a>
-      <a
-        href="https://rozbor-dila.cz/slohove-prace-k-maturite-rozcestnik/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
       <a
         href="https://cs.khanacademy.org/humanities/hass-storytelling"
@@ -48,6 +42,25 @@ export const Sloh = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={komiks} alt="komiks" />
+      </a>
+      <a
+        href="https://edu.ceskatelevize.cz/predmet/cj-a-literatura?tema=komunikace-a-sloh"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={ctedu}
+          alt="ctedu"
+          title="Komunikace a sloh"
+        />
+      </a>
+      <a
+        href="https://rozbor-dila.cz/slohove-prace-k-maturite-rozcestnik/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
       </a>
     </div>
   );

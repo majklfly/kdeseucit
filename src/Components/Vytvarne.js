@@ -39,18 +39,14 @@ export const Vytvarne = () => {
         <img className="obrazekKarty" src={krokotak} alt="krokotak" />
       </a>
       <a
-        href="http://www.juchuuu.cz/stahovani/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={juch} alt="juch" />
-      </a>
-      <a
         href="https://www.napadyproanicku.cz/"
         target="_blank"
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={napady} alt="napady" />
+      </a>
+      <a href="https://cz.pinterest.com/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={pinterest} alt="pinterest" />
       </a>
       <a
         href="https://www.hellowonderful.co/category/create/"
@@ -60,17 +56,18 @@ export const Vytvarne = () => {
         <img className="obrazekKarty" src={hello} alt="hello" />
       </a>
       <a
-        href="https://lizardpoint.com/art/index.php"
+        href="https://www.testovanonadetech.com/"
         target="_blank"
         rel="noreferrer"
       >
-        <img className="obrazekKarty" src={lizard} alt="lizard" />
+        <img className="obrazekKarty" src={testovano} alt="testovano" />
       </a>
-      <a href="https://cz.pinterest.com/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={pinterest} alt="pinterest" />
-      </a>
-      <a href="https://www.canva.com/cs_cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={grafeditor} alt="grafeditor" />
+      <a
+        href="http://www.juchuuu.cz/stahovani/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={juch} alt="juch" />
       </a>
       <a
         href="https://www.activityvillage.co.uk/"
@@ -101,12 +98,8 @@ export const Vytvarne = () => {
       >
         <img className="obrazekKarty" src={komiks} alt="komiks" />
       </a>
-      <a
-        href="https://www.testovanonadetech.com/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={testovano} alt="testovano" />
+      <a href="https://www.canva.com/cs_cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={grafeditor} alt="grafeditor" />
       </a>
       <a
         href="https://dejiny-online.cz/maturitni-otazky-z-dejin-umeni-a-vytvarne-vychovy/"
@@ -114,6 +107,13 @@ export const Vytvarne = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={studijnisvet} alt="Studijní svět" />
+      </a>
+      <a
+        href="https://lizardpoint.com/art/index.php"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={lizard} alt="lizard" />
       </a>
       <a
         href="https://www.ceskegalerie.cz/cs/zpravy/vytvarne-umeni-online-ix-komentovane-prohlidky"

@@ -66,6 +66,13 @@ export const Predskolaci = () => {
         />
       </a>
       <a
+        href="https://www.testovanonadetech.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={testovano} alt="testovano" />
+      </a>
+      <a
         href="https://www.napadyproanicku.cz/"
         target="_blank"
         rel="noreferrer"
@@ -74,13 +81,6 @@ export const Predskolaci = () => {
       </a>
       <a href="https://bobyho-skola.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={boby} alt="boby" />
-      </a>
-      <a
-        href="https://www.testovanonadetech.com/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img className="obrazekKarty" src={testovano} alt="testovano" />
       </a>
       <a
         href="https://www.skolazvesela.cz/category/predskolak/"
