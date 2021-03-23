@@ -19,6 +19,9 @@ import cern from "../Pics/cern.jpg";
 export const Vyssistupne = () => {
   return (
     <div className="BoxProKarty">
+      <a className="sectionButtonLink" href="https://najdiedu.cz/">
+        <h3 className="sectionButtonCards">VYHLEDÁVÁNÍ ŠKOL</h3>
+      </a>
       <a
         href="https://matematika.cz/matematika-pro-vysoke-skoly"
         target="_blank"

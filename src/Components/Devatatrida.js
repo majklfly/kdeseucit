@@ -46,9 +46,14 @@ import damborice from "../Pics/damborice.jpg";
 export const Devatatrida = () => {
   return (
     <div className="BoxProKarty">
-      <Link className="sectionButtonLink" to="/prijimacky">
-        <h3 className="sectionButtonCards">PŘIJÍMACÍ ZKOUŠKY NA SŠ</h3>
-      </Link>
+      <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
+        <Link className="sectionButtonLink" to="/prijimacky">
+          <h3 className="sectionButtonCards">PŘIJÍMACÍ ZKOUŠKY NA SŠ</h3>
+        </Link>
+        <a className="sectionButtonLink" href="https://najdiedu.cz/">
+          <h3 className="sectionButtonCards">VYHLEDÁVÁNÍ ŠKOL</h3>
+        </a>
+      </div>
       <a
         href="https://www.onlinecviceni.cz/exc/list_sel_topics.php"
         target="_blank"

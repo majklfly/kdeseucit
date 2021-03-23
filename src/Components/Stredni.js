@@ -62,9 +62,14 @@ import lumik from "../Pics/lumik.jpg";
 export const Stredni = () => {
   return (
     <div className="BoxProKarty">
-      <Link className="sectionButtonLink" to="/maturita">
-        <h3 className="sectionButtonCards">MATURITNÍ PŘÍPRAVA</h3>
-      </Link>
+      <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
+        <Link className="sectionButtonLink" to="/maturita">
+          <h3 className="sectionButtonCards">MATURITNÍ PŘÍPRAVA</h3>
+        </Link>
+        <a className="sectionButtonLink" href="https://najdiedu.cz/">
+          <h3 className="sectionButtonCards">VYHLEDÁVÁNÍ ŠKOL</h3>
+        </a>
+      </div>
       <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
       </a>

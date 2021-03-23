@@ -120,6 +120,14 @@ export const NavigaceVertikalni = () => {
           title="KULTURNÍ INSTITUCE"
         />
       </Link>
+      <a href="https://najdiedu.cz/" style={{ textDecoration: "none" }}>
+        <Accordion
+          i={8}
+          expanded={expanded}
+          setExpanded={setExpanded}
+          title="VYHLEDÁVÁNÍ ŠKOL"
+        />
+      </a>
     </div>
   );
 };
