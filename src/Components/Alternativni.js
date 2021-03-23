@@ -7,7 +7,6 @@ import hello from "../Pics/hello.jpg";
 import timixi from "../Pics/timixi.jpg";
 import ucimesevenku from "../Pics/ucimesevenku.jpg";
 import atlas from "../Pics/atlas.jpg";
-import projektovevyucovani from "../Pics/projektovevyucovani.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import testovanoiq from "../Pics/testovanoiq.jpg";
 

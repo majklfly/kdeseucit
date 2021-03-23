@@ -25,12 +25,12 @@ export const Layout = ({ contentComponent }) => {
     <main>
       <header className="HlavickaKontejner">
         <img className="headPic" src={pastelky} alt="pastelky" />
-        <a href="https://najdiedu.cz/">
+        <a href="https://najdiedu.cz/" target="_blank">
           <img className="headPic" src={najdiEdu} alt="najdiEdu" />
         </a>
         <h1>Kde se učit?</h1>
         <img className="headPic" src={lupa} alt="lupa" />
-        <img className="headPic" src={bublina} alt="bublina" />
+        <img className="headPic" src={kruzitko} alt="kruzitko" />
         <img className="headPic" src={atom} alt="atom" />
         <img className="headPic" src={hodiny} alt="hodiny" />
       </header>

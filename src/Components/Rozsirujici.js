@@ -23,7 +23,6 @@ import turnaj from "../Pics/turnaj.jpg";
 import gramotnost from "../Pics/gramotnost.jpg";
 import badatelna from "../Pics/badatelna.jpg";
 import kladivo from "../Pics/kladivo.jpg";
-import projektovevyucovani from "../Pics/projektovevyucovani.jpg";
 import sotkoviny from "../Pics/sotkoviny.jpg";
 import povidkar from "../Pics/povidkar.jpg";
 import vojenskelesy from "../Pics/vojenskelesy.jpg";
@@ -183,13 +182,6 @@ export const Rozsirujici = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={kladivo} alt="kladivo" />
-      </a>
-      <a href="http://www.projektovavyuka.cz/" target="_blank" rel="noreferrer">
-        <img
-          className="obrazekKarty"
-          src={projektovevyucovani}
-          alt="projektovevyucovani"
-        />
       </a>
       <a href="http://www.sotkoviny.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={sotkoviny} alt="sotkoviny" />
