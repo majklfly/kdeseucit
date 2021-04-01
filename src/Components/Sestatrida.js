@@ -48,25 +48,41 @@ export const Sestatrida = () => {
       >
         <img className="obrazekKarty" src={onlinecviceni} alt="onlinecviceni" />
       </a>
-      <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimematiku.cz/matematika-detail-6-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
       </a>
-      <a href="https://www.umimecesky.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimecesky.cz/cesky-jazyk-detail-6-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimecesky} alt="umimecesky" />
       </a>
-      <a href="https://www.umimeanglicky.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimeanglicky.cz/anglictina-detail-6-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimeanglicky} alt="umimeanglicky" />
       </a>
       <a href="https://www.umimenemecky.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={umimenemecky} alt="umimenemecky" />
       </a>
-      <a href="https://www.umimefakta.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimefakta.cz/fakta-detail-6-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimefakta} alt="umimefakta" />
       </a>
-      <a href="https://www.matika.in/cs/" target="_blank" rel="noreferrer">
+      <a href="https://www.matika.in/cs/#6" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={matikain} alt="matikain" />
       </a>
-      <a href="https://www.gramar.in/cs/" target="_blank" rel="noreferrer">
+      <a href="https://www.gramar.in/cs/#6" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={gretka} alt="gretka" />
       </a>
       <a href="https://www.zlatka.in/cs/" target="_blank" rel="noreferrer">

@@ -65,13 +65,25 @@ export const Sedmatrida = () => {
       >
         <img className="obrazekKarty" src={khan} alt="khan" />
       </a>
-      <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimematiku.cz/matematika-detail-7-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
       </a>
-      <a href="https://www.umimecesky.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimecesky.cz/cesky-jazyk-detail-7-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimecesky} alt="umimecesky" />
       </a>
-      <a href="https://www.umimeanglicky.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimeanglicky.cz/anglictina-detail-7-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimeanglicky} alt="umimeanglicky" />
       </a>
       <a href="https://www.umimenemecky.cz/" target="_blank" rel="noreferrer">

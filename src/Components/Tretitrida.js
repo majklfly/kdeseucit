@@ -91,10 +91,10 @@ export const Tretitrida = () => {
           title="Písemné sčítání a odčítání"
         />
       </a>
-      <a href="https://www.gramar.in/cs/" target="_blank" rel="noreferrer">
+      <a href="https://www.gramar.in/cs/#3" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={gretka} alt="gretka" />
       </a>
-      <a href="https://www.matika.in/cs/" target="_blank" rel="noreferrer">
+      <a href="https://www.matika.in/cs/#3" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={matikain} alt="matikain" />
       </a>
       <a href="https://www.zlatka.in/cs/" target="_blank" rel="noreferrer">
@@ -146,13 +146,25 @@ export const Tretitrida = () => {
       >
         <img className="obrazekKarty" src={sheppard} alt="sheppard" />
       </a>
-      <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimematiku.cz/matematika-detail-3-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
       </a>
-      <a href="https://www.umimecesky.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimecesky.cz/cesky-jazyk-detail-3-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimecesky} alt="umimecesky" />
       </a>
-      <a href="https://www.umimeanglicky.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimeanglicky.cz/anglictina-detail-3-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimeanglicky} alt="umimeanglicky" />
       </a>
       <a href="https://www.umimenemecky.cz/" target="_blank" rel="noreferrer">

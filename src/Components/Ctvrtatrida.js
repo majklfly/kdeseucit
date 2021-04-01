@@ -64,10 +64,10 @@ export const Ctvrtatrida = () => {
       >
         <img className="obrazekKarty" src={snadhledem} alt="snadhledem" />
       </a>
-      <a href="https://www.matika.in/cs/" target="_blank" rel="noreferrer">
+      <a href="https://www.matika.in/cs/#4" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={matikain} alt="matikain" />
       </a>
-      <a href="https://www.gramar.in/cs/" target="_blank" rel="noreferrer">
+      <a href="https://www.gramar.in/cs/#4" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={gretka} alt="gretka" />
       </a>
       <a href="https://www.zlatka.in/cs/" target="_blank" rel="noreferrer">
@@ -76,13 +76,25 @@ export const Ctvrtatrida = () => {
       <a href="https://www.geograf.in/cs/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={georgina} alt="georgina" />
       </a>
-      <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimematiku.cz/matematika-detail-4-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
       </a>
-      <a href="https://www.umimecesky.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimecesky.cz/cesky-jazyk-detail-4-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimecesky} alt="umimecesky" />
       </a>
-      <a href="https://www.umimeanglicky.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimeanglicky.cz/anglictina-detail-4-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimeanglicky} alt="umimeanglicky" />
       </a>
       <a href="https://www.umimenemecky.cz/" target="_blank" rel="noreferrer">

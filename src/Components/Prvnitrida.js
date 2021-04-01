@@ -96,10 +96,10 @@ export const Prvnitrida = () => {
       >
         <img className="obrazekKarty" src={veseledeti} alt="veseledeti" />
       </a>
-      <a href="https://www.matika.in/cs/" target="_blank" rel="noreferrer">
+      <a href="https://www.matika.in/cs/#1" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={matikain} alt="matikain" />
       </a>
-      <a href="https://www.gramar.in/cs/" target="_blank" rel="noreferrer">
+      <a href="https://www.gramar.in/cs/#1" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={gretka} alt="gretka" />
       </a>
       <a href="https://www.zlatka.in/cs/" target="_blank" rel="noreferrer">
@@ -119,10 +119,18 @@ export const Prvnitrida = () => {
       >
         <img className="obrazekKarty" src={oskar} alt="oskar" />
       </a>
-      <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimematiku.cz/matematika-detail-1-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
       </a>
-      <a href="https://www.umimecesky.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimecesky.cz/cesky-jazyk-detail-1-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimecesky} alt="umimecesky" />
       </a>
       <a
