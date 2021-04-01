@@ -48,6 +48,9 @@ export const NavigaceHorizontalni = ({ sideSlideSetActive }) => {
       <Link className="navButton" to="/ucitele">
         PRO UČITELE
       </Link>
+      <Link className="navButton" to="/ucebnice">
+        UČEBNICE
+      </Link>
     </div>
   );
 };

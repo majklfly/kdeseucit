@@ -66,6 +66,7 @@ import { KulturniScreen } from "./Screens/KulturniScreen";
 import { UciteleScreen } from "./Screens/UciteleScreen";
 import { DesignScreen } from "./Screens/DesignScreen";
 import { SlohScreen } from "./Screens/SlohScreen";
+import { UcebniceScreen } from "./Screens/UcebniceScreen";
 
 function App() {
   const [expanded, setExpanded] = useState();
@@ -268,6 +269,9 @@ function App() {
             </Route>
             <Route path="/prvnitrida">
               <PrvnitridaScreen />
+            </Route>
+            <Route path="/ucebnice">
+              <UcebniceScreen />
             </Route>
             <Route path="/">
               <DomaciObrazovka />
