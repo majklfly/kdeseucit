@@ -70,19 +70,35 @@ export const Stredni = () => {
           <h3 className="sectionButtonCards">VYHLEDÁVÁNÍ ŠKOL</h3>
         </a>
       </div>
-      <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimematiku.cz/matematika-detail-stredni-skola"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
       </a>
-      <a href="https://www.umimecesky.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimecesky.cz/cesky-jazyk-detail-stredni-skola"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimecesky} alt="umimecesky" />
       </a>
-      <a href="https://www.umimeanglicky.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimeanglicky.cz/anglictina-detail-stredni-skola"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimeanglicky} alt="umimeanglicky" />
       </a>
       <a href="https://www.umimenemecky.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={umimenemecky} alt="umimenemecky" />
       </a>
-      <a href="https://www.umimefakta.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimefakta.cz/fakta-detail-stredni-skola"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimefakta} alt="umimefakta" />
       </a>
       <a
@@ -96,7 +112,7 @@ export const Stredni = () => {
           alt="umimeprogramovat"
         />
       </a>
-      <a href="https://www.gramar.in/cs/" target="_blank" rel="noreferrer">
+      <a href="https://www.gramar.in/cs/#13" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={gretka} alt="gretka" />
       </a>
       <a href="https://www.zlatka.in/cs/" target="_blank" rel="noreferrer">

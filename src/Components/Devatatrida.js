@@ -61,7 +61,7 @@ export const Devatatrida = () => {
       >
         <img className="obrazekKarty" src={onlinecviceni} alt="onlinecviceni" />
       </a>
-      <a href="https://www.matika.in/cs/" target="_blank" rel="noreferrer">
+      <a href="https://www.matika.in/cs/#9" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={matikain} alt="matikain" />
       </a>
       <a href="https://www.zlatka.in/cs/" target="_blank" rel="noreferrer">
@@ -84,19 +84,35 @@ export const Devatatrida = () => {
       >
         <img className="obrazekKarty" src={khan} alt="khan" />
       </a>
-      <a href="https://www.umimematiku.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimematiku.cz/matematika-detail-9-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimematiku} alt="umimematiku" />
       </a>
-      <a href="https://www.umimecesky.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimecesky.cz/cesky-jazyk-detail-9-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimecesky} alt="umimecesky" />
       </a>
-      <a href="https://www.umimeanglicky.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimeanglicky.cz/anglictina-detail-9-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimeanglicky} alt="umimeanglicky" />
       </a>
       <a href="https://www.umimenemecky.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={umimenemecky} alt="umimenemecky" />
       </a>
-      <a href="https://www.umimefakta.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimefakta.cz/fakta-detail-9-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimefakta} alt="umimefakta" />
       </a>
       <a

@@ -39,6 +39,7 @@ import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import damborice from "../Pics/damborice.jpg";
 import dodomu from "../Pics/dodomu.jpg";
+import gretka from "../Pics/gretka.jpg";
 
 export const Sedmatrida = () => {
   return (
@@ -89,11 +90,18 @@ export const Sedmatrida = () => {
       <a href="https://www.umimenemecky.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={umimenemecky} alt="umimenemecky" />
       </a>
-      <a href="https://www.umimefakta.cz/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.umimefakta.cz/fakta-detail-7-trida"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="obrazekKarty" src={umimefakta} alt="umimefakta" />
       </a>
-      <a href="https://www.matika.in/cs/" target="_blank" rel="noreferrer">
+      <a href="https://www.matika.in/cs/#7" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={matikain} alt="matikain" />
+      </a>
+      <a href="https://www.gramar.in/cs/#7" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={gretka} alt="gretka" />
       </a>
       <a href="https://www.zlatka.in/cs/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={zlatka} alt="zlatka" />
