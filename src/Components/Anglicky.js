@@ -37,6 +37,7 @@ import ucseonline from "../Pics/ucseonline.jpg";
 import jsnsen from "../Pics/jsnsen.jpg";
 import vcelka from "../Pics/vcelka.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
+import ucitelskej from "../Pics/ucitleskej.jpg";
 
 export const Anglicky = () => {
   return (
@@ -86,6 +87,13 @@ export const Anglicky = () => {
           src={snadhledem}
           alt="sUčení s nadhledem"
         />
+      </a>
+      <a
+        href="https://www.youtube.com/c/U%C4%8Ditelskej/playlists"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucitelskej} alt="ucitelskej" />
       </a>
       <a
         href="https://edu.ceskatelevize.cz/predmet/anglicky-jazyk?stupen=1-stupen-zs"

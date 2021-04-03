@@ -15,7 +15,7 @@ import pitter from "../Pics/pitter.jpg";
 import abc from "../Pics/abc.jpg";
 import vesmir from "../Pics/vesmir.jpg";
 import hifoto from "../Pics/hifoto.jpg";
-
+import znojmo from "../Pics/znojmo.jpg";
 import veronica from "../Pics/veronica.jpg";
 
 export const Knihovny = () => {
@@ -64,13 +64,19 @@ export const Knihovny = () => {
         />
       </a>
       <a
+        href="https://knihovnazn.wixsite.com/unikovka"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={znojmo} alt="znojmo" />
+      </a>
+      <a
         href="https://temata.rozhlas.cz/ctenarskydenik"
         target="_blank"
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={rozhlasctenar} alt="rozhlasctenar" />
       </a>
-
       <a href="https://www.pametromu.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={pametromu} alt="Paměť Romů" />
       </a>
