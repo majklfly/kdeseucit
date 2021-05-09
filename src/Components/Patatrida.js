@@ -32,12 +32,34 @@ import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
 import kvalitneinf from "../Pics/kvalitneinf.jpg";
 import dodomu from "../Pics/dodomu.jpg";
+import ucebnicecj5 from "../Pics/ucebnicecj5.jpg";
+import ucebnicecj5b from "../Pics/ucebnicecj5b.jpg";
+import ucebnicema5 from "../Pics/ucebnicema5.jpg";
+import ucebnicevl5d from "../Pics/ucebnicevl5d.jpg";
+import ucebnicevl5z from "../Pics/ucebnicevl5z.jpg";
+import ucebnicepr5 from "../Pics/ucebnicepr5.jpg";
+import uzitecnepocitani5 from "../Pics/uzitecnepocitani5.jpg";
+import nscitanka5 from "../Pics/nscitanka5.jpg";
 
 export const Patatrida = () => {
   return (
     <div className="BoxProKarty">
       <a href="https://skolakov.eu/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={skolakov} alt="skolakov" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicema5} alt="ucebnicema5" />
+      </a>{" "}
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicecj5} alt="ucebnicecj5" />
       </a>
       <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={lustenky} alt="lustenky" />
@@ -65,6 +87,31 @@ export const Patatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={snadhledem} alt="snadhledem" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={uzitecnepocitani5}
+          alt="uzitecnepocitani5"
+        />
+      </a>{" "}
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicecj5b} alt="ucebnicecj5b" />
+      </a>{" "}
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={nscitanka5} alt="nscitanka5" />
       </a>
       <a href="https://www.matika.in/cs/#5" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={matikain} alt="matikain" />
@@ -104,6 +151,27 @@ export const Patatrida = () => {
       </a>
       <a href="https://dn1.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={dna1} alt="dna1" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicepr5} alt="ucebnicepr5" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicevl5d} alt="ucebnicevl5d" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicevl5z} alt="ucebnicevl5z" />
       </a>
       <a
         href="https://www.youtube.com/hashtag/nezkreslenaveda"

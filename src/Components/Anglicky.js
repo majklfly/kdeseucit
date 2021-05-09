@@ -37,7 +37,7 @@ import ucseonline from "../Pics/ucseonline.jpg";
 import jsnsen from "../Pics/jsnsen.jpg";
 import vcelka from "../Pics/vcelka.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
-import ucitelskej from "../Pics/ucitleskej.jpg";
+import ucitelskej from "../Pics/ucitelskej.jpg";
 
 export const Anglicky = () => {
   return (

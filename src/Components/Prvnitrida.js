@@ -28,6 +28,13 @@ import malypan from "../Pics/malypan.jpg";
 import vcelka from "../Pics/vcelka.jpg";
 import digitalni from "../Pics/digitalni.jpg";
 import boby from "../Pics/boby.jpg";
+import ucebnicema1 from "../Pics/ucebnicema1.jpg";
+import zivepocitani1 from "../Pics/zivepocitani1.jpg";
+import ucebniceprvouka1 from "../Pics/ucebniceprvouka1.jpg";
+import slabikar1 from "../Pics/slabikar1.jpg";
+import slabikarsam1 from "../Pics/slabikarsam1.jpg";
+import zivaabecedasam from "../Pics/zivaabecedasam.jpg";
+import zivaabeceda from "../Pics/zivaabeceda.jpg";
 
 export const Prvnitrida = () => {
   return (
@@ -46,6 +53,27 @@ export const Prvnitrida = () => {
         <img className="obrazekKarty" src={skolakov} alt="skolakov" />
       </a>
       <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={zivaabeceda} alt="zivaabeceda" />
+      </a>{" "}
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicema1} alt="ucebnicema1" />
+      </a>{" "}
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={slabikar1} alt="slabikar1" />
+      </a>
+      <a
         href="http://cviceni.testy.sweb.cz/index.htm"
         target="_blank"
         rel="noreferrer"
@@ -57,6 +85,42 @@ export const Prvnitrida = () => {
       </a>
       <a href="https://nns.cz/agata/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={agata} alt="agata" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={ucebniceprvouka1}
+          alt="ucebniceprvouka1"
+        />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={zivepocitani1} alt="zivepocitani1" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={zivaabecedasam}
+          alt="zivaabecedasam"
+        />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={slabikarsam1} alt="slabikarsam1" />
       </a>
       <a href="http://www.naucsecist.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={naucsecist} alt="naucsecist" />

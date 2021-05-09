@@ -38,6 +38,7 @@ import napohodu from "../Pics/napohodu.jpg";
 import speky from "../Pics/speky.jpg";
 import muni from "../Pics/muni.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
+import ucebnicecj from "../Pics/ucebnicecj.jpg";
 
 export const Cestina = () => {
   return (
@@ -51,6 +52,13 @@ export const Cestina = () => {
       </a>
       <a href="https://skolakov.eu/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={skolakov} alt="skolakov" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicecj} alt="ucebnicecj" />
       </a>
       <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={lustenky} alt="lustenky" />

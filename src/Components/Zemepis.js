@@ -16,6 +16,7 @@ import ucseonline from "../Pics/ucseonline.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
 import pudding from "../Pics/pudding.jpg";
 import damborice from "../Pics/damborice.jpg";
+import ucebniceze from "../Pics/ucebniceze.jpg";
 
 export const Zemepis = () => {
   return (
@@ -36,6 +37,13 @@ export const Zemepis = () => {
       </a>
       <a href="https://www.umimefakta.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={umimefakta} alt="Umíme fakta" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebniceze} alt="ucebniceze" />
       </a>
       <a
         href="http://www.testpark.cz/testy/zemepis"

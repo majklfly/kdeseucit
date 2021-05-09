@@ -40,6 +40,7 @@ import studijnisvet from "../Pics/studijnisvet.jpg";
 import ledovec from "../Pics/ledovec.jpg";
 import dodomu from "../Pics/dodomu.jpg";
 import cern from "../Pics/cern.jpg";
+import skolnipriprava from "../Pics/skolnipriprava.jpg";
 
 export const Fyzika = () => {
   return (
@@ -137,6 +138,17 @@ export const Fyzika = () => {
       </a>
       <a href="http://www.fyzikaonline.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={fyzikaonline} alt="fyzika online" />
+      </a>
+      <a
+        href="https://skolnipriprava.estranky.cz/clanky/fyzika/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={skolnipriprava}
+          alt="Školní příprava"
+        />
       </a>
       <a href="http://fyzikalnipokusy.cz/cs" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={pokusy} alt="Fyzikální pokusy" />

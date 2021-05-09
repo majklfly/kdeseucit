@@ -20,10 +20,18 @@ import ledovec from "../Pics/ledovec.jpg";
 import naturfoto from "../Pics/naturfoto.jpg";
 import botany from "../Pics/botany.jpg";
 import dodomu from "../Pics/dodomu.jpg";
+import ucebnicepr from "../Pics/ucebnicepr.jpg";
 
 export const Prirodoveda = () => {
   return (
     <div className="BoxProKarty">
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicepr} alt="ucebnicepr" />
+      </a>
       <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={lustenky} alt="lustenky" />
       </a>

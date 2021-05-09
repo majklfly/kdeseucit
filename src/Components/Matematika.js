@@ -43,12 +43,20 @@ import ucseonline from "../Pics/ucseonline.jpg";
 import katerina from "../Pics/katerina.jpg";
 import geometrie from "../Pics/geometrie.jpg";
 import dodomu from "../Pics/dodomu.jpg";
+import ucebnicema from "../Pics/ucebnicema.jpg";
 
 export const Matematika = () => {
   return (
     <div className="BoxProKarty">
       <a href="https://skolakov.eu/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={skolakov} alt="skolakov" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicema} alt="ucebnicema" />
       </a>
       <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={lustenky} alt="lustenky" />

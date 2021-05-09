@@ -37,6 +37,12 @@ import curko from "../Pics/curko.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import mozaik from "../Pics/mozaik.jpg";
 import damborice from "../Pics/damborice.jpg";
+import skolnipriprava from "../Pics/skolnipriprava.jpg";
+import ucebnicema6 from "../Pics/ucebnicema6.jpg";
+import ucebnicecj6 from "../Pics/ucebnicecj6.jpg";
+import ucebniceze6 from "../Pics/ucebniceze6.jpg";
+import ucebnicede6 from "../Pics/ucebnicede6.jpg";
+import ucebnicepr6 from "../Pics/ucebnicepr6.jpg";
 
 export const Sestatrida = () => {
   return (
@@ -78,6 +84,41 @@ export const Sestatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={umimefakta} alt="umimefakta" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicema6} alt="ucebnicema6" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicecj6} alt="ucebnicecj6" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicepr6} alt="ucebnicepr6" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicede6} alt="ucebnicede6" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebniceze6} alt="ucebniceze6" />
       </a>
       <a href="https://www.matika.in/cs/#6" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={matikain} alt="matikain" />
@@ -174,6 +215,17 @@ export const Sestatrida = () => {
       </a>
       <a href="http://www.nabla.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={nabla} alt="nabla" />
+      </a>
+      <a
+        href="https://skolnipriprava.estranky.cz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={skolnipriprava}
+          alt="Školní příprava"
+        />
       </a>
       <a
         href="https://skolaposkole.cz/matematika-zs/6-rocnik"

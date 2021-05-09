@@ -25,6 +25,7 @@ import vedaliska from "../Pics/vedaliska.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
 import lumik from "../Pics/lumik.jpg";
+import ucebniceche from "../Pics/ucebniceche.jpg";
 
 export const Chemie = () => {
   return (
@@ -42,6 +43,13 @@ export const Chemie = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={umimefakta} alt="Umíme fakta" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebniceche} alt="ucebniceche" />
       </a>
       <a
         href="https://www.youtube.com/user/anubiskt/videos"

@@ -32,6 +32,10 @@ import bankovkovi from "../Pics/bankovkovi.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import digitalni from "../Pics/digitalni.jpg";
 import dodomu from "../Pics/dodomu.jpg";
+import ucebnicema3 from "../Pics/ucebnicema3.jpg";
+import bystrepocitani3 from "../Pics/bystrepocitani3.jpg";
+import ucebniceprvouka3 from "../Pics/ucebniceprvouka3.jpg";
+import ucebnicecj3 from "../Pics/ucebnicecj3.jpg";
 
 export const Tretitrida = () => {
   return (
@@ -48,6 +52,42 @@ export const Tretitrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={onlinecviceni} alt="onlinecviceni" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicema3} alt="ucebnicema3" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicecj3} alt="ucebnicecj3" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={ucebniceprvouka3}
+          alt="ucebniceprvouka3"
+        />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={bystrepocitani3}
+          alt="bystrepocitani3"
+        />
       </a>
       <a
         href="http://www.matyskova-matematika.cz/"

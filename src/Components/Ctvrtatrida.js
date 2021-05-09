@@ -30,12 +30,33 @@ import bankovkovi from "../Pics/bankovkovi.jpg";
 import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
 import dodomu from "../Pics/dodomu.jpg";
+import ucebnicecj4 from "../Pics/ucebnicecj4.jpg";
+import ucebnicema4 from "../Pics/ucebnicema4.jpg";
+import ucebnicevl4d from "../Pics/ucebnicevl4d.jpg";
+import ucebnicevl4z from "../Pics/ucebnicevl4z.jpg";
+import ucebnicepr4 from "../Pics/ucebnicepr4.jpg";
+import zajimavepocitani4 from "../Pics/zajimavepocitani4.jpg";
+import nscitanka4 from "../Pics/nscitanka4.jpg";
 
 export const Ctvrtatrida = () => {
   return (
     <div className="BoxProKarty">
       <a href="https://skolakov.eu/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={skolakov} alt="skolakov" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicecj4} alt="ucebnicecj4" />
+      </a>{" "}
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicema4} alt="ucebnicema4" />
       </a>
       <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={lustenky} alt="lustenky" />
@@ -63,6 +84,45 @@ export const Ctvrtatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={snadhledem} alt="snadhledem" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={zajimavepocitani4}
+          alt="zajimavepocitani4"
+        />
+      </a>{" "}
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={nscitanka4} alt="nscitanka4" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicepr4} alt="ucebnicepr4" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicevl4d} alt="ucebnicevl4d" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicevl4z} alt="ucebnicevl4z" />
       </a>
       <a href="https://www.matika.in/cs/#4" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={matikain} alt="matikain" />

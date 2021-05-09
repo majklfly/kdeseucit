@@ -40,6 +40,11 @@ import mozaik from "../Pics/mozaik.jpg";
 import damborice from "../Pics/damborice.jpg";
 import dodomu from "../Pics/dodomu.jpg";
 import gretka from "../Pics/gretka.jpg";
+import skolnipriprava from "../Pics/skolnipriprava.jpg";
+import ucebnicecj7 from "../Pics/ucebnicecj7.jpg";
+import ucebniceze7 from "../Pics/ucebniceze7.jpg";
+import ucebnicede7 from "../Pics/ucebnicede7.jpg";
+import ucebnicepr7 from "../Pics/ucebnicepr7.jpg";
 
 export const Sedmatrida = () => {
   return (
@@ -96,6 +101,34 @@ export const Sedmatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={umimefakta} alt="umimefakta" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicecj7} alt="ucebnicecj7" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicepr7} alt="ucebnicepr7" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicede7} alt="ucebnicede7" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebniceze7} alt="ucebniceze7" />
       </a>
       <a href="https://www.matika.in/cs/#7" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={matikain} alt="matikain" />
@@ -176,6 +209,17 @@ export const Sedmatrida = () => {
       </a>
       <a href="http://www.nabla.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={nabla} alt="nabla" />
+      </a>
+      <a
+        href="https://skolnipriprava.estranky.cz/clanky/fyzika/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={skolnipriprava}
+          alt="Školní příprava"
+        />
       </a>
       <a
         href="https://skolaposkole.cz/matematika-zs/7-rocnik"

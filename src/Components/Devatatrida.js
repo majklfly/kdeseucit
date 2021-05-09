@@ -42,6 +42,12 @@ import bezpravi from "../Pics/bezpravi.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
 import geometrie from "../Pics/geometrie.jpg";
 import damborice from "../Pics/damborice.jpg";
+import skolnipriprava from "../Pics/skolnipriprava.jpg";
+import ucebnicede9 from "../Pics/ucebnicede9.jpg";
+import ucebnicepr9 from "../Pics/ucebnicepr9.jpg";
+import ucebniceze9 from "../Pics/ucebniceze9.jpg";
+import ucebnicecj9 from "../Pics/ucebnicecj9.jpg";
+import ucebniceche9 from "../Pics/ucebniceche9.jpg";
 
 export const Devatatrida = () => {
   return (
@@ -127,6 +133,41 @@ export const Devatatrida = () => {
         />
       </a>
       <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicecj9} alt="ucebnicecj9" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicede9} alt="ucebnicede9" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicepr9} alt="ucebnicepr9" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebniceze9} alt="ucebniceze9" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebniceche9} alt="ucebniceche9" />
+      </a>
+      <a
         href="https://www.youtube.com/user/anubiskt/videos"
         target="_blank"
         rel="noreferrer"
@@ -144,6 +185,17 @@ export const Devatatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={geometrie} alt="geometrie" />
+      </a>
+      <a
+        href="https://skolnipriprava.estranky.cz/clanky/fyzika/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={skolnipriprava}
+          alt="Školní příprava"
+        />
       </a>
       <a
         href="https://www.youtube.com/hashtag/nezkreslenaveda"

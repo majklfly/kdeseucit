@@ -41,6 +41,11 @@ import bezpravi from "../Pics/bezpravi.jpg";
 import pametnaroda from "../Pics/pametnaroda.jpg";
 import geometrie from "../Pics/geometrie.jpg";
 import damborice from "../Pics/damborice.jpg";
+import skolnipriprava from "../Pics/skolnipriprava.jpg";
+import ucebnicepr8 from "../Pics/ucebnicepr8.jpg";
+import ucebnicede8 from "../Pics/ucebnicede8.jpg";
+import ucebniceze8 from "../Pics/ucebniceze8.jpg";
+import ucebniceche8 from "../Pics/ucebniceche8.jpg";
 
 export const Osmatrida = () => {
   return (
@@ -119,6 +124,34 @@ export const Osmatrida = () => {
         />
       </a>
       <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicepr8} alt="ucebnicepr8" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicede8} alt="ucebnicede8" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebniceze8} alt="ucebniceze8" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebniceche8} alt="ucebniceche8" />
+      </a>
+      <a
         href="https://www.youtube.com/user/anubiskt/videos"
         target="_blank"
         rel="noreferrer"
@@ -147,6 +180,20 @@ export const Osmatrida = () => {
       <a href="https://www.zemmat.cz/home" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={damborice} alt="Dambořice" />
       </a>
+      <a href="https://dn1.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={dna1} alt="dna1" />
+      </a>
+      <a
+        href="https://skolnipriprava.estranky.cz/clanky/fyzika/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={skolnipriprava}
+          alt="Školní příprava"
+        />
+      </a>
       <a
         href="https://temata.rozhlas.cz/ctenarskydenik"
         target="_blank"
@@ -160,9 +207,6 @@ export const Osmatrida = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={odpoledka} alt="odpoledka" />
-      </a>
-      <a href="https://dn1.cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={dna1} alt="dna1" />
       </a>
       <a
         href="https://matematika.cz/matematika-pro-zakladni-skoly"

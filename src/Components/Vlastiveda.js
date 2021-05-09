@@ -7,12 +7,20 @@ import snadhledem from "../Pics/snadhledem.jpg";
 import ctedu from "../Pics/ctedu.jpg";
 import pudding from "../Pics/pudding.jpg";
 import dodomu from "../Pics/dodomu.jpg";
+import ucebnicevl from "../Pics/ucebnicevl.jpg";
 
 export const Vlastiveda = () => {
   return (
     <div className="BoxProKarty">
       <a href="https://skolakov.eu/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={skolakov} alt="skolakov" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicevl} alt="ucebnicevl" />
       </a>
       <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={lustenky} alt="Luštěnky" />

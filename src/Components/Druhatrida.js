@@ -33,12 +33,60 @@ import pronejmensi from "../Pics/pronejmensi.jpg";
 import bankovkovi from "../Pics/bankovkovi.jpg";
 import vcelka from "../Pics/vcelka.jpg";
 import digitalni from "../Pics/digitalni.jpg";
+import ucebnicema2 from "../Pics/ucebnicema2.jpg";
+import veselepocitani2 from "../Pics/veselepocitani2.jpg";
+import ucebniceprvouka2 from "../Pics/ucebniceprvouka2.jpg";
+import ucebnicecj2 from "../Pics/ucebnicecj2.jpg";
+import ucebnicecj2b from "../Pics/ucebnicecj2b.jpg";
 
 export const Druhatrida = () => {
   return (
     <div className="BoxProKarty">
       <a href="https://skolakov.eu/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={skolakov} alt="skolakov" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicecj2} alt="ucebnicecj2" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicecj2b} alt="ucebnicecj2b" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicema2} alt="ucebnicema2" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={veselepocitani2}
+          alt="veselepocitani2"
+        />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={ucebniceprvouka2}
+          alt="ucebniceprvouka2"
+        />
       </a>
       <a href="https://rysava.websnadno.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={lustenky} alt="lustenky" />

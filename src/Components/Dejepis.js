@@ -32,6 +32,8 @@ import krvavaleta from "../Pics/krvavaleta.jpg";
 import studijnisvet from "../Pics/studijnisvet.jpg";
 import kvalitnedejiny from "../Pics/kvalitnedejiny.jpg";
 import esbirky from "../Pics/esbirky.jpg";
+import skolnipriprava from "../Pics/skolnipriprava.jpg";
+import ucebnicede from "../Pics/ucebnicede.jpg";
 
 export const Dejepis = () => {
   return (
@@ -53,11 +55,29 @@ export const Dejepis = () => {
       <a href="https://khanovaskola.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={khan} alt="Khanova škola" />
       </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebnicede} alt="ucebnicede" />
+      </a>
       <a href="https://www.dejepisne.cz/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={dejepisne} alt="dějepisně" />
       </a>
       <a href="https://www.dejepis.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={dejepis} alt="Dějepis" />
+      </a>
+      <a
+        href="https://skolnipriprava.estranky.cz/clanky/dejepis/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={skolnipriprava}
+          alt="Školní příprava"
+        />
       </a>
       <a
         href="https://edu.ceskatelevize.cz/predmet/dejepis"

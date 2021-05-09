@@ -35,6 +35,7 @@ import studijnisvet from "../Pics/studijnisvet.jpg";
 import naturfoto from "../Pics/naturfoto.jpg";
 import heritage from "../Pics/heritage.jpg";
 import botany from "../Pics/botany.jpg";
+import ucebniceprpis from "../Pics/ucebniceprpis.jpg";
 
 export const Prirodopis = () => {
   return (
@@ -57,6 +58,13 @@ export const Prirodopis = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={umimefakta} alt="Umíme fakta" />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={ucebniceprpis} alt="ucebniceprpis" />
       </a>
       <a
         href="https://www.youtube.com/user/anubiskt/videos"

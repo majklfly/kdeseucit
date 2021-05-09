@@ -18,10 +18,22 @@ import krkonose from "../Pics/krkonose.jpg";
 import lesy from "../Pics/lesy.jpg";
 import malypan from "../Pics/malypan.jpg";
 import zivot from "../Pics/zivot.jpg";
+import ucebniceprvouka from "../Pics/ucebniceprvouka.jpg";
 
 export const Prvouka = () => {
   return (
     <div className="BoxProKarty">
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="obrazekKarty"
+          src={ucebniceprvouka}
+          alt="ucebniceprvouka"
+        />
+      </a>
       <a
         href="https://skolakov.eu/prvouka-2-trida"
         target="_blank"

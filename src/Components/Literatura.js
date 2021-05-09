@@ -30,6 +30,7 @@ import rozhlasprodeti from "../Pics/rozhlasprodeti.jpg";
 import junior from "../Pics/junior.jpg";
 import slovnik from "../Pics/slovnik.jpg";
 import iliteratura from "../Pics/iliteratura.jpg";
+import nscitanka from "../Pics/nscitanka.jpg";
 
 export const Literatura = () => {
   return (
@@ -57,6 +58,13 @@ export const Literatura = () => {
           alt="vcelka"
           title="Včelka je vytvářena odborníky z oblasti vzdělávání, poruch učení a nápravy čtení."
         />
+      </a>
+      <a
+        href="https://novaskoladuha.cz/certifikaty/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img className="obrazekKarty" src={nscitanka} alt="nscitanka" />
       </a>
       <a
         href="http://cviceni.testy.sweb.cz/cteni.htm"
