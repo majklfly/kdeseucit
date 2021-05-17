@@ -34,6 +34,7 @@ import kvalitnedejiny from "../Pics/kvalitnedejiny.jpg";
 import esbirky from "../Pics/esbirky.jpg";
 import skolnipriprava from "../Pics/skolnipriprava.jpg";
 import ucebnicede from "../Pics/ucebnicede.jpg";
+import cha from "../Pics/cha.jpg";
 
 export const Dejepis = () => {
   return (
@@ -67,6 +68,14 @@ export const Dejepis = () => {
       </a>
       <a href="https://www.dejepis.com/" target="_blank" rel="noreferrer">
         <img className="obrazekKarty" src={dejepis} alt="Dějepis" />
+      </a>
+      <a href="https://cha.fsv.cvut.cz/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={cha}
+          alt="cha"
+          title="Český historiký atlas"
+        />
       </a>
       <a
         href="https://skolnipriprava.estranky.cz/clanky/dejepis/"
