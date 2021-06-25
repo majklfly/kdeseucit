@@ -12,6 +12,8 @@ import ucebniceze from "../Pics/ucebniceze.jpg";
 import ucebniceche from "../Pics/ucebniceche.jpg";
 import ucebniceprpis from "../Pics/ucebniceprpis.jpg";
 
+import bridge from "../Pics/bridge.jpg";
+
 export const Ucebnice = () => {
   return (
     <div className="BoxProKarty">
@@ -95,6 +97,13 @@ export const Ucebnice = () => {
         rel="noreferrer"
       >
         <img className="obrazekKarty" src={ucebniceprpis} alt="ucebniceprpis" />
+      </a>
+      <a href="https://www.bridge-online.cz/" target="_blank" rel="noreferrer">
+        <img
+          className="obrazekKarty"
+          src={bridge}
+          alt="Anglické časopisy a učebnice"
+        />
       </a>
       <a
         href="https://otevrenevzdelavani.cz/otevrene-zdroje/?fbclid=IwAR3LGKcS447xHBm7huZq-hiXYajBHk9Mc5lJthjIkkEtBqLU-OcP_laDDJU"
