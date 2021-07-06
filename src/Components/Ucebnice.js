@@ -11,7 +11,6 @@ import ucebnicede from "../Pics/ucebnicede.jpg";
 import ucebniceze from "../Pics/ucebniceze.jpg";
 import ucebniceche from "../Pics/ucebniceche.jpg";
 import ucebniceprpis from "../Pics/ucebniceprpis.jpg";
-
 import bridge from "../Pics/bridge.jpg";
 
 export const Ucebnice = () => {

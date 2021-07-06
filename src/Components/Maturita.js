@@ -3,7 +3,7 @@ import React from "react";
 import nabla from "../Pics/nabla.jpg";
 import seminarky from "../Pics/seminarky.jpg";
 import skolaposkolema from "../Pics/skolaposkolema.jpg";
-import cermat from "../Pics/cermat.jpg";
+import cermatma from "../Pics/cermatma.jpg";
 import learntube from "../Pics/learntube.jpg";
 import bridge from "../Pics/bridge.jpg";
 import ucseonline from "../Pics/ucseonline.jpg";
@@ -37,8 +37,8 @@ export const Maturita = () => {
           alt="skolaposkolema"
         />
       </a>
-      <a href="https://prijimacky.cermat.cz/" target="_blank" rel="noreferrer">
-        <img className="obrazekKarty" src={cermat} alt="cermat" />
+      <a href="https://maturita.cermat.cz/" target="_blank" rel="noreferrer">
+        <img className="obrazekKarty" src={cermatma} alt="cermatma" />
       </a>
       <a
         href="https://www.youtube.com/channel/UCOCsqf9KoHNAuCj_5iVR6sA/"
