@@ -67,6 +67,8 @@ import { UciteleScreen } from "./Screens/UciteleScreen";
 import { DesignScreen } from "./Screens/DesignScreen";
 import { SlohScreen } from "./Screens/SlohScreen";
 import { UcebniceScreen } from "./Screens/UcebniceScreen";
+import { ZdrojeUkrajinaScreen } from "./Screens/ZdrojeUkrajinaScreen";
+import { CestinaProUkrScreen } from "./Screens/CestinaProUkrScreen";
 
 function App() {
   const [expanded, setExpanded] = useState();
@@ -272,6 +274,12 @@ function App() {
             </Route>
             <Route path="/ucebnice">
               <UcebniceScreen />
+            </Route>
+            <Route path="/zdrojeukr">
+              <ZdrojeUkrajinaScreen />
+            </Route>
+            <Route path="/cestinaukr">
+              <CestinaProUkrScreen />
             </Route>
             <Route path="/">
               <DomaciObrazovka />
