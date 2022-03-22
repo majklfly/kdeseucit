@@ -2,7 +2,6 @@ import "./Layout.css";
 
 import lupa from "../../Pics/lupa.jpg";
 import atom from "../../Pics/atom.jpg";
-import bublina from "../../Pics/bublina.jpg";
 import hodiny from "../../Pics/hodiny.jpg";
 import pastelky from "../../Pics/pastelky.jpg";
 import kruzitko from "../../Pics/kruzitko.jpg";
@@ -10,8 +9,6 @@ import najdiEdu from "../../Pics/EDU_logo.svg";
 
 import { NavigaceHorizontalni } from "../../Components/NavigaceHorizontalni/NavigaceHorizontalni";
 import { NavigaceVertikalni } from "../../Components/NavigaceVertikalni/NavigaceVertikalni";
-
-import { Link } from "react-router-dom";
 
 import { SideSlider } from "../../Components/NavigaceVertikalni/sideSlider";
 import { SideSliderHorizontalni } from "../../Components/NavigaceHorizontalni/sideSlide";
@@ -25,7 +22,7 @@ export const Layout = ({ contentComponent }) => {
     <main>
       <header className="HlavickaKontejner">
         <img className="headPic" src={pastelky} alt="pastelky" />
-        <a href="https://najdiedu.cz/" target="_blank">
+        <a href="https://najdiedu.cz/" target="_blank" rel="noreferrer">
           <img className="headPic" src={najdiEdu} alt="najdiEdu" />
         </a>
         <h1>Kde se učit?</h1>

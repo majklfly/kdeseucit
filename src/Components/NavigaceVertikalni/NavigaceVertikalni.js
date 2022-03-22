@@ -128,22 +128,22 @@ export const NavigaceVertikalni = () => {
           title="VYHLEDÁVÁNÍ ŠKOL"
         />
       </a>
-      <a href="/cestinaukr" style={{ textDecoration: "none" }}>
+      <Link to="/cestinaukr" style={{ textDecoration: "none" }}>
         <Accordion
-          i={8}
+          i={9}
           expanded={expanded}
           setExpanded={setExpanded}
           title="чеський"
         />
-      </a>
-      <a href="/zdrojeukr" style={{ textDecoration: "none" }}>
+      </Link>
+      <Link to="/zdrojeukr" style={{ textDecoration: "none" }}>
         <Accordion
-          i={8}
+          i={10}
           expanded={expanded}
           setExpanded={setExpanded}
           title="Ресурси"
         />
-      </a>
+      </Link>
     </div>
   );
 };

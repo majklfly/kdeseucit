@@ -89,6 +89,12 @@ function App() {
       <HashRouter basename="/#">
         <Context.Provider value={{ expanded, setExpanded }}>
           <Switch>
+            <Route path="/zdrojeukr">
+              <ZdrojeUkrajinaScreen />
+            </Route>
+            <Route path="/cestinaukr">
+              <CestinaProUkrScreen />
+            </Route>
             <Route path="/sloh">
               <SlohScreen />
             </Route>
@@ -274,12 +280,6 @@ function App() {
             </Route>
             <Route path="/ucebnice">
               <UcebniceScreen />
-            </Route>
-            <Route path="/zdrojeukr">
-              <ZdrojeUkrajinaScreen />
-            </Route>
-            <Route path="/cestinaukr">
-              <CestinaProUkrScreen />
             </Route>
             <Route path="/">
               <DomaciObrazovka />
